@@ -13,7 +13,7 @@ published: true
 * Table of Contents
 {:toc}
 
-# Data for good healthcare
+## Data for good healthcare
 
 We are a band of gung-ho data scientists, who work at [NL Healthcare Clinics](https://github.com/NLHEALTHCARE). We believe in ['data for good'](http://www.bayesimpact.org/). We also know that it takes perseverance and dedication to truly create value in the clinical setting.
 
@@ -24,7 +24,7 @@ With this blog we invite everyone to join in our experiments and explorations to
 [Diagnosis-related groups (DRGs)](https://en.wikipedia.org/wiki/Diagnosis-related_group) are the unit of analysis, for which [outcome measures](www.ichom.org) are quantified and the cost and effectiveness of Integrated Practice Units (IPUs) are scrutinized;
 * An [open code, better science](www.numfocus.org) approach, where we believe that [when we share, everybody wins](https://creativecommons.org/).
 
-# Helping others through informed simplicity: a data science manifesto
+## Helping others through informed simplicity: a data science manifesto
 
 __Informed simplicity__ is an enlightened view of reality. It is founded upon an ability to discern or create clarifying patterns within complex mixtures. Originally formulated by [Matthew Frederick](http://www.goodreads.com/book/show/1958355.101_Things_I_Learned_in_Architecture_School) in the context of architecture, it translates nicely into the data science domain, emphasizing different tenets which I think are crucial to success of any practicing data scientist:
 
@@ -51,7 +51,7 @@ __Helping others__ stresses a pragmatic, person- and action-oriented attitude of
 As data scientists, we equip ourselves with a new language, continuously developing it. We see it as our purpose to propose and propagate that new language to others.
 
 
-# Data science toolkit
+## Data science toolkit
 
 This blog builds on the labour of love of many people in the data science community.
 
