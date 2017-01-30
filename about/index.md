@@ -10,6 +10,9 @@ image:
 published: true
 ---
 
+* Table of Contents
+{:toc}
+
 # Data for good healthcare
 
 We are a band of gung-ho data scientists, who work at [NL Healthcare Clinics](https://github.com/NLHEALTHCARE). We believe in ['data for good'](http://www.bayesimpact.org/). We also know that it takes perseverance and dedication to truly create value in the clinical setting.
