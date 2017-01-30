@@ -14,3 +14,5 @@ This blog builds on the labour of love of many people in the data science commun
 * Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com). To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
 * [prose.io](http://prose.io) provides a beautifully simple content authoring environment for CMS-free websites. It's a web-based interface for managing content on GitHub. Use it to create, edit, and delete files, and save your changes directly to GitHub.
 * [Jupyter Notebook](http://jupyter.org/) as the data scientists Swiss army knife to create and share documents that contain live code, equations, visualizations and explanatory text.
+
+
