@@ -1,10 +1,10 @@
 ---
 layout: page
-title: about informed simplicity
-excerpt: A band of gung-ho data scientists in healthcare who want do to good
+title: about us
+excerpt: a band of gung-ho data scientists in healthcare who want do to good
 modified: {}
 image:
-  feature: numbered_files_colour.jpg
+  feature: numbered_files_colour_1360x200.jpg
   credit: null
   creditlink: null
 published: true
@@ -18,7 +18,7 @@ With this blog we invite everyone to join in our experiments and explorations to
 - A ['patient first'](http://www.goodreads.com/book/show/22825546-the-patient-will-see-you-now) approach, where data can democratize the way we manage our health and re-think healthcare;
 - A [Value-Based Healthcare](http://www.isc.hbs.edu/health-care/vbhcd/pages/default.aspx) approach, where the daily clinical practice takes center stage for all improvements.
 [Diagnosis-related groups (DRGs)](https://en.wikipedia.org/wiki/Diagnosis-related_group) are the unit of analysis, for which [outcome measures](www.ichom.org) are quantified and the cost and effectiveness of Integrated Practice Units (IPUs) are scrutinized;
-- An [open code, better science](www.numfocus.org) approach, where we believe that [when we share, everybody wins](https://creativecommons.org/). 
+- An [open code, better science](www.numfocus.org) approach, where we believe that [when we share, everybody wins](https://creativecommons.org/).
 
 
 # Data science toolkit
