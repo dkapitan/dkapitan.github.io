@@ -4,7 +4,7 @@ title: about us
 excerpt: a band of gung-ho data scientists in healthcare who want do to good
 modified: {}
 image:
-  feature: numbered_files_colour_bw_1350x310.jpg
+  feature: null
   credit: null
   creditlink: null
 published: true
