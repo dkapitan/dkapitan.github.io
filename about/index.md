@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: So Simple is a responsive Jekyll theme for your words and images.
+title: about informed simplicity
+excerpt: A band of gung-ho data scientists in healthcare who want do to good
 modified: {}
 image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: 'http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/'
+  feature: numbered_files_colour.jpg
+  credit: null
+  creditlink: null
 published: true
 ---
 
