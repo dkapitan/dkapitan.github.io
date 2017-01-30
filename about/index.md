@@ -21,7 +21,7 @@ With this blog we invite everyone to join in our experiments and explorations to
 [Diagnosis-related groups (DRGs)](https://en.wikipedia.org/wiki/Diagnosis-related_group) are the unit of analysis, for which [outcome measures](www.ichom.org) are quantified and the cost and effectiveness of Integrated Practice Units (IPUs) are scrutinized;
 * An [open code, better science](www.numfocus.org) approach, where we believe that [when we share, everybody wins](https://creativecommons.org/).
 
-# Informed simplicity: a data science manifesto
+# Helping others through informed simplicity: a data science manifesto
 
 __Informed simplicity__ is an enlightened view of reality. It is founded upon an ability to discern or create clarifying patterns within complex mixtures. Originally formulated by [Matthew Frederick](http://www.goodreads.com/book/show/1958355.101_Things_I_Learned_in_Architecture_School) in the context of architecture, it translates nicely into the data science domain, emphasizing different tenets which I think are crucial to success of any practicing data scientist:
 
