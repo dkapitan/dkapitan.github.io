@@ -26,7 +26,7 @@ With this blog we invite everyone to join in our experiments and explorations to
 
 ## Helping others through informed simplicity: a data science manifesto
 
-__Informed simplicity__ is an enlightened view of reality. It is founded upon an ability to discern or create clarifying patterns within complex mixtures. Originally formulated by [Matthew Frederick](http://www.goodreads.com/book/show/1958355.101_Things_I_Learned_in_Architecture_School) in the context of architecture, it translates nicely into the data science domain, emphasizing different tenets which I think are crucial to success of any practicing data scientist:
+__Informed simplicity__ is an enlightened view of reality. It is founded upon an ability to discern or create clarifying patterns within complex mixtures. Originally formulated by [Matthew Frederick](http://www.goodreads.com/book/show/1958355.101_Things_I_Learned_in_Architecture_School) in the context of architecture, it translates nicely into the data science domain, emphasizing different tenets which we think are crucial to success of any practicing data scientist:
 
 * __Pattern recognition__ is a crucial skill for an [information] architect, who must create a highly ordered building [data warehouse] amid many competing and frequently nebulous design considerations [information requests]. This is more than just an analogy: machine learning is in fact based on pattern recognition in abstract, multidimensional spaces represented by the data.
 
