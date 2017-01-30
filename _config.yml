@@ -7,6 +7,8 @@ logo: site-logo.png
 search: true
 url: https://dkapitan.github.io
 
+comments: true
+
 # Jekyll configuration
 
 permalink:   /:categories/:title/
