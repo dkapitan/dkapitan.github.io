@@ -45,7 +45,7 @@ __Informed simplicity__ is an enlightened view of reality. It is founded upon an
 
 __Helping others__ stresses a pragmatic, person- and action-oriented attitude of the practical data scientist. We are here to help people gain new, actionable insights through informed simplicity. In the words of Richard Rorty: _The world does not speak. Only we do. The world can, once we have programmed ourselves with a language, cause us to hold beliefs. But it cannot propose a language for us to speak. Only other human beings can do that._
 
-As a data scientist, we equip ourselves with a new language, continuously developing it. I see it as our purpose to propose and propagate that new language to others.
+As a data scientist, we equip ourselves with a new language, continuously developing it. We see it as our purpose to propose and propagate that new language to others.
 
 
 # Data science toolkit
