@@ -2,7 +2,7 @@
 layout: post
 title: "Override Author Byline Test Post"
 excerpt: "An article to test overriding the default site author."
-categories: articles
+categories: toolkit
 tags: [sample-post, readability, test]
 author: billy_rick
 comments: true
