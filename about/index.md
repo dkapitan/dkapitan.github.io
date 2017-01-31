@@ -46,7 +46,9 @@ __Informed simplicity__ is an enlightened view of reality. It is founded upon an
   The most effective, most creative problem solvers engage in a process of meta-thinking, or 'thinking about the thinking'. Meta-thinkers engage in continual internal dialogue of testing, stretching, criticizing, and redirecting thought processes.
 
 
-__Helping others__ stresses a pragmatic, person- and action-oriented attitude of the practical data scientist. We are here to help people gain new, actionable insights through informed simplicity. In the words of Richard Rorty: _The world does not speak. Only we do. The world can, once we have programmed ourselves with a language, cause us to hold beliefs. But it cannot propose a language for us to speak. Only other human beings can do that._
+__Helping others__ stresses a pragmatic, person- and action-oriented attitude of the practical data scientist. We are here to help people gain new, actionable insights through informed simplicity. In the words of Richard Rorty:
+
+> The world does not speak. Only we do. The world can, once we have programmed ourselves with a language, cause us to hold beliefs. But it cannot propose a language for us to speak. Only other human beings can do that.
 
 As data scientists, we equip ourselves with a new language, continuously developing it. We see it as our purpose to propose and propagate that new language to others.
 
