@@ -10,4 +10,4 @@ share: true
 link: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 ---
 
-Test first paragraph
+Just about everything you'll need to use Jekyll with GitHub pages
