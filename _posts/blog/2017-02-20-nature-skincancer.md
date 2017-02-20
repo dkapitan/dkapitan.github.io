@@ -1,10 +1,10 @@
 ---
+layout: post
+title: "Huidkanker bepalen met een selfie?"
+exerpt: "Kunnen we straks zelf bepalen of een vlekje pluis/niet-pluis is?"
+categories: blog
 image:
   feature: nature-skin-cancer.png
-layout: post
-title: "Huidkanker bepalen met een selfie?""
-categories: blog
-exerpt: "Kunnen we straks zelf bepalen of een vlekje pluis/niet-pluis is?""
 date: 2017-02-20T21:32:50.000Z
 author: daniel_kapitan
 comments: true
