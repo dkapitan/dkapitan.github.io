@@ -3,13 +3,14 @@ layout: post
 title: "Huidkanker bepalen met een selfie?"
 exerpt: "Kunnen we straks zelf bepalen of een vlekje pluis/niet-pluis is?"
 categories: blog
+tags: []
 image:
   feature: nature-skin-cancer.png
 date: 2017-02-20T21:32:50.000Z
 author: daniel_kapitan
 comments: true
+share: true
 ---
-# Huidkanker bepalen met een selfie?
 
 Foto's worden vaak gebruikt om te bepalen of je een bepaalde ziekte hebt. Rontgen foto's voor gebroken benen, MRI scans voor je hersenen, foto's van de binnenkant van je oog om te kijken hoe het met de suikerziekte gaat.
 
