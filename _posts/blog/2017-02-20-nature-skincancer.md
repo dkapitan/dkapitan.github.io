@@ -18,6 +18,8 @@ Zou het mogelijk zijn om met een selfie te bepalen of je een ziekte hebt? Ja dus
 
 Het resultaat van dit onderzoek is opvallend, omdat het algoritme in een vergelijking met twee dermatologen in staat is huidkanker minimaal net zo goed te herkennen en in sommige gevallen zelfs beter. En dat met een simpele foto, die je met een smartphone kunt maken. Dat computers goed zijn in patroonherkenning (zoek bijvoorbeeld op 'kat' in [https://images.google.com/](Google images)) is wel bekend. Maar voor medische toepassingen zijn vaak dure, speciale camera's nodig, en moeten de beelden vaak (voor)bewerkt worden voordat een arts ze kan analyseren. Dat is dus allemaal niet meer nodig. Over een paar jaar (hoeveel?) kunnen we gewoon een selfie maken en kijken of we huidkanker hebben.
 
+![Soorten huidziekten](/images/nature-skin-disease.png){:class="img-responsive"}
+
 Ja, en dan?
 
 Ik denk dat er nog wel wat water door de Rijn moet stromen voordat wij dit op grote schaal zullen accepteren en gebruiken. Een computer laten bepalen of iets 'pluis of niet pluis' is, is natuurlijk wel iets anders dan een bijvoorbeeld een 'dit vind je ook leuk' aanbeveling op een webshop. Wat als de computer zegt dat je iets hebt, maar niet zo is (zogenaamde 'false positives'). Of het omgekeerde: 'geen kanker' op je beeldscherm, terwijl je het wel hebt (false negatives). We zullen met elkaar moeten leren hoe we met [dit soort onzekerheden](https://nl.wikipedia.org/wiki/Sensitiviteit_en_specificiteit) omgaan, en wat dit betekent voor de medische verantwoordelijkheid die nu door een arts wordt gedragen.
