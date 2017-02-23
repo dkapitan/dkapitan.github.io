@@ -5,7 +5,7 @@ locale: en_UK
 description: Experiments with data science in healthcare
 logo: site-logo.png
 search: true
-url: https://dkapitan.github.io
+url: http://informed-simplicity.org
 
 comments: false
 
