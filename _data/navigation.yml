@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: About
+- title: Over ons
   url: /about/
 
 - title: Notebooks
@@ -12,5 +12,5 @@
 - title: Toolkit
   url: /toolkit/
 
-- title: Search
+- title: Zoeken
   url: /search/
