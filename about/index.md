@@ -4,7 +4,7 @@ title: Waarom informed simplicity?
 excerpt: Met informatie een zo gezond mogelijk leven, zo eenvoudig mogelijk maken. Dat is het streven van *informed simplicity*.
 modified: {}
 image:
-  feature: null
+  feature: patient_files.png
   credit: null
   creditlink: null
 published: true
