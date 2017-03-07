@@ -31,4 +31,4 @@ Ineens lijkt het veel complexer: willen we dat een computer ons helpt om te kijk
 
 ### Idealistisch èn praktisch
 
-*informed-simplicity.org* is geïnspireerd door de opkomst van [*purpose-driven* organisaties](https://www.purposeplus.com/) en willen graag [ziel en zakelijkheid](http://www.compassionforcare.com/) verbinden. Idealistisch? Zeker, maar met een praktische inslag.
+*informed-simplicity.org* is geïnspireerd door de opkomst van [*purpose-driven* organisaties](https://www.purposeplus.com/) en wil graag [ziel en zakelijkheid](http://www.compassionforcare.com/) verbinden. Idealistisch? Zeker, maar met een praktische inslag.
