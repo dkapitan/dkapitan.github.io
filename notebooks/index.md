@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notebooks
-excerpt: "An archive of notebooks sorted by date."
+excerpt: "Modellen, analyses en experimenten met data"
 search_omit: true
 ---
 
