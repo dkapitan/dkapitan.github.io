@@ -1,8 +1,8 @@
 # Site wide configuration
 
 title: Informed Simplicity
-locale: en_UK
-description: Experiments with data science in healthcare
+locale: nl_NL
+description: Data & kunstmatige intelligentie voor een zo gezond mogelijk leven
 logo: site-logo.png
 search: true
 url: http://informed-simplicity.org
