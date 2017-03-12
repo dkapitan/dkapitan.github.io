@@ -9,11 +9,11 @@ tags:
   - nhs
   - beveiliging
 image:
-  feature: blockchain.jpg
-  credit: Wired
+  feature: deepmind-health.jpg
+  credit: Medical Futurist
   creditlinks: >-
-    https://www.wired.com/2017/03/google-deepminds-untrendy-blockchain-play-make-actually-useful/
-date: 2017-03-12 20:00:00
+    http://medicalfuturist.com/top-artificial-intelligence-companies-in-healthcare/
+date: 2017-03-12T20:00:00.000Z
 author: daniel_kapitan
 comments: true
 share: true
@@ -24,6 +24,8 @@ Als Google iets doet, is het per definitie nieuws. Na een mislukte [poging om ee
 
 Het team van Google DeepMind, dat vorig jaar de wereldkampioen Go versloeg met [AlphaGo](https://en.wikipedia.org/wiki/AlphaGo), werkt samen met de Britse [National Health Service (NHS)](http://www.nhs.uk/NHSEngland/thenhs/about/Pages/overview.aspx) om met data het aantal fouten in ziekenhuizen te verlagen. Naar schatting wordt in 10% van alle zorg een (kleine) fout gemaakt, die onnodig schade veroorzaakt aan de patiënt. Met gebruik van de NHS data, waarin de medische gegevens van *alle* 65 miljoen Britten zijn opgenomen, ontwikkelt [DeepMind Health](https://deepmind.com/applied/deepmind-health/) algoritmes om ziekten te herkennen en verslechtering van de gezondheid te voorkomen wanneer patiënten in ziekenhuizen zijn opgenomen. Dat dit een groot probleem is, blijkt uit een andere studie van dezelfde dataset. Onderzoekers van [Imperial College London en Harvard University](http://www.thelancet.com/journals/lanpub/article/PIIS2468-2667%2817%2930032-4/fulltext?elsca1=tlxpr) laten zien dat voor bijna de helft van alle mensen die in Engeland in de periode 2006 - 2010 overlijden aan een hartinfarct, artsen niet in staat zijn geweest om vast te stellen dat deze groep een verhoogd risico had op hartfalen. Dit terwijl deze patiënten in de 28 voorafgaand aan hun overlijden nog waren opgenomen in het ziekenhuis.
 
+![Oorzaken van hartinfarcten](/images/infarct-hankey.png){:class="img-responsive"}
+
 Schitterende projecten, met klinkende namen die potentieel voor veel mensen het leven aangenamer zal maken. Ik zou graag zien dat we zoiets in Nederland starten. Stel je voor dat we alle gegevens van [Dutch Hospital Data (DHD)](https://www.dhd.nl/klanten/Paginas/home.aspx) en [Cardiologie Centra Nederland](https://www.cardiologiecentra.nl/) zouden koppelen en hiermee de 80 Nederlanders die *per dag* een hartaanval krijgen, beter zouden kunnen helpen. Moet kunnen, toch?
 
 Ik denk dat voor het zover is, we een aantal hobbels moet
@@ -33,9 +35,3 @@ Ik denk dat op z'n minst een aantal wenkbrauwen omhoog zullen gaan, en waarschij
 Rapprt RVS:
 - bewijs dat eHealth beter is
 - pleidooi voor centrale regie, en niet blind op marktwerking
-
-
-
-
-
-![Soorten huidziekten](/images/nature-skin-cancer.png){:class="img-responsive"}
