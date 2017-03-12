@@ -18,12 +18,16 @@ Zou het mogelijk zijn om met een selfie te bepalen of je een ziekte hebt? Ja dus
 
 <figure>
     <a href="http://informed-simplicity.org/images/nature-skin-cancer.png"><img src="http://informed-simplicity.org/images/nature-skin-cancer.png" alt="Soorten huidkanker"></a>
-    <figcaption>Verschillende soorten huidkanker. Bovenste rij: goedaardig (benign) zijn letsel van het opperhuid (epidermal lesion) en melanocyten (melanocytic lesion). Onderste rij: kwaadaardige (malign) varianten, waaronder het agressieve melanoom.</figcaption>
+    <figcaption>Verschillende soorten huidkanker. Bovenste rij: goedaardige (benign) varianten van letsel van het opperhuid (epidermal lesion) en melanocyten (melanocytic lesion). Onderste rij: kwaadaardige (malign) varianten, waaronder het agressieve melanoom.</figcaption>
 </figure>
 
 
 Het resultaat van dit onderzoek is opvallend, omdat het algoritme in een vergelijking met twee dermatologen in staat is huidkanker minimaal net zo goed te herkennen en in sommige gevallen zelfs beter. En dat met een simpele foto, die je met een smartphone kunt maken. Dat computers goed zijn in patroonherkenning (zoek bijvoorbeeld op 'kat' in [Google Images](https://images.google.com/)) is wel bekend. Maar voor medische toepassingen zijn vaak dure, speciale camera's nodig, en moeten de beelden vaak (voor)bewerkt worden voordat een arts of een computer ze kan analyseren. Dat is dus allemaal niet meer nodig. Over een paar jaar (hoeveel?) kunnen we gewoon een selfie maken en kijken of we huidkanker hebben.
 
+<figure>
+    <a href="http://informed-simplicity.org/images/nature-skin-disease.png"><img src="http://informed-simplicity.org/images/nature-skin-disease.png" alt="Classificatie huidziekten"></a>
+    <figcaption>Classificatie van huidziekten.</figcaption>
+</figure>
 ![Soorten huidziekten](/images/nature-skin-disease.png){:class="img-responsive"}
 
 Ja, en dan?
