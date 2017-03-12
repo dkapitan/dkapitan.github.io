@@ -28,7 +28,6 @@ Het resultaat van dit onderzoek is opvallend, omdat het algoritme in een vergeli
     <a href="http://informed-simplicity.org/images/nature-skin-disease.png"><img src="http://informed-simplicity.org/images/nature-skin-disease.png" alt="Classificatie huidziekten"></a>
     <figcaption>Classificatie van huidziekten.</figcaption>
 </figure>
-![Soorten huidziekten](/images/nature-skin-disease.png){:class="img-responsive"}
 
 Ja, en dan?
 
