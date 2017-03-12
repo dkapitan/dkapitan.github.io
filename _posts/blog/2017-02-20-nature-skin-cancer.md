@@ -3,7 +3,7 @@ layout: post
 title: "Huidkanker bepalen met een selfie?"
 exerpt: "Kunnen we straks zelf bepalen of een vlekje pluis/niet-pluis is?"
 categories: blog
-tags: []
+tags: [beeldherkenning, huisarts, dermatoloog]
 image:
   feature:
 date: 2017-02-20T21:32:50.000Z
