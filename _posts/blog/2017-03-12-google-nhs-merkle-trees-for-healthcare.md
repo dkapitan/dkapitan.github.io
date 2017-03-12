@@ -28,7 +28,7 @@ Het team van Google DeepMind, dat vorig jaar de wereldkampioen Go versloeg met [
     <figcaption>Ziekteverloop van hartpatiënten uit de studie, weergegeven in een Sankey diagram. De onderste rode 'stroom' zijn de patiënten die 'over het hoofd zijn gezien' door de artsen en uiteindelijk zijn overleden aan een hartinfarct.</figcaption>
 </figure>
 
-Schitterende projecten, met klinkende namen die potentieel voor veel mensen het leven beter zal maken. Ik zou graag zien dat we zoiets in Nederland starten. Stel je voor dat we alle gegevens van [Dutch Hospital Data (DHD)](https://www.dhd.nl/klanten/Paginas/home.aspx) en [Cardiologie Centra Nederland](https://www.cardiologiecentra.nl/) zouden koppelen en hiermee de 80 Nederlanders die *per dag* een hartaanval krijgen, beter zouden kunnen helpen. Moet kunnen, toch?
+Schitterende projecten, met klinkende namen die potentieel voor veel mensen het leven beter zal maken. Ik zou graag zien dat we zoiets in Nederland starten. Stel je voor dat we alle gegevens van [Dutch Hospital Data (DHD)](https://www.dhd.nl/klanten/Paginas/home.aspx) zouden koppelen en hiermee de 80 Nederlanders die *per dag* een hartaanval krijgen, beter zouden kunnen helpen. Moet kunnen, toch?
 
 Ik hoor mogelijke tegenstanders al zeggen: dat kan niet, dat is niet veilig. Het klopt dat we op dit moment in Nederland nog geen veilige infrastructuur hebben om op deze manier kunstmatige intelligentie breed in te zetten. Daarom ook het advies van [de Raad voor Volksgezondheid en Samenleving](https://www.raadrvs.nl/uploads/docs/Briefadvies_over_de_implementatie_van_e-health.pdf) aan de overheid om 
 
