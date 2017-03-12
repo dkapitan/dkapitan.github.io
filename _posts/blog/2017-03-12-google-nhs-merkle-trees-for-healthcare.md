@@ -25,7 +25,7 @@ Het team van Google DeepMind, dat vorig jaar de wereldkampioen Go versloeg met [
 
 <figure>
     <a href="http://informed-simplicity.org/images/infarct-hankey.png"><img src="http://informed-simplicity.org/images/infarct-hankey.png" alt="Oorzaken van hartinfarcten"></a>
-    <figcaption>Oorzaken van hartinfarten, in een zogenaamde Hankey diagram.</figcaption>
+    <figcaption>Ziekteverloop van hartpatiënten uit de studie, weergegeven in een Sankey diagram. De onderste rode 'stroom' zijn de patiënten die 'over het hoofd zijn gezien' door de artsen en uiteindelijk zijn overleden aan een hartinfarct.</figcaption>
 </figure>
 
 Schitterende projecten, met klinkende namen die potentieel voor veel mensen het leven beter zal maken. Ik zou graag zien dat we zoiets in Nederland starten. Stel je voor dat we alle gegevens van [Dutch Hospital Data (DHD)](https://www.dhd.nl/klanten/Paginas/home.aspx) en [Cardiologie Centra Nederland](https://www.cardiologiecentra.nl/) zouden koppelen en hiermee de 80 Nederlanders die *per dag* een hartaanval krijgen, beter zouden kunnen helpen. Moet kunnen, toch?
