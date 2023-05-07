@@ -887,7 +887,7 @@ body:not(.floating) .nav-footer {
   width: 200px;
 }
 
-/*-- Sidebar navidation --*/
+/*-- Sidebar navigation --*/
 a.sidebar-item-text.sidebar-link.active {
   font-weight: 500;
   color: #3d7f93;
