@@ -1,203 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://realworlddatascience.net/contact.html</loc>
-    <lastmod>2023-05-07T08:25:39.275Z</lastmod>
+    <loc>https://masteringdata.ai/contact.html</loc>
+    <lastmod>2023-05-07T13:37:06.974Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/rwds-partners.html</loc>
-    <lastmod>2023-05-07T08:25:39.581Z</lastmod>
+    <loc>https://masteringdata.ai/rwds-partners.html</loc>
+    <lastmod>2023-05-07T13:37:07.264Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/about-rwds.html</loc>
-    <lastmod>2023-05-07T08:25:39.928Z</lastmod>
+    <loc>https://masteringdata.ai/about-rwds.html</loc>
+    <lastmod>2023-05-07T13:37:07.589Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/index.html</loc>
-    <lastmod>2023-05-07T08:25:41.632Z</lastmod>
+    <loc>https://masteringdata.ai/index.html</loc>
+    <lastmod>2023-05-07T13:37:09.044Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/datasciencebites.html</loc>
-    <lastmod>2023-05-07T08:25:42.037Z</lastmod>
+    <loc>https://masteringdata.ai/case-studies/index.html</loc>
+    <lastmod>2023-05-07T13:37:09.309Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/contributor-guidelines.html</loc>
-    <lastmod>2023-05-07T08:25:42.426Z</lastmod>
+    <loc>https://masteringdata.ai/latest-content.html</loc>
+    <lastmod>2023-05-07T13:37:11.204Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/explainers.html</loc>
-    <lastmod>2023-05-07T08:25:42.832Z</lastmod>
+    <loc>https://masteringdata.ai/feeds.html</loc>
+    <lastmod>2023-05-07T13:37:11.465Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/style-guide.html</loc>
-    <lastmod>2023-05-07T08:25:43.203Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html</loc>
+    <lastmod>2023-05-07T13:37:12.645Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/case-studies.html</loc>
-    <lastmod>2023-05-07T08:25:43.598Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</loc>
+    <lastmod>2023-05-07T13:37:13.271Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/recommender.html</loc>
-    <lastmod>2023-05-07T08:25:43.985Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</loc>
+    <lastmod>2023-05-07T13:37:14.277Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/exercises.html</loc>
-    <lastmod>2023-05-07T08:25:44.369Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</loc>
+    <lastmod>2023-05-07T13:37:15.334Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/datasets.html</loc>
-    <lastmod>2023-05-07T08:25:44.717Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/29/defining-DS.html</loc>
+    <lastmod>2023-05-07T13:37:16.207Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/training-guides.html</loc>
-    <lastmod>2023-05-07T08:25:45.086Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</loc>
+    <lastmod>2023-05-07T13:37:17.376Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/contributor-docs/call-for-contributions.html</loc>
-    <lastmod>2023-05-07T08:25:45.422Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html</loc>
+    <lastmod>2023-05-07T13:37:18.313Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/case-studies/index.html</loc>
-    <lastmod>2023-05-07T08:25:45.720Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</loc>
+    <lastmod>2023-05-07T13:37:19.175Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/careers/posts/2023/04/18/politics-of-performance-measurement.html</loc>
-    <lastmod>2023-05-07T08:25:46.683Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</loc>
+    <lastmod>2023-05-07T13:37:20.016Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/careers/career-profiles/posts/2023/03/28/tamanna-haque.html</loc>
-    <lastmod>2023-05-07T08:25:48.089Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</loc>
+    <lastmod>2023-05-07T13:37:21.519Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/careers/career-profiles/posts/2023/04/24/sami-rahman.html</loc>
-    <lastmod>2023-05-07T08:25:49.225Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/editors-blog/index.html</loc>
+    <lastmod>2023-05-07T13:37:22.425Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/careers/career-profiles/index.html</loc>
-    <lastmod>2023-05-07T08:25:49.724Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/index.html</loc>
+    <lastmod>2023-05-07T13:37:24.058Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/careers/index.html</loc>
-    <lastmod>2023-05-07T08:25:50.417Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/newsletter/index.html</loc>
+    <lastmod>2023-05-07T13:37:24.387Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/latest-content.html</loc>
-    <lastmod>2023-05-07T08:25:53.502Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/interviews/posts/03/06/data-science-act.html</loc>
+    <lastmod>2023-05-07T13:37:26.861Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/feeds.html</loc>
-    <lastmod>2023-05-07T08:25:53.796Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/interviews/posts/04/28/stephanie-hare.html</loc>
+    <lastmod>2023-05-07T13:37:29.263Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html</loc>
-    <lastmod>2023-05-07T08:25:55.200Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/interviews/posts/02/03/heidi-seibold.html</loc>
+    <lastmod>2023-05-07T13:37:30.803Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</loc>
-    <lastmod>2023-05-07T08:25:55.807Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/interviews/posts/01/25/erica-thompson.html</loc>
+    <lastmod>2023-05-07T13:37:33.154Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</loc>
-    <lastmod>2023-05-07T08:25:57.042Z</lastmod>
+    <loc>https://masteringdata.ai/viewpoints/interviews/index.html</loc>
+    <lastmod>2023-05-07T13:37:33.694Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</loc>
-    <lastmod>2023-05-07T08:25:58.634Z</lastmod>
+    <loc>https://masteringdata.ai/ideas/datasciencebites/posts/2022/analytical-problem-solving.html</loc>
+    <lastmod>2023-05-07T13:37:34.619Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/01/themes.html</loc>
-    <lastmod>2023-05-07T08:25:59.513Z</lastmod>
+    <loc>https://masteringdata.ai/ideas/datasciencebites/index.html</loc>
+    <lastmod>2023-05-07T13:37:34.974Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html</loc>
-    <lastmod>2023-05-07T08:26:00.312Z</lastmod>
+    <loc>https://masteringdata.ai/ideas/index.html</loc>
+    <lastmod>2023-05-07T13:37:35.521Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/29/defining-DS.html</loc>
-    <lastmod>2023-05-07T08:26:01.315Z</lastmod>
+    <loc>https://masteringdata.ai/ideas/tutorials/posts/2023/flowers.html</loc>
+    <lastmod>2023-05-07T13:37:38.563Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</loc>
-    <lastmod>2023-05-07T08:26:02.567Z</lastmod>
+    <loc>https://masteringdata.ai/ideas/tutorials/posts/2021/comet-charts.html</loc>
+    <lastmod>2023-05-07T13:37:39.912Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html</loc>
-    <lastmod>2023-05-07T08:26:03.578Z</lastmod>
+    <loc>https://masteringdata.ai/ideas/tutorials/index.html</loc>
+    <lastmod>2023-05-07T13:37:40.317Z</lastmod>
   </url>
   <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</loc>
-    <lastmod>2023-05-07T08:26:04.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</loc>
-    <lastmod>2023-05-07T08:26:05.278Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</loc>
-    <lastmod>2023-05-07T08:26:06.672Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/editors-blog/index.html</loc>
-    <lastmod>2023-05-07T08:26:07.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/index.html</loc>
-    <lastmod>2023-05-07T08:26:10.007Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/newsletter/index.html</loc>
-    <lastmod>2023-05-07T08:26:10.360Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/interviews/posts/03/06/data-science-act.html</loc>
-    <lastmod>2023-05-07T08:26:12.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/interviews/posts/04/28/stephanie-hare.html</loc>
-    <lastmod>2023-05-07T08:26:14.986Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/interviews/posts/02/03/heidi-seibold.html</loc>
-    <lastmod>2023-05-07T08:26:16.495Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/interviews/posts/01/25/erica-thompson.html</loc>
-    <lastmod>2023-05-07T08:26:18.708Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/viewpoints/interviews/index.html</loc>
-    <lastmod>2023-05-07T08:26:19.341Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ideas/datasciencebites/posts/2022/12/13/ridesharing.html</loc>
-    <lastmod>2023-05-07T08:26:20.338Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ideas/datasciencebites/posts/2023/03/02/basket-complementarity.html</loc>
-    <lastmod>2023-05-07T08:26:21.365Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ideas/datasciencebites/posts/2023/01/24/pulling-patterns.html</loc>
-    <lastmod>2023-05-07T08:26:22.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ideas/datasciencebites/index.html</loc>
-    <lastmod>2023-05-07T08:26:22.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ideas/index.html</loc>
-    <lastmod>2023-05-07T08:26:23.654Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ideas/tutorials/posts/2023/04/13/flowers.html</loc>
-    <lastmod>2023-05-07T08:26:26.793Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ideas/tutorials/index.html</loc>
-    <lastmod>2023-05-07T08:26:27.199Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realworlddatascience.net/ts-and-cs.html</loc>
-    <lastmod>2023-05-07T08:26:27.494Z</lastmod>
+    <loc>https://masteringdata.ai/ts-and-cs.html</loc>
+    <lastmod>2023-05-07T13:37:40.586Z</lastmod>
   </url>
 </urlset>

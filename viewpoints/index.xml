@@ -5,14 +5,14 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Real World Data Science</title>
-<link>https://realworlddatascience.net/viewpoints/index.html</link>
-<atom:link href="https://realworlddatascience.net/viewpoints/index.xml" rel="self" type="application/rss+xml"/>
+<title>Mastering Data &amp; AI</title>
+<link>https://masteringdata.ai/viewpoints/index.html</link>
+<atom:link href="https://masteringdata.ai/viewpoints/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://realworlddatascience.net/images/rwds-logo-150px.png</url>
-<title>Real World Data Science</title>
-<link>https://realworlddatascience.net/viewpoints/index.html</link>
+<url>https://masteringdata.ai/images/kapitan-logo-150px.png</url>
+<title>Mastering Data &amp; AI</title>
+<link>https://masteringdata.ai/viewpoints/index.html</link>
 <height>83</height>
 <width>144</width>
 </image>
@@ -21,7 +21,7 @@
 <item>
   <title>‘I’m way more into prevention than cure’: Stephanie Hare on why we need a culture of technology ethics</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/interviews/posts/04/28/stephanie-hare.html</link>
+  <link>https://masteringdata.ai/viewpoints/interviews/posts/04/28/stephanie-hare.html</link>
   <description><![CDATA[ 
 
 
@@ -131,7 +131,7 @@ Well, thank you, thank you again for joining us on Real World Data Science. It�
 <p>© 2023 Royal Statistical Society</p>
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://realworlddatascience.net/viewpoints/interviews/posts/04/28/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"><img src="https://realworlddatascience.net/viewpoints/interviews/posts/04/28/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"></a> This interview is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>. Photo of Stephanie Hare is not covered by this licence. Photo is by Mitzi de Margary, supplied by Stephanie Hare and used with permission.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img src="https://masteringdata.ai/viewpoints/interviews/posts/04/28/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;vertical-align:text-bottom;"><img src="https://masteringdata.ai/viewpoints/interviews/posts/04/28/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"></a> This interview is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>. Photo of Stephanie Hare is not covered by this licence. Photo is by Mitzi de Margary, supplied by Stephanie Hare and used with permission.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -152,14 +152,14 @@ Well, thank you, thank you again for joining us on Real World Data Science. It�
   <category>AI ethics</category>
   <category>Culture</category>
   <category>Regulation</category>
-  <guid>https://realworlddatascience.net/viewpoints/interviews/posts/04/28/stephanie-hare.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/interviews/posts/04/28/stephanie-hare.html</guid>
   <pubDate>Thu, 27 Apr 2023 22:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/interviews/posts/04/28/images/stephanie-hare-bw.png" medium="image" type="image/png" height="105" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/interviews/posts/04/28/images/stephanie-hare-bw.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>Data science as ‘a rainbow’, and other definitions</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/29/defining-DS.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/29/defining-DS.html</link>
   <description><![CDATA[ 
 
 
@@ -189,7 +189,7 @@ Well, thank you, thank you again for joining us on Real World Data Science. It�
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/29/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/29/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/29/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/29/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -208,14 +208,14 @@ Tarran, Brian. 2023. “Data science as ‘a rainbow’, and other definitions.�
   <category>Updates</category>
   <category>Themes</category>
   <category>People</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/29/defining-DS.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/29/defining-DS.html</guid>
   <pubDate>Tue, 28 Mar 2023 22:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/29/images/rainbow.png" medium="image" type="image/png" height="105" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/29/images/rainbow.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>OpenAI’s text classifier won’t calm fears about AI-written homework</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</link>
   <description><![CDATA[ 
 
 
@@ -293,7 +293,7 @@ The proportion of patients without the condition being screened for that are cor
 <p>The figures below show the results graphically as proportions of (a) all tests and (b) all positive tests. (All plots are produced using Python and the <code>matplotlib</code> package; code and functions are available from <a href="https://github.com/fatso-jetson/screening-tests">this GitHub repository</a>.)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/images/fig1a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 5% prevalence of AI-written homework"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/images/fig1a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 5% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -301,7 +301,7 @@ The proportion of patients without the condition being screened for that are cor
 <p><strong>Figure 1a:</strong> Classifier test results as a percentage of all tests, assuming 5% prevalence of AI-written homework.</p>
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/images/fig1b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests, assuming 5% prevalence of AI-written homework"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/images/fig1b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests, assuming 5% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -338,7 +338,7 @@ The proportion of patients without the condition being screened for that are cor
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/images/fig2a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 17% prevalence of AI-written homework"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/images/fig2a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 17% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -346,7 +346,7 @@ The proportion of patients without the condition being screened for that are cor
 <p><strong>Figure 2a:</strong> Classifier test results as a percentage of all tests, assuming 17% prevalence of AI-written homework.</p>
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/images/fig2b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 17% prevalence of AI-written homework"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/images/fig2b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 17% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -382,7 +382,7 @@ The proportion of patients without the condition being screened for that are cor
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/images/fig3a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 30% prevalence of AI-written homework"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/images/fig3a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 30% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -390,7 +390,7 @@ The proportion of patients without the condition being screened for that are cor
 <p><strong>Figure 3a:</strong> Classifier test results as a percentage of all tests, assuming 30% prevalence of AI-written homework.</p>
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/images/fig3b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 30% prevalence of AI-written homework"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/images/fig3b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 30% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -420,7 +420,7 @@ Solan, Lawrence M. 1999. <span>“Refocusing the Burden of Proof in Criminal Cas
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -442,14 +442,14 @@ Tarran, Brian. 2023. “OpenAI’s text classifier won’t calm fears about AI-w
   <category>Large language models</category>
   <category>Classifiers</category>
   <category>Screening tests</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</guid>
   <pubDate>Tue, 14 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/03/15/images/teacher-marking-homework.png" medium="image" type="image/png" height="105" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/images/teacher-marking-homework.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>US legislators get their data science act together</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/interviews/posts/03/06/data-science-act.html</link>
+  <link>https://masteringdata.ai/viewpoints/interviews/posts/03/06/data-science-act.html</link>
   <description><![CDATA[ 
 
 
@@ -603,7 +603,7 @@ Very good point. Thank you very much, Anna, Steve, Zarek, and Chris, for joining
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/interviews/posts/03/06/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/interviews/posts/03/06/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/interviews/posts/03/06/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/interviews/posts/03/06/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -623,14 +623,14 @@ Tarran, Brian. 2023. “US legislators get their data science act together.” R
   <category>Data science education</category>
   <category>Data literacy</category>
   <category>Policy</category>
-  <guid>https://realworlddatascience.net/viewpoints/interviews/posts/03/06/data-science-act.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/interviews/posts/03/06/data-science-act.html</guid>
   <pubDate>Sun, 05 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/interviews/posts/03/06/images/andy-feliciotti-isg8AL7-6uk-unsplash.png" medium="image" type="image/png" height="93" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/interviews/posts/03/06/images/andy-feliciotti-isg8AL7-6uk-unsplash.png" medium="image" type="image/png" height="93" width="144"/>
 </item>
 <item>
   <title>Data science can help close the ‘digital skills’ gap, or so it seems</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html</link>
   <description><![CDATA[ 
 
 
@@ -646,7 +646,7 @@ Tarran, Brian. 2023. “US legislators get their data science act together.” R
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" class="img-fluid figure-img" alt="Woman painting while wearing virtual reality headset. Photo by Billetto Editorial on Unsplash." width="500"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" class="img-fluid figure-img" alt="Woman painting while wearing virtual reality headset. Photo by Billetto Editorial on Unsplash." width="500"></p>
 <figcaption class="figure-caption">Digital skills, including AI skills, are not only required of engineers, says the IET’s Graham Herries. Generative AI tools like Stable Diffusion threaten to shake-up the creative industries. (Photo by <a href="https://unsplash.com/@billetto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Billetto Editorial</a> on <a href="https://unsplash.com/photos/YvLd3xbo0ac?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>)</figcaption>
 </figure>
 </div>
@@ -692,7 +692,7 @@ Have you got news for us?
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/02/14/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/02/14/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -714,14 +714,14 @@ Tarran, Brian. 2023. “Data science can help close the ‘digital skills’ gap
   <category>AI</category>
   <category>Machine learning</category>
   <category>Data analytics</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html</guid>
   <pubDate>Mon, 13 Feb 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Why open science is ‘just good science in a digital era’</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/interviews/posts/02/03/heidi-seibold.html</link>
+  <link>https://masteringdata.ai/viewpoints/interviews/posts/02/03/heidi-seibold.html</link>
   <description><![CDATA[ 
 
 
@@ -833,7 +833,7 @@ Excellent. Excellent. Well, thank you again. And thank you to those of you who a
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/interviews/posts/02/03/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/interviews/posts/02/03/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/interviews/posts/02/03/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/interviews/posts/02/03/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -852,14 +852,14 @@ Tarran, Brian. 2023. “Why open science is ‘just good science in a digital er
  ]]></description>
   <category>Open science</category>
   <category>Reproducible research</category>
-  <guid>https://realworlddatascience.net/viewpoints/interviews/posts/02/03/heidi-seibold.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/interviews/posts/02/03/heidi-seibold.html</guid>
   <pubDate>Thu, 02 Feb 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/interviews/posts/02/03/images/heidi-seibold.png" medium="image" type="image/png" height="105" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/interviews/posts/02/03/images/heidi-seibold.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>ChatGPT can hold a conversation, but lacks knowledge representation and original sources for verification</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</link>
   <description><![CDATA[ 
 
 
@@ -969,7 +969,7 @@ Have you got news for us?
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/27/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/27/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/27/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/27/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -995,14 +995,14 @@ Tarran, Brian. 2023. “ChatGPT can hold a conversation, but lacks knowledge rep
   <category>Machine learning</category>
   <category>Large language models</category>
   <category>AI</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</guid>
   <pubDate>Thu, 26 Jan 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/27/images/Detlef.png" medium="image" type="image/png" height="156" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/27/images/Detlef.png" medium="image" type="image/png" height="156" width="144"/>
 </item>
 <item>
   <title>How to ‘Escape from Model Land’: an interview with Erica Thompson</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/interviews/posts/01/25/erica-thompson.html</link>
+  <link>https://masteringdata.ai/viewpoints/interviews/posts/01/25/erica-thompson.html</link>
   <description><![CDATA[ 
 
 
@@ -1120,7 +1120,7 @@ Thank you very much. Thanks for having me.</p>
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/interviews/posts/01/25/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/interviews/posts/01/25/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/interviews/posts/01/25/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/interviews/posts/01/25/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1139,14 +1139,14 @@ Tarran, Brian. 2023. “How to ‘Escape from Model Land’: an interview with E
  ]]></description>
   <category>Modelling</category>
   <category>Ethics</category>
-  <guid>https://realworlddatascience.net/viewpoints/interviews/posts/01/25/erica-thompson.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/interviews/posts/01/25/erica-thompson.html</guid>
   <pubDate>Tue, 24 Jan 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/interviews/posts/01/25/images/erica-thompson.png" medium="image" type="image/png" height="105" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/interviews/posts/01/25/images/erica-thompson.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>We’re taking Real World Data Science on the road</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</link>
   <description><![CDATA[ 
 
 
@@ -1175,7 +1175,7 @@ Tarran, Brian. 2023. “How to ‘Escape from Model Land’: an interview with E
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/18/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/18/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1193,14 +1193,14 @@ Tarran, Brian. 2023. “We’re taking Real World Data Science on the road.” R
  ]]></description>
   <category>Updates</category>
   <category>Events</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</guid>
   <pubDate>Tue, 17 Jan 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/18/images/rss-conf23.png" medium="image" type="image/png" height="94" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/images/rss-conf23.png" medium="image" type="image/png" height="94" width="144"/>
 </item>
 <item>
   <title>Explore the RSS Data Science &amp; AI Section newsletter, right here!</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</link>
   <description><![CDATA[ 
 
 
@@ -1221,7 +1221,7 @@ Tarran, Brian. 2023. “We’re taking Real World Data Science on the road.” R
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/05/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/05/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1239,69 +1239,14 @@ Tarran, Brian. 2023. “Explore the RSS Data Science &amp; AI Section newsletter
  ]]></description>
   <category>Updates</category>
   <category>Newsletters</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</guid>
   <pubDate>Wed, 04 Jan 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2023/01/05/images/brett-jordan-LPZy4da9aRo-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Sink your teeth into some data science papers with our brand new blog</title>
-  <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I’m absolutely thrilled today to announce the launch of our new blog, <a href="../../../../../../ideas/datasciencebites/index.html">DataScienceBites</a>. The blog is not only a new addition to Real World Data Science, but also the latest proud member of the ScienceBites family of sites.</p>
-<p><a href="https://sciencebites.org/sciencebites-sites-galaxy/">ScienceBites sites</a> all share the same <a href="https://sciencebites.org/about/">concept</a>: we publish “short digestible <em>bites posts</em> about individual research papers” in an effort to make cutting-edge science accessible to a wide audience, and our posts are written by graduate students and early career researchers.</p>
-<p>For <a href="../../../../../../ideas/datasciencebites/index.html">DataScienceBites</a>, our focus will of course be on new publications in the data science space. Contributors are invited to write about papers that are of particular interest to them and to pitch their summaries at an undergraduate level. For an example of what we’re looking for, see our first post on <a href="../../../../../../news-and-views/datasciencebites/posts/2022/12/13/ridesharing.html">“Determining the best way to route drivers for ridesharing via reinforcement learning”</a>.</p>
-<p>This launch post is written by Brian King and is republished with permission from <a href="https://mathstatbites.org">MathStatBites</a>, so I want to say a big thank you to Brian and editors Sadie Witkowski and Sara Stoudt for allowing us to repost it. Sadie and Sara have been fantastically supportive of the DataScienceBites idea, and I am grateful for all their behind-the-scenes efforts.</p>
-<p>Brian’s post is a great demonstration of the Bites concept, and we hope that it will inspire others to follow suit. If you are a graduate student or early career researcher in data science (or related subjects) with a passion for science communication and an interest in writing about new data science research, please do <a href="../../../../../../contact.html">get in touch</a>. See our <a href="../../../../../../contributor-docs/datasciencebites.html">notes for contributors</a> for further details.</p>
-<p>To everyone else, we do hope you enjoy sinking your teeth into the data science literature with <a href="../../../../../../ideas/datasciencebites/index.html">DataScienceBites</a>. Happy reading!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/13/images/datasciencebites-logo.png" class="img-fluid figure-img" alt="DataScienceBites logo. A dark grey circle with bite marks cut out. Overlaid text says, Import grad_students as writers, import new_research_papers as nrp, print(writers + nrp) and the title DataScienceBites." width="500"></p>
-</figure>
-</div>
-<div class="article-btn">
-<p><a href="../../../../../../viewpoints/editors-blog/index.html">Back to Editors’ blog</a></p>
-</div>
-<div class="further-info">
-<div class="grid">
-<div class="g-col-12 g-col-md-6">
-<dl>
-<dt>Copyright and licence</dt>
-<dd>
-© 2022 Royal Statistical Society
-</dd>
-</dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/13/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/13/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
-</div>
-<div class="g-col-12 g-col-md-6">
-<dl>
-<dt>How to cite</dt>
-<dd>
-Tarran, Brian. 2022. “Sink your teeth into some data science papers with our brand new blog.” Real World Data Science, December, 13 2022. <a href="https://realworlddatascience.net/news-and-views/editors-blog/posts/2022-12-13-dsb-launch/dsb-launch.html">URL</a>
-</dd>
-</dl>
-</div>
-</div>
-</div>
-
-
-
- ]]></description>
-  <category>Updates</category>
-  <category>Content ideas</category>
-  <category>Call for contributions</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html</guid>
-  <pubDate>Mon, 12 Dec 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/13/images/datasciencebites-logo.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/images/brett-jordan-LPZy4da9aRo-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>A chat with ChatGPT</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</link>
   <description><![CDATA[ 
 
 
@@ -1312,25 +1257,25 @@ Tarran, Brian. 2022. “Sink your teeth into some data science papers with our b
 <h5 class="anchored" data-anchor-id="screenshots">Screenshots</h5>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/chatgpt1.png"><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
+<p><a href="images/chatgpt1.png"><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
 <figcaption class="figure-caption">Part 1</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/chatgpt2.png"><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt2.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
+<p><a href="images/chatgpt2.png"><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt2.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
 <figcaption class="figure-caption">Part 2</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/chatgpt3.png"><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt3.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
+<p><a href="images/chatgpt3.png"><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt3.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
 <figcaption class="figure-caption">Part 3</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/chatgpt4.png"><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt4.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
+<p><a href="images/chatgpt4.png"><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt4.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
 <figcaption class="figure-caption">Part 4</figcaption>
 </figure>
 </div>
@@ -1375,7 +1320,7 @@ Tarran, Brian. 2022. “Sink your teeth into some data science papers with our b
 © 2022 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1394,14 +1339,14 @@ Tarran, Brian. 2022. “A chat with ChatGPT.” Real World Data Science, Decembe
   <category>Machine learning</category>
   <category>Large language models</category>
   <category>AI</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</guid>
   <pubDate>Thu, 08 Dec 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" medium="image" type="image/png" height="156" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" medium="image" type="image/png" height="156" width="144"/>
 </item>
 <item>
   <title>LLMs in the news: hype, tripe, and everything in between</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</link>
   <description><![CDATA[ 
 
 
@@ -1422,7 +1367,7 @@ Tarran, Brian. 2022. “A chat with ChatGPT.” Real World Data Science, Decembe
 <p>Also, I think open sourcing these models provides a way forward. A lot of large language models are open for use and for research, but aren’t themselves open sourced, so it’s very difficult to get underneath the surface and figure out exactly how they work. But with open source, you have opportunities for researchers, whether they’re technical or in the field of ethics, to go and investigate and find out exactly what’s going on. I think that would be a fantastic step forward. It doesn’t take you all the way, of course, because a large amount of the data that these systems use is never open sourced, so while you might get an understanding of the mechanics, you have no idea of what exactly went into them in the first place. But open sourcing is a very good way of getting some external scrutiny. It’s about being transparent, which is a core principle of AI ethics and responsible AI.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" class="img-fluid figure-img" alt="An image created by the Stable Diffusion 2.1 Demo. The model was asked to produce an image with the prompt, 'Text from an old book cut up like a jigsaw puzzle with pieces missing'." width="500"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" class="img-fluid figure-img" alt="An image created by the Stable Diffusion 2.1 Demo. The model was asked to produce an image with the prompt, 'Text from an old book cut up like a jigsaw puzzle with pieces missing'." width="500"></p>
 </figure>
 </div>
 
@@ -1459,7 +1404,7 @@ Have you got news for us?
 © 2022 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1485,92 +1430,14 @@ Tarran, Brian. 2022. “LLMs in the news: hype, tripe, and everything in between
   <category>Machine learning</category>
   <category>Large language models</category>
   <category>AI</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</guid>
   <pubDate>Thu, 08 Dec 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Four themes for potential contributors to think about</title>
-  <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/01/themes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’ve had a fantastic early response to our <a href="../../../../../../contributor-docs/call-for-contributions.html">call for contributions</a>, and it has been pleasing to see and hear how our plans for Real World Data Science chime with the wants and needs of the data science community. But one question we’ve been asked frequently is: “What particular topics are you most interested in?”</p>
-<p>The honest answer to that question is this: we’re interested in any and all topics that are of interest and importance to <em>you</em>, the data science community at large. However, we thought it might be helpful to identify some themes around which potential contributors could construct different types of content.</p>
-<p>These themes are outlined below. If you’d like to discuss any of them further, please do not hesitate to <a href="../../../../../../contact.html">contact us</a>.</p>
-<section id="can-data-science-save-the-world" class="level2">
-<h2 class="anchored" data-anchor-id="can-data-science-save-the-world">Can data science save the world?</h2>
-<p>Earth today faces major challenges – from the global to the regional to the local, and from the natural and physical to the social and digital. We have rich sources of data to help us understand many of these challenges, and there are teams of data scientists around the world who are working with, analysing, and extracting insights from that data in the hope of delivering positive lasting change.</p>
-<p>On Real World Data Science we want to highlight this vital work, through <a href="../../../../../../contributor-docs/case-studies.html"><strong>case studies</strong></a> of data science projects and applications in such areas as:</p>
-<ul>
-<li>monitoring and mitigating climate change and biodiversity loss</li>
-<li>building sustainable futures</li>
-<li>safeguarding public health and developing new medical treatments</li>
-<li>understanding human happiness and wellbeing</li>
-<li>identifying and preventing online harms</li>
-<li>measuring national, regional, and local economies</li>
-</ul>
-<p>As well as exploring the benefits that data science can deliver, we also want to have an informed conversation about the unintended negative consequences that can arise without careful consideration of <strong>data ethics</strong> and responsibilities.</p>
-</section>
-<section id="what-is-a-data-scientist" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-data-scientist">What <em>is</em> a data scientist?</h2>
-<p>Don’t be misled by the title of this theme. Definitions abound, but we’re not interested in establishing the exact boundaries of what a data scientist is or isn’t. Rather, our goal is to profile actual working data scientists. We want to hear about their skillsets, their experiences, and their career journeys so far. We want to learn about the ways in which they work, who they work with, the challenges they face, and their thoughts on where data science is heading next.</p>
-<p>If you’re a working data scientist and you are happy to share your own <strong>career story</strong>, please <a href="../../../../../../contact.html">get in touch</a>.</p>
-</section>
-<section id="statistical-ideas-all-data-scientists-need-to-know" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-ideas-all-data-scientists-need-to-know">Statistical ideas all data scientists need to know</h2>
-<p>Statistics is a crucial component of data science, but not all data scientists have a background in statistics. For those just starting out in their data science careers, or for those coming in from other fields, we want to highlight some of the statistical ideas that are absolutely vital to know.</p>
-<p>We’re particularly interested in <a href="../../../../../../contributor-docs/explainers.html"><strong>explainers</strong></a> that serve as an introduction to these ideas, alongside which we’ll be looking to publish <a href="../../../../../../contributor-docs/exercises.html"><strong>exercises</strong></a> and example <a href="../../../../../../contributor-docs/datasets.html"><strong>datasets</strong></a> to help people put what they’ve learned into practice.</p>
-<p>We are also keen to explore the <strong>origins of modern data science techniques</strong>, including tracing their roots back to some of the foundational ideas in statistics and other disciplines.</p>
-</section>
-<section id="whats-happening-in-the-world-of-data-science" class="level2">
-<h2 class="anchored" data-anchor-id="whats-happening-in-the-world-of-data-science">What’s happening in the world of data science?</h2>
-<p>Data science is such a fast-moving, fast-developing field that it’s difficult to stay on top of all the latest news and developments. But racing to keep up can be counterproductive. It leaves little time to sit back and reflect on what the genuinely important new developments are, and what these might mean for data science longer term.</p>
-<p>On Real World Data Science, we want to create <a href="../../../../../../viewpoints/index.html">a space</a> for people to have these conversations – to step outside the news hype cycle, to ask big questions about what’s happening in the field, and to discuss new papers and ideas that otherwise might be lost amid the daily rush and noise.</p>
-<p>So, if you have thoughts to share, a question you want to ask, or a new paper you want to talk about (one you’ve not written yourself, of course!), <a href="../../../../../../contact.html">let us know</a>.</p>
-<div class="article-btn">
-<p><a href="../../../../../../viewpoints/editors-blog/index.html">Back to Editors’ blog</a></p>
-</div>
-<div class="further-info">
-<div class="grid">
-<div class="g-col-12 g-col-md-6">
-<dl>
-<dt>Copyright and licence</dt>
-<dd>
-© 2022 Royal Statistical Society
-</dd>
-</dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/01/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/01/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
-</div>
-<div class="g-col-12 g-col-md-6">
-<dl>
-<dt>How to cite</dt>
-<dd>
-Tarran, Brian. 2022. “Four themes for potential contributors to think about.” Real World Data Science, December, 1 2022. <a href="https://realworlddatascience.net/news-and-views/editors-blog/posts/2022-12-01-themes/themes.html">URL</a>
-</dd>
-</dl>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Updates</category>
-  <category>Themes</category>
-  <category>Content ideas</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/01/themes.html</guid>
-  <pubDate>Wed, 30 Nov 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/12/01/images/kelly-sikkema-vSNy_bWa5AE-unsplash-crop.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Why large language models should come with a content warning</title>
   <dc:creator>Brian Tarran</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html</link>
   <description><![CDATA[ 
 
 
@@ -1599,7 +1466,7 @@ Tarran, Brian. 2022. “Four themes for potential contributors to think about.�
 <p>Also, LLMs are quite expensive to use. If you wanted to use one of these large language models in a contact centre, for example, then you would have to run maybe a few hundred of them in parallel because you get that many requests from customers. But to provide this capacity, the amount of memory needed would be massive, so it is probably still cheaper to use humans – with the added benefit that humans actually understand questions and know what they are talking about.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" class="img-fluid figure-img" alt="A black keyboard at the bottom of the picture has an open book on it, with red words in labels floating on top, with a letter A balanced on top of them. The perspective makes the composition form a kind of triangle from the keyboard to the capital A. The AI filter makes it look like a messy, with a kind of cartoon style." width="500"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" class="img-fluid figure-img" alt="A black keyboard at the bottom of the picture has an open book on it, with red words in labels floating on top, with a letter A balanced on top of them. The perspective makes the composition form a kind of triangle from the keyboard to the capital A. The AI filter makes it look like a messy, with a kind of cartoon style." width="500"></p>
 </figure>
 </div>
 
@@ -1639,7 +1506,7 @@ Have you got news for us?
 © 2022 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/11/23/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/11/23/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1659,14 +1526,14 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
   <category>Machine learning</category>
   <category>Large language models</category>
   <category>AI</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html</guid>
   <pubDate>Tue, 22 Nov 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Meet the team</title>
   <dc:creator>Editorial Board</dc:creator>
-  <link>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</link>
+  <link>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</link>
   <description><![CDATA[ 
 
 
@@ -1677,7 +1544,7 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
 <p><strong>Brian Tarran</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Brian.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Brian.png" class="img-fluid"></p>
 </div></div><p>I am a writer and editor with 20 years of experience covering the research and data space. I have worked for the Royal Statistical Society (RSS) for the past 8 years, and was editor of <a href="https://www.significancemagazine.com/">Significance Magazine</a> (a joint publication of the RSS, the American Statistical Association and the Statistical Society of Australia) prior to the launch of Real World Data Science. I am a former editor of Research-Live.com and was launch editor of Impact magazine, both published by the Market Research Society.</p>
 </section>
 <section id="editorial-board" class="level2 page-columns page-full">
@@ -1685,68 +1552,68 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
 <p><strong>Sophie Carr (chair)</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Sophie.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Sophie.png" class="img-fluid"></p>
 </div></div><p>I am the founder and owner of Bays Consulting. I trained as an engineer and took a PhD in Bayesian belief networks, and have worked in data analytics ever since. Or to put it another way, I have made a living out of finding patterns. I am the vice-president for education and statistical literacy at the RSS, officially one of the <a href="https://ima.org.uk/12382/worlds-most-interesting-mathematician-2019-dr-sophie-carr/">World’s Most Interesting Mathematicians</a> and was a member of the first cohort of data scientists to achieve the new, defined standard of professionalism award from the <a href="https://alliancefordatascienceprofessionals.com/">Alliance for Data Science Professionals</a>.</p>
 <p>I am delighted to be chairing the editorial board of the new data science project from the RSS and am excited to be a part of this project as it evolves into a key resource for all data science practitioners and leaders. To make this a place that helps everyone learn and develop within this field, I’d like to encourage all practitioners, no matter what stage of their career, to submit the type of resource they learn best from (whether that be an article, some code, a data set, a case study or a problem/exercise to solve) on a topic that is important to them – from ethics to analysis plans through to tips on how code. Whatever it is you’re working on that you care about, I’d like to ask you to become an active part of the wonderful community of data scientists by sharing your knowledge.</p>
 <p><strong>Sayma Chowdhury</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Sayma.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Sayma.png" class="img-fluid"></p>
 </div></div><p>I am a freelance data scientist on Upwork, with a client portfolio ranging from start-ups to commercial businesses such as supermarkets, pharmaceuticals and automotive manufacturers. I transitioned into data science from law in 2017, having completed a MicroMasters in statistics and data science with MIT and a Professional Certificate in data science with Harvard University. In advance of a PhD in digital humanities, I am currently completing a MicroMasters in data, economy and development policy with MIT and an MSc in data science with the University of Aberdeen. My research interests are in text analytics, natural language processing and machine learning.</p>
 <p>The RSS was instrumental in my training and professional development as a data scientist in the early stages of my career, particularly in mastering statistics and R. Data science is a rapidly growing field with employment opportunities in many sectors but there is an increasing need to uphold a realistic and accurate expectation of competency within the industry. I will endeavour to present expert practical guidelines for data scientists as well as demonstrate the versatility of the profession. I hope the site will be a benchmark for academic and professional resources by expert data scientists from industry, accessible to data scientists at all levels, anywhere in the world.</p>
 <p><strong>Lee Clewley</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Lee.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Lee.png" class="img-fluid"></p>
 </div></div><p>I am head of applied AI in GSK’s AI and Machine Learning Group, R&amp;D. I began my career as an astrophysicist, initially working out the mass of our galaxy, before pondering the bigger universe. After six years at Oxford as a post-doc lecturer publishing in theoretical cosmology, I entered the very real world of manufacturing at GSK. For the first five years I applied statistical modelling techniques across manufacturing, such as the first end-to-end continuous manufacturing prototype for tablets. The past decade has been spent as a lead data scientist delivering high value projects across R&amp;D and manufacturing.</p>
 <p>I joined this editorial board because the impulse to assemble and present complex data science ideas to a wide range of folks has never left me. I have been a data scientist leader since it became a distinct profession but also have a decent understanding of classical and modern predictive analytics tools and statistics. I have spent a good deal of my adult life teaching students and non-technical adults alike.</p>
 <p>I am passionate about delivering useful, pragmatic data science ideas and products to a wide range of people. I enjoy trying to communicate complex scientific information simply. Alongside my peers in the team, I want to support and develop data scientists at whatever stage in their career. I want to help cut through the hype and nonsense to give the best advice possible in a highly respected institution like the RSS.</p>
 <p><strong>Jonathan Gillard</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Jon.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Jon.png" class="img-fluid"></p>
 </div></div><p>I am a professor at the School of Mathematics, Cardiff University, where I am also research group lead for statistics. I have a history of publications in statistical methods and an interest in the theoretical underpinnings of data science, but I have also worked with industry on applied and practical projects. Recent industrial partners of mine include the Office for National Statistics (ONS) and the National Health Service, on projects such as anomaly detection and understanding heterogeneity. Indeed, I am academic chair for Cardiff University’s strategic partnership with the ONS which serves to spur and catalyse collaboration between both organisations.</p>
 <p>I am excited to see what this site can achieve. I’m particularly keen to support articles describing the latest, cutting-edge methodology, as well as contributions from data professionals in industry who can explain how data science has managed to offer insights into important problems. Data science is a broad church and I want to ensure that the full array of work in this area is represented on this site. I think the diversity of the editorial board will help promote this objective.</p>
 <p><strong>Juhi Gupta</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Juhi.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Juhi.png" class="img-fluid"></p>
 </div></div><p>I am a lecturer in health data sciences and the deputy programme director of the health data science MSc in the School of Health Sciences, University of Manchester (UoM). I have a background in genetics, pharmacology and bioinformatics, and my doctoral thesis focussed on multi-omics data analysis using machine learning methods for precision medicine. I have worked with scientists, clinical academics and technologists to produce translational research. I am currently investigating adverse health outcomes in people with common diseases using electronic health record data, and I also teach on the health informatics MSc joint programme with UoM and UCL.</p>
 <p>I would like to see this platform encourage collaborations and the sharing of ideas and good practice across different disciplines that apply data science skills in their work (or as a hobby). I would like to support budding data scientists to gain useful advice and guidance for upskilling as well as application in real-world situations involving health data and biological data.</p>
 <p><strong>Hollie Johnson</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Hollie.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Hollie.png" class="img-fluid"></p>
 </div></div><p>I am a data scientist at the National Innovation Centre for Data (NICD), based in Newcastle upon Tyne. Following my undergraduate degree in mathematics, I worked as a software developer both in industry and as a technical research assistant in academia. I later joined the Centre for Doctoral Training in Cloud Computing for Big Data at Newcastle and obtained a PhD in topological data analysis in 2020. Now at the NICD, I specialise in transferring statistics and machine learning skills into industry, through collaborative data science projects.</p>
 <p>I am excited to be a member of the editorial board and look forward to seeing Real World Data Science develop into a valuable source of information for aspiring data scientists and professionals alike. I would particularly encourage submissions that demonstrate the use of data science in SMEs and the non-profit sector, as well as perspectives from those with non-standard backgrounds.</p>
 <p><strong>Harvey Lewis</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Harvey.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Harvey.png" class="img-fluid"></p>
 </div></div><p>I am a senior technology leader, with a diverse background spanning rocket science, data science and research. I have 30 years of experience in artificial intelligence and other emerging technologies and am currently pioneering the use of AI in Ernst &amp; Young’s tax and law practice. I’m a former member of the Open Data User Group, the Public Sector Transparency Board and the Advisory Committee to the All-Party Parliamentary Group on AI. I am a member of techUK’s leadership committee for data analytics and AI, and an honorary senior visiting fellow at The Bayes Business School in London.</p>
 <p>I’m passionate about data science but I’m also a fierce advocate for human skills, which are as often underrated as AI is over-hyped. As a member of the editorial board, I’m keen to explore the interplay between artificial and human intelligence in businesses. I’m going to encourage all data scientists to think about the fundamentally human aspects of their work, such as trust and safety, so that we maintain perspective and proportionality in the face of ever-more sophisticated technology.</p>
 <p><strong>Detlef Nauck</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Detlef.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Detlef.png" class="img-fluid"></p>
 </div></div><p>I am a BT Distinguished Engineer and the head of AI and data science research for BT’s Applied Research Division located at Adastral Park, Ipswich, UK. I have over 30 years of experience in AI and machine learning and lead a programme spanning the work of a large team of international researchers who develop capabilities underpinning future AI systems. A key part of this work is to establish best practices in data science and machine learning, leading to the deployment of responsible and auditable AI solutions that are driving real business value.</p>
 <p>I am a computer scientist by training and hold a PhD and a Postdoctoral Degree (Habilitation) in machine learning and data analytics. I am also a visiting professor at Bournemouth University and a private docent at the Otto-von-Guericke University of Magdeburg, Germany. I have published 3 books and over 120 papers, and I hold 15 patents and have 30 active patent applications.</p>
 <p>I am passionate about promoting best practice in data science and believe that in the UK the RSS is the ideal professional body to pursue this goal. For me, Real World Data Science is an opportunity to share my experience and inspire a new generation of data scientists.</p>
 <p><strong>Fatemeh Torabi</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Fatemeh.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Fatemeh.png" class="img-fluid"></p>
 </div></div><p>I am a research officer and data scientist at Health Data Research UK and a fellow of the RSS. My background is in mathematical statistics and health data science, and my research interests span novel analytical and computational methods for statistical inference in panel data and population health. I am supporting the development of the Real World Data Science platform in the context of health with a specific focus on how health data can be harnessed through data linkage and analysis to answer important questions and improve the lives of our population.</p>
 <p><strong>Isabel Sassoon</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Isabel.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Isabel.png" class="img-fluid"></p>
 </div></div><p>I am a senior lecturer in computer science (data science) at Brunel University and the programme lead for the data science and analytics MSc programme. My research interests are in data-driven automated reasoning and its transparency and explainability, which brings in data science and artificial intelligence with applications within the health space. I am also championing open science and reproducible analysis in both my research and teaching. I have a PhD in informatics from King’s College London and it was on the topic related to the use of AI to support statistical model selection. Prior to Brunel I was a teaching fellow and research associate at King’s College London and before that I worked for more than 10 years as a data science consultant in industry, including 8 years at SAS UK. </p>
 <p>I have been working, researching, consulting and teaching in the data science space for a while and I am passionate about the domain and its applications. I am always interested in sharing and hearing what else is being done to support, inform and inspire all those studying and working in the field of data science. I look forward to sharing case studies, how-to guides and data science profiles through this website.</p>
 <p><strong>Christopher Thiele</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/Christopher.png" class="img-fluid"></p>
+<p><img src="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/Christopher.png" class="img-fluid"></p>
 </div></div><p>I’m a principal data scientist at Uniper where I lead a team that focuses mainly on financial business processes and upskilling initiatives. We run projects end to end: from use case ideation, requirement collection and translation to prototyping, assessment, deployment and maintenance. Besides the core analytical and data engineering duties, overarching topics such as data design, data governance and data strategy predominate my days. In my previous role, at the German Economic Institute, I contributed to the development of a cross-functional department that helps apply data science methods in economic research. Projects often involve geospatial analyses or natural language processing. Before that, I worked as a data scientist in customer and marketing analytics, doing statistical analyses such as marketing mix modelling. I have a master’s degree in statistics from Warwick University, a bachelor’s degree in economics from the University of Cologne and I’m trained as an assistant tax consultant in Germany.</p>
 <p>I see data science as a creative way to solve problems using software engineering and quantitative modelling techniques and I like to build software pieces that people can interact with. I think that there still exists a lot of confusion about data science as a discipline. Reducing it would promote the realisation of its potential for individuals, as a profession, and our society, as a form of digitalisation. I hope that with Real World Data Science we can provide guidance and clarification to everybody engaged or interested in the field and accompany this young profession’s development.</p>
 
@@ -1756,9 +1623,9 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
  ]]></description>
   <category>People</category>
   <category>Biographies</category>
-  <guid>https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</guid>
+  <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</guid>
   <pubDate>Mon, 17 Oct 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://realworlddatascience.net/viewpoints/editors-blog/posts/2022/10/18/images/team.png" medium="image" type="image/png" height="64" width="144"/>
+  <media:content url="https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/images/team.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 </channel>
 </rss>
