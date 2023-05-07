@@ -193,6 +193,7 @@ body.nav-fixed {
 
 #quarto-content>* {
   padding-top: 0;
+  background-color: #f0eeeb;
 }
 
 h2.anchored {
@@ -884,4 +885,13 @@ body:not(.floating) .nav-footer {
   margin-left: auto;
   margin-right: auto;
   width: 200px;
+}
+
+/*-- Sidebar navidation --*/
+a.sidebar-item-text.sidebar-link.active {
+  font-weight: 500;
+  color: #3d7f93;
+}
+a.sidebar-item-text.sidebar-link {
+  font-weight: 500;
 }

@@ -147,7 +147,7 @@ Well, thank you, thank you again for joining us on Real World Data Science. It�
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Technology ethics</category>
   <category>AI ethics</category>
   <category>Culture</category>
@@ -204,7 +204,7 @@ Tarran, Brian. 2023. “Data science as ‘a rainbow’, and other definitions.�
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Updates</category>
   <category>Themes</category>
   <category>People</category>
@@ -437,7 +437,7 @@ Tarran, Brian. 2023. “OpenAI’s text classifier won’t calm fears about AI-w
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>AI</category>
   <category>Large language models</category>
   <category>Classifiers</category>
@@ -619,7 +619,7 @@ Tarran, Brian. 2023. “US legislators get their data science act together.” R
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Data science education</category>
   <category>Data literacy</category>
   <category>Policy</category>
@@ -708,7 +708,7 @@ Tarran, Brian. 2023. “Data science can help close the ‘digital skills’ gap
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Skills</category>
   <category>Training</category>
   <category>AI</category>
@@ -849,7 +849,7 @@ Tarran, Brian. 2023. “Why open science is ‘just good science in a digital er
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Open science</category>
   <category>Reproducible research</category>
   <guid>https://masteringdata.ai/viewpoints/interviews/posts/02/03/heidi-seibold.html</guid>
@@ -986,7 +986,7 @@ Tarran, Brian. 2023. “ChatGPT can hold a conversation, but lacks knowledge rep
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>I asked ChatGPT to write this article’s headline, for example. I typed in “Can you write a headline for this text:” and then copy/pasted the interview transcript into the dialogue box. It first came up with, “AI Chatbot ChatGPT Proves Capable in Sustaining Conversations but Lacks Knowledge Representation and Original Sources for Verification”. I then asked it to shorten the headline to 10 words. It followed up with, “ChatGPT: Large Language Model-Driven Chatbot Proves Capable But Limited”.↩︎</p></li>
@@ -1136,7 +1136,7 @@ Tarran, Brian. 2023. “How to ‘Escape from Model Land’: an interview with E
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Modelling</category>
   <category>Ethics</category>
   <guid>https://masteringdata.ai/viewpoints/interviews/posts/01/25/erica-thompson.html</guid>
@@ -1190,7 +1190,7 @@ Tarran, Brian. 2023. “We’re taking Real World Data Science on the road.” R
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Updates</category>
   <category>Events</category>
   <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</guid>
@@ -1236,7 +1236,7 @@ Tarran, Brian. 2023. “Explore the RSS Data Science &amp; AI Section newsletter
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Updates</category>
   <category>Newsletters</category>
   <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</guid>
@@ -1335,7 +1335,7 @@ Tarran, Brian. 2022. “A chat with ChatGPT.” Real World Data Science, Decembe
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Machine learning</category>
   <category>Large language models</category>
   <category>AI</category>
@@ -1421,7 +1421,7 @@ Tarran, Brian. 2022. “LLMs in the news: hype, tripe, and everything in between
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>I also had a conversation with ChatGPT. <a href="../../../../../../news-and-views/editors-blog/posts/2022-12-09-LLM-news/A-chat-with-ChatGPT.html">Read the transcript</a>.↩︎</p></li>
@@ -1522,7 +1522,7 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Machine learning</category>
   <category>Large language models</category>
   <category>AI</category>
@@ -1620,7 +1620,7 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>People</category>
   <category>Biographies</category>
   <guid>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</guid>
