@@ -2,170 +2,178 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_interaction.html</loc>
-    <lastmod>2023-05-07T20:16:59.126Z</lastmod>
+    <lastmod>2023-05-07T20:27:16.441Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_debugging.html</loc>
-    <lastmod>2023-05-07T20:17:00.036Z</lastmod>
+    <lastmod>2023-05-07T20:27:17.379Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_introduction.html</loc>
-    <lastmod>2023-05-07T20:17:01.870Z</lastmod>
+    <lastmod>2023-05-07T20:27:19.200Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/index.html</loc>
-    <lastmod>2023-05-07T20:17:02.436Z</lastmod>
+    <lastmod>2023-05-07T20:27:19.762Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_cartographic.html</loc>
-    <lastmod>2023-05-07T20:17:04.571Z</lastmod>
+    <lastmod>2023-05-07T20:27:21.906Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_data_transformation.html</loc>
-    <lastmod>2023-05-07T20:17:06.546Z</lastmod>
+    <lastmod>2023-05-07T20:27:23.882Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_marks_encoding.html</loc>
-    <lastmod>2023-05-07T20:17:08.954Z</lastmod>
+    <lastmod>2023-05-07T20:27:26.294Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_scales_axes_legends.html</loc>
-    <lastmod>2023-05-07T20:17:10.598Z</lastmod>
+    <lastmod>2023-05-07T20:27:27.918Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/learn/altair/altair_view_composition.html</loc>
-    <lastmod>2023-05-07T20:17:12.624Z</lastmod>
+    <lastmod>2023-05-07T20:27:29.919Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/learn/introduction-to-interactive-data-visualization.html</loc>
+    <lastmod>2023-05-07T20:27:31.526Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/learn/introduction-dataviz.html</loc>
+    <lastmod>2023-05-07T20:27:31.812Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/contact.html</loc>
-    <lastmod>2023-05-07T20:17:13.238Z</lastmod>
+    <lastmod>2023-05-07T20:27:32.076Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/rwds-partners.html</loc>
-    <lastmod>2023-05-07T20:17:13.519Z</lastmod>
+    <lastmod>2023-05-07T20:27:32.348Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/images/altair_marks_encoding.out.html</loc>
-    <lastmod>2023-05-07T20:17:14.732Z</lastmod>
+    <lastmod>2023-05-07T20:27:33.521Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/about-rwds.html</loc>
-    <lastmod>2023-05-07T20:17:15.092Z</lastmod>
+    <lastmod>2023-05-07T20:27:33.845Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/index.html</loc>
-    <lastmod>2023-05-07T20:17:16.219Z</lastmod>
+    <lastmod>2023-05-07T20:27:34.878Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/case-studies/index.html</loc>
-    <lastmod>2023-05-07T20:17:16.492Z</lastmod>
+    <lastmod>2023-05-07T20:27:35.141Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/latest-content.html</loc>
-    <lastmod>2023-05-07T20:17:18.472Z</lastmod>
+    <lastmod>2023-05-07T20:27:37.048Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/feeds.html</loc>
-    <lastmod>2023-05-07T20:17:18.735Z</lastmod>
+    <lastmod>2023-05-07T20:27:37.317Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html</loc>
-    <lastmod>2023-05-07T20:17:20.022Z</lastmod>
+    <lastmod>2023-05-07T20:27:38.714Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html</loc>
-    <lastmod>2023-05-07T20:17:20.673Z</lastmod>
+    <lastmod>2023-05-07T20:27:39.323Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</loc>
-    <lastmod>2023-05-07T20:17:21.748Z</lastmod>
+    <lastmod>2023-05-07T20:27:40.373Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</loc>
-    <lastmod>2023-05-07T20:17:22.851Z</lastmod>
+    <lastmod>2023-05-07T20:27:41.561Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/29/defining-DS.html</loc>
-    <lastmod>2023-05-07T20:17:23.835Z</lastmod>
+    <lastmod>2023-05-07T20:27:42.721Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</loc>
-    <lastmod>2023-05-07T20:17:25.024Z</lastmod>
+    <lastmod>2023-05-07T20:27:43.999Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html</loc>
-    <lastmod>2023-05-07T20:17:26.021Z</lastmod>
+    <lastmod>2023-05-07T20:27:44.951Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/05/newsletter.html</loc>
-    <lastmod>2023-05-07T20:17:26.841Z</lastmod>
+    <lastmod>2023-05-07T20:27:45.786Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html</loc>
-    <lastmod>2023-05-07T20:17:27.651Z</lastmod>
+    <lastmod>2023-05-07T20:27:46.623Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</loc>
-    <lastmod>2023-05-07T20:17:29.069Z</lastmod>
+    <lastmod>2023-05-07T20:27:48.069Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/editors-blog/index.html</loc>
-    <lastmod>2023-05-07T20:17:29.982Z</lastmod>
+    <lastmod>2023-05-07T20:27:48.979Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/index.html</loc>
-    <lastmod>2023-05-07T20:17:31.671Z</lastmod>
+    <lastmod>2023-05-07T20:27:50.644Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/newsletter/index.html</loc>
-    <lastmod>2023-05-07T20:17:32.001Z</lastmod>
+    <lastmod>2023-05-07T20:27:50.971Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/interviews/posts/03/06/data-science-act.html</loc>
-    <lastmod>2023-05-07T20:17:34.660Z</lastmod>
+    <lastmod>2023-05-07T20:27:53.459Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/interviews/posts/04/28/stephanie-hare.html</loc>
-    <lastmod>2023-05-07T20:17:37.267Z</lastmod>
+    <lastmod>2023-05-07T20:27:55.966Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/interviews/posts/02/03/heidi-seibold.html</loc>
-    <lastmod>2023-05-07T20:17:38.878Z</lastmod>
+    <lastmod>2023-05-07T20:27:57.594Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/interviews/posts/01/25/erica-thompson.html</loc>
-    <lastmod>2023-05-07T20:17:41.354Z</lastmod>
+    <lastmod>2023-05-07T20:28:00.138Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/viewpoints/interviews/index.html</loc>
-    <lastmod>2023-05-07T20:17:41.913Z</lastmod>
+    <lastmod>2023-05-07T20:28:00.685Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/ideas/datasciencebites/posts/2022/analytical-problem-solving.html</loc>
-    <lastmod>2023-05-07T20:17:42.752Z</lastmod>
+    <lastmod>2023-05-07T20:28:01.537Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/ideas/datasciencebites/index.html</loc>
-    <lastmod>2023-05-07T20:17:43.108Z</lastmod>
+    <lastmod>2023-05-07T20:28:01.899Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/ideas/index.html</loc>
-    <lastmod>2023-05-07T20:17:43.665Z</lastmod>
+    <lastmod>2023-05-07T20:28:02.470Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/ideas/tutorials/posts/2023/flowers.html</loc>
-    <lastmod>2023-05-07T20:17:46.704Z</lastmod>
+    <lastmod>2023-05-07T20:28:05.675Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/ideas/tutorials/posts/2021/comet-charts.html</loc>
-    <lastmod>2023-05-07T20:17:47.990Z</lastmod>
+    <lastmod>2023-05-07T20:28:07.152Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/ideas/tutorials/index.html</loc>
-    <lastmod>2023-05-07T20:17:48.406Z</lastmod>
+    <lastmod>2023-05-07T20:28:07.580Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/ts-and-cs.html</loc>
-    <lastmod>2023-05-07T20:17:48.678Z</lastmod>
+    <lastmod>2023-05-07T20:28:07.891Z</lastmod>
   </url>
 </urlset>
