@@ -313,23 +313,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-e48aa89f6d834ed5a07bf5b2f65751be.vega-embed {
+  #altair-viz-93d10851a1b942fc962f09672b2b3274.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-e48aa89f6d834ed5a07bf5b2f65751be.vega-embed details,
-  #altair-viz-e48aa89f6d834ed5a07bf5b2f65751be.vega-embed details summary {
+  #altair-viz-93d10851a1b942fc962f09672b2b3274.vega-embed details,
+  #altair-viz-93d10851a1b942fc962f09672b2b3274.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-e48aa89f6d834ed5a07bf5b2f65751be"></div>
+<div id="altair-viz-93d10851a1b942fc962f09672b2b3274"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-e48aa89f6d834ed5a07bf5b2f65751be") {
-      outputDiv = document.getElementById("altair-viz-e48aa89f6d834ed5a07bf5b2f65751be");
+    if (outputDiv.id !== "altair-viz-93d10851a1b942fc962f09672b2b3274") {
+      outputDiv = document.getElementById("altair-viz-93d10851a1b942fc962f09672b2b3274");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -422,7 +422,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>https://github.com/dkapitan/dkapitan.github.io/src/blog/posts/some-post.html</guid>
-  <pubDate>Mon, 07 Aug 2023 11:21:07 GMT</pubDate>
+  <pubDate>Mon, 07 Aug 2023 19:40:46 GMT</pubDate>
 </item>
 </channel>
 </rss>
