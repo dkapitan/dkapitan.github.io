@@ -265,17 +265,20 @@ font-style: inherit;">"mean_distance"</span>,</span>
 <span id="cb1-58">        ],</span>
 <span id="cb1-59">        <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># trails don't support continuous color, see https://github.com/vega/vega/issues/1187</span></span>
+font-style: inherit;"># trails don't support continuous color</span></span>
 <span id="cb1-60">        <span class="co" style="color: #5E5E5E;
 background-color: null;
+font-style: inherit;"># see https://github.com/vega/vega/issues/1187</span></span>
+<span id="cb1-61">        <span class="co" style="color: #5E5E5E;
+background-color: null;
 font-style: inherit;"># hence use bins</span></span>
-<span id="cb1-61">        color<span class="op" style="color: #5E5E5E;
+<span id="cb1-62">        color<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>alt.Color(</span>
-<span id="cb1-62">            <span class="st" style="color: #20794D;
+<span id="cb1-63">            <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"change_mean_delay:Q"</span>,</span>
-<span id="cb1-63">            <span class="bu" style="color: null;
+<span id="cb1-64">            <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">bin</span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -284,26 +287,26 @@ background-color: null;
 font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">2</span>),</span>
-<span id="cb1-64">            scale<span class="op" style="color: #5E5E5E;
+<span id="cb1-65">            scale<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>alt.Scale(scheme<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"blueorange"</span>),</span>
-<span id="cb1-65">            legend<span class="op" style="color: #5E5E5E;
+<span id="cb1-66">            legend<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>alt.Legend(orient<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"top"</span>),</span>
-<span id="cb1-66">        ),</span>
-<span id="cb1-67">    )</span>
-<span id="cb1-68">)</span>
-<span id="cb1-69"></span>
+<span id="cb1-67">        ),</span>
+<span id="cb1-68">    )</span>
+<span id="cb1-69">)</span>
 <span id="cb1-70"></span>
-<span id="cb1-71">comet_chart(df) <span class="op" style="color: #5E5E5E;
+<span id="cb1-71"></span>
+<span id="cb1-72">comet_chart(df) <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> comet_chart(total, stroke<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -313,23 +316,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-9d08a71b6bda44de87ba0857314388db.vega-embed {
+  #altair-viz-1e47084ce14d4083a8a31396db035e3b.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-9d08a71b6bda44de87ba0857314388db.vega-embed details,
-  #altair-viz-9d08a71b6bda44de87ba0857314388db.vega-embed details summary {
+  #altair-viz-1e47084ce14d4083a8a31396db035e3b.vega-embed details,
+  #altair-viz-1e47084ce14d4083a8a31396db035e3b.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-9d08a71b6bda44de87ba0857314388db"></div>
+<div id="altair-viz-1e47084ce14d4083a8a31396db035e3b"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-9d08a71b6bda44de87ba0857314388db") {
-      outputDiv = document.getElementById("altair-viz-9d08a71b6bda44de87ba0857314388db");
+    if (outputDiv.id !== "altair-viz-1e47084ce14d4083a8a31396db035e3b") {
+      outputDiv = document.getElementById("altair-viz-1e47084ce14d4083a8a31396db035e3b");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -422,7 +425,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>https://masteringdata.ai/src/blog/posts/some-post.html</guid>
-  <pubDate>Mon, 07 Aug 2023 21:00:26 GMT</pubDate>
+  <pubDate>Mon, 07 Aug 2023 21:04:55 GMT</pubDate>
 </item>
 </channel>
 </rss>
