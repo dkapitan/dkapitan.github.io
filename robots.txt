@@ -1,1 +1,1 @@
-Sitemap: https://masteringdata.ai/sitemap.xml
+Sitemap: https://github.com/dkapitan/dkapitan.github.io/sitemap.xml

@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.340">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A showcase for data science in action, brought to you by the Royal Statistical Society">
 
-<title>@kapitan</title>
+<title>&lt;span class="citation" data-cites="kapitan"&gt;@kapitan&lt;/span&gt;</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,15 +24,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/rwds-favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -44,11 +39,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -59,143 +54,16 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-content .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-content'] = new List('listing-latest-content', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-editors-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-editors-blog'] = new List('listing-editors-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-datasciencebites .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-datasciencebites'] = new List('listing-datasciencebites', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-interviews .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-interviews'] = new List('listing-interviews', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="rwds.css">
-<meta property="og:title" content="@kapitan">
-<meta property="og:description" content="A showcase for data science in action, brought to you by the Royal Statistical Society">
-<meta property="og:image" content="https://masteringdata.ai/images/rwds-logo-150px.png">
-<meta property="og:site-name" content="Mastering Data &amp; AI">
-<meta property="og:image:height" content="150">
-<meta property="og:image:width" content="259">
-<meta name="twitter:title" content="@kapitan">
-<meta name="twitter:description" content="A showcase for data science in action, brought to you by the Royal Statistical Society">
-<meta name="twitter:image" content="https://masteringdata.ai/images/rwds-logo-150px.png">
-<meta name="twitter:site" content="@daniel_kapitan">
-<meta name="twitter:image-height" content="150">
-<meta name="twitter:image-width" content="259">
-<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -203,452 +71,152 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/kapitan-logo-150px.png" alt="@kapitan brand" class="navbar-logo">
+    <img src="./images/@kapitan-logo-redbrick-320x132.png" alt="" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="false"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./case-studies/index.html" rel="" target="">
- <span class="menu-text">Case studies</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ideas/index.html" rel="" target="">
- <span class="menu-text">Ideas</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./viewpoints/index.html" rel="" target="">
- <span class="menu-text">Viewpoints</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-learn" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Learn</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-learn">    
-        <li>
-    <a class="dropdown-item" href="./learn/altair/index.html" rel="" target="">
- <span class="dropdown-text">Altair</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./about-rwds.html" rel="" target="">
- <span class="dropdown-text">Who we are</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./contact.html" rel="" target="">
- <span class="dropdown-text">Contact us</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-            <div class="quarto-navbar-tools">
+        <div class="quarto-navbar-tools ms-auto">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+        <div class="sidebar-tools-collapse tools-wide">
+    <a href="https://calendar.app.google/hwXH1FmvDQQiBu7EA" rel="" title="Book an appointment" class="quarto-navigation-tool px-1" aria-label="Book an appointment"><i class="bi bi-calendar"></i></a>
+    <a href="https://www.linkedin.com/in/dkapitan/" rel="" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/dkapitan" rel="" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+</div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Services</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">src/mentoring.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">src/masterclasses.qmd</span>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Projects</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./src/projects/project-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MyTomorrows</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./src/projects/project-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PharmAccess Foundation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./src/blog/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./src/about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About me</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
+<main class="content" id="quarto-document-content">
 
 
 
-<script src="https://embed.vev.page/v1/XbEu5sd4QA/pqJgRTjeFRn?fill"></script>
-<div class="header-text">
-<div class="content-container">
-<div class="header-block">
-<p>Welcome to my homepage, the home of <strong>Real World Data Science</strong>, a new project from the <a href="https://rss.org.uk/">Royal Statistical Society</a>. This site and its content are being created and curated by data science practitioners and leaders with a single goal in mind: to help you deliver high quality, ethical, impactful data science in your workplace.</p>
+<div class="container-fluid">
+<p><img src="images/banner.png" class="img-fluid"></p>
 </div>
-</div>
-</div>
-<div class="content-container">
-<div class="top-story purple-background">
-<p><a href="./viewpoints/interviews/posts/04/28/stephanie-hare.html"></a></p><a href="./viewpoints/interviews/posts/04/28/stephanie-hare.html">
+<div class="container">
 <div class="grid">
-<section id="stephanie-hare-on-why-we-need-a-culture-of-technology-ethics" class="g-col-12 g-col-lg-4 top-story-text">
-<h2>Stephanie Hare on why we need a culture of technology ethics</h2>
-<p>The author of <em>Technology is Not Neutral</em> talks to Real World Data Science about the ‘wicked problem’ of technology and AI ethics, and why laws and regulations are ‘necessary but insufficient’ to minimise harms. ‘We’re going to have to inculcate an entire new mindset,’ she argues.</p>
+<section id="hello-i-am-daniel-kapitan." class="level1 g-col-4">
+<h1>Hello, I am Daniel Kapitan.</h1>
 </section>
-<div class="g-col-12 g-col-lg-8 top-story-img">
-<p><img src="viewpoints/interviews/posts/04/28/images/stephanie-hare-bw.png" class="img-fluid"></p>
-</div>
-</div>
-</a><p><a href="./viewpoints/interviews/posts/04/28/stephanie-hare.html"></a></p>
-</div>
-</div>
-<!-- ::: {.header-banner .header-image}
-![](images/nasa-Q1p7bh3SHj8-unsplash-crop.png)
-::: -->
-<div class="content-container">
-<div class="listing-block">
-<p><a href="./latest-content.html"></a></p><a href="./latest-content.html">
-<h2 id="latest-content">Latest content</h2>
-</a><p><a href="./latest-content.html"></a></p>
-<div id="listing-latest-content" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="prediction,history of data science,statistics" data-listing-date-sort="1681336800000" data-listing-file-modified-sort="1683492168164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="45">
-<a href="./ideas/tutorials/posts/2023/flowers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ideas/tutorials/posts/2023/images/quetelet-flowers.png" class="thumbnail-image card-img" style="height: 150px;" alt="Portrait of Adolphe Quetelet, superimposed on a photo of blooming purple lilacs. Quetelet portrait from Wikimedia Commons, Public Domain. Lilacs photo by Arina Bogachyova/iStock.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A demonstration of the law of the flowering plants
-</h5>
-<div class="card-text listing-description">
-The day a flower blooms is one of the earliest phenomena studied with systematic data collection and analysis. The prediction rule developed nearly three centuries ago is…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Jonathan Auerbach
-</div>
-<div class="listing-date">
-Apr 13, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Updates,Themes,People" data-listing-date-sort="1680040800000" data-listing-file-modified-sort="1683492168203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./viewpoints/editors-blog/posts/2023/03/29/defining-DS.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/editors-blog/posts/2023/03/29/images/rainbow.png" class="thumbnail-image card-img" style="height: 150px;" alt="An illustration of a colorful rainbow, with each band of the rainbow featuring a selection of numbers to represent data. Image created by Bing Image Creator.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data science as ‘a rainbow’, and other definitions
-</h5>
-<div class="card-text listing-description">
-Data science means different things to different people. Former RSS president Sylvia Richardson has described it as ‘a rainbow of interconnected disciplines’. What’s your…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Mar 29, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="AI,Large language models,Classifiers,Screening tests" data-listing-date-sort="1678834800000" data-listing-file-modified-sort="1683492168203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
-<a href="./viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/editors-blog/posts/2023/03/15/images/teacher-marking-homework.png" class="thumbnail-image card-img" style="height: 150px;" alt="A teacher is marking homework and trying to decide whether a written piece of text has been created by a student or by a large language model, digital art. Created by DALL·E, prompt by Real World Data Science.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-OpenAI’s text classifier won’t calm fears about AI-written homework
-</h5>
-<div class="card-text listing-description">
-Educators are worried about ChatGPT being used by students for homework assignments, so OpenAI has released a tool to classify whether text is human- or AI-written. But…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Mar 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-</div>
-<div class="content-container">
-<div class="listing-block">
-<p><a href="./viewpoints/editors-blog/index.html"></a></p><a href="./viewpoints/editors-blog/index.html">
-<h2 id="editors-blog">Editors’ Blog</h2>
-</a><p><a href="./viewpoints/editors-blog/index.html"></a></p>
-<div id="listing-editors-blog" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Updates,Themes,People" data-listing-date-sort="1680040800000" data-listing-file-modified-sort="1683492168203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./viewpoints/editors-blog/posts/2023/03/29/defining-DS.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/editors-blog/posts/2023/03/29/images/rainbow.png" class="thumbnail-image card-img" style="height: 150px;" alt="An illustration of a colorful rainbow, with each band of the rainbow featuring a selection of numbers to represent data. Image created by Bing Image Creator.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data science as ‘a rainbow’, and other definitions
-</h5>
-<div class="card-text listing-description">
-Data science means different things to different people. Former RSS president Sylvia Richardson has described it as ‘a rainbow of interconnected disciplines’. What’s your…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Mar 29, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="AI,Large language models,Classifiers,Screening tests" data-listing-date-sort="1678834800000" data-listing-file-modified-sort="1683492168203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
-<a href="./viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/editors-blog/posts/2023/03/15/images/teacher-marking-homework.png" class="thumbnail-image card-img" style="height: 150px;" alt="A teacher is marking homework and trying to decide whether a written piece of text has been created by a student or by a large language model, digital art. Created by DALL·E, prompt by Real World Data Science.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-OpenAI’s text classifier won’t calm fears about AI-written homework
-</h5>
-<div class="card-text listing-description">
-Educators are worried about ChatGPT being used by students for homework assignments, so OpenAI has released a tool to classify whether text is human- or AI-written. But…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Mar 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Skills,Training,AI,Machine learning,Data analytics" data-listing-date-sort="1676329200000" data-listing-file-modified-sort="1683492168203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<a href="./viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Woman painting while wearing virtual reality headset. Photo by Billetto Editorial on Unsplash.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data science can help close the ‘digital skills’ gap, or so it seems
-</h5>
-<div class="card-text listing-description">
-A ‘digital skills’ gap is harming employer productivity and growth, according to a survey by engineering body IET. But the ‘digital skills’ that are needed sound a lot like…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Feb 14, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-</div>
-<div class="content-container">
-<div class="listing-block">
-<p><a href="./ideas/datasciencebites/index.html"></a></p><a href="./ideas/datasciencebites/index.html">
-<h2 id="data-science-bites">Data Science Bites</h2>
-</a><p><a href="./ideas/datasciencebites/index.html"></a></p>
-<div id="listing-datasciencebites" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="statistics" data-listing-date-sort="1651356000000" data-listing-file-modified-sort="1683492168163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./ideas/datasciencebites/posts/2022/analytical-problem-solving.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ideas/datasciencebites/posts/2022/static/clark-van-der-beken-zlhVe_Qd1VQ-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Photo of the Northeastern University Interdisciplinary Science &amp; Engineering Complex, Columbus Avenue, Boston, MA, USA. Photo by Clark Van Der Beken on Unsplash.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How machine learning relates to other algorithmic approaches to problem solving
-</h5>
-<div class="card-text listing-description">
-Problem solving in its broad sense is the task of figuring out how to go from an unwanted to a wanted situation. Solving problems is the crux of many tasks in management…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Daniel Kapitan
-</div>
-<div class="listing-date">
-May 1, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-</div>
-<div class="pullout-text">
-<div class="pullout-container">
-<div class="pullout-block black-background">
-<p><img src="images/quote-purple.png" class="img-fluid" width="100"></p>
-<h2 id="quetelets-emphasis-on-discovering-the-universal-laws-he-believed-govern-social-and-biological-phenomenon-has-not-endured.-but-data-scientists-continue-to-appropriate-laws-from-one-area-of-science-to-study-another.">Quetelet’s emphasis on discovering the universal laws he believed govern social and biological phenomenon has not endured. But data scientists continue to appropriate laws from one area of science to study another.</h2>
-<p>Jonathan Auerbach on the law of the flowering plants</p>
-<div class="button button1">
-<p><a href="./ideas/tutorials/posts/2023/flowers.html">Try the tutorial</a></p>
-</div>
-</div>
-</div>
-</div>
-<div class="content-container">
-<div class="listing-block">
-<p><a href="./viewpoints/interviews/index.html"></a></p><a href="./viewpoints/interviews/index.html">
-<h2 id="interviews">Interviews</h2>
-</a><p><a href="./viewpoints/interviews/index.html"></a></p>
-<div id="listing-interviews" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Technology ethics,AI ethics,Culture,Regulation" data-listing-date-sort="1682632800000" data-listing-file-modified-sort="1683492168204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="39">
-<a href="./viewpoints/interviews/posts/04/28/stephanie-hare.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/interviews/posts/04/28/images/stephanie-hare-bw.png" class="thumbnail-image card-img" style="height: 150px;" alt="Photo of Stephanie Hare by Mitzi de Margary. Photo supplied by Stephanie Hare, used with permission.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-‘I’m way more into prevention than cure’: Stephanie Hare on why we need a culture of technology ethics
-</h5>
-<div class="card-text listing-description">
-Stephanie Hare, author of ‘Technology is Not Neutral’, talks to Real World Data Science about the ‘wicked problem’ of technology and AI ethics, and why laws and regulations…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Apr 28, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Data science education,Data literacy,Policy" data-listing-date-sort="1678057200000" data-listing-file-modified-sort="1683492168204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="41">
-<a href="./viewpoints/interviews/posts/03/06/data-science-act.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/interviews/posts/03/06/images/andy-feliciotti-isg8AL7-6uk-unsplash.png" class="thumbnail-image card-img" style="height: 150px;" alt="Bikers in front of the United States Capitol in Washington DC. Photo by Andy Feliciotti on Unsplash.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-US legislators get their data science act together
-</h5>
-<div class="card-text listing-description">
-A bill introduced in the US Congress wants to make funds available to develop data science and data literacy education across the United States. We sit down with education…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Mar 6, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Open science,Reproducible research" data-listing-date-sort="1675378800000" data-listing-file-modified-sort="1683492168204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23">
-<a href="./viewpoints/interviews/posts/02/03/heidi-seibold.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./viewpoints/interviews/posts/02/03/images/heidi-seibold.png" class="thumbnail-image card-img" style="height: 150px;" alt="Photo of Heidi Seibold">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why open science is ‘just good science in a digital era’
-</h5>
-<div class="card-text listing-description">
-<p>Real World Data Science speaks with statistician and data scientist Heidi Seibold about open science: what it means, the benefits of it, and how to move towards it.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brian Tarran
-</div>
-<div class="listing-date">
-Feb 3, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-</div>
-<div class="footer-text">
-<div class="footer-container black-background">
-<div class="footer-block">
-<div class="grid">
-<section id="published-by" class="g-col-12 g-col-md-6">
-<h3>Published by</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://rss.org.uk/"><img src="images/rss-logo-footer.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<section id="section" class="level1 g-col-8">
+<h1></h1>
+<p>I am a data architect and AI advisor who helps organizations create sustainable change by systematically engineering data that is required for new AI applications. As a consultant, my approach is centered on delivering measurable results by developing customized solutions that meet the specific needs and goals of your organization. With my expertise in machine learning, I can help you extract valuable insights from your data that can inform strategic decisions, optimize operations, and identify new opportunities for growth.</p>
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async=""></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/AcZssZ3bat8-Gyswn1RmSeowmu2ZAdqkJl9YDoSjNnk=?gv=true',
+      color: '#ff4f5e',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+<!-- I am a data architect and AI advisor who helps organizations create sustainable change by [:systematically engineering data](#x-data-centric-ai) that is required for new AI applications.As a consultant, my approach is centered on delivering measurable results by developing customized solutions that meet the specific needs and goals of your organization. With my expertise in machine learning, I can help you extract valuable insights from your data that can inform strategic decisions, optimize operations, and identify new opportunities for growth.
+
+I work with organizations of all sizes and across a variety of industries, and I pride myself on my collaborative and client-focused approach. I believe that success is achieved through close collaboration, and I work closely with my clients to ensure that we achieve the best possible results together.
+
+Whether you are looking to implement machine learning for the first time or seeking to take your data analytics to the next level, I am here to help. Contact me today to learn more about how I can help your organization harness the power of machine learning and AI to achieve your strategic objectives.
+
+## :x data centric ai
+
+This approach is known as data-centric AI. Read more on [https://datacentricai.org/](https://datacentricai.org/) -->
 </section>
-<section id="about-us" class="g-col-12 g-col-md-3">
-<h3>About us</h3>
-<p><a href="./about-rwds.html">Our aims</a><br>
-<a href="./viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html">Our team</a><br>
-<a href="./rwds-partners.html">Partners and funders</a><br>
-<a href="./contact.html">Contact us</a></p>
-</section>
-<section id="follow-me" class="g-col-12 g-col-md-3">
-<h3>Follow me</h3>
-<p><a href="https://github.com/dkapitan">GitHub</a><br>
-<a href="https://twitter.com/daniel_kapitan">Twitter</a><br>
-<a href="https://www.linkedin.com/in/dkapitan">LinkedIn</a><br>
-<a href="https://toot.community/@dkapitan">Mastodon</a><br>
-</p>
-</section>
-<!-- ::: {.g-col-12 .g-col-md-12}
-### Our partners
-logos to go here
-::: -->
-</div>
-</div>
 </div>
 </div>
 
 
 
-
-
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -883,40 +451,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">Copyright © 2023 Daniel Kapitan</div>   
-    <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/dkapitan">
-      <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/daniel_kapitan">
-      <i class="bi bi-twitter" role="img" aria-label="Twitter">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/dkapitan">
-      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="./feeds.html">
-      <i class="bi bi-rss" role="img" aria-label="RWDS rss">
-</i> 
-    </a>
-  </li>  
-</ul>
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dkapitan/dkapitan.github.io/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dkapitan/dkapitan.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
-    <div class="nav-footer-right"><a href="./ts-and-cs.html">Terms &amp; Conditions</a></div>
-  </div>
-</footer>
 
 
 
