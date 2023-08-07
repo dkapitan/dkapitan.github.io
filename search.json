@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hello, I am Daniel Kapitan.",
+    "title": "Custom jumbotron",
     "section": "",
-    "text": "Hello, I am Daniel Kapitan.\n\n\n\nI am a data architect and AI advisor who helps organizations create sustainable change by systematically engineering data that is required for new AI applications. As a consultant, my approach is centered on delivering measurable results by developing customized solutions that meet the specific needs and goals of your organization. With my expertise in machine learning, I can help you extract valuable insights from your data that can inform strategic decisions, optimize operations, and identify new opportunities for growth."
+    "text": "Custom jumbotron\n    Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.\n    Example button\n  \n\n\n\n\n\n\n\nHello, I am Daniel Kapitan.\n\n\n\nI am a data architect and AI advisor who helps organizations create sustainable change by systematically engineering data that is required for new AI applications. As a consultant, my approach is centered on delivering measurable results by developing customized solutions that meet the specific needs and goals of your organization. With my expertise in machine learning, I can help you extract valuable insights from your data that can inform strategic decisions, optimize operations, and identify new opportunities for growth."
   },
   {
     "objectID": "src/blog/posts/comet-chart.html",
@@ -25,7 +25,7 @@
     "href": "src/projects/project-1.html",
     "title": "MyTomorrows",
     "section": "",
-    "text": "Story about MyTomorrows …"
+    "text": "Story about MyTomorrows …\n\n  \n    \n      \n    \n    \n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next"
   },
   {
     "objectID": "images/altair_marks_encoding.out.html",
