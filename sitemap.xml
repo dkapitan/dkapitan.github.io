@@ -2,38 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://masteringdata.ai/index.html</loc>
-    <lastmod>2023-08-08T05:19:40.083Z</lastmod>
+    <lastmod>2023-08-08T21:21:06.148Z</lastmod>
   </url>
   <url>
-    <loc>https://masteringdata.ai/src/blog/posts/comet-chart.html</loc>
-    <lastmod>2023-08-08T05:19:39.219Z</lastmod>
+    <loc>https://masteringdata.ai/src/blog/posts/podcast-aitoday.html</loc>
+    <lastmod>2023-08-08T21:21:05.540Z</lastmod>
   </url>
   <url>
-    <loc>https://masteringdata.ai/src/blog/posts/analytical-problem-solving.html</loc>
-    <lastmod>2023-08-08T05:19:30.391Z</lastmod>
+    <loc>https://masteringdata.ai/src/blog/posts/podcast-dataloog-datasolidariteit.html</loc>
+    <lastmod>2023-08-08T21:20:59.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/blog/posts/datasolidariteit.html</loc>
+    <lastmod>2023-08-08T21:20:58.964Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/blog/posts/lartpy.html</loc>
+    <lastmod>2023-08-08T21:20:58.152Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/projects/project-1.html</loc>
-    <lastmod>2023-08-08T05:19:28.199Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/images/altair_marks_encoding.out.html</loc>
-    <lastmod>2023-08-08T05:19:26.967Z</lastmod>
+    <lastmod>2023-08-08T21:20:55.664Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/projects/project-2.html</loc>
-    <lastmod>2023-08-08T05:19:27.775Z</lastmod>
+    <lastmod>2023-08-08T21:20:55.056Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/listing.html</loc>
-    <lastmod>2023-08-08T05:19:30.015Z</lastmod>
+    <lastmod>2023-08-08T21:20:57.492Z</lastmod>
   </url>
   <url>
-    <loc>https://masteringdata.ai/src/blog/posts/some-post.html</loc>
-    <lastmod>2023-08-08T05:19:30.847Z</lastmod>
+    <loc>https://masteringdata.ai/src/blog/posts/analytical-problem-solving.html</loc>
+    <lastmod>2023-08-08T21:20:58.456Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/blog/posts/eerlijke-algoritmen.html</loc>
+    <lastmod>2023-08-08T21:20:59.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/blog/posts/comet-chart.html</loc>
+    <lastmod>2023-08-08T21:21:05.268Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/about.html</loc>
-    <lastmod>2023-08-08T05:19:39.679Z</lastmod>
+    <lastmod>2023-08-08T21:21:05.864Z</lastmod>
   </url>
 </urlset>

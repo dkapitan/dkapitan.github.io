@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Daniel Kapitan">
-<meta name="description" content="I co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving.">
+<meta name="description" content="De Autoriteit Persoonsgegevens legde de Belastingdienst onlangs een boete op voor het gebruik van de ‘fraudesignaleringsvoorziening’, waarin jarenlang illegaal persoonsgegevens verwerkt werden. Wat zijn knelpunten van algoritmegebruik bij overheidstoezicht en wat nodig is om wel tot eerlijke, niet-discriminerende algoritmen te komen.">
 
-<title>@kapitan - Analytical problem solving</title>
+<title>@kapitan - Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Analytical problem solving</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -169,24 +169,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#algoritmen-gebruiken-voor-risicoprofilering" id="toc-algoritmen-gebruiken-voor-risicoprofilering" class="nav-link active" data-scroll-target="#algoritmen-gebruiken-voor-risicoprofilering">Algoritmen gebruiken voor risicoprofilering</a></li>
+  <li><a href="#voor-een-algoritme-dat-recht-doet-aan-onze-democratie-is-meer-nodig" id="toc-voor-een-algoritme-dat-recht-doet-aan-onze-democratie-is-meer-nodig" class="nav-link" data-scroll-target="#voor-een-algoritme-dat-recht-doet-aan-onze-democratie-is-meer-nodig">Voor een algoritme dat recht doet aan onze democratie is meer nodig</a></li>
+  <li><a href="#de-mystiek-van-en-onbekenheid-met-algoritmen-wreekt-zich-hier" id="toc-de-mystiek-van-en-onbekenheid-met-algoritmen-wreekt-zich-hier" class="nav-link" data-scroll-target="#de-mystiek-van-en-onbekenheid-met-algoritmen-wreekt-zich-hier">De mystiek van en onbekenheid met algoritmen wreekt zich hier</a></li>
+  <li><a href="#kind-met-het-badwater-weggooien" id="toc-kind-met-het-badwater-weggooien" class="nav-link" data-scroll-target="#kind-met-het-badwater-weggooien">Kind met het badwater weggooien</a></li>
+  <li><a href="#statistisch-en-ethisch-verantwoord-gebruik" id="toc-statistisch-en-ethisch-verantwoord-gebruik" class="nav-link" data-scroll-target="#statistisch-en-ethisch-verantwoord-gebruik">Statistisch en ethisch verantwoord gebruik</a></li>
+  <li><a href="#meer-concrete-inhoudelijke-richtlijnen-zijn-nodig" id="toc-meer-concrete-inhoudelijke-richtlijnen-zijn-nodig" class="nav-link" data-scroll-target="#meer-concrete-inhoudelijke-richtlijnen-zijn-nodig">Meer concrete, inhoudelijke richtlijnen zijn nodig</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Analytical problem solving</h1>
-<p class="subtitle lead">based on causal, correlational and deductive models</p>
+<h1 class="title">Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?</h1>
+<p class="subtitle lead">Opinie gepubliceerd op socialevraagstukken.nl</p>
   <div class="quarto-categories">
-    <div class="quarto-category">english</div>
-    <div class="quarto-category">modeling</div>
+    <div class="quarto-category">nederlands</div>
+    <div class="quarto-category">responsible ai</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>I co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving.</p>
+    De Autoriteit Persoonsgegevens legde de Belastingdienst onlangs een boete op voor het gebruik van de ‘fraudesignaleringsvoorziening’, waarin jarenlang illegaal persoonsgegevens verwerkt werden. Wat zijn knelpunten van algoritmegebruik bij overheidstoezicht en wat nodig is om wel tot eerlijke, niet-discriminerende algoritmen te komen.
   </div>
 </div>
 
@@ -203,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">3/10/22</p>
+      <p class="date">4/25/22</p>
     </div>
   </div>
   
@@ -213,11 +224,64 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><object data="/resources/demast2023analytical.pdf" type="application/pdf" width="100%" height="800"><p>Unable to display PDF file. <a href="../../../resources/demast2023analytical.pdf">Download</a> instead.</p></object></p>
+<p>Het gebruik van algoritmen voor toezicht door de overheid blijft een heikel punt. Bij het verschijnen van het vierde en vijfde rapport over de Fraudesignaleringsvoorziening (FSV) bij de Belastingdienst.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> liet de politiek geen kans onbenut om in krachtige termen haar ongenoegen te uiten: ‘schandalig’, ‘racistisch’, ‘woest makend’ en ‘oneerlijk’. In de Tweede Kamer werd met ruime meerderheid een motie aangenomen<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> om impact assessments verplicht te stellen ter voorkoming van misbruik van algoritmen. Maar om tot eerlijke algoritmen te komen, is meer nodig.</p>
+<section id="algoritmen-gebruiken-voor-risicoprofilering" class="level2">
+<h2 class="anchored" data-anchor-id="algoritmen-gebruiken-voor-risicoprofilering">Algoritmen gebruiken voor risicoprofilering</h2>
+<p>Overheden zetten fors in op digitale transformatie, ook voor haar toezichthoudende taken. Uit de I-strategie Rijk 2021-2025<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> en het onderzoek naar gebruik van algoritmen bij gemeenten<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> blijkt dat het niet een kwestie is of data en algoritmen gebruikt gaan worden voor risicoprofilering in de uitvoeringspraktijk, maar vooral een vraag hoe en onder welke randvoorwaarden de overheid dit kan inzetten.</p>
+<p>Tegelijkertijd zijn er veel kritische geluiden, zoals deze uitspraak van de Haagse rechtbank over SyRI<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, het rapport van de Rotterdamse Rekenkamer over ethisch gebruik van algoritmen door de gemeente<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> en het pleidooi van Amnesty International voor een algeheel verbod op gebruik van gevoelige persoonskenmerken en algoritmen door de overheid.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Met een boete van 3,7 miljoen euro maakt de Autoriteit Persoonsgegevens recentelijk onmiskenbaar duidelijk<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> dat de fraudesignaleringsvoorziening (FSV) van de Belastingdienst een illegale verwerking is.</p>
+</section>
+<section id="voor-een-algoritme-dat-recht-doet-aan-onze-democratie-is-meer-nodig" class="level2">
+<h2 class="anchored" data-anchor-id="voor-een-algoritme-dat-recht-doet-aan-onze-democratie-is-meer-nodig">Voor een algoritme dat recht doet aan onze democratie is meer nodig</h2>
+<p>Maar de geest is uit de fles, zoals blijkt uit het WRR rapport ‘Opgave AI’,<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> en er lijkt er geen weg terug. De opgave waar wij als samenleving voor staan is om AI maatschappelijk in te bedden. De overeenstemming in de kamer over verplicht gebruik van de Impact Assessment Mensenrechten en Algoritmes (IAMA)<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> is daarvoor niet genoeg. Deze procesbenadering biedt onvoldoende houvast om bestuurlijke richtlijnen te laten matchen met de uitvoeringspraktijk voor een goed resultaat – namelijk een praktisch werkend algoritme dat recht doet aan onze wensen en eisen van een democratische rechtsstaat.</p>
+<p>In de afgelopen paar jaar zijn verschillende procesmethodieken ontwikkeld om ethiek een plaats te geven in de ontwikkeling van algoritmen. Een voorbeeld is de IAMA-methodiek. Deze wordt echter slechts ‘als ethisch begeleider en niet als beoordelaar’ ingezet.</p>
+</section>
+<section id="de-mystiek-van-en-onbekenheid-met-algoritmen-wreekt-zich-hier" class="level2">
+<h2 class="anchored" data-anchor-id="de-mystiek-van-en-onbekenheid-met-algoritmen-wreekt-zich-hier">De mystiek van en onbekenheid met algoritmen wreekt zich hier</h2>
+<p>Naast begeleidingsethiek zijn duidelijke regels nodig die inhoudelijk richting geven aan hoe algoritmen ontwikkeld en gebruikt moeten worden. Zo moet, net als bij COVID-testen, altijd een afweging gemaakt worden tussen sensitiviteit (correct voorspellen van een risico) en specificiteit (zo min mogelijk fout positieve voorspellingen). Deze afweging wordt nu nog te vaak door technische ontwikkelaars gedaan, terwijl hier juist een rol is weggelegd voor bestuurders.</p>
+<p>De mystiek van en onbekendheid met algoritmen wreekt zich hier. Bestuurders, toezichthouders, juristen, ethici en datascientists hebben onvoldoende begrip van elkaars vakgebied, waardoor het lastig is om concepten uit de statistiek (de kern van machine learning) te vertalen naar een inhoudelijk, bestuurlijk toetsingskader. Het probleem ligt met name ook in de emotionele en politieke beladenheid van het gebruik van bijzondere persoonsgegevens, zoals leeftijd, geslacht of nationaliteit.</p>
+</section>
+<section id="kind-met-het-badwater-weggooien" class="level2">
+<h2 class="anchored" data-anchor-id="kind-met-het-badwater-weggooien">Kind met het badwater weggooien</h2>
+<p>In Rotterdam bijvoorbeeld is naar aanleiding van het eerdergenoemde rapport politieke consensus ontstaan over het niet meer gebruiken van ‘gevoelige variabelen’.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Bijvoorbeeld bij het controleren van bijstandsontvangers.</p>
+<p>Elk jaar worden onder de 35.000 Rotterdamse bijstandsontvangers circa 6.000 heronderzoeken uitgevoerd om vast te stellen of zij wel rechtmatig een uitkering ontvangen. Om de beschikbare handhavingscapaciteit zo effectief mogelijk in te zetten, wil de gemeente deze heronderzoeken uitvoeren bij uitkeringsontvangers met de grootste kans op het onterecht ontvangen van een uitkering. Daarvoor is een risicomodel ontwikkeld dat onrechtmatigheden voorspelt.</p>
+<p>Voor de voorspelling worden persoonsgegevens, zoals leeftijd en geslacht, gebruikt die een correlatie hebben met een verhoogd risico op onrechtmatig gebruik van een bijstandsuitkering. De Rotterdamse Rekenkamer stelt dat dit kan resulteren in ongewenste discriminatie en de gemeente wil daarom deze gevoelige variabelen niet meer gebruiken.</p>
+<p>Als deze lijn wordt doorgezet zijn we hard op weg om het kind met het badwater weg te gooien. We kunnen dan net zo goed meteen stoppen met het investeren van tijd en geld in de ontwikkeling van algoritmen voor risicoprofilering door de toezichthoudende overheid. De essentie van algoritmen is dat zij alleen goede voorspellingen kunnen geven door maximaal gebruik te maken van correlaties in de data.</p>
+</section>
+<section id="statistisch-en-ethisch-verantwoord-gebruik" class="level2">
+<h2 class="anchored" data-anchor-id="statistisch-en-ethisch-verantwoord-gebruik">Statistisch en ethisch verantwoord gebruik</h2>
+<p>Om discriminatie door een algoritme tegen te gaan, is het juist zaak om alle gevoelige variabelen mee te nemen voor het ontwikkelen van het algoritme en pas achteraf te bepalen welke variabelen uiteindelijk wel of niet gebruikt mogen worden.</p>
+<p>Al in 1988 beschreven Schmidt en Witte<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> een methode voor statistisch én ethisch verantwoord gebruik van algoritmen, in dit geval binnen de context van de rechtspraak. Zij laten zien hoe een technisch team tijdens de ontwikkelfase alle mogelijke variabelen gebruikt om het algoritme te ‘trainen’ om recidiverisico te bepalen. In de gebruiksfase bepalen beleidsmakers dan welke variabelen gebruikt mogen worden om dit risico te voorspellen en daadwerkelijk mee te wegen in de uitspraak.</p>
+<p>Stel, er is een hoge correlatie tussen recidiverisico en nationaliteit. Omdat we het onwenselijk vinden dat nationaliteit een overweging is voor de rechtspraak, wordt deze variabele wel gebruikt in de ontwikkelfase van het algoritme, maar wordt hij achterwege gelaten (geblindeerd) in het berekenen van het recidiverisico. Hiermee wordt discriminatie effectief tegengegaan.</p>
+</section>
+<section id="meer-concrete-inhoudelijke-richtlijnen-zijn-nodig" class="level2">
+<h2 class="anchored" data-anchor-id="meer-concrete-inhoudelijke-richtlijnen-zijn-nodig">Meer concrete, inhoudelijke richtlijnen zijn nodig</h2>
+<p>Om algoritmen maatschappelijk in te bedden, zullen alle geledingen van de overheid (wetgevend, uitvoerend en controlerend) en maatschappelijke organisaties tot meer concrete, inhoudelijke richtlijnen moeten komen over hoe data en algoritmen ingezet kunnen worden voor de toezichthoudende overheid.</p>
+<p>Dat begint met het inzicht dat persoonsgegevens zoals geslacht of nationaliteit an sich niet discriminerend zijn. Bovendien is een beter begrip van de werking van algoritmen noodzakelijk om een vruchtbaar debat te voeren over het gebruik ervan. Meer multidisciplinair onderzoek is gewenst, bijvoorbeeld via initiatieven zoals de ELSA Labs<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> of het Civic AI Lab<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>, opdat verschillende vakgebieden meer van elkaar gaan begrijpen.</p>
+<p>Totdat hier meer helderheid over is, zou de overheid haar aandacht beter kunnen richten op andere thema’s binnen de digitaliseringsagenda, zoals het toepassen van AI voor ontwikkeling en beheer van de bebouwde omgeving, waar risico op discriminatie aanmerkelijk lager is.</p>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.rijksoverheid.nl/documenten/kamerstukken/2022/03/29/kamerbrief-bij-pwc-rapporten-fsv-mkb-en-querys-aan-de-poort">https://www.rijksoverheid.nl/documenten/kamerstukken/2022/03/29/kamerbrief-bij-pwc-rapporten-fsv-mkb-en-querys-aan-de-poort</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://www.tweedekamer.nl/kamerstukken/moties/detail?id=2022Z06024&amp;did=2022D12329">https://www.tweedekamer.nl/kamerstukken/moties/detail?id=2022Z06024&amp;did=2022D12329</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk.pdf">https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk.pdf</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://hooghiemstra-en-partners.nl/onderzoek-hoe-gemeenten-besluiten-over-algoritmen-en-mensenrechten">https://hooghiemstra-en-partners.nl/onderzoek-hoe-gemeenten-besluiten-over-algoritmen-en-mensenrechten</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Den-Haag/Nieuws/Paginas/SyRI-wetgeving-in-strijd-met-het-Europees-Verdrag-voor-de-Rechten-voor-de-Mens.aspx">https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Den-Haag/Nieuws/Paginas/SyRI-wetgeving-in-strijd-met-het-Europees-Verdrag-voor-de-Rechten-voor-de-Mens.aspx</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><a href="https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/">https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><a href="https://www.amnesty.nl/wat-we-doen/tech-en-mensenrechten/algoritmes-big-data-overheid">https://www.amnesty.nl/wat-we-doen/tech-en-mensenrechten/algoritmes-big-data-overheid</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><a href="https://autoriteitpersoonsgegevens.nl/nl/nieuws/boete-belastingdienst-voor-zwarte-lijst-fsv">https://autoriteitpersoonsgegevens.nl/nl/nieuws/boete-belastingdienst-voor-zwarte-lijst-fsv</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p><a href="https://www.wrr.nl/publicaties/rapporten/2021/11/11/opgave-ai-de-nieuwe-systeemtechnologie">https://www.wrr.nl/publicaties/rapporten/2021/11/11/opgave-ai-de-nieuwe-systeemtechnologie</a><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p><a href="https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes">https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes</a><a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><a href="https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/">https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/</a><a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p><a href="https://link.springer.com/book/10.1007/978-1-4612-3772-3?noAccess=true">https://link.springer.com/book/10.1007/978-1-4612-3772-3?noAccess=true</a><a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p><a href="https://nlaic.com/en/building-blocks/human-centric-ai/elsa-concept-for-human-centric-ai/">https://nlaic.com/en/building-blocks/human-centric-ai/elsa-concept-for-human-centric-ai/</a><a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p><a href="https://icai.ai/civic-ai-lab/">https://icai.ai/civic-ai-lab/</a><a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

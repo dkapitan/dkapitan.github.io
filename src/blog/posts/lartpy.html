@@ -1,228 +1,262 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
-      xmlns:media="http://search.yahoo.com/mrss/" 
-      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
-      xmlns:dc="http://purl.org/dc/elements/1.1/" 
-      version="2.0">
-<channel>
-<title>@kapitan</title>
-<link>https://masteringdata.ai/src/blog/listing.html</link>
-<atom:link href="https://masteringdata.ai/src/blog/listing.xml" rel="self" type="application/rss+xml"/>
-<description></description>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Thu, 18 May 2023 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>Podcast bij de Dataloog</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/src/blog/posts/podcast-dataloog-datasolidariteit.html</link>
-  <description><![CDATA[ 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Would it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?“, I thought (pun intended). Of course, someone already thought of that and it even has a name: algorithmic botany.">
+
+<title>@kapitan - Creating generative art with L-systems in Python</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
 
 
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5tUgUIgcV3K0rQVD331C1w?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<link rel="stylesheet" href="../../../styles.css">
+</head>
 
+<body class="nav-sidebar floating nav-fixed">
 
- ]]></description>
-  <category>nederlands</category>
-  <category>podcast</category>
-  <category>data commons</category>
-  <category>data solidarity</category>
-  <guid>https://masteringdata.ai/src/blog/posts/podcast-dataloog-datasolidariteit.html</guid>
-  <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/podcast-de-dataloog.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>We moeten het meer hebben over datasolidariteit</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/src/blog/posts/datasolidariteit.html</link>
-  <description><![CDATA[ 
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/logo-@kapitan.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+        <div class="quarto-navbar-tools ms-auto">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Creating generative art with L-systems in Python</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+        <div class="sidebar-tools-collapse tools-wide">
+    <a href="https://calendar.app.google/hwXH1FmvDQQiBu7EA" rel="" title="Book an appointment" class="quarto-navigation-tool px-1" aria-label="Book an appointment"><i class="bi bi-calendar"></i></a>
+    <a href="https://www.linkedin.com/in/dkapitan/" rel="" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/dkapitan" rel="" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+</div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Services</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">src/mentoring.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">src/masterclasses.qmd</span>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Projects</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../src/projects/project-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MyTomorrows</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../src/projects/project-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PharmAccess Foundation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../src/blog/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../src/about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About me</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#playing-with-l-systems-in-python" id="toc-playing-with-l-systems-in-python" class="nav-link active" data-scroll-target="#playing-with-l-systems-in-python">Playing with L-systems in Python</a>
+  <ul class="collapse">
+  <li><a href="#d0l-deterministic-context-free-l-system" id="toc-d0l-deterministic-context-free-l-system" class="nav-link" data-scroll-target="#d0l-deterministic-context-free-l-system">D0L: deterministic context-free L-system</a></li>
+  <li><a href="#adding-stochastic-rules" id="toc-adding-stochastic-rules" class="nav-link" data-scroll-target="#adding-stochastic-rules">Adding stochastic rules</a></li>
+  <li><a href="#adding-parameters" id="toc-adding-parameters" class="nav-link" data-scroll-target="#adding-parameters">Adding parameters</a></li>
+  </ul></li>
+  <li><a href="#using-pyp5js-for-pythonic-drawing-on-the-web" id="toc-using-pyp5js-for-pythonic-drawing-on-the-web" class="nav-link" data-scroll-target="#using-pyp5js-for-pythonic-drawing-on-the-web">Using pyp5js for Pythonic drawing on the web</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Creating generative art with L-systems in Python</h1>
+<p class="subtitle lead">Some experiments on the algorithmic beauty of plants</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">english</div>
+    <div class="quarto-category">visualization</div>
+    <div class="quarto-category">generative art</div>
+    <div class="quarto-category">coding</div>
+  </div>
+  </div>
 
-
-<p>Privacy domineert nog steeds het debat rondom het delen en hergebruik van persoonsgegevens, zoals blijkt uit de discussie rondom het verstrekken van vaccinatiegegevens door het RIVM aan het CBS. Maar privacy is het probleem niet.</p>
-<p>Maxim Februari schreef tijdens de eerste lockdown al dat het een ‘gruwelijk misverstand’<sup>1</sup> is om te denken dat databescherming om privacy van een individu gaat. Het gaat niet om een afweging tussen het private belang van privacy en het maatschappelijke belang van – in het geval van COVID – een draaiende economie en een gezonde bevolking.</p>
-<section id="betrouwbaar-data-hergebruiken" class="level2">
-<h2 class="anchored" data-anchor-id="betrouwbaar-data-hergebruiken">Betrouwbaar data (her)gebruiken</h2>
-<p>Het echte vraagstuk is dat wij als maatschappij zoeken naar een betrouwbare en eerlijke manier om data te gebruiken en hergebruiken als collectief goed. Op Europees niveau wordt gewerkt aan wetgeving die zulk hergebruik van data mogelijk moet maken. Het feit dat de lopende consultatie duizenden pagina’s aan reacties heeft opgeleverd, geeft de complexiteit van het vraagstuk weer. Wel lijkt er consensus te zijn dat geen enkele organisatie, publiek noch privaat, een te grote vinger in de pap zou moeten hebben. Er moet steeds <em>balance of power</em> blijven om misstanden te voorkomen.</p>
-<p>Inmiddels zijn er veel initiatieven die dit principe omarmen en experimenteren om tot goede spelregels te komen, zoals bijvoorbeeld MFFBAS<sup>2</sup> voor het delen van energiedata voor het vormgeven en uitvoeren van de energietransitie en de coöperatie DataFryslân<sup>3</sup> voor delen van data in de provincie voor beter beleid en effectievere dienstverlening door Friese maatschappelijke organisaties.</p>
-</section>
-<section id="solidair-zijn-met-delen-van-data" class="level2">
-<h2 class="anchored" data-anchor-id="solidair-zijn-met-delen-van-data">Solidair zijn met delen van data</h2>
-<p>Het succes van dergelijke samenwerkingsverbanden staat of valt met de vraag hoe solidair we willen zijn met het delen van data. Zijn we echt bereid om onze persoonlijke data te delen, zodat deze gebruikt kunnen worden voor het oplossen van complexe maatschappelijke vraagstukken?</p>
-<p>Data worden bruikbaarder door ze te delen en te koppelen aan andere data. Door de gegevens van slimme meterkasten te delen kunnen we ons beter voorbereiden op de energietransitie. Door financiële gegevens te delen kunnen we beter zicht krijgen op frauduleuze en witwaspraktijken. En door vaccinatiegegevens te delen kunnen we beter inzicht krijgen in de groepen die het meest kwetsbaar zijn bij een pandemie.</p>
-</section>
-<section id="blauwdruk-voor-datasolidariteit" class="level2">
-<h2 class="anchored" data-anchor-id="blauwdruk-voor-datasolidariteit">Blauwdruk voor datasolidariteit</h2>
-<p>Er is dringend behoefte aan een helder en praktisch uitvoerbaar kader voor datasolidariteit. In een commentaar in <em>The Lancet</em><sup>4</sup> stellen Prainsack en collega-auteurs een blauwdruk voor die is gebaseerd op drie pilaren 1) faciliteren van goed hergebruik van data; 2) voorkomen en mitigeren van misbruik; en 3) terugvloeien van winsten naar de publieke sector.</p>
-<p>De bereidheid om data te delen, de eerste pilaar, wisselt sterk. Bij het gebruiken van diensten van bedrijven als Google, Meta of Microsoft lijken veel mensen het niet zo nauw te nemen met privacy, waarschijnlijk omdat je er meteen iets voor terug krijgt, namelijk gratis toegang tot social media of een e-maildienst.</p>
-<p>Als het gaat om initiatieven als hiervoor genoemd verschijnen er ineens meer beren op de weg (misschien omdat je bij het beschikbaar stellen van jouw data voor maatschappelijke problemen er niet meteen iets voor terugkrijgt). Privacy wordt dan meestal (en helaas) als eerste argument opgevoerd om data niet te delen, terwijl dit niet een echte belemmering is.</p>
-<p>Er zijn voldoende juridische mogelijkheden om persoonsgegevens te delen en te hergebruiken – via CBS data delen is legaal, wettelijk geregeld. In het geval van de vaccinatiegegevens stelt de Landsadvocaat in een advies dat er zelfs twee juridische redeneringen zijn waarmee het RIVM de data aan het CBS ter beschikking kan stellen, namelijk binnen de wet op het CBS en op basis van de AVG. Na veel vertraging komen de data uiteindelijk dan toch beschikbaar.<sup>5</sup></p>
-<p>Wel is er een gebrek aan bestuurlijke instrumenten om hergebruik van data in goede banen te leiden. De wet- en regelgeving is dusdanig complex dat vaak tegenstrijdige uitspraken worden gedaan door juristen. Om dit probleem te adresseren is recentelijk door de overheid een adviesfunctie verantwoord datagebruik ingericht.<sup>6</sup></p>
-</section>
-<section id="datamisbruik-voorkomen-of-afzwakken" class="level2">
-<h2 class="anchored" data-anchor-id="datamisbruik-voorkomen-of-afzwakken">Datamisbruik voorkomen of afzwakken</h2>
-<p>Voor de tweede pilaar – het voorkomen en matigen van misbruik van data – kunnen en moeten we veel beter gebruik maken van de technologische mogelijkheden om <em>privacy by design</em><sup>7</sup> te realiseren. We zijn gewend dat data tijdens opslag zijn versleuteld; denk bijvoorbeeld aan encryptie van de harde schijf van de computer. Ook staan wij er niet meer bij stil dat data tijdens transport altijd zijn versleuteld; we werken steeds meer thuis en loggen via een beveiligde verbinding (VPN) in op de online werkomgeving. Een logische vervolgstap is om berekeningen op versleutelde data te doen.</p>
-<p>In de praktijk gebeurt dit al met nieuwe privacy enhancing technieken zoals <em>secure multiparty computation</em> (MPC)<sup>8</sup>. Hiermee is het mogelijk om berekeningen op data uit te voeren zonder dat je de data kunt inzien. Binnen Europa zijn inmiddels voorbeelden waar MPC wordt toegepast voor het delen van persoonsgegevens en andere gevoelige data, zoals bij het bestrijden van mensenhandel.</p>
-</section>
-<section id="hoe-gaan-we-datasolidariteit-vormgeven" class="level2">
-<h2 class="anchored" data-anchor-id="hoe-gaan-we-datasolidariteit-vormgeven">Hoe gaan we datasolidariteit vormgeven?</h2>
-<p>De juridische grondslagen en technologische mogelijkheden vormen dus geen grote uitdagingen. De echte uitdaging is hoe we als samenleving datasolidariteit gaan vormgeven, met name ook hoe we een balans tussen commerciële activiteiten en publiek gefinancierde activiteiten kunnen vinden (de derde pilaar) en hoe we waarborgen kunnen creëren om onbedoelde effecten zoals discriminatie tegen te gaan.</p>
-<p>Neem bijvoorbeeld de duizenden MRI-foto’s die ziekenhuizen maken. Als een bedrijf deze data wil gebruiken voor het ontwikkelen van algoritmes, dan zouden winsten daarvan terug moeten vloeien naar het zorgstelsel. Dit gebeurt nu niet of nauwelijks. De kosten voor het aanleggen van hoogwaardige datasets worden collectief gedragen, terwijl de winsten voor commerciële bedrijven zijn. Dat het ook anders kan laat Barcelona zien.<sup>9</sup></p>
-<p>De drie pilaren van datasolidariteit vereisen dat we het debat over het delen van persoonsgegevens niet meer laten kapen door discussies over privacy. In plaats daarvan moeten we de dialoog aangaan over de waarde van het delen van data voor het oplossen van maatschappelijke vraagstukken en de randvoorwaarden die daarvoor vervuld moeten worden.</p>
-</section>
-<section id="afweging-tussen-risico-en-maatschappelijke-waarde" class="level2">
-<h2 class="anchored" data-anchor-id="afweging-tussen-risico-en-maatschappelijke-waarde">Afweging tussen risico en maatschappelijke waarde</h2>
-<p>Hier is een helder en verbindend verhaal nodig, waar in begrijpelijke taal technische mogelijkheden en gezamenlijke belangen worden verenigd. Waar een afweging tussen risico en maatschappelijke waarde wordt gemaakt. Extra toezicht, zoals het voorstel om de rol van algoritmewaakhond bij de Autoriteit Persoonsgegevens (AP) te beleggen, gaat daarbij niet helpen. De AP is vooral gericht op bescherming van persoonsgegevens (de eerste pilaar), waarmee het belang en inhoud van de andere twee pilaren onder druk komt te staan.</p>
-<p>Wat wel werkt is dat organisaties in het maatschappelijk middenveld, zoals bijvoorbeeld Dutch Hospital Data<sup>10</sup> en Health-RI<sup>11</sup>, die in de zorg data verzamelen en beheren voor zoveel mogelijk hergebruik, hun rol pakken om op een organische en decentrale manier invulling te geven aan datasolidariteit. Wij roepen hen op om een coalitie te vormen met partijen die investeren in privacy enhancing technieken om de patstellingen te doorbreken die nu vaak ontstaan rond data delen voor maatschappelijke vraagstukken.</p>
-<p>Photo by Tim Mossholder on Unsplash.</p>
-
-
-</section>
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p><a href="https://www.nrc.nl/nieuws/2020/04/12/gruwelijk-misverstand-privacy-is-het-punt-niet-a3996597">https://www.nrc.nl/nieuws/2020/04/12/gruwelijk-misverstand-privacy-is-het-punt-niet-a3996597</a>↩︎</p></li>
-<li id="fn2"><p><a href="https://www.mffbas.nl/">https://www.mffbas.nl/</a>↩︎</p></li>
-<li id="fn3"><p><a href="https://www.datafriesland.nl/">https://www.datafriesland.nl/</a>↩︎</p></li>
-<li id="fn4"><p><a href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00189-3/fulltext">https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00189-3/fulltext</a>↩︎</p></li>
-<li id="fn5"><p><a href="https://nos.nl/artikel/2452901-toch-persoonsgegevens-beschikbaar-voor-vervolgonderzoek-oversterfte-coronapandemie">https://nos.nl/artikel/2452901-toch-persoonsgegevens-beschikbaar-voor-vervolgonderzoek-oversterfte-coronapandemie</a>↩︎</p></li>
-<li id="fn6"><p><a href="https://nos.nl/artikel/2452901-toch-persoonsgegevens-beschikbaar-voor-vervolgonderzoek-oversterfte-coronapandemie">https://nos.nl/artikel/2452901-toch-persoonsgegevens-beschikbaar-voor-vervolgonderzoek-oversterfte-coronapandemie</a>↩︎</p></li>
-<li id="fn7"><p><a href="https://blog.xot.nl/2021/10/31/is-gegevensbescherming-nou-echt-z-moeilijk/index.html">https://blog.xot.nl/2021/10/31/is-gegevensbescherming-nou-echt-z-moeilijk/index.html</a>↩︎</p></li>
-<li id="fn8"><p><a href="https://www.bnr.nl/podcast/eyeopeners/10493216/dit-is-de-oplossing-voor-het-delen-van-gevoelige-data">https://www.bnr.nl/podcast/eyeopeners/10493216/dit-is-de-oplossing-voor-het-delen-van-gevoelige-data</a>↩︎</p></li>
-<li id="fn9"><p><a href="https://smartcityhub.com/technology-innnovation/barcelona-showcase-smart-city-dynamics/">https://smartcityhub.com/technology-innnovation/barcelona-showcase-smart-city-dynamics/</a>↩︎</p></li>
-<li id="fn10"><p><a href="https://dhd.nl/">https://dhd.nl/</a>↩︎</p></li>
-<li id="fn11"><p><a href="https://www.health-ri.nl/">https://www.health-ri.nl/</a>↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>nederlands</category>
-  <category>data commons</category>
-  <category>data solidarity</category>
-  <guid>https://masteringdata.ai/src/blog/posts/datasolidariteit.html</guid>
-  <pubDate>Tue, 27 Dec 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Podcast bij AIToday</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/src/blog/posts/podcast-aitoday.html</link>
-  <description><![CDATA[ 
-
-
-
-<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/nl/podcast/s03e11-eerlijke-algoritmes-met-daniel-kapitan/id1510558415?i=1000568874206"></iframe>
-
-
-
- ]]></description>
-  <category>nederlands</category>
-  <category>podcast</category>
-  <category>responsible ai</category>
-  <guid>https://masteringdata.ai/src/blog/posts/podcast-aitoday.html</guid>
-  <pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/podcast-aitoday.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/src/blog/posts/eerlijke-algoritmen.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Het gebruik van algoritmen voor toezicht door de overheid blijft een heikel punt. Bij het verschijnen van het vierde en vijfde rapport over de Fraudesignaleringsvoorziening (FSV) bij de Belastingdienst.<sup>1</sup> liet de politiek geen kans onbenut om in krachtige termen haar ongenoegen te uiten: ‘schandalig’, ‘racistisch’, ‘woest makend’ en ‘oneerlijk’. In de Tweede Kamer werd met ruime meerderheid een motie aangenomen<sup>2</sup> om impact assessments verplicht te stellen ter voorkoming van misbruik van algoritmen. Maar om tot eerlijke algoritmen te komen, is meer nodig.</p>
-<section id="algoritmen-gebruiken-voor-risicoprofilering" class="level2">
-<h2 class="anchored" data-anchor-id="algoritmen-gebruiken-voor-risicoprofilering">Algoritmen gebruiken voor risicoprofilering</h2>
-<p>Overheden zetten fors in op digitale transformatie, ook voor haar toezichthoudende taken. Uit de I-strategie Rijk 2021-2025<sup>3</sup> en het onderzoek naar gebruik van algoritmen bij gemeenten<sup>4</sup> blijkt dat het niet een kwestie is of data en algoritmen gebruikt gaan worden voor risicoprofilering in de uitvoeringspraktijk, maar vooral een vraag hoe en onder welke randvoorwaarden de overheid dit kan inzetten.</p>
-<p>Tegelijkertijd zijn er veel kritische geluiden, zoals deze uitspraak van de Haagse rechtbank over SyRI<sup>5</sup>, het rapport van de Rotterdamse Rekenkamer over ethisch gebruik van algoritmen door de gemeente<sup>6</sup> en het pleidooi van Amnesty International voor een algeheel verbod op gebruik van gevoelige persoonskenmerken en algoritmen door de overheid.<sup>7</sup> Met een boete van 3,7 miljoen euro maakt de Autoriteit Persoonsgegevens recentelijk onmiskenbaar duidelijk<sup>8</sup> dat de fraudesignaleringsvoorziening (FSV) van de Belastingdienst een illegale verwerking is.</p>
-</section>
-<section id="voor-een-algoritme-dat-recht-doet-aan-onze-democratie-is-meer-nodig" class="level2">
-<h2 class="anchored" data-anchor-id="voor-een-algoritme-dat-recht-doet-aan-onze-democratie-is-meer-nodig">Voor een algoritme dat recht doet aan onze democratie is meer nodig</h2>
-<p>Maar de geest is uit de fles, zoals blijkt uit het WRR rapport ‘Opgave AI’,<sup>9</sup> en er lijkt er geen weg terug. De opgave waar wij als samenleving voor staan is om AI maatschappelijk in te bedden. De overeenstemming in de kamer over verplicht gebruik van de Impact Assessment Mensenrechten en Algoritmes (IAMA)<sup>10</sup> is daarvoor niet genoeg. Deze procesbenadering biedt onvoldoende houvast om bestuurlijke richtlijnen te laten matchen met de uitvoeringspraktijk voor een goed resultaat – namelijk een praktisch werkend algoritme dat recht doet aan onze wensen en eisen van een democratische rechtsstaat.</p>
-<p>In de afgelopen paar jaar zijn verschillende procesmethodieken ontwikkeld om ethiek een plaats te geven in de ontwikkeling van algoritmen. Een voorbeeld is de IAMA-methodiek. Deze wordt echter slechts ‘als ethisch begeleider en niet als beoordelaar’ ingezet.</p>
-</section>
-<section id="de-mystiek-van-en-onbekenheid-met-algoritmen-wreekt-zich-hier" class="level2">
-<h2 class="anchored" data-anchor-id="de-mystiek-van-en-onbekenheid-met-algoritmen-wreekt-zich-hier">De mystiek van en onbekenheid met algoritmen wreekt zich hier</h2>
-<p>Naast begeleidingsethiek zijn duidelijke regels nodig die inhoudelijk richting geven aan hoe algoritmen ontwikkeld en gebruikt moeten worden. Zo moet, net als bij COVID-testen, altijd een afweging gemaakt worden tussen sensitiviteit (correct voorspellen van een risico) en specificiteit (zo min mogelijk fout positieve voorspellingen). Deze afweging wordt nu nog te vaak door technische ontwikkelaars gedaan, terwijl hier juist een rol is weggelegd voor bestuurders.</p>
-<p>De mystiek van en onbekendheid met algoritmen wreekt zich hier. Bestuurders, toezichthouders, juristen, ethici en datascientists hebben onvoldoende begrip van elkaars vakgebied, waardoor het lastig is om concepten uit de statistiek (de kern van machine learning) te vertalen naar een inhoudelijk, bestuurlijk toetsingskader. Het probleem ligt met name ook in de emotionele en politieke beladenheid van het gebruik van bijzondere persoonsgegevens, zoals leeftijd, geslacht of nationaliteit.</p>
-</section>
-<section id="kind-met-het-badwater-weggooien" class="level2">
-<h2 class="anchored" data-anchor-id="kind-met-het-badwater-weggooien">Kind met het badwater weggooien</h2>
-<p>In Rotterdam bijvoorbeeld is naar aanleiding van het eerdergenoemde rapport politieke consensus ontstaan over het niet meer gebruiken van ‘gevoelige variabelen’.<sup>11</sup> Bijvoorbeeld bij het controleren van bijstandsontvangers.</p>
-<p>Elk jaar worden onder de 35.000 Rotterdamse bijstandsontvangers circa 6.000 heronderzoeken uitgevoerd om vast te stellen of zij wel rechtmatig een uitkering ontvangen. Om de beschikbare handhavingscapaciteit zo effectief mogelijk in te zetten, wil de gemeente deze heronderzoeken uitvoeren bij uitkeringsontvangers met de grootste kans op het onterecht ontvangen van een uitkering. Daarvoor is een risicomodel ontwikkeld dat onrechtmatigheden voorspelt.</p>
-<p>Voor de voorspelling worden persoonsgegevens, zoals leeftijd en geslacht, gebruikt die een correlatie hebben met een verhoogd risico op onrechtmatig gebruik van een bijstandsuitkering. De Rotterdamse Rekenkamer stelt dat dit kan resulteren in ongewenste discriminatie en de gemeente wil daarom deze gevoelige variabelen niet meer gebruiken.</p>
-<p>Als deze lijn wordt doorgezet zijn we hard op weg om het kind met het badwater weg te gooien. We kunnen dan net zo goed meteen stoppen met het investeren van tijd en geld in de ontwikkeling van algoritmen voor risicoprofilering door de toezichthoudende overheid. De essentie van algoritmen is dat zij alleen goede voorspellingen kunnen geven door maximaal gebruik te maken van correlaties in de data.</p>
-</section>
-<section id="statistisch-en-ethisch-verantwoord-gebruik" class="level2">
-<h2 class="anchored" data-anchor-id="statistisch-en-ethisch-verantwoord-gebruik">Statistisch en ethisch verantwoord gebruik</h2>
-<p>Om discriminatie door een algoritme tegen te gaan, is het juist zaak om alle gevoelige variabelen mee te nemen voor het ontwikkelen van het algoritme en pas achteraf te bepalen welke variabelen uiteindelijk wel of niet gebruikt mogen worden.</p>
-<p>Al in 1988 beschreven Schmidt en Witte<sup>12</sup> een methode voor statistisch én ethisch verantwoord gebruik van algoritmen, in dit geval binnen de context van de rechtspraak. Zij laten zien hoe een technisch team tijdens de ontwikkelfase alle mogelijke variabelen gebruikt om het algoritme te ‘trainen’ om recidiverisico te bepalen. In de gebruiksfase bepalen beleidsmakers dan welke variabelen gebruikt mogen worden om dit risico te voorspellen en daadwerkelijk mee te wegen in de uitspraak.</p>
-<p>Stel, er is een hoge correlatie tussen recidiverisico en nationaliteit. Omdat we het onwenselijk vinden dat nationaliteit een overweging is voor de rechtspraak, wordt deze variabele wel gebruikt in de ontwikkelfase van het algoritme, maar wordt hij achterwege gelaten (geblindeerd) in het berekenen van het recidiverisico. Hiermee wordt discriminatie effectief tegengegaan.</p>
-</section>
-<section id="meer-concrete-inhoudelijke-richtlijnen-zijn-nodig" class="level2">
-<h2 class="anchored" data-anchor-id="meer-concrete-inhoudelijke-richtlijnen-zijn-nodig">Meer concrete, inhoudelijke richtlijnen zijn nodig</h2>
-<p>Om algoritmen maatschappelijk in te bedden, zullen alle geledingen van de overheid (wetgevend, uitvoerend en controlerend) en maatschappelijke organisaties tot meer concrete, inhoudelijke richtlijnen moeten komen over hoe data en algoritmen ingezet kunnen worden voor de toezichthoudende overheid.</p>
-<p>Dat begint met het inzicht dat persoonsgegevens zoals geslacht of nationaliteit an sich niet discriminerend zijn. Bovendien is een beter begrip van de werking van algoritmen noodzakelijk om een vruchtbaar debat te voeren over het gebruik ervan. Meer multidisciplinair onderzoek is gewenst, bijvoorbeeld via initiatieven zoals de ELSA Labs<sup>13</sup> of het Civic AI Lab<sup>14</sup>, opdat verschillende vakgebieden meer van elkaar gaan begrijpen.</p>
-<p>Totdat hier meer helderheid over is, zou de overheid haar aandacht beter kunnen richten op andere thema’s binnen de digitaliseringsagenda, zoals het toepassen van AI voor ontwikkeling en beheer van de bebouwde omgeving, waar risico op discriminatie aanmerkelijk lager is.</p>
-
-
-</section>
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p><a href="https://www.rijksoverheid.nl/documenten/kamerstukken/2022/03/29/kamerbrief-bij-pwc-rapporten-fsv-mkb-en-querys-aan-de-poort">https://www.rijksoverheid.nl/documenten/kamerstukken/2022/03/29/kamerbrief-bij-pwc-rapporten-fsv-mkb-en-querys-aan-de-poort</a>↩︎</p></li>
-<li id="fn2"><p><a href="https://www.tweedekamer.nl/kamerstukken/moties/detail?id=2022Z06024&amp;did=2022D12329">https://www.tweedekamer.nl/kamerstukken/moties/detail?id=2022Z06024&amp;did=2022D12329</a>↩︎</p></li>
-<li id="fn3"><p><a href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk.pdf">https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk.pdf</a>↩︎</p></li>
-<li id="fn4"><p><a href="https://hooghiemstra-en-partners.nl/onderzoek-hoe-gemeenten-besluiten-over-algoritmen-en-mensenrechten">https://hooghiemstra-en-partners.nl/onderzoek-hoe-gemeenten-besluiten-over-algoritmen-en-mensenrechten</a>↩︎</p></li>
-<li id="fn5"><p><a href="https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Den-Haag/Nieuws/Paginas/SyRI-wetgeving-in-strijd-met-het-Europees-Verdrag-voor-de-Rechten-voor-de-Mens.aspx">https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Den-Haag/Nieuws/Paginas/SyRI-wetgeving-in-strijd-met-het-Europees-Verdrag-voor-de-Rechten-voor-de-Mens.aspx</a>↩︎</p></li>
-<li id="fn6"><p><a href="https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/">https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/</a>↩︎</p></li>
-<li id="fn7"><p><a href="https://www.amnesty.nl/wat-we-doen/tech-en-mensenrechten/algoritmes-big-data-overheid">https://www.amnesty.nl/wat-we-doen/tech-en-mensenrechten/algoritmes-big-data-overheid</a>↩︎</p></li>
-<li id="fn8"><p><a href="https://autoriteitpersoonsgegevens.nl/nl/nieuws/boete-belastingdienst-voor-zwarte-lijst-fsv">https://autoriteitpersoonsgegevens.nl/nl/nieuws/boete-belastingdienst-voor-zwarte-lijst-fsv</a>↩︎</p></li>
-<li id="fn9"><p><a href="https://www.wrr.nl/publicaties/rapporten/2021/11/11/opgave-ai-de-nieuwe-systeemtechnologie">https://www.wrr.nl/publicaties/rapporten/2021/11/11/opgave-ai-de-nieuwe-systeemtechnologie</a>↩︎</p></li>
-<li id="fn10"><p><a href="https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes">https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes</a>↩︎</p></li>
-<li id="fn11"><p><a href="https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/">https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/</a>↩︎</p></li>
-<li id="fn12"><p><a href="https://link.springer.com/book/10.1007/978-1-4612-3772-3?noAccess=true">https://link.springer.com/book/10.1007/978-1-4612-3772-3?noAccess=true</a>↩︎</p></li>
-<li id="fn13"><p><a href="https://nlaic.com/en/building-blocks/human-centric-ai/elsa-concept-for-human-centric-ai/">https://nlaic.com/en/building-blocks/human-centric-ai/elsa-concept-for-human-centric-ai/</a>↩︎</p></li>
-<li id="fn14"><p><a href="https://icai.ai/civic-ai-lab/">https://icai.ai/civic-ai-lab/</a>↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>nederlands</category>
-  <category>responsible ai</category>
-  <guid>https://masteringdata.ai/src/blog/posts/eerlijke-algoritmen.html</guid>
-  <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/alexander-grey-TZZwC_xsClY-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Analytical problem solving</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/src/blog/posts/analytical-problem-solving.html</link>
-  <description><![CDATA[ 
+<div>
+  <div class="description">
+    <p>Would it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?“, I thought (pun intended). Of course, someone already thought of that and it even has a name: algorithmic botany.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
-<p><object data="/resources/demast2023analytical.pdf" type="application/pdf" width="100%" height="800"><p>Unable to display PDF file. <a href="../../../resources/demast2023analytical.pdf">Download</a> instead.</p></object></p>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">4/26/21</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
+</header>
 
-
- ]]></description>
-  <category>english</category>
-  <category>modeling</category>
-  <guid>https://masteringdata.ai/src/blog/posts/analytical-problem-solving.html</guid>
-  <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/logo-american-statistician.png" medium="image" type="image/png" height="79" width="144"/>
-</item>
-<item>
-  <title>Creating generative art with L-systems in Python</title>
-  <link>https://masteringdata.ai/src/blog/posts/lartpy.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><img src="https://masteringdata.ai/images/lartpy.jpg" class="img-fluid"></p>
+<p><img src="../../../images/lartpy.jpg" class="img-fluid"></p>
 <p><a href="https://en.wikipedia.org/wiki/Creative_coding">Creative coding</a> is fun if you know a thing or two about programming. And if, like me, you are an utter noob when it comes to brushes and pencils, then it is even more enticing as a means to express yourself and create something just for the sake of it. It doesn’t have to be functional, but you do get to hone your hacking skills and set challenges for yourself along the way.</p>
 <p>A fellow data scientist who is into <a href="https://www.basbloemberg.nl/">“Art &amp; AI”</a> recently pointed me to the field of <a href="https://aiartists.org/generative-art-design">generative art</a>. I have always been facinated by <a href="https://en.wikipedia.org/wiki/Emergence">emergence</a> and even more so when I came across the picture above. It is featured in <a href="https://g-e-n-a-r-t.com/en/post.php?p=10">this blog</a> on how to draw a pencil-sketch-like forest with Processing. One thing led to another: I had a go at <a href="https://py.processing.org/tutorials/command-line/">Processing in Python mode</a>, dabbled with <a href="http://louistiao.me/posts/notebooks/embedding-matplotlib-animations-in-jupyter-as-interactive-javascript-widgets/">matplotlib for animations</a> and read Schiffman’s <a href="https://natureofcode.com/book/">the Nature of Code</a>.</p>
 <p><em>“Would it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?”</em>, I thought (pun intended). Of course, someone already thought of that and it even has a name: <strong>algorithmic botany</strong>. Przemyslaw Prusinkiewicz and Aristid Lindenmayer wrote the seminal book on the subject in 1990, <a href="http://algorithmicbotany.org/papers/#abop">The Algorithmic Beauty of Plants</a>. Lindenmayer invented <a href="https://en.wikipedia.org/wiki/L-system">L-systems</a> already back in 1968. Today, household computers have enough resources to handle large-ish parallel writing systems and you could start modelling the growth of any plant using a framework like <a href="https://lpy.readthedocs.io/en/latest/">L-Py</a>.</p>
@@ -238,118 +272,32 @@
 <section id="d0l-deterministic-context-free-l-system" class="level2">
 <h2 class="anchored" data-anchor-id="d0l-deterministic-context-free-l-system">D0L: deterministic context-free L-system</h2>
 <div class="cell" data-cell_id="4f89aef0f75d4aa3808305b92a4925d3" data-deepnote_cell_type="code" data-execution_millis="21" data-execution_start="1619612317163" data-source_hash="8b352d4c" data-tags="[]">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># define L-system</span></span>
-<span id="cb1-2">AXIOM <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'A'</span></span>
-<span id="cb1-3">RULES <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'A'</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'AB'</span>,</span>
-<span id="cb1-4">         <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'B'</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'A'</span>}</span>
-<span id="cb1-5"></span>
-<span id="cb1-6"></span>
-<span id="cb1-7"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># initialize </span></span>
-<span id="cb1-8">productions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [AXIOM]</span>
-<span id="cb1-9">iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">7</span></span>
-<span id="cb1-10"></span>
-<span id="cb1-11"></span>
-<span id="cb1-12"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> generate_d0l(axiom, productions, iterations):</span>
-<span id="cb1-13">    <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> rewrite_l(word):</span>
-<span id="cb1-14">        productions.append(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([RULES.get(c) <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">or</span> c <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> c <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> word]))</span>
-<span id="cb1-15">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> productions[<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>]</span>
-<span id="cb1-16"></span>
-<span id="cb1-17"></span>
-<span id="cb1-18">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>:</span>
-<span id="cb1-19">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> axiom</span>
-<span id="cb1-20">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">else</span>:</span>
-<span id="cb1-21">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> rewrite_l(generate_d0l(axiom, productions, iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>))</span>
-<span id="cb1-22"></span>
-<span id="cb1-23"></span>
-<span id="cb1-24"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># main</span></span>
-<span id="cb1-25">generate_d0l(AXIOM, productions, iterations)</span>
-<span id="cb1-26"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>i<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>p<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> i,p <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define L-system</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">'A'</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">'A'</span>: <span class="st">'AB'</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         <span class="st">'B'</span>: <span class="st">'A'</span>}</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># initialize </span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>iterations <span class="op">=</span> <span class="dv">7</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_d0l(axiom, productions, iterations):</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> rewrite_l(word):</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        productions.append(<span class="st">''</span>.join([RULES.get(c) <span class="kw">or</span> c <span class="cf">for</span> c <span class="kw">in</span> word]))</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> productions[<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> iterations <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> axiom</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> rewrite_l(generate_d0l(axiom, productions, iterations <span class="op">-</span> <span class="dv">1</span>))</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># main</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>generate_d0l(AXIOM, productions, iterations)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: A
 1: AB
@@ -364,69 +312,19 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 </div>
 <p>I actually found the recursive Python implementation on this <a href="https://understanding-recursion.readthedocs.io/en/latest/16%20L-System%20Solution.html">introductory website on recursion</a>. While I still struggle to apply recursion, I find it satisfying to solve coding problems this way. And even with just these twenty lines of code, we have already stumbled on the <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a>! Have a look at the length of each successive sequence:</p>
 <div class="cell" data-cell_id="7c9e0ab688d543ddb427e0706d09d8c1" data-deepnote_cell_type="code" data-execution_millis="135" data-execution_start="1619612317215" data-is_code_hidden="true" data-source_hash="8264db4e" data-tags="[]">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>([<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">len</span>(word) <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> word <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> productions])</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>([<span class="bu">len</span>(word) <span class="cf">for</span> word <span class="kw">in</span> productions])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1, 2, 3, 5, 8, 13, 21, 34]</code></pre>
 </div>
 </div>
 <p>Awesome as the nature of code may be, we are still a long way off from actually generating a tree. For that, we need branching rules. To do so, basic L-systems also allow constants, which are left untouched by the production rules. It is common to add constants <code>+</code> and <code>-</code> to denote rotations when branching, and <code>[</code>,<code>]</code> for handling the locations of the branching points. For a fractal plant, the code is as follows:</p>
 <div class="cell" data-cell_id="0edc13f7a3a94a8f8c6d39e03e99b6dd" data-deepnote_cell_type="code" data-execution_millis="134" data-execution_start="1619612317216" data-source_hash="b4945e20" data-tags="[]">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">AXIOM <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"X"</span></span>
-<span id="cb5-2">RULES <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"X"</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"F+[[X]-X]-F[-FX]+X"</span>,</span>
-<span id="cb5-3">         <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"F"</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"FF"</span>}</span>
-<span id="cb5-4">productions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [AXIOM]</span>
-<span id="cb5-5">generate_d0l(AXIOM, productions, iterations)</span>
-<span id="cb5-6"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>i<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>p<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> i,p <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">"X"</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">"X"</span>: <span class="st">"F+[[X]-X]-F[-FX]+X"</span>,</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>         <span class="st">"F"</span>: <span class="st">"FF"</span>}</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>generate_d0l(AXIOM, productions, iterations)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: X
 1: F+[[X]-X]-F[-FX]+X
@@ -450,140 +348,36 @@ p2: F(0.33) → F[+F]F
 p3: F(0.34) → F[−F]F</code></pre>
 <p>the Python implementation could look something like this:</p>
 <div class="cell" data-cell_id="4e3895f0f15b431a9489742b3f7cd84f" data-deepnote_cell_type="code" data-execution_millis="10" data-execution_start="1619612508337" data-source_hash="77e3defc" data-tags="[]">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> numpy.random <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> default_rng</span>
-<span id="cb8-2"></span>
-<span id="cb8-3">AXIOM <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"F"</span></span>
-<span id="cb8-4">RULES <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"F"</span>: [<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"F[+F]F[−F]F"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"F[+F]F"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"F[−F]F"</span>]}</span>
-<span id="cb8-5">productions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [AXIOM]</span>
-<span id="cb8-6">iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span></span>
-<span id="cb8-7"></span>
-<span id="cb8-8"></span>
-<span id="cb8-9">rng <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> default_rng()</span>
-<span id="cb8-10"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> generate_stochastic(axiom, productions, iterations):</span>
-<span id="cb8-11">    <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> get_stochastic_rule(letter):</span>
-<span id="cb8-12">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> letter <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">not</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> RULES.keys():</span>
-<span id="cb8-13">            <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> letter</span>
-<span id="cb8-14">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">else</span>:</span>
-<span id="cb8-15">            <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> RULES.get(letter)[rng.choice(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>]]</span>
-<span id="cb8-16"></span>
-<span id="cb8-17"></span>
-<span id="cb8-18">    <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> rewrite_l(word):</span>
-<span id="cb8-19">        productions.append(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([get_stochastic_rule(c) <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> c <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> word]))</span>
-<span id="cb8-20">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> productions[<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>]</span>
-<span id="cb8-21"></span>
-<span id="cb8-22"></span>
-<span id="cb8-23">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>:</span>
-<span id="cb8-24">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> axiom</span>
-<span id="cb8-25">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">else</span>:</span>
-<span id="cb8-26">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> rewrite_l(generate_stochastic(axiom, productions, iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>))</span>
-<span id="cb8-27"></span>
-<span id="cb8-28"></span>
-<span id="cb8-29">generate_stochastic(AXIOM, productions, iterations)</span>
-<span id="cb8-30"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>i<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>p<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> i,p <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy.random <span class="im">import</span> default_rng</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">"F"</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">"F"</span>: [<span class="st">"F[+F]F[−F]F"</span>, <span class="st">"F[+F]F"</span>, <span class="st">"F[−F]F"</span>]}</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>iterations <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>rng <span class="op">=</span> default_rng()</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_stochastic(axiom, productions, iterations):</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_stochastic_rule(letter):</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> letter <span class="kw">not</span> <span class="kw">in</span> RULES.keys():</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> letter</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> RULES.get(letter)[rng.choice(<span class="dv">3</span>,<span class="dv">1</span>)[<span class="dv">0</span>]]</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> rewrite_l(word):</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>        productions.append(<span class="st">''</span>.join([get_stochastic_rule(c) <span class="cf">for</span> c <span class="kw">in</span> word]))</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> productions[<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> iterations <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> axiom</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> rewrite_l(generate_stochastic(axiom, productions, iterations <span class="op">-</span> <span class="dv">1</span>))</span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>generate_stochastic(AXIOM, productions, iterations)</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: F
 1: F[−F]F
@@ -594,40 +388,10 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 </div>
 <p>Here’s another run with a different result:</p>
 <div class="cell" data-cell_id="ec7650359b644649a843d7a30e0ce467" data-deepnote_cell_type="code" data-execution_start="1619612520082" data-is_code_hidden="true" data-source_hash="32960fdd" data-tags="[]">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># show that a new run generates different result</span></span>
-<span id="cb10-2">productions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [AXIOM]</span>
-<span id="cb10-3">generate_stochastic(AXIOM, productions, iterations)</span>
-<span id="cb10-4"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>i<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>p<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> i,p <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># show that a new run generates different result</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>generate_stochastic(AXIOM, productions, iterations)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: F
 1: F[+F]F[−F]F
@@ -641,290 +405,52 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <h2 class="anchored" data-anchor-id="adding-parameters">Adding parameters</h2>
 <p>In a parametric L-system, letters are allowed to have parameters, which correspond with formal parameters used in the specification of L-system productions. This can be used to model <em>Anabaena catenula</em> (taken from <a href="http://algorithmicbotany.org/papers/hanan.dis1992.html">Hanan’s dissertation</a>):</p>
 <div class="cell" data-cell_id="ffbb155396f541bea91cdddafa44a742" data-deepnote_cell_type="code" data-execution_millis="71" data-execution_start="1619612317279" data-source_hash="ddba2700" data-tags="[]">
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> collections <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> namedtuple</span>
-<span id="cb12-2"></span>
-<span id="cb12-3"></span>
-<span id="cb12-4"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># parameters</span></span>
-<span id="cb12-5">F <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> namedtuple(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'F'</span>, [<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'s'</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'t'</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'o'</span>])  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># parameterized cell</span></span>
-<span id="cb12-6">s <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"AS"</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"BS"</span>}  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># cell size</span></span>
-<span id="cb12-7">t <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"A"</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"B"</span>}  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># cell type</span></span>
-<span id="cb12-8">o <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"right"</span>, <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"left"</span>}  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># cell orientation</span></span>
-<span id="cb12-9"></span>
-<span id="cb12-10">AXIOM <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)]</span>
-<span id="cb12-11">RULES <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>):  [F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>), F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)],</span>
-<span id="cb12-12">         F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>): [F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>), F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)],</span>
-<span id="cb12-13">         F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>):  [F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)],</span>
-<span id="cb12-14">         F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>): [F(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)],</span>
-<span id="cb12-15">        }</span>
-<span id="cb12-16">productions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [AXIOM]</span>
-<span id="cb12-17">iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span></span>
-<span id="cb12-18"></span>
-<span id="cb12-19"></span>
-<span id="cb12-20"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> unnest(list_, unnested_<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>):</span>
-<span id="cb12-21">    <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">"""Utility function to unnest arbitrarily deep list of lists</span></span>
-<span id="cb12-22"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">    """</span></span>
-<span id="cb12-23">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> unnested_ <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">is</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>:</span>
-<span id="cb12-24">        unnested_ <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> []</span>
-<span id="cb12-25">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> x <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> list_:</span>
-<span id="cb12-26">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">not</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">isinstance</span>(x, <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">list</span>):</span>
-<span id="cb12-27">            unnested_.append(x)</span>
-<span id="cb12-28">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">isinstance</span>(x, <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">list</span>):</span>
-<span id="cb12-29">            unnest(x, unnested_)</span>
-<span id="cb12-30">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> unnested_</span>
-<span id="cb12-31"></span>
-<span id="cb12-32"></span>
-<span id="cb12-33"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> generate_parametric(axiom, productions, iterations):</span>
-<span id="cb12-34">    <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> rewrite_l(word):</span>
-<span id="cb12-35">        productions.append(unnest([RULES.get(c) <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">or</span> c <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> c <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> unnest(word)]))</span>
-<span id="cb12-36">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> productions[<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>]</span>
-<span id="cb12-37"></span>
-<span id="cb12-38"></span>
-<span id="cb12-39">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>:</span>
-<span id="cb12-40">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> [axiom]</span>
-<span id="cb12-41">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">else</span>:</span>
-<span id="cb12-42">        <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> rewrite_l(generate_parametric(axiom, productions, iterations <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>))</span>
-<span id="cb12-43"></span>
-<span id="cb12-44"></span>
-<span id="cb12-45">generate_parametric(AXIOM, productions, iterations)</span>
-<span id="cb12-46"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>i<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>p<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> i,p <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> namedtuple</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># parameters</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>F <span class="op">=</span> namedtuple(<span class="st">'F'</span>, [<span class="st">'s'</span>, <span class="st">'t'</span>, <span class="st">'o'</span>])  <span class="co"># parameterized cell</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> {<span class="dv">2</span>: <span class="st">"AS"</span>, <span class="dv">1</span>: <span class="st">"BS"</span>}  <span class="co"># cell size</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> {<span class="dv">1</span>: <span class="st">"A"</span>, <span class="dv">2</span>: <span class="st">"B"</span>}  <span class="co"># cell type</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>o <span class="op">=</span> {<span class="dv">1</span>: <span class="st">"right"</span>, <span class="op">-</span><span class="dv">1</span>: <span class="st">"left"</span>}  <span class="co"># cell orientation</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> [F(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)]</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {F(<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">1</span>):  [F(<span class="dv">2</span>,<span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>), F(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>)],</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>         F(<span class="dv">2</span>,<span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>): [F(<span class="dv">1</span>,<span class="dv">2</span>,<span class="op">-</span><span class="dv">1</span>), F(<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">1</span>)],</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>         F(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>):  [F(<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">1</span>)],</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>         F(<span class="dv">1</span>,<span class="dv">2</span>,<span class="op">-</span><span class="dv">1</span>): [F(<span class="dv">2</span>,<span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>)],</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>iterations <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> unnest(list_, unnested_<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Utility function to unnest arbitrarily deep list of lists</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> unnested_ <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>        unnested_ <span class="op">=</span> []</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> list_:</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> <span class="bu">isinstance</span>(x, <span class="bu">list</span>):</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>            unnested_.append(x)</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">isinstance</span>(x, <span class="bu">list</span>):</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>            unnest(x, unnested_)</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> unnested_</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_parametric(axiom, productions, iterations):</span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> rewrite_l(word):</span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>        productions.append(unnest([RULES.get(c) <span class="kw">or</span> c <span class="cf">for</span> c <span class="kw">in</span> unnest(word)]))</span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> productions[<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> iterations <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> [axiom]</span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> rewrite_l(generate_parametric(axiom, productions, iterations <span class="op">-</span> <span class="dv">1</span>))</span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>generate_parametric(AXIOM, productions, iterations)</span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: [F(s=1, t=2, o=1)]
 1: [F(s=2, t=1, o=1)]
@@ -942,60 +468,14 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <h1>Using pyp5js for Pythonic drawing on the web</h1>
 <p>When Lindenmayer devised the L-system, <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">Logo</a> was one of the few programming langauges available. It included <a href="https://en.wikipedia.org/wiki/Turtle_graphics">turtle graphics</a> and thus the basis of algorithmic art was born by translating the alphabet of an L-system to turtle commands. The examples from the Nature of Code have in fact <a href="https://github.com/nature-of-code/noc-examples-processing/blob/master/chp08_fractals/NOC_8_09_LSystem/Turtle.pde">implemented this in Processing</a>. But rather than constrain yourself to the desktop, more mileage can be had by using <a href="https://p5js.org">p5js</a> which is “… an interpretation of Processing for today’s web”. To demonstrate, take the following example:</p>
 <div class="cell" data-cell_id="339bc90f77ba4f03ae639db0ba417ad8" data-deepnote_cell_type="code" data-execution_millis="73" data-execution_start="1619612317283" data-source_hash="cbe4ac7d" data-tags="[]">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">AXIOM <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'G'</span></span>
-<span id="cb14-2">RULES <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {</span>
-<span id="cb14-3">    <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'F'</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'FF'</span>,</span>
-<span id="cb14-4">    <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'G'</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'F-[[G]+G]+F[+FG]-G'</span></span>
-<span id="cb14-5">}</span>
-<span id="cb14-6">productions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [AXIOM]</span>
-<span id="cb14-7">generate_d0l(AXIOM, productions, iterations<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>)</span>
-<span id="cb14-8"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">''</span>.join([<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>i<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>p<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> i,p <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">'G'</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'F'</span>: <span class="st">'FF'</span>,</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'G'</span>: <span class="st">'F-[[G]+G]+F[+FG]-G'</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>generate_d0l(AXIOM, productions, iterations<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: G
 1: F-[[G]+G]+F[+FG]-G
@@ -1006,390 +486,250 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 </code></pre>
 </div>
 </div>
-<p>Summer Rizo has already implemented L-systems in p5js, available on <a href="https://thefractal.zone/">thefractal.zone</a>. Copying the axiom and rules, and setting the branching angle <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> to 30°, yields the drawing below. Note that the code only shows 5 iterations, while the drawing is based on more iterations (I have put the slider on maximum). When using recursion in Python you may quickly hit a limit: as I tried to execute <code>iterations=10</code> on a standard VM, Deepnote threw an error <code>IOPub data rate exceeded</code>. Yet another challenge to read-up and use <a href="https://sagnibak.github.io/blog/python-is-haskell-tail-recursion/">tail-call optimization in Python</a>.</p>
-<p><img src="https://masteringdata.ai/images/fractal.png" class="img-fluid"></p>
+<p>Summer Rizo has already implemented L-systems in p5js, available on <a href="https://thefractal.zone/">thefractal.zone</a>. Copying the axiom and rules, and setting the branching angle <span class="math inline">\(\theta\)</span> to 30°, yields the drawing below. Note that the code only shows 5 iterations, while the drawing is based on more iterations (I have put the slider on maximum). When using recursion in Python you may quickly hit a limit: as I tried to execute <code>iterations=10</code> on a standard VM, Deepnote threw an error <code>IOPub data rate exceeded</code>. Yet another challenge to read-up and use <a href="https://sagnibak.github.io/blog/python-is-haskell-tail-recursion/">tail-call optimization in Python</a>.</p>
+<p><img src="../../../images/fractal.png" class="img-fluid"></p>
 <p>Having covered the algorithmic and technical components, we can now start bringing it all together. There are still quite a few things to experiment with in order to produce realistic sketches, such as adding noise to draw ‘sketchy’ lines, adding thickness to branches, adding shadows with brightness off-sets and composing a scene with overlaying trees. As a Pythonista I was happy to find <a href="https://berinhard.github.io/pyp5js/">pyp5js</a>, which allows you to re-use the ideas of Processing in Python, and transcoding it to p5.js using Transcrypt. It covers all the methods from p5.js and gives us enough drawing tools to play with. But that’s for another post. For now, I will leave you with a <a href="https://inconvergent.net/generative/">generative creation from Anders Hoff</a> which may inspire you to start creating generative art in Python, too.</p>
-<p><img src="https://masteringdata.ai/images/tree2.gif" class="img-fluid"></p>
+<p><img src="../../../images/tree2.gif" class="img-fluid"></p>
 
 
 </section>
 
- ]]></description>
-  <category>english</category>
-  <category>visualization</category>
-  <category>generative art</category>
-  <category>coding</category>
-  <guid>https://masteringdata.ai/src/blog/posts/lartpy.html</guid>
-  <pubDate>Mon, 26 Apr 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/lartpy.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Comet charts in Python</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/src/blog/posts/comet-chart.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
-<p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
-<p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> altair <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> alt</span>
-<span id="cb1-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> pd</span>
-<span id="cb1-3"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> vega_datasets</span>
-<span id="cb1-4"></span>
-<span id="cb1-5"></span>
-<span id="cb1-6"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Use airline data to assess statistical mix effects of delays</span></span>
-<span id="cb1-7">flights <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> vega_datasets.data.flights_20k()</span>
-<span id="cb1-8">aggregation <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">dict</span>(</span>
-<span id="cb1-9">    number_of_flights<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"destination"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"count"</span>),</span>
-<span id="cb1-10">    mean_delay<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"delay"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"mean"</span>),</span>
-<span id="cb1-11">    mean_distance<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"distance"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"mean"</span>),</span>
-<span id="cb1-12">)</span>
-<span id="cb1-13"></span>
-<span id="cb1-14"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Compare delays by destination between month 1 and 3</span></span>
-<span id="cb1-15">grouped <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> flights.groupby(by<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>[flights.destination, flights.date.dt.month])</span>
-<span id="cb1-16">df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> (</span>
-<span id="cb1-17">    grouped.agg(<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">**</span>aggregation)</span>
-<span id="cb1-18">    .loc[(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">slice</span>(<span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>), [<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>]), :]</span>
-<span id="cb1-19">    .assign(</span>
-<span id="cb1-20">        change_mean_delay<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">lambda</span> df:</span>
-<span id="cb1-21">            df.groupby(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"destination"</span>)[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"mean_delay"</span>].diff(),</span>
-<span id="cb1-22">    )</span>
-<span id="cb1-23">    .fillna(method<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"bfill"</span>)</span>
-<span id="cb1-24">    .reset_index()</span>
-<span id="cb1-25">    .<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">round</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>)</span>
-<span id="cb1-26">)</span>
-<span id="cb1-27"></span>
-<span id="cb1-28"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Calculate weigthed average of delays for month 1 and 3</span></span>
-<span id="cb1-29">total <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> (</span>
-<span id="cb1-30">    flights.groupby(flights.date.dt.month)</span>
-<span id="cb1-31">    .agg(<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">**</span>aggregation)</span>
-<span id="cb1-32">    .loc[[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>], :]</span>
-<span id="cb1-33">    .assign(</span>
-<span id="cb1-34">        change_mean_delay<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">lambda</span> df: df.mean_delay.diff(),</span>
-<span id="cb1-35">        destination<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'TOTAL'</span></span>
-<span id="cb1-36">    )</span>
-<span id="cb1-37">    .fillna(method<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"bfill"</span>)</span>
-<span id="cb1-38">    .<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">round</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>)</span>
-<span id="cb1-39">    .reset_index()</span>
-<span id="cb1-40">    .loc[:, df.columns]</span>
-<span id="cb1-41">)</span>
-<span id="cb1-42"></span>
-<span id="cb1-43"></span>
-<span id="cb1-44"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> comet_chart(df, stroke<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"white"</span>):</span>
-<span id="cb1-45">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> (</span>
-<span id="cb1-46">    alt.Chart(df, width<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">600</span>, height<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">450</span>)</span>
-<span id="cb1-47">    .mark_trail(stroke<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>stroke)</span>
-<span id="cb1-48">    .encode(</span>
-<span id="cb1-49">        x<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.X(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"number_of_flights"</span>, scale<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Scale(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">type</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"log"</span>)),</span>
-<span id="cb1-50">        y<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Y(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"mean_delay"</span>),</span>
-<span id="cb1-51">        detail<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"destination"</span>,</span>
-<span id="cb1-52">        size<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Size(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"date"</span>, scale<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Scale(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">range</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">10</span>]), legend<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>),</span>
-<span id="cb1-53">        tooltip<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>[</span>
-<span id="cb1-54">            <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"destination"</span>,</span>
-<span id="cb1-55">            <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"number_of_flights"</span>,</span>
-<span id="cb1-56">            <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"mean_delay"</span>,</span>
-<span id="cb1-57">            <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"change_mean_delay"</span>,</span>
-<span id="cb1-58">            <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"mean_distance"</span>,</span>
-<span id="cb1-59">        ],</span>
-<span id="cb1-60">        <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># trails don't support continuous color</span></span>
-<span id="cb1-61">        <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># see https://github.com/vega/vega/issues/1187</span></span>
-<span id="cb1-62">        <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># hence use bins</span></span>
-<span id="cb1-63">        color<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Color(</span>
-<span id="cb1-64">            <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"change_mean_delay:Q"</span>,</span>
-<span id="cb1-65">            <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">bin</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Bin(step<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>),</span>
-<span id="cb1-66">            scale<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Scale(scheme<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"blueorange"</span>),</span>
-<span id="cb1-67">            legend<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>alt.Legend(orient<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"top"</span>),</span>
-<span id="cb1-68">        ),</span>
-<span id="cb1-69">    )</span>
-<span id="cb1-70">)</span>
-<span id="cb1-71"></span>
-<span id="cb1-72"></span>
-<span id="cb1-73">comet_chart(df) <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> comet_chart(total, stroke<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"black"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="1">
-
-<style>
-  #altair-viz-d5945279f2414781a731673b6a2db05a.vega-embed {
-    width: 100%;
-    display: flex;
-  }
-
-  #altair-viz-d5945279f2414781a731673b6a2db05a.vega-embed details,
-  #altair-viz-d5945279f2414781a731673b6a2db05a.vega-embed details summary {
-    position: relative;
-  }
-</style>
-<div id="altair-viz-d5945279f2414781a731673b6a2db05a"></div>
-<script type="text/javascript">
-  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
-  (function(spec, embedOpt){
-    let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-d5945279f2414781a731673b6a2db05a") {
-      outputDiv = document.getElementById("altair-viz-d5945279f2414781a731673b6a2db05a");
-    }
-    const paths = {
-      "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
-      "vega-lib": "https://cdn.jsdelivr.net/npm/vega-lib?noext",
-      "vega-lite": "https://cdn.jsdelivr.net/npm/vega-lite@5.8.0?noext",
-      "vega-embed": "https://cdn.jsdelivr.net/npm/vega-embed@6?noext",
-    };
-
-    function maybeLoadScript(lib, version) {
-      var key = `${lib.replace("-", "")}_version`;
-      return (VEGA_DEBUG[key] == version) ?
-        Promise.resolve(paths[lib]) :
-        new Promise(function(resolve, reject) {
-          var s = document.createElement('script');
-          document.getElementsByTagName("head")[0].appendChild(s);
-          s.async = true;
-          s.onload = () => {
-            VEGA_DEBUG[key] = version;
-            return resolve(paths[lib]);
-          };
-          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
-          s.src = paths[lib];
-        });
-    }
-
-    function showError(err) {
-      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
-      throw err;
-    }
-
-    function displayChart(vegaEmbed) {
-      vegaEmbed(outputDiv, spec, embedOpt)
-        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
-    }
-
-    if(typeof define === "function" && define.amd) {
-      requirejs.config({paths});
-      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
     } else {
-      maybeLoadScript("vega", "5")
-        .then(() => maybeLoadScript("vega-lite", "5.8.0"))
-        .then(() => maybeLoadScript("vega-embed", "6"))
-        .catch(showError)
-        .then(() => displayChart(vegaEmbed));
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-a7c4f0a37e833a2ec7f146393c80c529"}, "mark": {"type": "trail", "stroke": "white"}, "encoding": {"color": {"bin": {"step": 2}, "field": "change_mean_delay", "legend": {"orient": "top"}, "scale": {"scheme": "blueorange"}, "type": "quantitative"}, "detail": {"field": "destination", "type": "nominal"}, "size": {"field": "date", "legend": null, "scale": {"range": [0, 10]}, "type": "quantitative"}, "tooltip": [{"field": "destination", "type": "nominal"}, {"field": "number_of_flights", "type": "quantitative"}, {"field": "mean_delay", "type": "quantitative"}, {"field": "change_mean_delay", "type": "quantitative"}, {"field": "mean_distance", "type": "quantitative"}], "x": {"field": "number_of_flights", "scale": {"type": "log"}, "type": "quantitative"}, "y": {"field": "mean_delay", "type": "quantitative"}}}, {"data": {"name": "data-40bf7cbec64784a4ce18b48588df5dc9"}, "mark": {"type": "trail", "stroke": "black"}, "encoding": {"color": {"bin": {"step": 2}, "field": "change_mean_delay", "legend": {"orient": "top"}, "scale": {"scheme": "blueorange"}, "type": "quantitative"}, "detail": {"field": "destination", "type": "nominal"}, "size": {"field": "date", "legend": null, "scale": {"range": [0, 10]}, "type": "quantitative"}, "tooltip": [{"field": "destination", "type": "nominal"}, {"field": "number_of_flights", "type": "quantitative"}, {"field": "mean_delay", "type": "quantitative"}, {"field": "change_mean_delay", "type": "quantitative"}, {"field": "mean_distance", "type": "quantitative"}], "x": {"field": "number_of_flights", "scale": {"type": "log"}, "type": "quantitative"}, "y": {"field": "mean_delay", "type": "quantitative"}}}], "height": 450, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-a7c4f0a37e833a2ec7f146393c80c529": [{"destination": "ABQ", "date": 1, "number_of_flights": 129, "mean_delay": 7.98, "mean_distance": 552.15, "change_mean_delay": -0.45}, {"destination": "ABQ", "date": 3, "number_of_flights": 164, "mean_delay": 7.53, "mean_distance": 568.41, "change_mean_delay": -0.45}, {"destination": "ALB", "date": 1, "number_of_flights": 36, "mean_delay": 7.03, "mean_distance": 570.72, "change_mean_delay": 4.2}, {"destination": "ALB", "date": 3, "number_of_flights": 22, "mean_delay": 11.23, "mean_distance": 536.55, "change_mean_delay": 4.2}, {"destination": "AMA", "date": 1, "number_of_flights": 18, "mean_delay": 12.0, "mean_distance": 313.56, "change_mean_delay": -1.41}, {"destination": "AMA", "date": 3, "number_of_flights": 22, "mean_delay": 10.59, "mean_distance": 383.18, "change_mean_delay": -1.41}, {"destination": "AUS", "date": 1, "number_of_flights": 124, "mean_delay": 5.31, "mean_distance": 450.31, "change_mean_delay": 4.71}, {"destination": "AUS", "date": 3, "number_of_flights": 124, "mean_delay": 10.02, "mean_distance": 467.61, "change_mean_delay": 4.71}, {"destination": "BDL", "date": 1, "number_of_flights": 32, "mean_delay": 17.62, "mean_distance": 509.41, "change_mean_delay": -4.91}, {"destination": "BDL", "date": 3, "number_of_flights": 49, "mean_delay": 12.71, "mean_distance": 555.51, "change_mean_delay": -4.91}, {"destination": "BHM", "date": 1, "number_of_flights": 77, "mean_delay": 6.47, "mean_distance": 516.97, "change_mean_delay": -0.04}, {"destination": "BHM", "date": 3, "number_of_flights": 77, "mean_delay": 6.43, "mean_distance": 504.38, "change_mean_delay": -0.04}, {"destination": "BNA", "date": 1, "number_of_flights": 216, "mean_delay": 8.24, "mean_distance": 776.31, "change_mean_delay": -1.75}, {"destination": "BNA", "date": 3, "number_of_flights": 227, "mean_delay": 6.48, "mean_distance": 714.56, "change_mean_delay": -1.75}, {"destination": "BOI", "date": 1, "number_of_flights": 44, "mean_delay": 11.11, "mean_distance": 352.68, "change_mean_delay": -10.29}, {"destination": "BOI", "date": 3, "number_of_flights": 35, "mean_delay": 0.83, "mean_distance": 349.97, "change_mean_delay": -10.29}, {"destination": "BUF", "date": 1, "number_of_flights": 19, "mean_delay": -3.53, "mean_distance": 734.58, "change_mean_delay": -4.3}, {"destination": "BUF", "date": 3, "number_of_flights": 28, "mean_delay": -7.82, "mean_distance": 809.11, "change_mean_delay": -4.3}, {"destination": "BUR", "date": 1, "number_of_flights": 121, "mean_delay": 10.31, "mean_distance": 302.52, "change_mean_delay": -1.1}, {"destination": "BUR", "date": 3, "number_of_flights": 127, "mean_delay": 9.21, "mean_distance": 307.75, "change_mean_delay": -1.1}, {"destination": "BWI", "date": 1, "number_of_flights": 301, "mean_delay": 5.23, "mean_distance": 602.16, "change_mean_delay": -0.03}, {"destination": "BWI", "date": 3, "number_of_flights": 302, "mean_delay": 5.2, "mean_distance": 624.67, "change_mean_delay": -0.03}, {"destination": "CLE", "date": 1, "number_of_flights": 53, "mean_delay": 14.4, "mean_distance": 369.08, "change_mean_delay": -8.11}, {"destination": "CLE", "date": 3, "number_of_flights": 60, "mean_delay": 6.28, "mean_distance": 360.93, "change_mean_delay": -8.11}, {"destination": "CMH", "date": 1, "number_of_flights": 32, "mean_delay": 8.88, "mean_distance": 505.91, "change_mean_delay": -3.51}, {"destination": "CMH", "date": 3, "number_of_flights": 30, "mean_delay": 5.37, "mean_distance": 481.0, "change_mean_delay": -3.51}, {"destination": "CRP", "date": 1, "number_of_flights": 20, "mean_delay": 10.85, "mean_distance": 187.0, "change_mean_delay": 3.77}, {"destination": "CRP", "date": 3, "number_of_flights": 21, "mean_delay": 14.62, "mean_distance": 187.0, "change_mean_delay": 3.77}, {"destination": "DAL", "date": 1, "number_of_flights": 304, "mean_delay": 3.37, "mean_distance": 299.76, "change_mean_delay": 3.46}, {"destination": "DAL", "date": 3, "number_of_flights": 372, "mean_delay": 6.83, "mean_distance": 293.83, "change_mean_delay": 3.46}, {"destination": "DTW", "date": 1, "number_of_flights": 45, "mean_delay": 8.02, "mean_distance": 334.04, "change_mean_delay": 0.79}, {"destination": "DTW", "date": 3, "number_of_flights": 37, "mean_delay": 8.81, "mean_distance": 347.19, "change_mean_delay": 0.79}, {"destination": "ELP", "date": 1, "number_of_flights": 106, "mean_delay": 10.84, "mean_distance": 494.27, "change_mean_delay": -6.49}, {"destination": "ELP", "date": 3, "number_of_flights": 94, "mean_delay": 4.35, "mean_distance": 490.43, "change_mean_delay": -6.49}, {"destination": "FLL", "date": 1, "number_of_flights": 83, "mean_delay": 5.78, "mean_distance": 435.34, "change_mean_delay": 4.5}, {"destination": "FLL", "date": 3, "number_of_flights": 60, "mean_delay": 10.28, "mean_distance": 405.17, "change_mean_delay": 4.5}, {"destination": "GEG", "date": 1, "number_of_flights": 42, "mean_delay": 13.29, "mean_distance": 303.36, "change_mean_delay": -6.47}, {"destination": "GEG", "date": 3, "number_of_flights": 43, "mean_delay": 6.81, "mean_distance": 277.93, "change_mean_delay": -6.47}, {"destination": "HOU", "date": 1, "number_of_flights": 336, "mean_delay": 6.22, "mean_distance": 422.08, "change_mean_delay": 1.77}, {"destination": "HOU", "date": 3, "number_of_flights": 344, "mean_delay": 7.99, "mean_distance": 437.76, "change_mean_delay": 1.77}, {"destination": "HRL", "date": 1, "number_of_flights": 35, "mean_delay": 14.2, "mean_distance": 268.37, "change_mean_delay": -2.56}, {"destination": "HRL", "date": 3, "number_of_flights": 42, "mean_delay": 11.64, "mean_distance": 270.98, "change_mean_delay": -2.56}, {"destination": "IAH", "date": 1, "number_of_flights": 17, "mean_delay": 4.71, "mean_distance": 217.0, "change_mean_delay": -8.59}, {"destination": "IAH", "date": 3, "number_of_flights": 9, "mean_delay": -3.89, "mean_distance": 217.0, "change_mean_delay": -8.59}, {"destination": "IND", "date": 1, "number_of_flights": 58, "mean_delay": 4.69, "mean_distance": 574.14, "change_mean_delay": -0.05}, {"destination": "IND", "date": 3, "number_of_flights": 58, "mean_delay": 4.64, "mean_distance": 702.16, "change_mean_delay": -0.05}, {"destination": "ISP", "date": 1, "number_of_flights": 55, "mean_delay": 3.11, "mean_distance": 472.58, "change_mean_delay": 5.34}, {"destination": "ISP", "date": 3, "number_of_flights": 58, "mean_delay": 8.45, "mean_distance": 528.83, "change_mean_delay": 5.34}, {"destination": "JAN", "date": 1, "number_of_flights": 23, "mean_delay": 3.96, "mean_distance": 613.04, "change_mean_delay": -3.44}, {"destination": "JAN", "date": 3, "number_of_flights": 25, "mean_delay": 0.52, "mean_distance": 562.68, "change_mean_delay": -3.44}, {"destination": "JAX", "date": 1, "number_of_flights": 65, "mean_delay": 7.12, "mean_distance": 407.82, "change_mean_delay": 8.83}, {"destination": "JAX", "date": 3, "number_of_flights": 66, "mean_delay": 15.95, "mean_distance": 424.85, "change_mean_delay": 8.83}, {"destination": "LAS", "date": 1, "number_of_flights": 428, "mean_delay": 14.16, "mean_distance": 553.36, "change_mean_delay": -6.12}, {"destination": "LAS", "date": 3, "number_of_flights": 405, "mean_delay": 8.04, "mean_distance": 567.54, "change_mean_delay": -6.12}, {"destination": "LAX", "date": 1, "number_of_flights": 300, "mean_delay": 8.46, "mean_distance": 529.91, "change_mean_delay": -0.22}, {"destination": "LAX", "date": 3, "number_of_flights": 325, "mean_delay": 8.24, "mean_distance": 489.88, "change_mean_delay": -0.22}, {"destination": "LBB", "date": 1, "number_of_flights": 36, "mean_delay": 3.39, "mean_distance": 351.61, "change_mean_delay": 2.55}, {"destination": "LBB", "date": 3, "number_of_flights": 49, "mean_delay": 5.94, "mean_distance": 338.22, "change_mean_delay": 2.55}, {"destination": "LIT", "date": 1, "number_of_flights": 30, "mean_delay": 2.07, "mean_distance": 375.0, "change_mean_delay": -0.95}, {"destination": "LIT", "date": 3, "number_of_flights": 51, "mean_delay": 1.12, "mean_distance": 408.65, "change_mean_delay": -0.95}, {"destination": "MAF", "date": 1, "number_of_flights": 37, "mean_delay": 8.89, "mean_distance": 369.3, "change_mean_delay": -3.7}, {"destination": "MAF", "date": 3, "number_of_flights": 31, "mean_delay": 5.19, "mean_distance": 398.26, "change_mean_delay": -3.7}, {"destination": "MCI", "date": 1, "number_of_flights": 176, "mean_delay": 6.41, "mean_distance": 707.56, "change_mean_delay": -1.04}, {"destination": "MCI", "date": 3, "number_of_flights": 207, "mean_delay": 5.37, "mean_distance": 745.93, "change_mean_delay": -1.04}, {"destination": "MCO", "date": 1, "number_of_flights": 132, "mean_delay": 2.74, "mean_distance": 728.77, "change_mean_delay": 5.57}, {"destination": "MCO", "date": 3, "number_of_flights": 130, "mean_delay": 8.31, "mean_distance": 743.67, "change_mean_delay": 5.57}, {"destination": "MDW", "date": 1, "number_of_flights": 312, "mean_delay": 5.24, "mean_distance": 461.4, "change_mean_delay": 0.61}, {"destination": "MDW", "date": 3, "number_of_flights": 302, "mean_delay": 5.85, "mean_distance": 440.93, "change_mean_delay": 0.61}, {"destination": "MHT", "date": 1, "number_of_flights": 43, "mean_delay": 5.12, "mean_distance": 692.26, "change_mean_delay": 1.93}, {"destination": "MHT", "date": 3, "number_of_flights": 48, "mean_delay": 7.04, "mean_distance": 747.04, "change_mean_delay": 1.93}, {"destination": "MSY", "date": 1, "number_of_flights": 171, "mean_delay": 4.77, "mean_distance": 487.86, "change_mean_delay": 0.41}, {"destination": "MSY", "date": 3, "number_of_flights": 151, "mean_delay": 5.17, "mean_distance": 517.47, "change_mean_delay": 0.41}, {"destination": "OAK", "date": 1, "number_of_flights": 278, "mean_delay": 7.93, "mean_distance": 430.95, "change_mean_delay": -4.1}, {"destination": "OAK", "date": 3, "number_of_flights": 324, "mean_delay": 3.83, "mean_distance": 444.32, "change_mean_delay": -4.1}, {"destination": "OKC", "date": 1, "number_of_flights": 54, "mean_delay": 7.24, "mean_distance": 369.04, "change_mean_delay": -6.21}, {"destination": "OKC", "date": 3, "number_of_flights": 69, "mean_delay": 1.03, "mean_distance": 393.9, "change_mean_delay": -6.21}, {"destination": "OMA", "date": 1, "number_of_flights": 49, "mean_delay": 3.29, "mean_distance": 625.84, "change_mean_delay": 1.98}, {"destination": "OMA", "date": 3, "number_of_flights": 42, "mean_delay": 5.26, "mean_distance": 690.24, "change_mean_delay": 1.98}, {"destination": "ONT", "date": 1, "number_of_flights": 165, "mean_delay": 13.24, "mean_distance": 349.81, "change_mean_delay": -9.24}, {"destination": "ONT", "date": 3, "number_of_flights": 145, "mean_delay": 4.0, "mean_distance": 331.07, "change_mean_delay": -9.24}, {"destination": "PBI", "date": 1, "number_of_flights": 13, "mean_delay": 6.77, "mean_distance": 325.54, "change_mean_delay": -2.56}, {"destination": "PBI", "date": 3, "number_of_flights": 34, "mean_delay": 4.21, "mean_distance": 329.26, "change_mean_delay": -2.56}, {"destination": "PDX", "date": 1, "number_of_flights": 89, "mean_delay": 9.4, "mean_distance": 532.08, "change_mean_delay": -2.3}, {"destination": "PDX", "date": 3, "number_of_flights": 70, "mean_delay": 7.1, "mean_distance": 567.11, "change_mean_delay": -2.3}, {"destination": "PHX", "date": 1, "number_of_flights": 411, "mean_delay": 12.57, "mean_distance": 675.43, "change_mean_delay": -2.88}, {"destination": "PHX", "date": 3, "number_of_flights": 486, "mean_delay": 9.69, "mean_distance": 637.73, "change_mean_delay": -2.88}, {"destination": "PVD", "date": 1, "number_of_flights": 57, "mean_delay": 3.19, "mean_distance": 650.26, "change_mean_delay": -3.33}, {"destination": "PVD", "date": 3, "number_of_flights": 59, "mean_delay": -0.14, "mean_distance": 709.05, "change_mean_delay": -3.33}, {"destination": "RDU", "date": 1, "number_of_flights": 41, "mean_delay": 3.49, "mean_distance": 437.05, "change_mean_delay": 0.33}, {"destination": "RDU", "date": 3, "number_of_flights": 44, "mean_delay": 3.82, "mean_distance": 484.86, "change_mean_delay": 0.33}, {"destination": "RNO", "date": 1, "number_of_flights": 123, "mean_delay": 8.98, "mean_distance": 362.15, "change_mean_delay": -2.9}, {"destination": "RNO", "date": 3, "number_of_flights": 92, "mean_delay": 6.08, "mean_distance": 382.78, "change_mean_delay": -2.9}, {"destination": "SAN", "date": 1, "number_of_flights": 212, "mean_delay": 12.45, "mean_distance": 488.73, "change_mean_delay": -8.2}, {"destination": "SAN", "date": 3, "number_of_flights": 174, "mean_delay": 4.25, "mean_distance": 455.28, "change_mean_delay": -8.2}, {"destination": "SAT", "date": 1, "number_of_flights": 120, "mean_delay": 7.34, "mean_distance": 446.72, "change_mean_delay": 0.3}, {"destination": "SAT", "date": 3, "number_of_flights": 110, "mean_delay": 7.65, "mean_distance": 473.84, "change_mean_delay": 0.3}, {"destination": "SDF", "date": 1, "number_of_flights": 68, "mean_delay": 7.57, "mean_distance": 491.19, "change_mean_delay": -5.8}, {"destination": "SDF", "date": 3, "number_of_flights": 49, "mean_delay": 1.78, "mean_distance": 467.67, "change_mean_delay": -5.8}, {"destination": "SEA", "date": 1, "number_of_flights": 96, "mean_delay": 10.68, "mean_distance": 638.96, "change_mean_delay": 3.6}, {"destination": "SEA", "date": 3, "number_of_flights": 94, "mean_delay": 14.28, "mean_distance": 652.84, "change_mean_delay": 3.6}, {"destination": "SFO", "date": 1, "number_of_flights": 33, "mean_delay": 14.52, "mean_distance": 558.27, "change_mean_delay": 5.23}, {"destination": "SFO", "date": 3, "number_of_flights": 4, "mean_delay": 19.75, "mean_distance": 498.0, "change_mean_delay": 5.23}, {"destination": "SJC", "date": 1, "number_of_flights": 197, "mean_delay": 10.92, "mean_distance": 384.56, "change_mean_delay": -6.35}, {"destination": "SJC", "date": 3, "number_of_flights": 191, "mean_delay": 4.57, "mean_distance": 404.65, "change_mean_delay": -6.35}, {"destination": "SLC", "date": 1, "number_of_flights": 102, "mean_delay": 10.95, "mean_distance": 605.62, "change_mean_delay": -0.82}, {"destination": "SLC", "date": 3, "number_of_flights": 110, "mean_delay": 10.13, "mean_distance": 520.6, "change_mean_delay": -0.82}, {"destination": "SMF", "date": 1, "number_of_flights": 162, "mean_delay": 9.86, "mean_distance": 469.78, "change_mean_delay": -7.17}, {"destination": "SMF", "date": 3, "number_of_flights": 188, "mean_delay": 2.69, "mean_distance": 446.46, "change_mean_delay": -7.17}, {"destination": "SNA", "date": 1, "number_of_flights": 31, "mean_delay": 10.0, "mean_distance": 351.35, "change_mean_delay": -4.75}, {"destination": "SNA", "date": 3, "number_of_flights": 32, "mean_delay": 5.25, "mean_distance": 355.59, "change_mean_delay": -4.75}, {"destination": "STL", "date": 1, "number_of_flights": 199, "mean_delay": 5.77, "mean_distance": 478.18, "change_mean_delay": -1.5}, {"destination": "STL", "date": 3, "number_of_flights": 202, "mean_delay": 4.27, "mean_distance": 516.59, "change_mean_delay": -1.5}, {"destination": "TPA", "date": 1, "number_of_flights": 114, "mean_delay": 3.75, "mean_distance": 577.17, "change_mean_delay": 11.05}, {"destination": "TPA", "date": 3, "number_of_flights": 150, "mean_delay": 14.79, "mean_distance": 631.63, "change_mean_delay": 11.05}, {"destination": "TUL", "date": 1, "number_of_flights": 70, "mean_delay": 10.69, "mean_distance": 391.53, "change_mean_delay": -3.22}, {"destination": "TUL", "date": 3, "number_of_flights": 65, "mean_delay": 7.46, "mean_distance": 384.25, "change_mean_delay": -3.22}, {"destination": "TUS", "date": 1, "number_of_flights": 44, "mean_delay": 9.18, "mean_distance": 390.95, "change_mean_delay": -3.15}, {"destination": "TUS", "date": 3, "number_of_flights": 31, "mean_delay": 6.03, "mean_distance": 404.42, "change_mean_delay": -3.15}], "data-40bf7cbec64784a4ce18b48588df5dc9": [{"destination": "TOTAL", "date": 1, "number_of_flights": 6784, "mean_delay": 8.24, "mean_distance": 500.39, "change_mean_delay": -1.44}, {"destination": "TOTAL", "date": 3, "number_of_flights": 6960, "mean_delay": 6.8, "mean_distance": 504.71, "change_mean_delay": -1.44}]}}, {"mode": "vega-lite"});
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
 </script>
-</div>
-</div>
-<p>In the example shown here, each comet represents one destination airport. The head of the comet corresponds to the most recent observation of the number of flight arrivals (x-axis, shown as logarithmic scale to accommodate the wide range of observations) against the mean delay of those flights (y-axis). The tail of the comet represents a similar (x,y) datum, but from an earlier point in time. Finally, the colour of the comet is encoded to show the change in the mean delay for each airport. A tooltip with a summary of the data is shown when hovering over the head of the comet.</p>
-<p>So-called mix effects can often lead to misinterpretation of aggregate numbers. In the example of flight delays, the fact that only a small change is observed in the mean delay across all airports — visualized with the right-most comet outlined in black — hides the underlying variance between airports. Note that in this example the size of each sub-population (number of flights per airport) remains relatively constant, hence the comets here only go up and down. As explained in <a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/42901.pdf">the original article</a>, mix effects become harder to interpret when the relative size of the sub-populations change as well as their relative values. In the most extreme case this may lead to <a href="https://en.wikipedia.org/wiki/Simpson%27s_paradox">Simpson’s paradox</a>.</p>
-<p>With this base implementation of comet charts in Altair, you can really go to town and combine it with other interactive graphs. Using the <a href="https://altair-viz.github.io/gallery/scatter_with_layered_histogram.html">overview-detail</a> pattern, you could plot an accompanying density plot of all the flights for a given airport. That way you can quickly zoom in to the lowest level of detail and get a better understanding of the underlying mix effects.</p>
+</div> <!-- /content -->
 
 
 
- ]]></description>
-  <category>english</category>
-  <category>visualization</category>
-  <category>coding</category>
-  <guid>https://masteringdata.ai/src/blog/posts/comet-chart.html</guid>
-  <pubDate>Fri, 29 Jan 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/comet-chart.png" medium="image" type="image/png" height="117" width="144"/>
-</item>
-</channel>
-</rss>
+</body></html>

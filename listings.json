@@ -2,8 +2,12 @@
   {
     "listing": "/src/blog/listing.html",
     "items": [
-      "/src/blog/posts/some-post.html",
+      "/src/blog/posts/podcast-dataloog-datasolidariteit.html",
+      "/src/blog/posts/datasolidariteit.html",
+      "/src/blog/posts/podcast-aitoday.html",
+      "/src/blog/posts/eerlijke-algoritmen.html",
       "/src/blog/posts/analytical-problem-solving.html",
+      "/src/blog/posts/lartpy.html",
       "/src/blog/posts/comet-chart.html"
     ]
   }
