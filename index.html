@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a href="./src/services/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Services</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -164,6 +164,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./src/calendar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Book an appointment</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./src/contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Company details</span></a>
   </div>
@@ -184,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="container-fluid py-5">
     <h1 class="display-5 fw-bold">Looking to do more with data and AI?</h1>
     <p class="col-md-8 fs-4 hero-quote">As a data scientist, AI expert, architect, advisor, lecturer and mentor, I help people and organizations master data and AI in different roles, ultimately to create sustainable change with digital technologies.</p>
-    <button class="btn btn-primary btn-lg" type="button">See what I have to offer</button>
+    <a href="src/services/index.html" class="btn btn-primary btn-lg" type="button">See what I have to offer</a>
   </div>
 </div>
 
@@ -203,12 +209,6 @@ ul.task-list li input[type="checkbox"] {
   font-style: bold !important;
   color: white !important;
 }
-
-.btn-primary {
-  background-color: #ff4f5e;
-  border-color: #ff4f5e;
-  font-family: "Inter";
-}
 </style>
 </div>
 <div class="container">
@@ -226,23 +226,6 @@ ul.task-list li input[type="checkbox"] {
 <h1></h1>
 <p>I work with organizations of all sizes and across a variety of industries, and I pride myself on my collaborative and client-focused approach. I believe that success is achieved through close collaboration, and I work closely with my clients to ensure that we achieve the best possible results together.</p>
 <p>Whether you are looking to implement machine learning for the first time or seeking to take your data analytics to the next level, I am here to help. Contact me today to learn more about how I can help your organization harness the power of machine learning and AI to achieve your strategic objectives.</p>
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async=""></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/AcZssZ3bat8-Gyswn1RmSeowmu2ZAdqkJl9YDoSjNnk=?gv=true',
-      color: '#ff4f5e',
-      label: 'Book an appointment',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
 </section>
 <section id="section-2" class="level1">
 <h1></h1>
@@ -272,6 +255,10 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </div>
+</section>
+<section id="section-3" class="level1">
+<h1></h1>
+<a href="src/calendar.html" class="btn btn-primary btn-lg" type="button">Book an appointment</a>
 
 
 </section>
