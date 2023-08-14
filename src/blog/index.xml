@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>@kapitan</title>
-<link>https://masteringdata.ai/src/blog/listing.html</link>
-<atom:link href="https://masteringdata.ai/src/blog/listing.xml" rel="self" type="application/rss+xml"/>
+<link>https://masteringdata.ai/src/blog/index.html</link>
+<atom:link href="https://masteringdata.ai/src/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
 <lastBuildDate>Thu, 18 May 2023 00:00:00 GMT</lastBuildDate>
@@ -1311,23 +1311,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-b54e626e993c44e1be92448dc3ac735a.vega-embed {
+  #altair-viz-00672d54653a4da48f7584aba1f308f7.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-b54e626e993c44e1be92448dc3ac735a.vega-embed details,
-  #altair-viz-b54e626e993c44e1be92448dc3ac735a.vega-embed details summary {
+  #altair-viz-00672d54653a4da48f7584aba1f308f7.vega-embed details,
+  #altair-viz-00672d54653a4da48f7584aba1f308f7.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-b54e626e993c44e1be92448dc3ac735a"></div>
+<div id="altair-viz-00672d54653a4da48f7584aba1f308f7"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-b54e626e993c44e1be92448dc3ac735a") {
-      outputDiv = document.getElementById("altair-viz-b54e626e993c44e1be92448dc3ac735a");
+    if (outputDiv.id !== "altair-viz-00672d54653a4da48f7584aba1f308f7") {
+      outputDiv = document.getElementById("altair-viz-00672d54653a4da48f7584aba1f308f7");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
