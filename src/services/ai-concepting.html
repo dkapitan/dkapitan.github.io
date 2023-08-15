@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>@kapitan - Blog posts</title>
+<title>@kapitan – ai-concepting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,41 +59,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
-<link rel="alternate" type="application/rss+xml" title="@kapitan" href="index.xml"></head>
+</head>
 
 <body class="nav-sidebar floating nav-fixed">
 
@@ -117,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../src/blog/index.html">Blog</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -185,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../src/blog/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../src/blog/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
   </div>
 </li>
@@ -213,329 +180,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="coding">coding <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data commons">data commons <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data solidarity">data solidarity <span class="quarto-category-count">(2)</span></div><div class="category" data-category="english">english <span class="quarto-category-count">(3)</span></div><div class="category" data-category="generative art">generative art <span class="quarto-category-count">(1)</span></div><div class="category" data-category="modeling">modeling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nederlands">nederlands <span class="quarto-category-count">(4)</span></div><div class="category" data-category="podcast">podcast <span class="quarto-category-count">(2)</span></div><div class="category" data-category="responsible ai">responsible ai <span class="quarto-category-count">(2)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai-concepting" id="toc-ai-concepting" class="nav-link active" data-scroll-target="#ai-concepting">AI Concepting</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog posts</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
+<section id="ai-concepting" class="level3">
+<h3 class="anchored" data-anchor-id="ai-concepting">AI Concepting</h3>
+<p>flkasjdflsdkafj …</p>
 
 
+</section>
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="nederlands,podcast,data commons,data solidarity" data-listing-date-sort="1684368000000" data-listing-file-modified-sort="1692102563182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../src/blog/posts/podcast-dataloog-datasolidariteit.html"> <img src="../../images/podcast-de-dataloog.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../src/blog/posts/podcast-dataloog-datasolidariteit.html">
-<h3 class="no-anchor listing-title">
-Podcast bij de Dataloog
-</h3>
-<div class="listing-subtitle">
-Interview door Harm Bodewes en Jurjen Helmus
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
-nederlands
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('podcast'); return false;">
-podcast
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data commons'); return false;">
-data commons
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data solidarity'); return false;">
-data solidarity
-</div>
-</div>
-<a href="../../src/blog/posts/podcast-dataloog-datasolidariteit.html">
-<div class="listing-description">
-<p>Een heerlijk Socratisch gesprek over datasolidariteit.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../src/blog/posts/podcast-dataloog-datasolidariteit.html">
-<div class="listing-date">
-May 18, 2023
-</div>
-<div class="listing-author">
-Daniel Kapitan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="nederlands,data commons,data solidarity" data-listing-date-sort="1672099200000" data-listing-file-modified-sort="1692102563182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
-<div class="thumbnail">
-<p><a href="../../src/blog/posts/datasolidariteit.html"> <img src="../../images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../src/blog/posts/datasolidariteit.html">
-<h3 class="no-anchor listing-title">
-We moeten het meer hebben over datasolidariteit
-</h3>
-<div class="listing-subtitle">
-Opinie gepubliceerd op socialevraagstukken.nl
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
-nederlands
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data commons'); return false;">
-data commons
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data solidarity'); return false;">
-data solidarity
-</div>
-</div>
-<a href="../../src/blog/posts/datasolidariteit.html">
-<div class="listing-description">
-<p>Het debat over het delen van persoonsgegevens gaat al te vaak over privacy. We moeten het meer hebben over de maatschappelijke waarde van data delen, over datasolidariteit.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../src/blog/posts/datasolidariteit.html">
-<div class="listing-date">
-Dec 27, 2022
-</div>
-<div class="listing-author">
-Daniel Kapitan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="nederlands,podcast,responsible ai" data-listing-date-sort="1656979200000" data-listing-file-modified-sort="1692102563182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../src/blog/posts/podcast-aitoday.html"> <img src="../../images/podcast-aitoday.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../src/blog/posts/podcast-aitoday.html">
-<h3 class="no-anchor listing-title">
-Podcast bij AIToday
-</h3>
-<div class="listing-subtitle">
-Geinterviewed door Joop Snijders en Niels Naglé
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
-nederlands
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('podcast'); return false;">
-podcast
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('responsible ai'); return false;">
-responsible ai
-</div>
-</div>
-<a href="../../src/blog/posts/podcast-aitoday.html">
-<div class="listing-description">
-<p>Sinds tijden weer een <em>live</em> gesprek!</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../src/blog/posts/podcast-aitoday.html">
-<div class="listing-date">
-Jul 5, 2022
-</div>
-<div class="listing-author">
-Daniel Kapitan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="nederlands,responsible ai" data-listing-date-sort="1650844800000" data-listing-file-modified-sort="1692102563182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
-<div class="thumbnail">
-<p><a href="../../src/blog/posts/eerlijke-algoritmen.html"> <img src="../../images/alexander-grey-TZZwC_xsClY-unsplash.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../src/blog/posts/eerlijke-algoritmen.html">
-<h3 class="no-anchor listing-title">
-Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?
-</h3>
-<div class="listing-subtitle">
-Opinie gepubliceerd op socialevraagstukken.nl
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
-nederlands
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('responsible ai'); return false;">
-responsible ai
-</div>
-</div>
-<a href="../../src/blog/posts/eerlijke-algoritmen.html">
-<div class="listing-description">
-<p>De Autoriteit Persoonsgegevens legde de Belastingdienst onlangs een boete op voor het gebruik van de ‘fraudesignaleringsvoorziening’, waarin jarenlang illegaal persoonsgegevens verwerkt werden. Wat zijn knelpunten van algoritmegebruik bij overheidstoezicht en wat nodig is om wel tot eerlijke, niet-discriminerende algoritmen te komen.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../src/blog/posts/eerlijke-algoritmen.html">
-<div class="listing-date">
-Apr 25, 2022
-</div>
-<div class="listing-author">
-Daniel Kapitan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="english,modeling" data-listing-date-sort="1646870400000" data-listing-file-modified-sort="1692102563182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../src/blog/posts/analytical-problem-solving.html"> <img src="../../images/logo-american-statistician.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../src/blog/posts/analytical-problem-solving.html">
-<h3 class="no-anchor listing-title">
-Analytical problem solving
-</h3>
-<div class="listing-subtitle">
-based on causal, correlational and deductive models
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
-english
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('modeling'); return false;">
-modeling
-</div>
-</div>
-<a href="../../src/blog/posts/analytical-problem-solving.html">
-<div class="listing-description">
-<p>I co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../src/blog/posts/analytical-problem-solving.html">
-<div class="listing-date">
-Mar 10, 2022
-</div>
-<div class="listing-author">
-Daniel Kapitan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="english,visualization,generative art,coding" data-listing-date-sort="1619395200000" data-listing-file-modified-sort="1692102563182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
-<div class="thumbnail">
-<p><a href="../../src/blog/posts/lartpy.html"> <img src="../../images/lartpy.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../src/blog/posts/lartpy.html">
-<h3 class="no-anchor listing-title">
-Creating generative art with L-systems in Python
-</h3>
-<div class="listing-subtitle">
-Some experiments on the algorithmic beauty of plants
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
-english
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
-visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('generative art'); return false;">
-generative art
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
-coding
-</div>
-</div>
-<a href="../../src/blog/posts/lartpy.html">
-<div class="listing-description">
-<p>Would it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?“, I thought (pun intended). Of course, someone already thought of that and it even has a name: algorithmic botany.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../src/blog/posts/lartpy.html">
-<div class="listing-date">
-Apr 26, 2021
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="english,visualization,coding" data-listing-date-sort="1611878400000" data-listing-file-modified-sort="1692102563182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="../../src/blog/posts/comet-chart.html"> <img src="../../images/comet-chart.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../src/blog/posts/comet-chart.html">
-<h3 class="no-anchor listing-title">
-Comet charts in Python
-</h3>
-<div class="listing-subtitle">
-Visualizing statistical mix effects and Simpson’s paradox with Altair
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
-english
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
-visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
-coding
-</div>
-</div>
-<a href="../../src/blog/posts/comet-chart.html">
-<div class="listing-description">
-Zan Armstrong’s comet chart has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../../src/blog/posts/comet-chart.html">
-<div class="listing-date">
-Jan 29, 2021
-</div>
-<div class="listing-author">
-Daniel Kapitan
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

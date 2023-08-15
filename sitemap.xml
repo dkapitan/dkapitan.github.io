@@ -2,62 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://masteringdata.ai/index.html</loc>
-    <lastmod>2023-08-15T07:05:51.088Z</lastmod>
+    <lastmod>2023-08-15T12:31:33.983Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/about.html</loc>
-    <lastmod>2023-08-15T07:05:50.440Z</lastmod>
+    <lastmod>2023-08-15T12:31:33.139Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/posts/comet-chart.html</loc>
-    <lastmod>2023-08-15T07:05:49.772Z</lastmod>
+    <lastmod>2023-08-15T12:31:32.267Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/posts/eerlijke-algoritmen.html</loc>
-    <lastmod>2023-08-15T07:05:41.972Z</lastmod>
+    <lastmod>2023-08-15T12:31:22.559Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/posts/analytical-problem-solving.html</loc>
-    <lastmod>2023-08-15T07:05:40.904Z</lastmod>
+    <lastmod>2023-08-15T12:31:21.183Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/index.html</loc>
-    <lastmod>2023-08-15T07:05:39.884Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/src/projects/project-1.html</loc>
-    <lastmod>2023-08-15T07:05:37.548Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/src/calendar.html</loc>
-    <lastmod>2023-08-15T07:05:36.624Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/src/projects/project-2.html</loc>
-    <lastmod>2023-08-15T07:05:37.248Z</lastmod>
+    <lastmod>2023-08-15T12:31:19.867Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/services/index.html</loc>
-    <lastmod>2023-08-15T07:05:37.860Z</lastmod>
+    <lastmod>2023-08-15T12:31:16.935Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/services/data-centric-ai.html</loc>
+    <lastmod>2023-08-15T12:31:16.187Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/projects/project-2.html</loc>
+    <lastmod>2023-08-15T12:31:15.415Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/calendar.html</loc>
+    <lastmod>2023-08-15T12:31:14.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/projects/project-1.html</loc>
+    <lastmod>2023-08-15T12:31:15.815Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/services/ai-concepting.html</loc>
+    <lastmod>2023-08-15T12:31:16.563Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/src/services/coaching.html</loc>
+    <lastmod>2023-08-15T12:31:17.295Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/posts/lartpy.html</loc>
-    <lastmod>2023-08-15T07:05:40.568Z</lastmod>
+    <lastmod>2023-08-15T12:31:20.779Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/posts/datasolidariteit.html</loc>
-    <lastmod>2023-08-15T07:05:41.448Z</lastmod>
+    <lastmod>2023-08-15T12:31:21.875Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/posts/podcast-dataloog-datasolidariteit.html</loc>
-    <lastmod>2023-08-15T07:05:42.300Z</lastmod>
+    <lastmod>2023-08-15T12:31:22.955Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/blog/posts/podcast-aitoday.html</loc>
-    <lastmod>2023-08-15T07:05:50.088Z</lastmod>
+    <lastmod>2023-08-15T12:31:32.671Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/src/contact.html</loc>
-    <lastmod>2023-08-15T07:05:50.764Z</lastmod>
+    <lastmod>2023-08-15T12:31:33.563Z</lastmod>
   </url>
 </urlset>

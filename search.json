@@ -91,11 +91,11 @@
     "text": "Podcast bij de Dataloog\n\n\nInterview door Harm Bodewes en Jurjen Helmus\n\n\n\n\nnederlands\n\n\npodcast\n\n\ndata commons\n\n\ndata solidarity\n\n\n\n\nEen heerlijk Socratisch gesprek over datasolidariteit.\n\n\n\n\n\n\nMay 18, 2023\n\n\nDaniel Kapitan\n\n\n\n\n\n\n  \n\n\n\n\nWe moeten het meer hebben over datasolidariteit\n\n\nOpinie gepubliceerd op socialevraagstukken.nl\n\n\n\n\nnederlands\n\n\ndata commons\n\n\ndata solidarity\n\n\n\n\nHet debat over het delen van persoonsgegevens gaat al te vaak over privacy. We moeten het meer hebben over de maatschappelijke waarde van data delen, over datasolidariteit.\n\n\n\n\n\n\nDec 27, 2022\n\n\nDaniel Kapitan\n\n\n\n\n\n\n  \n\n\n\n\nPodcast bij AIToday\n\n\nGeinterviewed door Joop Snijders en Niels Naglé\n\n\n\n\nnederlands\n\n\npodcast\n\n\nresponsible ai\n\n\n\n\nSinds tijden weer een live gesprek!\n\n\n\n\n\n\nJul 5, 2022\n\n\nDaniel Kapitan\n\n\n\n\n\n\n  \n\n\n\n\nHoe krijgen we eerlijke algoritmen voor overheidstoezicht?\n\n\nOpinie gepubliceerd op socialevraagstukken.nl\n\n\n\n\nnederlands\n\n\nresponsible ai\n\n\n\n\nDe Autoriteit Persoonsgegevens legde de Belastingdienst onlangs een boete op voor het gebruik van de ‘fraudesignaleringsvoorziening’, waarin jarenlang illegaal persoonsgegevens verwerkt werden. Wat zijn knelpunten van algoritmegebruik bij overheidstoezicht en wat nodig is om wel tot eerlijke, niet-discriminerende algoritmen te komen.\n\n\n\n\n\n\nApr 25, 2022\n\n\nDaniel Kapitan\n\n\n\n\n\n\n  \n\n\n\n\nAnalytical problem solving\n\n\nbased on causal, correlational and deductive models\n\n\n\n\nenglish\n\n\nmodeling\n\n\n\n\nI co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving.\n\n\n\n\n\n\nMar 10, 2022\n\n\nDaniel Kapitan\n\n\n\n\n\n\n  \n\n\n\n\nCreating generative art with L-systems in Python\n\n\nSome experiments on the algorithmic beauty of plants\n\n\n\n\nenglish\n\n\nvisualization\n\n\ngenerative art\n\n\ncoding\n\n\n\n\nWould it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?“, I thought (pun intended). Of course, someone already thought of that and it even has a name: algorithmic botany.\n\n\n\n\n\n\nApr 26, 2021\n\n\n\n\n\n\n  \n\n\n\n\nComet charts in Python\n\n\nVisualizing statistical mix effects and Simpson’s paradox with Altair\n\n\n\n\nenglish\n\n\nvisualization\n\n\ncoding\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2021\n\n\nDaniel Kapitan\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "src/projects/project-1.html",
-    "href": "src/projects/project-1.html",
-    "title": "MyTomorrows",
+    "objectID": "src/services/index.html",
+    "href": "src/services/index.html",
+    "title": "Services",
     "section": "",
-    "text": "Story about MyTomorrows …\n\n  \n    \n    \n  \n  \n    \n      \n      \n    \n  \n    \n      \n  \n    \n    \n    Previous\n  \n  \n    \n    Next"
+    "text": "Carousel with services …"
   },
   {
     "objectID": "src/projects/project-2.html",
@@ -105,11 +105,18 @@
     "text": "Story about data commons in Africa …"
   },
   {
-    "objectID": "src/services/index.html",
-    "href": "src/services/index.html",
-    "title": "Services",
+    "objectID": "src/projects/project-1.html",
+    "href": "src/projects/project-1.html",
+    "title": "MyTomorrows",
     "section": "",
-    "text": "Carousel with services …"
+    "text": "Story about MyTomorrows …\n\n  \n    \n    \n  \n  \n    \n      \n      \n    \n  \n    \n      \n  \n    \n    \n    Previous\n  \n  \n    \n    Next"
+  },
+  {
+    "objectID": "src/services/ai-concepting.html",
+    "href": "src/services/ai-concepting.html",
+    "title": "@kapitan",
+    "section": "",
+    "text": "AI Concepting\nflkasjdflsdkafj …"
   },
   {
     "objectID": "src/blog/posts/lartpy.html",
