@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Dr Daniel Kapitan | Applied AI | Data-centric AI | Coaching &amp; Public Speaking</title>
+<title>Dr Daniel Kapitan | Data-centric Architecture | Applied AI | Coaching &amp; Public Speaking</title>
 <link>https://masteringdata.ai/src/blog/index.html</link>
 <atom:link href="https://masteringdata.ai/src/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
@@ -1311,23 +1311,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-36d739af94fc496a8475d39f334b3aaa.vega-embed {
+  #altair-viz-9cacbb8ab06246e190fe655ec9a60e7e.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-36d739af94fc496a8475d39f334b3aaa.vega-embed details,
-  #altair-viz-36d739af94fc496a8475d39f334b3aaa.vega-embed details summary {
+  #altair-viz-9cacbb8ab06246e190fe655ec9a60e7e.vega-embed details,
+  #altair-viz-9cacbb8ab06246e190fe655ec9a60e7e.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-36d739af94fc496a8475d39f334b3aaa"></div>
+<div id="altair-viz-9cacbb8ab06246e190fe655ec9a60e7e"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-36d739af94fc496a8475d39f334b3aaa") {
-      outputDiv = document.getElementById("altair-viz-36d739af94fc496a8475d39f334b3aaa");
+    if (outputDiv.id !== "altair-viz-9cacbb8ab06246e190fe655ec9a60e7e") {
+      outputDiv = document.getElementById("altair-viz-9cacbb8ab06246e190fe655ec9a60e7e");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
