@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/src/blog/index.html",
-    "items": [
-      "/src/blog/posts/podcast-dataloog-datasolidariteit.html",
-      "/src/blog/posts/datasolidariteit.html",
-      "/src/blog/posts/podcast-aitoday.html",
-      "/src/blog/posts/eerlijke-algoritmen.html",
-      "/src/blog/posts/analytical-problem-solving.html",
-      "/src/blog/posts/lartpy.html",
-      "/src/blog/posts/comet-chart.html"
-    ]
-  },
-  {
     "listing": "/src/projects/index.html",
     "items": [
       "/src/projects/posts/blue-radix.html",
@@ -21,6 +9,18 @@
       "/src/projects/posts/has.html",
       "/src/projects/posts/mytomorrows.html",
       "/src/projects/posts/amphia.html"
+    ]
+  },
+  {
+    "listing": "/src/blog/index.html",
+    "items": [
+      "/src/blog/posts/podcast-dataloog-datasolidariteit.html",
+      "/src/blog/posts/datasolidariteit.html",
+      "/src/blog/posts/podcast-aitoday.html",
+      "/src/blog/posts/eerlijke-algoritmen.html",
+      "/src/blog/posts/analytical-problem-solving.html",
+      "/src/blog/posts/lartpy.html",
+      "/src/blog/posts/comet-chart.html"
     ]
   }
 ]
