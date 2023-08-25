@@ -10,5 +10,12 @@
       "/src/blog/posts/lartpy.html",
       "/src/blog/posts/comet-chart.html"
     ]
+  },
+  {
+    "listing": "/src/projects/index.html",
+    "items": [
+      "/src/projects/posts/project-1.html",
+      "/src/projects/posts/project-2.html"
+    ]
   }
 ]
