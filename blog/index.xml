@@ -1340,23 +1340,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-93a3fee71a594cce99870aa1969f77ec.vega-embed {
+  #altair-viz-e79ee0fae22a43739075c04bb0650291.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-93a3fee71a594cce99870aa1969f77ec.vega-embed details,
-  #altair-viz-93a3fee71a594cce99870aa1969f77ec.vega-embed details summary {
+  #altair-viz-e79ee0fae22a43739075c04bb0650291.vega-embed details,
+  #altair-viz-e79ee0fae22a43739075c04bb0650291.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-93a3fee71a594cce99870aa1969f77ec"></div>
+<div id="altair-viz-e79ee0fae22a43739075c04bb0650291"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-93a3fee71a594cce99870aa1969f77ec") {
-      outputDiv = document.getElementById("altair-viz-93a3fee71a594cce99870aa1969f77ec");
+    if (outputDiv.id !== "altair-viz-e79ee0fae22a43739075c04bb0650291") {
+      outputDiv = document.getElementById("altair-viz-e79ee0fae22a43739075c04bb0650291");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",

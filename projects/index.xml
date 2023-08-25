@@ -10,7 +10,7 @@
 <atom:link href="https://masteringdata.ai/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Fri, 25 Aug 2023 22:45:16 GMT</lastBuildDate>
+<lastBuildDate>Fri, 25 Aug 2023 22:47:08 GMT</lastBuildDate>
 <item>
   <title>Blue Radix</title>
   <link>https://masteringdata.ai/projects/blue-radix.html</link>
@@ -27,7 +27,7 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://masteringdata.ai/projects/blue-radix.html</guid>
-  <pubDate>Fri, 25 Aug 2023 22:45:16 GMT</pubDate>
+  <pubDate>Fri, 25 Aug 2023 22:47:08 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -46,7 +46,7 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://masteringdata.ai/projects/pharmaccess.html</guid>
-  <pubDate>Fri, 25 Aug 2023 22:45:16 GMT</pubDate>
+  <pubDate>Fri, 25 Aug 2023 22:47:08 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -65,7 +65,7 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://masteringdata.ai/projects/sensire.html</guid>
-  <pubDate>Fri, 25 Aug 2023 22:45:16 GMT</pubDate>
+  <pubDate>Fri, 25 Aug 2023 22:47:08 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/sensire.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -84,7 +84,7 @@
   <category>data architecture</category>
   <category>sustainability</category>
   <guid>https://masteringdata.ai/projects/roetz-life.html</guid>
-  <pubDate>Fri, 25 Aug 2023 22:45:16 GMT</pubDate>
+  <pubDate>Fri, 25 Aug 2023 22:47:08 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -104,7 +104,7 @@
   <category>AI</category>
   <category>agriculture</category>
   <guid>https://masteringdata.ai/projects/has.html</guid>
-  <pubDate>Fri, 25 Aug 2023 22:45:16 GMT</pubDate>
+  <pubDate>Fri, 25 Aug 2023 22:47:08 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/has.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -123,7 +123,7 @@
   <category>generative AI</category>
   <category>healthcare</category>
   <guid>https://masteringdata.ai/projects/mytomorrows.html</guid>
-  <pubDate>Fri, 25 Aug 2023 22:45:16 GMT</pubDate>
+  <pubDate>Fri, 25 Aug 2023 22:47:08 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
@@ -144,7 +144,7 @@
   <category>mentoring</category>
   <category>healthcare</category>
   <guid>https://masteringdata.ai/projects/amphia.html</guid>
-  <pubDate>Fri, 25 Aug 2023 22:45:16 GMT</pubDate>
+  <pubDate>Fri, 25 Aug 2023 22:47:08 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
