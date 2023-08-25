@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
-<link>https://masteringdata.ai/src/projects/index.html</link>
-<atom:link href="https://masteringdata.ai/src/projects/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://masteringdata.ai/projects/index.html</link>
+<atom:link href="https://masteringdata.ai/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Fri, 25 Aug 2023 21:14:13 GMT</lastBuildDate>
+<lastBuildDate>Fri, 25 Aug 2023 22:38:02 GMT</lastBuildDate>
 <item>
   <title>Blue Radix</title>
-  <link>https://masteringdata.ai/src/projects/posts/blue-radix.html</link>
+  <link>https://masteringdata.ai/projects/blue-radix.html</link>
   <description><![CDATA[ 
 
 
@@ -26,13 +26,13 @@
   <category>english</category>
   <category>data architecture</category>
   <category>healthcare</category>
-  <guid>https://masteringdata.ai/src/projects/posts/blue-radix.html</guid>
-  <pubDate>Fri, 25 Aug 2023 21:14:13 GMT</pubDate>
+  <guid>https://masteringdata.ai/projects/blue-radix.html</guid>
+  <pubDate>Fri, 25 Aug 2023 22:38:02 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>PharmAccess Foundation</title>
-  <link>https://masteringdata.ai/src/projects/posts/pharmaccess.html</link>
+  <link>https://masteringdata.ai/projects/pharmaccess.html</link>
   <description><![CDATA[ 
 
 
@@ -45,13 +45,13 @@
   <category>english</category>
   <category>data architecture</category>
   <category>healthcare</category>
-  <guid>https://masteringdata.ai/src/projects/posts/pharmaccess.html</guid>
-  <pubDate>Fri, 25 Aug 2023 21:14:13 GMT</pubDate>
+  <guid>https://masteringdata.ai/projects/pharmaccess.html</guid>
+  <pubDate>Fri, 25 Aug 2023 22:38:02 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Sensire</title>
-  <link>https://masteringdata.ai/src/projects/posts/sensire.html</link>
+  <link>https://masteringdata.ai/projects/sensire.html</link>
   <description><![CDATA[ 
 
 
@@ -64,13 +64,13 @@
   <category>english</category>
   <category>data architecture</category>
   <category>healthcare</category>
-  <guid>https://masteringdata.ai/src/projects/posts/sensire.html</guid>
-  <pubDate>Fri, 25 Aug 2023 21:14:13 GMT</pubDate>
+  <guid>https://masteringdata.ai/projects/sensire.html</guid>
+  <pubDate>Fri, 25 Aug 2023 22:38:02 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/sensire.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Roetz Life</title>
-  <link>https://masteringdata.ai/src/projects/posts/roetz-life.html</link>
+  <link>https://masteringdata.ai/projects/roetz-life.html</link>
   <description><![CDATA[ 
 
 
@@ -83,13 +83,13 @@
   <category>english</category>
   <category>data architecture</category>
   <category>sustainability</category>
-  <guid>https://masteringdata.ai/src/projects/posts/roetz-life.html</guid>
-  <pubDate>Fri, 25 Aug 2023 21:14:13 GMT</pubDate>
+  <guid>https://masteringdata.ai/projects/roetz-life.html</guid>
+  <pubDate>Fri, 25 Aug 2023 22:38:02 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>HAS Green Academy</title>
-  <link>https://masteringdata.ai/src/projects/posts/has.html</link>
+  <link>https://masteringdata.ai/projects/has.html</link>
   <description><![CDATA[ 
 
 
@@ -103,13 +103,13 @@
   <category>english</category>
   <category>AI</category>
   <category>agriculture</category>
-  <guid>https://masteringdata.ai/src/projects/posts/has.html</guid>
-  <pubDate>Fri, 25 Aug 2023 21:14:13 GMT</pubDate>
+  <guid>https://masteringdata.ai/projects/has.html</guid>
+  <pubDate>Fri, 25 Aug 2023 22:38:02 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/has.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>MyTomorrows TrialSearch AI</title>
-  <link>https://masteringdata.ai/src/projects/posts/mytomorrows.html</link>
+  <link>https://masteringdata.ai/projects/mytomorrows.html</link>
   <description><![CDATA[ 
 
 
@@ -122,13 +122,13 @@
   <category>english</category>
   <category>generative AI</category>
   <category>healthcare</category>
-  <guid>https://masteringdata.ai/src/projects/posts/mytomorrows.html</guid>
-  <pubDate>Fri, 25 Aug 2023 21:14:13 GMT</pubDate>
+  <guid>https://masteringdata.ai/projects/mytomorrows.html</guid>
+  <pubDate>Fri, 25 Aug 2023 22:38:02 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>Amphia Sensium</title>
-  <link>https://masteringdata.ai/src/projects/posts/amphia.html</link>
+  <link>https://masteringdata.ai/projects/amphia.html</link>
   <description><![CDATA[ 
 
 
@@ -143,8 +143,8 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <category>healthcare</category>
-  <guid>https://masteringdata.ai/src/projects/posts/amphia.html</guid>
-  <pubDate>Fri, 25 Aug 2023 21:14:13 GMT</pubDate>
+  <guid>https://masteringdata.ai/projects/amphia.html</guid>
+  <pubDate>Fri, 25 Aug 2023 22:38:02 GMT</pubDate>
   <media:content url="https://masteringdata.ai/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

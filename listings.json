@@ -1,26 +1,30 @@
 [
   {
-    "listing": "/src/projects/index.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/src/projects/posts/blue-radix.html",
-      "/src/projects/posts/pharmaccess.html",
-      "/src/projects/posts/sensire.html",
-      "/src/projects/posts/roetz-life.html",
-      "/src/projects/posts/has.html",
-      "/src/projects/posts/mytomorrows.html",
-      "/src/projects/posts/amphia.html"
+      "/blog/podcast-dataloog-datasolidariteit.html",
+      "/blog/datasolidariteit.html",
+      "/blog/podcast-aitoday.html",
+      "/blog/eerlijke-algoritmen.html",
+      "/blog/analytical-problem-solving.html",
+      "/blog/lartpy.html",
+      "/blog/scik.html",
+      "/blog/comet-chart.html",
+      "/blog/dutch-design-week.html",
+      "/blog/happi.html",
+      "/blog/nrc-houd-toezicht-algoritmes.html"
     ]
   },
   {
-    "listing": "/src/blog/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/src/blog/posts/podcast-dataloog-datasolidariteit.html",
-      "/src/blog/posts/datasolidariteit.html",
-      "/src/blog/posts/podcast-aitoday.html",
-      "/src/blog/posts/eerlijke-algoritmen.html",
-      "/src/blog/posts/analytical-problem-solving.html",
-      "/src/blog/posts/lartpy.html",
-      "/src/blog/posts/comet-chart.html"
+      "/projects/blue-radix.html",
+      "/projects/pharmaccess.html",
+      "/projects/sensire.html",
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/mytomorrows.html",
+      "/projects/amphia.html"
     ]
   }
 ]
