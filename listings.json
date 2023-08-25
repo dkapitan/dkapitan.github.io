@@ -14,8 +14,13 @@
   {
     "listing": "/src/projects/index.html",
     "items": [
-      "/src/projects/posts/project-1.html",
-      "/src/projects/posts/project-2.html"
+      "/src/projects/posts/blue-radix.html",
+      "/src/projects/posts/pharmaccess.html",
+      "/src/projects/posts/sensire.html",
+      "/src/projects/posts/roetz-life.html",
+      "/src/projects/posts/has.html",
+      "/src/projects/posts/mytomorrows.html",
+      "/src/projects/posts/amphia.html"
     ]
   }
 ]

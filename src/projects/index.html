@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -152,11 +152,47 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">src/projects/project-1.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../../src/projects/posts/pharmaccess.qmd&quot;" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PharmAccess</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">src/projects/project-2.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../../src/projects/posts/mytomorrows.qmd&quot;" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MyTomorrows</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../src/projects/posts/roetz-life.qmd&quot;" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Roetz Life</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../src/projects/posts/blue-radix.qmd&quot;" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blue Radix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../src/projects/posts/amphia-sensium.qmd&quot;" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Amphia Sensium</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../src/projects/posts/has.qmd&quot;" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HAS Green Academy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../src/projects/posts/sensire.qmd&quot;" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sensire</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -173,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../src/calendar.html" class="sidebar-item-text sidebar-link">
+  <a href="../../appointment/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Book an appointment</span></a>
   </div>
 </li>
@@ -217,33 +253,30 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="english,generative AI,healthcare" data-listing-date-sort="1678406400000" data-listing-file-modified-sort="1692990287531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="../../src/projects/posts/project-1.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="english,data architecture,healthcare" data-listing-file-modified-sort="1692994697772" data-listing-reading-time-sort="1">
+<a href="../../src/projects/posts/blue-radix.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../images/trialsearch-ai.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../../images/blue-radix-closeup.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-MyTomorrows TrialSearch AI
+Blue Radix
 </h5>
 <div class="card-text listing-description">
-<p>Pre-screening of patient eligibility for clinical trials using large language models.</p>
+<p>Concepting the next generation AI for autonomous greenhouses.</p>
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-Daniel Kapitan
-</div>
-<div class="listing-date">
-Mar 10, 2023
+
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="english,data architecture,healthcare" data-listing-date-sort="1661990400000" data-listing-file-modified-sort="1692990287531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="../../src/projects/posts/project-2.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="english,data architecture,healthcare" data-listing-file-modified-sort="1692994697772" data-listing-reading-time-sort="1">
+<a href="../../src/projects/posts/pharmaccess.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img src="../../images/pharmaccess-momcare-graphic.jpg" class="thumbnail-image card-img" style="height: 150px;">
@@ -255,12 +288,119 @@ PharmAccess Foundation
 <div class="card-text listing-description">
 <p>Demonstrating fair data sharing through health data commons in sub-Saharan Africa as a catalyst for realising universal health care.</p>
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-Daniel Kapitan
+
 </div>
-<div class="listing-date">
-Sep 1, 2022
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="english,data architecture,healthcare" data-listing-file-modified-sort="1692994697772" data-listing-reading-time-sort="1">
+<a href="../../src/projects/posts/sensire.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../images/sensire.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sensire
+</h5>
+<div class="card-text listing-description">
+<p>Coaching a data science team during the design and implementation of a state-of-the-art data platform for elderly and home care.</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="english,data architecture,sustainability" data-listing-file-modified-sort="1692994697772" data-listing-reading-time-sort="1">
+<a href="../../src/projects/posts/roetz-life.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../images/roetz-life.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Roetz Life
+</h5>
+<div class="card-text listing-description">
+<p>Coaching and desiging of new data platform for the Roetz Life circular e-bike.</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="english,AI,agriculture" data-listing-file-modified-sort="1692994697772" data-listing-reading-time-sort="1">
+<a href="../../src/projects/posts/has.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../images/has.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HAS Green Academy
+</h5>
+<div class="card-text listing-description">
+<p>Strategic positioning and research for new data science &amp; AI curriculum in food and agriculture domain.</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="english,generative AI,healthcare" data-listing-file-modified-sort="1692994697772" data-listing-reading-time-sort="1">
+<a href="../../src/projects/posts/mytomorrows.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../images/mytomorrows.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MyTomorrows TrialSearch AI
+</h5>
+<div class="card-text listing-description">
+<p>Pre-screening of patient eligibility for clinical trials using large language models.</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="english,applied AI,mentoring,healthcare" data-listing-file-modified-sort="1692994697772" data-listing-reading-time-sort="1">
+<a href="../../src/projects/posts/amphia.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../images/amphia-sensium.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Amphia Sensium
+</h5>
+<div class="card-text listing-description">
+<p>Development of algorithms for early warning signals using smart plasters.</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
 </div>
 </div>
 </div>
