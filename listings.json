@@ -1,21 +1,5 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/podcast-dataloog-datasolidariteit.html",
-      "/blog/datasolidariteit.html",
-      "/blog/podcast-aitoday.html",
-      "/blog/eerlijke-algoritmen.html",
-      "/blog/analytical-problem-solving.html",
-      "/blog/lartpy.html",
-      "/blog/scik.html",
-      "/blog/comet-chart.html",
-      "/blog/dutch-design-week.html",
-      "/blog/happi.html",
-      "/blog/nrc-houd-toezicht-algoritmes.html"
-    ]
-  },
-  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/blue-radix.html",
@@ -25,6 +9,23 @@
       "/projects/has.html",
       "/projects/mytomorrows.html",
       "/projects/amphia.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/podcast-dataloog-datasolidariteit.html",
+      "/blog/datasolidariteit.html",
+      "/blog/podcast-aitoday.html",
+      "/blog/eerlijke-algoritmen.html",
+      "/blog/analytical-problem-solving.html",
+      "/blog/hippo-ai.html",
+      "/blog/lartpy.html",
+      "/blog/scik.html",
+      "/blog/comet-chart.html",
+      "/blog/dutch-design-week.html",
+      "/blog/happi.html",
+      "/blog/nrc-houd-toezicht-algoritmes.html"
     ]
   }
 ]

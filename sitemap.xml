@@ -2,94 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://masteringdata.ai/blog/podcast-aitoday.html</loc>
-    <lastmod>2023-08-26T12:20:12.636Z</lastmod>
+    <lastmod>2023-08-26T12:36:54.823Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/blog/happi.html</loc>
-    <lastmod>2023-08-26T12:20:11.576Z</lastmod>
+    <lastmod>2023-08-26T12:36:53.771Z</lastmod>
   </url>
   <url>
-    <loc>https://masteringdata.ai/blog/analytical-problem-solving.html</loc>
-    <lastmod>2023-08-26T12:20:10.844Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/blog/index.html</loc>
-    <lastmod>2023-08-26T12:20:09.900Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/blog/dutch-design-week.html</loc>
-    <lastmod>2023-08-26T12:20:02.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/blog/nrc-houd-toezicht-algoritmes.html</loc>
-    <lastmod>2023-08-26T12:20:01.280Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/contact.html</loc>
-    <lastmod>2023-08-26T12:20:00.340Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/amphia.html</loc>
-    <lastmod>2023-08-26T12:19:59.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/index.html</loc>
-    <lastmod>2023-08-26T12:19:58.872Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/roetz-life.html</loc>
-    <lastmod>2023-08-26T12:19:57.872Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/pharmaccess.html</loc>
-    <lastmod>2023-08-26T12:19:57.224Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/appointment/index.html</loc>
-    <lastmod>2023-08-26T12:19:56.204Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/blue-radix.html</loc>
-    <lastmod>2023-08-26T12:19:56.876Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/sensire.html</loc>
-    <lastmod>2023-08-26T12:19:57.552Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/has.html</loc>
-    <lastmod>2023-08-26T12:19:58.192Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/projects/mytomorrows.html</loc>
-    <lastmod>2023-08-26T12:19:59.216Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/index.html</loc>
-    <lastmod>2023-08-26T12:20:00.028Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/blog/eerlijke-algoritmen.html</loc>
-    <lastmod>2023-08-26T12:20:00.888Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/blog/podcast-dataloog-datasolidariteit.html</loc>
-    <lastmod>2023-08-26T12:20:01.632Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masteringdata.ai/blog/comet-chart.html</loc>
-    <lastmod>2023-08-26T12:20:08.604Z</lastmod>
+    <loc>https://masteringdata.ai/blog/hippo-ai.html</loc>
+    <lastmod>2023-08-26T12:36:53.075Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/blog/datasolidariteit.html</loc>
-    <lastmod>2023-08-26T12:20:10.500Z</lastmod>
+    <lastmod>2023-08-26T12:36:52.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/blog/comet-chart.html</loc>
+    <lastmod>2023-08-26T12:36:50.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/blog/podcast-dataloog-datasolidariteit.html</loc>
+    <lastmod>2023-08-26T12:36:43.319Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/blog/eerlijke-algoritmen.html</loc>
+    <lastmod>2023-08-26T12:36:42.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/index.html</loc>
+    <lastmod>2023-08-26T12:36:41.799Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/mytomorrows.html</loc>
+    <lastmod>2023-08-26T12:36:41.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/has.html</loc>
+    <lastmod>2023-08-26T12:36:40.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/sensire.html</loc>
+    <lastmod>2023-08-26T12:36:39.411Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/blue-radix.html</loc>
+    <lastmod>2023-08-26T12:36:38.739Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/appointment/index.html</loc>
+    <lastmod>2023-08-26T12:36:38.095Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/pharmaccess.html</loc>
+    <lastmod>2023-08-26T12:36:39.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/roetz-life.html</loc>
+    <lastmod>2023-08-26T12:36:39.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/index.html</loc>
+    <lastmod>2023-08-26T12:36:40.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/projects/amphia.html</loc>
+    <lastmod>2023-08-26T12:36:41.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/contact.html</loc>
+    <lastmod>2023-08-26T12:36:42.087Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/blog/nrc-houd-toezicht-algoritmes.html</loc>
+    <lastmod>2023-08-26T12:36:42.999Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/blog/dutch-design-week.html</loc>
+    <lastmod>2023-08-26T12:36:43.871Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/blog/index.html</loc>
+    <lastmod>2023-08-26T12:36:51.835Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masteringdata.ai/blog/analytical-problem-solving.html</loc>
+    <lastmod>2023-08-26T12:36:52.691Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/blog/scik.html</loc>
-    <lastmod>2023-08-26T12:20:11.216Z</lastmod>
+    <lastmod>2023-08-26T12:36:53.427Z</lastmod>
   </url>
   <url>
     <loc>https://masteringdata.ai/blog/lartpy.html</loc>
-    <lastmod>2023-08-26T12:20:12.292Z</lastmod>
+    <lastmod>2023-08-26T12:36:54.475Z</lastmod>
   </url>
 </urlset>
