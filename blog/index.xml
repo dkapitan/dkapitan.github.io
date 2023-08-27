@@ -1366,23 +1366,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-88c781d99ee740cbb1c8a36ef971cb97.vega-embed {
+  #altair-viz-002be8fb4ed54623bf080b78dc3d1036.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-88c781d99ee740cbb1c8a36ef971cb97.vega-embed details,
-  #altair-viz-88c781d99ee740cbb1c8a36ef971cb97.vega-embed details summary {
+  #altair-viz-002be8fb4ed54623bf080b78dc3d1036.vega-embed details,
+  #altair-viz-002be8fb4ed54623bf080b78dc3d1036.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-88c781d99ee740cbb1c8a36ef971cb97"></div>
+<div id="altair-viz-002be8fb4ed54623bf080b78dc3d1036"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-88c781d99ee740cbb1c8a36ef971cb97") {
-      outputDiv = document.getElementById("altair-viz-88c781d99ee740cbb1c8a36ef971cb97");
+    if (outputDiv.id !== "altair-viz-002be8fb4ed54623bf080b78dc3d1036") {
+      outputDiv = document.getElementById("altair-viz-002be8fb4ed54623bf080b78dc3d1036");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1547,7 +1547,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 
 <section id="section" class="level1">
 <h1></h1>
-<p>Het debat over de toekomst van kunstmatige intelligentie (KI) is weer (nog?) in volle gang. Blij om te zien dat in Europa meer aandacht voor is. De Fransen zouden de Fransen niet zijn als ze niet <a href="http://het%20debat%20over%20de%20toekomst%20van%20ai%20is%20nog%20steeds%20in%20volle%20gang.%20blij%20om%20te%20zien%20dat%20in%20europa%20hier%20meer%20aandacht%20voor%20is.%20de%20fransen%20zouden%20de%20fransen%20niet%20zijn%20om%20niet%20de%20_moral%20highground_%20te%20claimen%20%28https//www.trouw.nl/opinie/europa-heeft-een-unique-selling-point-de-ethische-kijk-op-kunstmatige-intelligentie~a735de20/">de moral high-ground claimen</a>.). Enfin, het is in elk geval een goede stap dat <a href="https://ec.europa.eu/commission/presscorner/detail/nl/IP_18_3362">Europa haar eigen ambities en onderzoeksagenda voor kunstmatige intelligentie gaat vormgeven</a>. Het valt mij op dat veiligheid en ethiek vaak genoemd wordt waarin Europa zich in kan onderscheiden. Vanuit de <a href="https://www.fhi.ox.ac.uk/">Future of Humanity Institute aan de University of Oxford</a> wordt hier reeds onderzoek naar gedaan en breekt men een lans voor <a href="https://80000hours.org/problem-profiles/positively-shaping-artificial-intelligence/">meer middelen voor veilige ontwikkeling van KI</a>. Mogelijk kunnen we hier echt iets in betekenen.</p>
+<p>Het debat over de toekomst van kunstmatige intelligentie (KI) is weer (nog?) in volle gang. Blij om te zien dat in Europa er meer aandacht voor is. De Fransen zouden de Fransen niet zijn als ze niet <a href="http://het%20debat%20over%20de%20toekomst%20van%20ai%20is%20nog%20steeds%20in%20volle%20gang.%20blij%20om%20te%20zien%20dat%20in%20europa%20hier%20meer%20aandacht%20voor%20is.%20de%20fransen%20zouden%20de%20fransen%20niet%20zijn%20om%20niet%20de%20_moral%20highground_%20te%20claimen%20%28https//www.trouw.nl/opinie/europa-heeft-een-unique-selling-point-de-ethische-kijk-op-kunstmatige-intelligentie~a735de20/">de moral high-ground claimen</a>. Enfin, het is in elk geval een goede stap dat <a href="https://ec.europa.eu/commission/presscorner/detail/nl/IP_18_3362">Europa haar eigen ambities en onderzoeksagenda voor kunstmatige intelligentie gaat vormgeven</a>. Het valt mij op dat veiligheid en ethiek vaak genoemd wordt waarin Europa zich in kan onderscheiden. Vanuit de <a href="https://www.fhi.ox.ac.uk/">Future of Humanity Institute aan de University of Oxford</a> wordt hier reeds onderzoek naar gedaan en breekt men een lans voor <a href="https://80000hours.org/problem-profiles/positively-shaping-artificial-intelligence/">meer middelen voor veilige ontwikkeling van KI</a>. Mogelijk kunnen we hier echt iets in betekenen.</p>
 <div class="grid">
 <div class="g-col-8">
 <p>Tegelijkertijd vraag ik mij af of wat ons te wachten zijn. Staan we echt aan de vooravond van singularity, met een reële kans dat we rond 2050 zullen worden gedomineerd door volwaardige, human-capable, superintelligente machines? Moeten we serieus gaan nadenken of we iets zoals Asimov’s drie wetten voor robots moeten gaan formuleren èn inbouwen in onze intelligente machines? Is het noodzakelijk, nuttig en/of relevant dat robots een mindontwikkelen, zodat we ze waarden kunnen meegeven? In zijn magnum opus <a href="https://www.goodreads.com/book/show/35167699-from-bacteria-to-bach-and-back"><em>From Bacteria to Bach and Back</em></a> maakt Daniel Dennett onderscheid tussen competence (iets kunnen) versus comprehension (iets begrijpen). Vooralsnog is KI van vandaag de dag vooral competent, maar zijn we nog ver van begrip.</p>
