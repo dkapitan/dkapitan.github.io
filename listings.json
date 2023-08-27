@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/blue-radix.html",
-      "/projects/pharmaccess.html",
-      "/projects/sensire.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/mytomorrows.html",
-      "/projects/amphia.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/podcast-dataloog-datasolidariteit.html",
@@ -25,7 +13,21 @@
       "/blog/comet-chart.html",
       "/blog/dutch-design-week.html",
       "/blog/happi.html",
-      "/blog/nrc-houd-toezicht-algoritmes.html"
+      "/blog/nrc-houd-toezicht-algoritmes.html",
+      "/blog/azimov.html",
+      "/blog/origins-of-kapitan.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/blue-radix.html",
+      "/projects/pharmaccess.html",
+      "/projects/sensire.html",
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/mytomorrows.html",
+      "/projects/amphia.html"
     ]
   }
 ]

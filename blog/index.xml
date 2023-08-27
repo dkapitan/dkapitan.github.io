@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
-<link>https://masteringdata.ai/blog/index.html</link>
-<atom:link href="https://masteringdata.ai/blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://kapitan.net/blog/index.html</link>
+<atom:link href="https://kapitan.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
 <lastBuildDate>Thu, 18 May 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Podcast bij de Dataloog</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/podcast-dataloog-datasolidariteit.html</link>
+  <link>https://kapitan.net/blog/podcast-dataloog-datasolidariteit.html</link>
   <description><![CDATA[ 
 
 
@@ -28,14 +28,14 @@
   <category>podcast</category>
   <category>data commons</category>
   <category>data solidarity</category>
-  <guid>https://masteringdata.ai/blog/podcast-dataloog-datasolidariteit.html</guid>
+  <guid>https://kapitan.net/blog/podcast-dataloog-datasolidariteit.html</guid>
   <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/podcast-de-dataloog.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/podcast-de-dataloog.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>We moeten het meer hebben over datasolidariteit</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/datasolidariteit.html</link>
+  <link>https://kapitan.net/blog/datasolidariteit.html</link>
   <description><![CDATA[ 
 
 
@@ -100,14 +100,14 @@
   <category>nederlands</category>
   <category>data commons</category>
   <category>data solidarity</category>
-  <guid>https://masteringdata.ai/blog/datasolidariteit.html</guid>
+  <guid>https://kapitan.net/blog/datasolidariteit.html</guid>
   <pubDate>Tue, 27 Dec 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Podcast bij AIToday</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/podcast-aitoday.html</link>
+  <link>https://kapitan.net/blog/podcast-aitoday.html</link>
   <description><![CDATA[ 
 
 
@@ -120,14 +120,14 @@
   <category>nederlands</category>
   <category>podcast</category>
   <category>responsible ai</category>
-  <guid>https://masteringdata.ai/blog/podcast-aitoday.html</guid>
+  <guid>https://kapitan.net/blog/podcast-aitoday.html</guid>
   <pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/podcast-aitoday.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/podcast-aitoday.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/eerlijke-algoritmen.html</link>
+  <link>https://kapitan.net/blog/eerlijke-algoritmen.html</link>
   <description><![CDATA[ 
 
 
@@ -192,14 +192,14 @@
 </section></div> ]]></description>
   <category>nederlands</category>
   <category>responsible ai</category>
-  <guid>https://masteringdata.ai/blog/eerlijke-algoritmen.html</guid>
+  <guid>https://kapitan.net/blog/eerlijke-algoritmen.html</guid>
   <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/alexander-grey-TZZwC_xsClY-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/alexander-grey-TZZwC_xsClY-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Analytical problem solving</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/analytical-problem-solving.html</link>
+  <link>https://kapitan.net/blog/analytical-problem-solving.html</link>
   <description><![CDATA[ 
 
 
@@ -214,14 +214,14 @@
  ]]></description>
   <category>english</category>
   <category>modeling</category>
-  <guid>https://masteringdata.ai/blog/analytical-problem-solving.html</guid>
+  <guid>https://kapitan.net/blog/analytical-problem-solving.html</guid>
   <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/logo-american-statistician.png" medium="image" type="image/png" height="79" width="144"/>
+  <media:content url="https://kapitan.net/images/logo-american-statistician.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 <item>
   <title>Dromen over open data en algoritmen</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/hippo-ai.html</link>
+  <link>https://kapitan.net/blog/hippo-ai.html</link>
   <description><![CDATA[ 
 
 
@@ -238,18 +238,18 @@
  ]]></description>
   <category>english</category>
   <category>responsible ai</category>
-  <guid>https://masteringdata.ai/blog/hippo-ai.html</guid>
+  <guid>https://kapitan.net/blog/hippo-ai.html</guid>
   <pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/my-boobs-are-not-for-sale.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://kapitan.net/images/my-boobs-are-not-for-sale.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Creating generative art with L-systems in Python</title>
-  <link>https://masteringdata.ai/blog/lartpy.html</link>
+  <link>https://kapitan.net/blog/lartpy.html</link>
   <description><![CDATA[ 
 
 
 
-<p><img src="https://masteringdata.ai/images/lartpy.jpg" class="img-fluid"></p>
+<p><img src="https://kapitan.net/images/lartpy.jpg" class="img-fluid"></p>
 <p><a href="https://en.wikipedia.org/wiki/Creative_coding">Creative coding</a> is fun if you know a thing or two about programming. And if, like me, you are an utter noob when it comes to brushes and pencils, then it is even more enticing as a means to express yourself and create something just for the sake of it. It doesn’t have to be functional, but you do get to hone your hacking skills and set challenges for yourself along the way.</p>
 <p>A fellow data scientist who is into <a href="https://www.basbloemberg.nl/">“Art &amp; AI”</a> recently pointed me to the field of <a href="https://aiartists.org/generative-art-design">generative art</a>. I have always been facinated by <a href="https://en.wikipedia.org/wiki/Emergence">emergence</a> and even more so when I came across the picture above. It is featured in <a href="https://g-e-n-a-r-t.com/en/post.php?p=10">this blog</a> on how to draw a pencil-sketch-like forest with Processing. One thing led to another: I had a go at <a href="https://py.processing.org/tutorials/command-line/">Processing in Python mode</a>, dabbled with <a href="http://louistiao.me/posts/notebooks/embedding-matplotlib-animations-in-jupyter-as-interactive-javascript-widgets/">matplotlib for animations</a> and read Schiffman’s <a href="https://natureofcode.com/book/">the Nature of Code</a>.</p>
 <p><em>“Would it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?”</em>, I thought (pun intended). Of course, someone already thought of that and it even has a name: <strong>algorithmic botany</strong>. Przemyslaw Prusinkiewicz and Aristid Lindenmayer wrote the seminal book on the subject in 1990, <a href="http://algorithmicbotany.org/papers/#abop">The Algorithmic Beauty of Plants</a>. Lindenmayer invented <a href="https://en.wikipedia.org/wiki/L-system">L-systems</a> already back in 1968. Today, household computers have enough resources to handle large-ish parallel writing systems and you could start modelling the growth of any plant using a framework like <a href="https://lpy.readthedocs.io/en/latest/">L-Py</a>.</p>
@@ -1034,9 +1034,9 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 </div>
 </div>
 <p>Summer Rizo has already implemented L-systems in p5js, available on <a href="https://thefractal.zone/">thefractal.zone</a>. Copying the axiom and rules, and setting the branching angle <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> to 30°, yields the drawing below. Note that the code only shows 5 iterations, while the drawing is based on more iterations (I have put the slider on maximum). When using recursion in Python you may quickly hit a limit: as I tried to execute <code>iterations=10</code> on a standard VM, Deepnote threw an error <code>IOPub data rate exceeded</code>. Yet another challenge to read-up and use <a href="https://sagnibak.github.io/blog/python-is-haskell-tail-recursion/">tail-call optimization in Python</a>.</p>
-<p><img src="https://masteringdata.ai/images/fractal.png" class="img-fluid"></p>
+<p><img src="https://kapitan.net/images/fractal.png" class="img-fluid"></p>
 <p>Having covered the algorithmic and technical components, we can now start bringing it all together. There are still quite a few things to experiment with in order to produce realistic sketches, such as adding noise to draw ‘sketchy’ lines, adding thickness to branches, adding shadows with brightness off-sets and composing a scene with overlaying trees. As a Pythonista I was happy to find <a href="https://berinhard.github.io/pyp5js/">pyp5js</a>, which allows you to re-use the ideas of Processing in Python, and transcoding it to p5.js using Transcrypt. It covers all the methods from p5.js and gives us enough drawing tools to play with. But that’s for another post. For now, I will leave you with a <a href="https://inconvergent.net/generative/">generative creation from Anders Hoff</a> which may inspire you to start creating generative art in Python, too.</p>
-<p><img src="https://masteringdata.ai/images/tree2.gif" class="img-fluid"></p>
+<p><img src="https://kapitan.net/images/tree2.gif" class="img-fluid"></p>
 
 
 </section>
@@ -1046,14 +1046,14 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
   <category>visualization</category>
   <category>generative art</category>
   <category>coding</category>
-  <guid>https://masteringdata.ai/blog/lartpy.html</guid>
+  <guid>https://kapitan.net/blog/lartpy.html</guid>
   <pubDate>Mon, 26 Apr 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/lartpy.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/lartpy.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Stichting Corona in Kaart is briljant mislukt</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/scik.html</link>
+  <link>https://kapitan.net/blog/scik.html</link>
   <description><![CDATA[ 
 
 
@@ -1064,7 +1064,7 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <p>Lees meer over dit project in <a href="https://www.briljantemislukkingen.nl/2021/03/09/coronainkaart/">dit artikel</a> of luister naar de podcast met Egge van der Poel, Josine van der Brug en Marcel Kerkhoven, met wie ik destijds op de barricades heb gestaan.</p>
 </div>
 <div class="g-col-6">
-<p><img src="https://masteringdata.ai/images/instituut-voor-briljante-mislukkingen.png" class="img-fluid"></p>
+<p><img src="https://kapitan.net/images/instituut-voor-briljante-mislukkingen.png" class="img-fluid"></p>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3PCRGRIeeC8s9JbbsKC8YN?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 </div>
@@ -1075,14 +1075,13 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
   <category>nederlands</category>
   <category>health data commons</category>
   <category>data solidarity</category>
-  <guid>https://masteringdata.ai/blog/scik.html</guid>
+  <guid>https://kapitan.net/blog/scik.html</guid>
   <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/instituut-voor-briljante-mislukkingen.png" medium="image" type="image/png" height="45" width="144"/>
+  <media:content url="https://kapitan.net/images/instituut-voor-briljante-mislukkingen.png" medium="image" type="image/png" height="45" width="144"/>
 </item>
 <item>
   <title>Comet charts in Python</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/comet-chart.html</link>
+  <link>https://kapitan.net/blog/comet-chart.html</link>
   <description><![CDATA[ 
 
 
@@ -1367,23 +1366,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-b8936bdce2df4772abb8f70728f66046.vega-embed {
+  #altair-viz-a431a12075ea4ab784bad8c8362122dd.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-b8936bdce2df4772abb8f70728f66046.vega-embed details,
-  #altair-viz-b8936bdce2df4772abb8f70728f66046.vega-embed details summary {
+  #altair-viz-a431a12075ea4ab784bad8c8362122dd.vega-embed details,
+  #altair-viz-a431a12075ea4ab784bad8c8362122dd.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-b8936bdce2df4772abb8f70728f66046"></div>
+<div id="altair-viz-a431a12075ea4ab784bad8c8362122dd"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-b8936bdce2df4772abb8f70728f66046") {
-      outputDiv = document.getElementById("altair-viz-b8936bdce2df4772abb8f70728f66046");
+    if (outputDiv.id !== "altair-viz-a431a12075ea4ab784bad8c8362122dd") {
+      outputDiv = document.getElementById("altair-viz-a431a12075ea4ab784bad8c8362122dd");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1443,14 +1442,14 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
   <category>english</category>
   <category>visualization</category>
   <category>coding</category>
-  <guid>https://masteringdata.ai/blog/comet-chart.html</guid>
+  <guid>https://kapitan.net/blog/comet-chart.html</guid>
   <pubDate>Fri, 29 Jan 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/comet-chart.png" medium="image" type="image/png" height="117" width="144"/>
+  <media:content url="https://kapitan.net/images/comet-chart.png" medium="image" type="image/png" height="117" width="144"/>
 </item>
 <item>
   <title>Een donorcodicil voor je data?</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/dutch-design-week.html</link>
+  <link>https://kapitan.net/blog/dutch-design-week.html</link>
   <description><![CDATA[ 
 
 
@@ -1484,14 +1483,14 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
  ]]></description>
   <category>nederlands</category>
   <category>health data commons</category>
-  <guid>https://masteringdata.ai/blog/dutch-design-week.html</guid>
+  <guid>https://kapitan.net/blog/dutch-design-week.html</guid>
   <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/ddw19-health-embassy.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/ddw19-health-embassy.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Happi - patiënten met een chronische aandoening helpen gezond te blijven.</title>
   <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/happi.html</link>
+  <link>https://kapitan.net/blog/happi.html</link>
   <description><![CDATA[ 
 
 
@@ -1505,37 +1504,109 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
  ]]></description>
   <category>nederlands</category>
   <category>healthcare</category>
-  <guid>https://masteringdata.ai/blog/happi.html</guid>
+  <guid>https://kapitan.net/blog/happi.html</guid>
   <pubDate>Mon, 23 Sep 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/happi-app-datalab-scaled-1-2048x652.png" medium="image" type="image/png" height="46" width="144"/>
+  <media:content url="https://kapitan.net/images/happi-app-datalab-scaled-1-2048x652.png" medium="image" type="image/png" height="46" width="144"/>
 </item>
 <item>
   <title>Houd toezicht op de glazen algoritme-bol</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://masteringdata.ai/blog/nrc-houd-toezicht-algoritmes.html</link>
+  <link>https://kapitan.net/blog/nrc-houd-toezicht-algoritmes.html</link>
   <description><![CDATA[ 
 
 
 
+<section id="section" class="level1">
+<h1></h1>
 <div class="grid">
 <div class="g-col-8">
 <p>Het gebruik van allerlei data door de overheid biedt voordelen, tegelijkertijd zijn er valkuilen. In het artikel <a href="https://www.nrc.nl/nieuws/2018/05/11/u-gaat-frauderen-dat-zegt-de-computer-a1602684"><em>U gaat frauderen. Dat zegt de computer</em> (12 mei 2018)</a> worden verschillende argumenten aangevoerd waarom het openbaar maken van de algoritmes die gebruikt worden niet wenselijk is: niet te begrijpen, veiligheid, privacy, et cetera. Integendeel: het openbaar c.q. toetsbaar maken van modellen is cruciaal om algoritmes verantwoord te gebruiken in het publieke domein. Met dezelfde open source-filosofie waarmee het internet groot is geworden, zou de werking van deze algoritmes door buitenstaanders kunnen worden beoordeeld. Een peer review-mechanisme, waarmee data scientists elkaars werk evalueren vanuit het maatschappelijk belang.</p>
 </div>
 <div class="g-col-4">
-<p><img src="https://masteringdata.ai/images/nrc-open-source.jpg" class="img-fluid"></p>
+<p><img src="https://kapitan.net/images/nrc-open-source.jpg" class="img-fluid"></p>
 </div>
 </div>
 <p>Niemand heeft veel last van een webwinkel die een verkeerd product aanbeveelt. Uitspraken over toegang tot sociale voorzieningen zijn van een geheel andere orde. Het huidige ‘gesloten’ beleid maakt mensen wantrouwend. Vervolgens worden onzinnige stoplappen gebruikt om tegemoet te komen aan het negatieve sentiment, zoals het uitmiddelen van de berekeningen over een straat. Het belang van data en algoritmes is te groot om deze niet openbaar te maken, juist in het publieke domein. Als de overheid bereid is haar data en modellen beschikbaar te stellen, zullen met mij veel experts zich aandienen om meer inzicht te verschaffen in de werking ervan en hiermee het maatschappelijk debat te ondersteunen.</p>
-<p><a href="https://www.nrc.nl/nieuws/2018/05/19/brieven-a1603511#/handelsblad/2018/05/19/#210">Ingezonden brief aan het NRC Handelsblad</a>.</p>
+<p><small class="text-muted">Ingezonden brief aan het NRC Handelsblad, gepubliceed op <a href="https://www.nrc.nl/nieuws/2018/05/19/brieven-a1603511#/handelsblad/2018/05/19/#210/">19 mei 2018</a>.</small></p>
 
 
+</section>
 
  ]]></description>
   <category>nederlands</category>
   <category>responsible ai</category>
-  <guid>https://masteringdata.ai/blog/nrc-houd-toezicht-algoritmes.html</guid>
+  <guid>https://kapitan.net/blog/nrc-houd-toezicht-algoritmes.html</guid>
   <pubDate>Sat, 19 May 2018 00:00:00 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/nrc-open-source.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/nrc-open-source.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Europese ontwikkeling van kunstmatige intelligentie</title>
+  <link>https://kapitan.net/blog/azimov.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<p>Het debat over de toekomst van kunstmatige intelligentie (KI) is weer (nog?) in volle gang. Blij om te zien dat in Europa meer aandacht voor is. De Fransen zouden de Fransen niet zijn als ze niet <a href="http://het%20debat%20over%20de%20toekomst%20van%20ai%20is%20nog%20steeds%20in%20volle%20gang.%20blij%20om%20te%20zien%20dat%20in%20europa%20hier%20meer%20aandacht%20voor%20is.%20de%20fransen%20zouden%20de%20fransen%20niet%20zijn%20om%20niet%20de%20_moral%20highground_%20te%20claimen%20%28https//www.trouw.nl/opinie/europa-heeft-een-unique-selling-point-de-ethische-kijk-op-kunstmatige-intelligentie~a735de20/">de moral high-ground claimen</a>.). Enfin, het is in elk geval een goede stap dat <a href="https://ec.europa.eu/commission/presscorner/detail/nl/IP_18_3362">Europa haar eigen ambities en onderzoeksagenda voor kunstmatige intelligentie gaat vormgeven</a>. Het valt mij op dat veiligheid en ethiek vaak genoemd wordt waarin Europa zich in kan onderscheiden. Vanuit de <a href="https://www.fhi.ox.ac.uk/">Future of Humanity Institute aan de University of Oxford</a> wordt hier reeds onderzoek naar gedaan en breekt men een lans voor <a href="https://80000hours.org/problem-profiles/positively-shaping-artificial-intelligence/">meer middelen voor veilige ontwikkeling van KI</a>. Mogelijk kunnen we hier echt iets in betekenen.</p>
+<div class="grid">
+<div class="g-col-8">
+<p>Tegelijkertijd vraag ik mij af of wat ons te wachten zijn. Staan we echt aan de vooravond van singularity, met een reële kans dat we rond 2050 zullen worden gedomineerd door volwaardige, human-capable, superintelligente machines? Moeten we serieus gaan nadenken of we iets zoals Asimov’s drie wetten voor robots moeten gaan formuleren èn inbouwen in onze intelligente machines? Is het noodzakelijk, nuttig en/of relevant dat robots een mindontwikkelen, zodat we ze waarden kunnen meegeven? In zijn magnum opus <a href="https://www.goodreads.com/book/show/35167699-from-bacteria-to-bach-and-back"><em>From Bacteria to Bach and Back</em></a> maakt Daniel Dennett onderscheid tussen competence (iets kunnen) versus comprehension (iets begrijpen). Vooralsnog is KI van vandaag de dag vooral competent, maar zijn we nog ver van begrip.</p>
+</div>
+<div class="g-col-4">
+<p><img src="https://kapitan.net/images/asimov-law-robotics.jpg" class="img-fluid"></p>
+</div>
+</div>
+<p>Eén vraag lijkt mij hoe dan ook het onderzoeken waard: waar gaan we de energie vandaan halen om KI te laten evolueren? Alan Winfield van de University of Bristol heeft <a href="http://eprints.uwe.ac.uk/23446/1/Winfield_alife14_submission2.pdf">een schatting gemaakt hoeveel energie nodig is om complex, kunstmatige leven te laten evolueren</a>. Voorlopige conclusie: met die singularity zal het niet zo’n vaart lopen, totdat we efficiëntere substrates c.q. platformen hebben ontwikkeld om deep learning op te implementeren. Ter vergelijking: een supercomputer verbruikt net zoveel stroom als 10.000 huishoudens, een menselijk brein verbruikt slechts een equivalent van kleine ledlamp.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>nederlands</category>
+  <category>responsible ai</category>
+  <guid>https://kapitan.net/blog/azimov.html</guid>
+  <pubDate>Tue, 01 May 2018 00:00:00 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/azimov-law-robotics.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Origins of Kapitan</title>
+  <link>https://kapitan.net/blog/origins-of-kapitan.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="you-can-call-me-kapitan" class="level3">
+<h3 class="anchored" data-anchor-id="you-can-call-me-kapitan"><em>“You can call me Kapitan”</em></h3>
+<p>Every so often friends ask me how a Chinese Indonesian ends up with such a name. Although its etymological origin is quite evident, you would not expect it to be related to the Indonesian <em>coupe d’etat</em> in 1965, the clans of the Moluccas and an infamous Chinese eunuch explorer named Zheng He.</p>
+<div class="grid">
+<div class="g-col-8">
+<p>Originally, my paternal’s family name was The. If I had been given a Chinese name it would have been something like The Kong Bing, where Kong is the <a href="https://en.wikipedia.org/wiki/Generation_name">generation name</a> me and my brothers (I have none) would have had. Incidentally, I do have two cousins who actually bear this name, i.e.&nbsp;The Kong Han in the Netherlands and The Kong Gwan in Los Angeles.</p>
+<p>The roots of my father’s family are well documented, since we are the descendants of the <a href="https://en.wikipedia.org/wiki/Kapitan_Cina">Kapitan China</a> of Surabaya:</p>
+<blockquote class="blockquote">
+<p>Kapitan China was a title given to leaders of overseas Chinese enclaves in Southeast Asia. The local 15th century rulers of the region, and later the colonial establishment, chose to deal with a single individual from each ethnic group under their rule. In native harbour cities, resident Chinese often took the role of syahbandar, master of port, collecting dues and supervising traffic in the name of the ruler. <br><small class="text-muted">taken from <a href="https://www.goodreads.com/book/show/1326399.The_Encyclopedia_of_the_Chinese_Overseas/">the encyclopedia of the Chinese overseas</a>.</small></p>
+</blockquote>
+</div>
+<div class="g-col-4">
+<p><img src="https://kapitan.net/images/the-kapitan.jpg" class="img-fluid"></p>
+</div>
+</div>
+<p>As the local rulers of the <a href="https://en.wikipedia.org/wiki/Peranakan">Peranakan China</a> (literally: children of the Chinese) in Surabaya, my forefathers were quite well off. Our family is named after The Goan Tjing, who was the first to make it to the rank of majoor, one rung up the social ladder, above kapitan. As a testament to his achievements, the family shrine is still in place on <a href="https://goo.gl/maps/QzJB9LKaEWv">JI. Karat 50 Surabaya</a>, although I am not sure for how long: my dad tells me that local authorities are looking to demolish the place to make way for urban development. Tracing back the diaspora of the Chinese in Southeast Asia, one inevitably arrives at <a href="https://en.wikipedia.org/wiki/Zheng_He">Zheng He</a>, China’s most famous sea-faring explorer. Family legend has it that we are direct descendants of this admiral of the Chinese fleet during the Ming dynasty. He was castrated in his teens.</p>
+<p><img src="https://kapitan.net/images/rumah-sembahyang-the.jpg" class="img-fluid"></p>
+</section>
+<section id="how-my-dad-changed-his-name" class="level3">
+<h3 class="anchored" data-anchor-id="how-my-dad-changed-his-name">How my dad changed his name</h3>
+<p>Surprisingly enough, the Kapitan China are not the reason why I was born as Kapitan in Jakarta on September 9, 1973. Our family name has a different origin, namely that of <a href="https://en.wikipedia.org/wiki/Pattimura">Kapitan Pattimura</a>, a Moluccan rebel-hero. The Kapitan are quite a well-known family on Seram. Here, the title Kapitan refers to the warrior chiefs that lead their people in the battle for independence against the Dutch. Moluccan legend has it that the four Kapitans Wattimena, Wattimury, Nanlohy, and Talakua were once the leaders of the Country of Nusa Ina, aka the Mother Island. Their ventures along the Tale river led to the discovery of many places in the Moluccas. What once was a legendary title was in time adopted as a family name.</p>
+<p>It is a matter of historical contingency that my father choose to take-up the name of his best friend in the early 1960s. Joshua Oppenheimer’s dyptich, <a href="https://en.wikipedia.org/wiki/The_Act_of_Killing">the Act of Killing</a> and <a href="http://thelookofsilence.com/">the Look of Silence</a> recount the backdrop of anti-Communist and, therefore, anti-Chinese sentiments that led to the forced <a href="https://en.wikipedia.org/wiki/Legislation_on_Chinese_Indonesians">renunciation of Chinese surnames in Indonesia</a>. My dad, then in his teens, did not take matters too seriously and nearly missed the deadline for changing his name and getting his new passport. On an impulse, he asked his best friend, Gerard Kapitan, whether he could take up his name. So, rather than adapting The to an Indonesian-sounding alternative (we have Tedjasurya and Themasoa in our family), The Sik Thay became Frederik Kapitan in 1964. We recently found out that the male lineage of the Kapitan family was in fact broken. Gerard’s (grand?)mother specifically asked for permission to take-up this name once again if and when she bore a son. Franz Kapitan (Gerard’s brother) told us that if the elders hadn’t honoured her request, we all would have been called Tentua.</p>
+<p>Fast forward 50 years later. Our two boys, Manu Lee and Mas Lee, don’t know better than that their last name is Kapitan. A cool and unusual name, which we love to show off by using online-handles such as <a href="https://en.wikipedia.org/wiki/El_Capitan">El Kapitan</a>. And yes, we re-instated the Chinese generation name. I was quite delighted when my sister asked me to become guardian of her first-born, <a href="https://www.facebook.com/justinlee.kragten">Justin Lee Kragten</a>. A couple of years ago I befriended a Chinese young lady, and told her this story. One thing led to another, and ultimately she helped me re-discover an appropriate Chinese name, 郑空慈, which more or less translates into “Emptiness &amp; Loving-Kindness, carried by someone from Zheng’s family”. Chinese is a beautiful language. ”</p>
+
+
+</section>
+
+ ]]></description>
+  <category>english</category>
+  <guid>https://kapitan.net/blog/origins-of-kapitan.html</guid>
+  <pubDate>Sun, 01 Oct 2017 00:00:00 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/zheng-he.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

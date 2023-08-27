@@ -6,38 +6,40 @@
       version="2.0">
 <channel>
 <title>Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
-<link>https://masteringdata.ai/projects/index.html</link>
-<atom:link href="https://masteringdata.ai/projects/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://kapitan.net/projects/index.html</link>
+<atom:link href="https://kapitan.net/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 27 Aug 2023 15:22:29 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Aug 2023 16:33:51 GMT</lastBuildDate>
 <item>
   <title>Blue Radix</title>
-  <link>https://masteringdata.ai/projects/blue-radix.html</link>
+  <link>https://kapitan.net/projects/blue-radix.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Story about Sensire</p>
+<section id="section" class="level1">
+<h1></h1>
+<p>Stay tuned, more to follow soon.</p>
 
 
+</section>
 
  ]]></description>
-  <category>english</category>
-  <category>data architecture</category>
-  <category>healthcare</category>
-  <guid>https://masteringdata.ai/projects/blue-radix.html</guid>
-  <pubDate>Sun, 27 Aug 2023 15:22:29 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
+  <category>data-centric ai</category>
+  <category>mentoring</category>
+  <guid>https://kapitan.net/projects/blue-radix.html</guid>
+  <pubDate>Sun, 27 Aug 2023 16:33:51 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>PharmAccess Foundation</title>
-  <link>https://masteringdata.ai/projects/pharmaccess.html</link>
+  <link>https://kapitan.net/projects/pharmaccess.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Story about data commons in Africa …</p>
+<p>Stay tuned, more to follow soon.</p>
 
 
 
@@ -45,107 +47,117 @@
   <category>english</category>
   <category>data architecture</category>
   <category>healthcare</category>
-  <guid>https://masteringdata.ai/projects/pharmaccess.html</guid>
-  <pubDate>Sun, 27 Aug 2023 15:22:29 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://kapitan.net/projects/pharmaccess.html</guid>
+  <pubDate>Sun, 27 Aug 2023 16:33:51 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Sensire</title>
-  <link>https://masteringdata.ai/projects/sensire.html</link>
+  <link>https://kapitan.net/projects/sensire.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Story about Sensire</p>
+<section id="section" class="level1">
+<h1></h1>
+<p>More to follow soon.</p>
 
 
+</section>
 
  ]]></description>
   <category>english</category>
-  <category>data architecture</category>
-  <category>healthcare</category>
-  <guid>https://masteringdata.ai/projects/sensire.html</guid>
-  <pubDate>Sun, 27 Aug 2023 15:22:29 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/sensire.jpg" medium="image" type="image/jpeg"/>
+  <category>data-centric ai</category>
+  <guid>https://kapitan.net/projects/sensire.html</guid>
+  <pubDate>Sun, 27 Aug 2023 16:33:51 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Roetz Life</title>
-  <link>https://masteringdata.ai/projects/roetz-life.html</link>
+  <link>https://kapitan.net/projects/roetz-life.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Story about Roetz</p>
+<section id="section" class="level1">
+<h1></h1>
+<p><img src="https://kapitan.net/images/roetz-landfill.jpg" class="img-fluid"></p>
+<p>Story about Roetz to follow soon.</p>
 
 
+</section>
 
  ]]></description>
-  <category>english</category>
-  <category>data architecture</category>
-  <category>sustainability</category>
-  <guid>https://masteringdata.ai/projects/roetz-life.html</guid>
-  <pubDate>Sun, 27 Aug 2023 15:22:29 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
+  <category>data-centric ai</category>
+  <category>coaching</category>
+  <guid>https://kapitan.net/projects/roetz-life.html</guid>
+  <pubDate>Sun, 27 Aug 2023 16:33:51 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>HAS Green Academy</title>
-  <link>https://masteringdata.ai/projects/has.html</link>
+  <link>https://kapitan.net/projects/has.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Story about HAS.</p>
-<p>This project was conducted in collaboration with Verdonck, Klooster &amp; Associates.</p>
+<section id="section" class="level1">
+<h1></h1>
+<p>Stay tuned, more to follow soon.</p>
+<p><small class="text-muted">This project was conducted in collaboration with Verdonck, Klooster &amp; Associates.</small></p>
 
 
+</section>
 
  ]]></description>
-  <category>english</category>
-  <category>AI</category>
-  <category>agriculture</category>
-  <guid>https://masteringdata.ai/projects/has.html</guid>
-  <pubDate>Sun, 27 Aug 2023 15:22:29 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/has.png" medium="image" type="image/png" height="81" width="144"/>
+  <category>applied AI</category>
+  <category>lecturing</category>
+  <guid>https://kapitan.net/projects/has.html</guid>
+  <pubDate>Sun, 27 Aug 2023 16:33:51 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/has.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>MyTomorrows TrialSearch AI</title>
-  <link>https://masteringdata.ai/projects/mytomorrows.html</link>
+  <link>https://kapitan.net/projects/mytomorrows.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Story about MyTomorrows …</p>
+<section id="section" class="level1">
+<h1></h1>
+<p>Story about MyTomorrows to follow soon. Meanwhile read <a href="https://arxiv.org/pdf/2304.07396.pdf">the paper</a> describing the results from this project.</p>
 
 
+</section>
 
  ]]></description>
-  <category>english</category>
-  <category>generative AI</category>
-  <category>healthcare</category>
-  <guid>https://masteringdata.ai/projects/mytomorrows.html</guid>
-  <pubDate>Sun, 27 Aug 2023 15:22:29 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
+  <category>applied AI</category>
+  <category>mentoring</category>
+  <guid>https://kapitan.net/projects/mytomorrows.html</guid>
+  <pubDate>Sun, 27 Aug 2023 16:33:51 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>Amphia Sensium</title>
-  <link>https://masteringdata.ai/projects/amphia.html</link>
+  <link>https://kapitan.net/projects/amphia.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Story about Sensium and Frank</p>
-<p>Link to interview (Dutch)</p>
+<section id="section" class="level1">
+<h1></h1>
+<p>Stay tuned, more to follow soon.</p>
+<p>Meanwhile, read an interview with Frank Niemantsverdriet and myself on how Amphia uses AI to combat scarcity in healthcare (<a href="https://www.jads.nl/news/combating-healthcare-scarcity-with-data-what-role-will-your-hospital-play/">English</a>, <a href="https://www.deondernemer.nl/innovatie/advertorial-jads-zorgschaarste-data~4152485">Dutch</a>).</p>
 
 
+</section>
 
  ]]></description>
-  <category>english</category>
   <category>applied AI</category>
   <category>mentoring</category>
-  <category>healthcare</category>
-  <guid>https://masteringdata.ai/projects/amphia.html</guid>
-  <pubDate>Sun, 27 Aug 2023 15:22:29 GMT</pubDate>
-  <media:content url="https://masteringdata.ai/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://kapitan.net/projects/amphia.html</guid>
+  <pubDate>Sun, 27 Aug 2023 16:33:51 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
