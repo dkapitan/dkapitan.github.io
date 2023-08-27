@@ -1366,23 +1366,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-82528467e7804cdbb28be045646ae82d.vega-embed {
+  #altair-viz-4f18efb149104b2a8b1f3a4403d77872.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-82528467e7804cdbb28be045646ae82d.vega-embed details,
-  #altair-viz-82528467e7804cdbb28be045646ae82d.vega-embed details summary {
+  #altair-viz-4f18efb149104b2a8b1f3a4403d77872.vega-embed details,
+  #altair-viz-4f18efb149104b2a8b1f3a4403d77872.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-82528467e7804cdbb28be045646ae82d"></div>
+<div id="altair-viz-4f18efb149104b2a8b1f3a4403d77872"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-82528467e7804cdbb28be045646ae82d") {
-      outputDiv = document.getElementById("altair-viz-82528467e7804cdbb28be045646ae82d");
+    if (outputDiv.id !== "altair-viz-4f18efb149104b2a8b1f3a4403d77872") {
+      outputDiv = document.getElementById("altair-viz-4f18efb149104b2a8b1f3a4403d77872");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1566,7 +1566,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
   <category>responsible ai</category>
   <guid>https://kapitan.net/blog/azimov.html</guid>
   <pubDate>Tue, 01 May 2018 00:00:00 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/azimov-law-robotics.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/asimov-law-robotics.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Origins of Kapitan</title>
