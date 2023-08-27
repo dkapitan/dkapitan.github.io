@@ -204,9 +204,12 @@
 
 
 
+<section id="section" class="level1">
+<h1></h1>
 <p><object data="/resources/demast2023analytical.pdf" type="application/pdf" width="100%" height="800"><p>Unable to display PDF file. <a href="../resources/demast2023analytical.pdf">Download</a> instead.</p></object></p>
 
 
+</section>
 
  ]]></description>
   <category>english</category>
@@ -1364,23 +1367,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-8b8f2d745f5045b6970dc6df5bafffb5.vega-embed {
+  #altair-viz-b8936bdce2df4772abb8f70728f66046.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-8b8f2d745f5045b6970dc6df5bafffb5.vega-embed details,
-  #altair-viz-8b8f2d745f5045b6970dc6df5bafffb5.vega-embed details summary {
+  #altair-viz-b8936bdce2df4772abb8f70728f66046.vega-embed details,
+  #altair-viz-b8936bdce2df4772abb8f70728f66046.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-8b8f2d745f5045b6970dc6df5bafffb5"></div>
+<div id="altair-viz-b8936bdce2df4772abb8f70728f66046"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-8b8f2d745f5045b6970dc6df5bafffb5") {
-      outputDiv = document.getElementById("altair-viz-8b8f2d745f5045b6970dc6df5bafffb5");
+    if (outputDiv.id !== "altair-viz-b8936bdce2df4772abb8f70728f66046") {
+      outputDiv = document.getElementById("altair-viz-b8936bdce2df4772abb8f70728f66046");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",

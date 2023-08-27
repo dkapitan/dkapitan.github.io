@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
-  "type": "textbox",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -97,12 +97,17 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <link rel="alternate" type="application/rss+xml" title="Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking" href="index.xml"></head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="navbar-logo">
+    </a>
+  </div>
         <div class="quarto-navbar-tools ms-auto">
 </div>
       </div> <!-- /container-fluid -->
@@ -124,22 +129,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-      <div class="sidebar-tools-main tools-wide">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="sidebar-tools-main tools-wide">
     <a href="https://www.linkedin.com/in/dkapitan/" rel="" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/dkapitan" rel="" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
-    <a href="https://masteringdata.ai/src/blog/index.xml" rel="" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
+    <a href="https://masteringdata.ai/blog/index.xml" rel="" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
+    <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
 </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -153,43 +149,43 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/pharmaccess.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/pharmaccess.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PharmAccess</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/mytomorrows.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/mytomorrows.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MyTomorrows</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/roetz-life.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/roetz-life.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Roetz Life</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/blue-radix.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/blue-radix.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blue Radix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/amphia-sensium.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/amphia-sensium.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Amphia Sensium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/has.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/has.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HAS Green Academy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/sensire.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/sensire.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sensire</span></a>
   </div>
 </li>
@@ -253,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="nederlands,podcast,data commons,data solidarity" data-listing-date-sort="1684368000000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="nederlands,podcast,data commons,data solidarity" data-listing-date-sort="1684368000000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="../blog/podcast-dataloog-datasolidariteit.html"> <img src="../images/podcast-de-dataloog.jpg" class="thumbnail-image"> </a></p>
 </div>
@@ -297,7 +293,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="nederlands,data commons,data solidarity" data-listing-date-sort="1672099200000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="1" data-categories="nederlands,data commons,data solidarity" data-listing-date-sort="1672099200000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
 <p><a href="../blog/datasolidariteit.html"> <img src="../images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" class="thumbnail-image"> </a></p>
 </div>
@@ -338,7 +334,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="nederlands,podcast,responsible ai" data-listing-date-sort="1656979200000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="nederlands,podcast,responsible ai" data-listing-date-sort="1656979200000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="../blog/podcast-aitoday.html"> <img src="../images/podcast-aitoday.jpg" class="thumbnail-image"> </a></p>
 </div>
@@ -379,7 +375,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="nederlands,responsible ai" data-listing-date-sort="1650844800000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="3" data-categories="nederlands,responsible ai" data-listing-date-sort="1650844800000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
 <p><a href="../blog/eerlijke-algoritmen.html"> <img src="../images/alexander-grey-TZZwC_xsClY-unsplash.jpg" class="thumbnail-image"> </a></p>
 </div>
@@ -417,7 +413,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="english,modeling" data-listing-date-sort="1646870400000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="english,modeling" data-listing-date-sort="1646870400000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="../blog/analytical-problem-solving.html"> <img src="../images/logo-american-statistician.png" class="thumbnail-image"> </a></p>
 </div>
@@ -455,7 +451,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="english,responsible ai" data-listing-date-sort="1643673600000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="5" data-categories="english,responsible ai" data-listing-date-sort="1643673600000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="../blog/hippo-ai.html"> <img src="../images/my-boobs-are-not-for-sale.png" class="thumbnail-image"> </a></p>
 </div>
@@ -493,7 +489,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="english,visualization,generative art,coding" data-listing-date-sort="1619395200000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="6" data-categories="english,visualization,generative art,coding" data-listing-date-sort="1619395200000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
 <p><a href="../blog/lartpy.html"> <img src="../images/lartpy.jpg" class="thumbnail-image"> </a></p>
 </div>
@@ -534,7 +530,7 @@ Apr 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="nederlands,health data commons,data solidarity" data-listing-date-sort="1614556800000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="nederlands,health data commons,data solidarity" data-listing-date-sort="1614556800000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="../blog/scik.html"> <img src="../images/instituut-voor-briljante-mislukkingen.png" class="thumbnail-image"> </a></p>
 </div>
@@ -575,7 +571,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="english,visualization,coding" data-listing-date-sort="1611878400000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="8" data-categories="english,visualization,coding" data-listing-date-sort="1611878400000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="thumbnail">
 <p><a href="../blog/comet-chart.html"> <img src="../images/comet-chart.png" class="thumbnail-image"> </a></p>
 </div>
@@ -616,7 +612,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="nederlands,health data commons" data-listing-date-sort="1602979200000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="9" data-categories="nederlands,health data commons" data-listing-date-sort="1602979200000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <div class="thumbnail">
 <p><a href="../blog/dutch-design-week.html"> <img src="../images/ddw19-health-embassy.jpg" class="thumbnail-image"> </a></p>
 </div>
@@ -654,7 +650,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="nederlands,healthcare" data-listing-date-sort="1569196800000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="nederlands,healthcare" data-listing-date-sort="1569196800000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="../blog/happi.html"> <img src="../images/happi-app-datalab-scaled-1-2048x652.png" class="thumbnail-image"> </a></p>
 </div>
@@ -692,7 +688,7 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="nederlands,responsible ai" data-listing-date-sort="1526688000000" data-listing-file-modified-sort="1693136232439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="11" data-categories="nederlands,responsible ai" data-listing-date-sort="1526688000000" data-listing-file-modified-sort="1693149615088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="../blog/nrc-houd-toezicht-algoritmes.html"> <img src="../images/nrc-open-source.jpg" class="thumbnail-image"> </a></p>
 </div>
@@ -971,14 +967,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">Copyright © 2023 Daniel Kapitan.<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a>.<br>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
+    <div class="nav-footer-left"><br> Copyright © 2023 Daniel Kapitan<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></div>   
+    <div class="nav-footer-center"><br> DWMM Holding B.V.<br> Marie Baronstraat 15<br> 3056 AA ROTTERDAM</div>
+    <div class="nav-footer-right"><br> <strong>Chamber of Commerce (KvK):</strong> 52920259<br> <strong>RSIN:</strong> 850665851<br> <strong>IBAN:</strong> NL47 KNAB 0259 5268 27<br> <strong>Terms &amp; Conditions</strong> in <a href="../resources/230901-algemene-voorwaarden-%40kapitan.pdf">Dutch</a><br></div>
   </div>
 </footer>
 

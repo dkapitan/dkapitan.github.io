@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
-  "type": "textbox",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -66,12 +66,17 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="navbar-logo">
+    </a>
+  </div>
         <div class="quarto-navbar-tools ms-auto">
 </div>
       </div> <!-- /container-fluid -->
@@ -93,22 +98,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-      <div class="sidebar-tools-main tools-wide">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="sidebar-tools-main tools-wide">
     <a href="https://www.linkedin.com/in/dkapitan/" rel="" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/dkapitan" rel="" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
-    <a href="https://masteringdata.ai/src/blog/index.xml" rel="" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
+    <a href="https://masteringdata.ai/blog/index.xml" rel="" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
+    <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
 </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -122,43 +118,43 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/pharmaccess.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/pharmaccess.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PharmAccess</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/mytomorrows.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/mytomorrows.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MyTomorrows</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/roetz-life.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/roetz-life.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Roetz Life</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/blue-radix.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/blue-radix.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blue Radix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/amphia-sensium.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/amphia-sensium.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Amphia Sensium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/has.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/has.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HAS Green Academy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/posts/sensire.qmd&quot;" class="sidebar-item-text sidebar-link">
+  <a href="../projects/sensire.qmd&quot;" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sensire</span></a>
   </div>
 </li>
@@ -475,14 +471,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">Copyright © 2023 Daniel Kapitan.<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a>.<br>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
+    <div class="nav-footer-left"><br> Copyright © 2023 Daniel Kapitan<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></div>   
+    <div class="nav-footer-center"><br> DWMM Holding B.V.<br> Marie Baronstraat 15<br> 3056 AA ROTTERDAM</div>
+    <div class="nav-footer-right"><br> <strong>Chamber of Commerce (KvK):</strong> 52920259<br> <strong>RSIN:</strong> 850665851<br> <strong>IBAN:</strong> NL47 KNAB 0259 5268 27<br> <strong>Terms &amp; Conditions</strong> in <a href="../resources/230901-algemene-voorwaarden-%40kapitan.pdf">Dutch</a><br></div>
   </div>
 </footer>
 
