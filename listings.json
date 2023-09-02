@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/blue-radix.html",
+      "/projects/pharmaccess.html",
+      "/projects/sensire.html",
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/mytomorrows.html",
+      "/projects/amphia.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/podcast-dataloog-datasolidariteit.html",
@@ -19,15 +31,12 @@
     ]
   },
   {
-    "listing": "/projects/index.html",
+    "listing": "/recepten/index.html",
     "items": [
-      "/projects/blue-radix.html",
-      "/projects/pharmaccess.html",
-      "/projects/sensire.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/mytomorrows.html",
-      "/projects/amphia.html"
+      "/recepten/szechuan-asperges.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/bloemkool-ovenschotel.html"
     ]
   }
 ]
