@@ -1,13 +1,32 @@
 [
   {
+    "listing": "/recepten/index.html",
+    "items": [
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/gebakken-griet.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/zalm-met-miso-mayo.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/smoor-ayam.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/dahl-met-zoete-aardappel.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/blue-radix.html",
       "/projects/pharmaccess.html",
-      "/projects/sensire.html",
-      "/projects/roetz-life.html",
       "/projects/has.html",
       "/projects/mytomorrows.html",
+      "/projects/roetz-life.html",
+      "/projects/sensire.html",
       "/projects/amphia.html"
     ]
   },
@@ -28,25 +47,6 @@
       "/blog/nrc-houd-toezicht-algoritmes.html",
       "/blog/azimov.html",
       "/blog/origins-of-kapitan.html"
-    ]
-  },
-  {
-    "listing": "/recepten/index.html",
-    "items": [
-      "/recepten/szechuan-asperges.html",
-      "/recepten/smoor-ayam.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/tian-de-legumes.html",
-      "/recepten/zalm-met-miso-mayo.html",
-      "/recepten/oostenrijkse-goulashsoep.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/geroosterde-witte-asperges.html",
-      "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/gebakken-griet.html",
-      "/recepten/zoete-aardappel-stamppot.html",
-      "/recepten/dahl-met-zoete-aardappel.html",
-      "/recepten/roti-masala-kip.html",
-      "/recepten/bloemkool-ovenschotel.html"
     ]
   }
 ]
