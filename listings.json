@@ -1,36 +1,5 @@
 [
   {
-    "listing": "/recepten/index.html",
-    "items": [
-      "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/oostenrijkse-goulashsoep.html",
-      "/recepten/gebakken-griet.html",
-      "/recepten/roti-masala-kip.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/bloemkool-ovenschotel.html",
-      "/recepten/zalm-met-miso-mayo.html",
-      "/recepten/geroosterde-witte-asperges.html",
-      "/recepten/smoor-ayam.html",
-      "/recepten/szechuan-asperges.html",
-      "/recepten/zoete-aardappel-stamppot.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/tian-de-legumes.html",
-      "/recepten/dahl-met-zoete-aardappel.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/blue-radix.html",
-      "/projects/pharmaccess.html",
-      "/projects/has.html",
-      "/projects/mytomorrows.html",
-      "/projects/roetz-life.html",
-      "/projects/sensire.html",
-      "/projects/amphia.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/podcast-dataloog-datasolidariteit.html",
@@ -47,6 +16,44 @@
       "/blog/nrc-houd-toezicht-algoritmes.html",
       "/blog/azimov.html",
       "/blog/origins-of-kapitan.html"
+    ]
+  },
+  {
+    "listing": "/recepten/index.html",
+    "items": [
+      "/recepten/tian-de-legumes.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/dahl-met-zoete-aardappel.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/smoor-ayam.html",
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/gebakken-griet.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/zalm-met-miso-mayo.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/oostenrijkse-goulashsoep.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/roetz-life.html",
+      "/projects/amphia.html",
+      "/projects/pharmaccess.html",
+      "/projects/blue-radix.html",
+      "/projects/has.html",
+      "/projects/sensire.html",
+      "/projects/mytomorrows.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html"
     ]
   }
 ]
