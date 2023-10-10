@@ -2,178 +2,182 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kapitan.net/index.html</loc>
-    <lastmod>2023-10-10T18:30:22.926Z</lastmod>
+    <lastmod>2023-10-10T18:38:04.895Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/analytical-problem-solving.html</loc>
-    <lastmod>2023-10-10T18:30:22.098Z</lastmod>
+    <lastmod>2023-10-10T18:38:03.667Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/index.html</loc>
-    <lastmod>2023-10-10T18:30:21.174Z</lastmod>
+    <lastmod>2023-10-10T18:38:02.403Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/podcast-aitoday.html</loc>
-    <lastmod>2023-10-10T18:30:12.169Z</lastmod>
+    <lastmod>2023-10-10T18:37:49.443Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/nrc-houd-toezicht-algoritmes.html</loc>
-    <lastmod>2023-10-10T18:30:11.321Z</lastmod>
+    <lastmod>2023-10-10T18:37:48.171Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/lartpy.html</loc>
-    <lastmod>2023-10-10T18:30:10.481Z</lastmod>
+    <lastmod>2023-10-10T18:37:46.935Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/happi.html</loc>
-    <lastmod>2023-10-10T18:30:09.229Z</lastmod>
+    <lastmod>2023-10-10T18:37:45.111Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/azimov.html</loc>
-    <lastmod>2023-10-10T18:30:08.437Z</lastmod>
+    <lastmod>2023-10-10T18:37:43.983Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/appointment/index.html</loc>
-    <lastmod>2023-10-10T18:30:07.725Z</lastmod>
+    <lastmod>2023-10-10T18:37:42.903Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/szechuan-asperges.html</loc>
-    <lastmod>2023-10-10T18:30:07.001Z</lastmod>
+    <lastmod>2023-10-10T18:37:41.815Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/index.html</loc>
-    <lastmod>2023-10-10T18:30:06.197Z</lastmod>
+    <lastmod>2023-10-10T18:37:40.683Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/gebakken-griet.html</loc>
-    <lastmod>2023-10-10T18:30:04.713Z</lastmod>
+    <lastmod>2023-10-10T18:37:38.411Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/smoor-ayam.html</loc>
-    <lastmod>2023-10-10T18:30:03.933Z</lastmod>
+    <lastmod>2023-10-10T18:37:36.751Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/geroosterde-witte-asperges.html</loc>
-    <lastmod>2023-10-10T18:30:03.149Z</lastmod>
+    <lastmod>2023-10-10T18:37:35.623Z</lastmod>
   </url>
   <url>
-    <loc>https://kapitan.net/recepten/haricotverts-ottolenghi.html</loc>
-    <lastmod>2023-10-10T18:30:02.381Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/recepten/roti-masala-kip.html</loc>
-    <lastmod>2023-10-10T18:30:01.669Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/mytomorrows.html</loc>
-    <lastmod>2023-10-10T18:30:00.905Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/index.html</loc>
-    <lastmod>2023-10-10T18:30:00.241Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/blue-radix.html</loc>
-    <lastmod>2023-10-10T18:29:59.253Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/amphia.html</loc>
-    <lastmod>2023-10-10T18:29:58.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/nugget/index.html</loc>
-    <lastmod>2023-10-10T18:29:57.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/nugget/onderhoud-accus.html</loc>
-    <lastmod>2023-10-10T18:29:57.037Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/beschikbaarheid/index.html</loc>
-    <lastmod>2023-10-10T18:29:55.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/nugget/winterklaar-maken.html</loc>
-    <lastmod>2023-10-10T18:29:57.433Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/roetz-life.html</loc>
-    <lastmod>2023-10-10T18:29:58.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/pharmaccess.html</loc>
-    <lastmod>2023-10-10T18:29:58.945Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/has.html</loc>
-    <lastmod>2023-10-10T18:29:59.601Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/projects/sensire.html</loc>
-    <lastmod>2023-10-10T18:30:00.585Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kapitan.net/recepten/tian-de-legumes.html</loc>
-    <lastmod>2023-10-10T18:30:01.301Z</lastmod>
+    <loc>https://kapitan.net/recepten/pad-thai.html</loc>
+    <lastmod>2023-10-10T18:37:34.471Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/deya's-porridge.html</loc>
-    <lastmod>2023-10-10T18:30:02.029Z</lastmod>
+    <lastmod>2023-10-10T18:37:33.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/recepten/tian-de-legumes.html</loc>
+    <lastmod>2023-10-10T18:37:32.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/sensire.html</loc>
+    <lastmod>2023-10-10T18:37:31.331Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/has.html</loc>
+    <lastmod>2023-10-10T18:37:29.907Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/pharmaccess.html</loc>
+    <lastmod>2023-10-10T18:37:29.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/roetz-life.html</loc>
+    <lastmod>2023-10-10T18:37:28.059Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/nugget/winterklaar-maken.html</loc>
+    <lastmod>2023-10-10T18:37:26.895Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/beschikbaarheid/index.html</loc>
+    <lastmod>2023-10-10T18:37:24.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/nugget/onderhoud-accus.html</loc>
+    <lastmod>2023-10-10T18:37:26.387Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/nugget/index.html</loc>
+    <lastmod>2023-10-10T18:37:27.531Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/amphia.html</loc>
+    <lastmod>2023-10-10T18:37:28.531Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/blue-radix.html</loc>
+    <lastmod>2023-10-10T18:37:29.459Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/index.html</loc>
+    <lastmod>2023-10-10T18:37:30.819Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/projects/mytomorrows.html</loc>
+    <lastmod>2023-10-10T18:37:31.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/recepten/roti-masala-kip.html</loc>
+    <lastmod>2023-10-10T18:37:32.879Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kapitan.net/recepten/haricotverts-ottolenghi.html</loc>
+    <lastmod>2023-10-10T18:37:33.867Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/dahl-met-zoete-aardappel.html</loc>
-    <lastmod>2023-10-10T18:30:02.777Z</lastmod>
+    <lastmod>2023-10-10T18:37:35.063Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/koreanse-wrap-met-biefstuk.html</loc>
-    <lastmod>2023-10-10T18:30:03.557Z</lastmod>
+    <lastmod>2023-10-10T18:37:36.195Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/zoete-aardappel-stamppot.html</loc>
-    <lastmod>2023-10-10T18:30:04.305Z</lastmod>
+    <lastmod>2023-10-10T18:37:37.711Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/bloemkool-ovenschotel.html</loc>
-    <lastmod>2023-10-10T18:30:05.093Z</lastmod>
+    <lastmod>2023-10-10T18:37:38.959Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/zalm-met-miso-mayo.html</loc>
-    <lastmod>2023-10-10T18:30:06.585Z</lastmod>
+    <lastmod>2023-10-10T18:37:41.239Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/recepten/oostenrijkse-goulashsoep.html</loc>
-    <lastmod>2023-10-10T18:30:07.433Z</lastmod>
+    <lastmod>2023-10-10T18:37:42.471Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/podcast-dataloog-datasolidariteit.html</loc>
-    <lastmod>2023-10-10T18:30:08.065Z</lastmod>
+    <lastmod>2023-10-10T18:37:43.419Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/hippo-ai.html</loc>
-    <lastmod>2023-10-10T18:30:08.853Z</lastmod>
+    <lastmod>2023-10-10T18:37:44.583Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/eerlijke-algoritmen.html</loc>
-    <lastmod>2023-10-10T18:30:09.777Z</lastmod>
+    <lastmod>2023-10-10T18:37:45.915Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/origins-of-kapitan.html</loc>
-    <lastmod>2023-10-10T18:30:10.933Z</lastmod>
+    <lastmod>2023-10-10T18:37:47.615Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/dutch-design-week.html</loc>
-    <lastmod>2023-10-10T18:30:11.853Z</lastmod>
+    <lastmod>2023-10-10T18:37:48.963Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/comet-chart.html</loc>
-    <lastmod>2023-10-10T18:30:19.682Z</lastmod>
+    <lastmod>2023-10-10T18:38:00.059Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/datasolidariteit.html</loc>
-    <lastmod>2023-10-10T18:30:21.754Z</lastmod>
+    <lastmod>2023-10-10T18:38:03.183Z</lastmod>
   </url>
   <url>
     <loc>https://kapitan.net/blog/scik.html</loc>
-    <lastmod>2023-10-10T18:30:22.454Z</lastmod>
+    <lastmod>2023-10-10T18:38:04.179Z</lastmod>
   </url>
 </urlset>
