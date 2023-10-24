@@ -1,5 +1,44 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/blue-radix.html",
+      "/projects/amphia.html",
+      "/projects/roetz-life.html",
+      "/projects/mytomorrows.html",
+      "/projects/sensire.html",
+      "/projects/pharmaccess.html",
+      "/projects/has.html"
+    ]
+  },
+  {
+    "listing": "/recepten/index.html",
+    "items": [
+      "/recepten/gebakken-griet.html",
+      "/recepten/pad-thai.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/zalm-met-miso-mayo.html",
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/smoor-ayam.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/dahl-met-zoete-aardappel.html",
+      "/recepten/zoete-aardappel-stamppot.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/winterklaar-maken.html",
+      "/nugget/onderhoud-accus.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/podcast-dataloog-datasolidariteit.html",
@@ -16,45 +55,6 @@
       "/blog/nrc-houd-toezicht-algoritmes.html",
       "/blog/azimov.html",
       "/blog/origins-of-kapitan.html"
-    ]
-  },
-  {
-    "listing": "/recepten/index.html",
-    "items": [
-      "/recepten/tian-de-legumes.html",
-      "/recepten/roti-masala-kip.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/pad-thai.html",
-      "/recepten/dahl-met-zoete-aardappel.html",
-      "/recepten/geroosterde-witte-asperges.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/smoor-ayam.html",
-      "/recepten/zoete-aardappel-stamppot.html",
-      "/recepten/gebakken-griet.html",
-      "/recepten/bloemkool-ovenschotel.html",
-      "/recepten/zalm-met-miso-mayo.html",
-      "/recepten/szechuan-asperges.html",
-      "/recepten/oostenrijkse-goulashsoep.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/roetz-life.html",
-      "/projects/amphia.html",
-      "/projects/pharmaccess.html",
-      "/projects/blue-radix.html",
-      "/projects/has.html",
-      "/projects/sensire.html",
-      "/projects/mytomorrows.html"
     ]
   }
 ]
