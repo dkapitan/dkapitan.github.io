@@ -12,6 +12,14 @@
     ]
   },
   {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/sfeerimpressie.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/onderhoud-accus.html"
+    ]
+  },
+  {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/gebakken-griet.html",
@@ -29,13 +37,6 @@
       "/recepten/tian-de-legumes.html",
       "/recepten/dahl-met-zoete-aardappel.html",
       "/recepten/zoete-aardappel-stamppot.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/winterklaar-maken.html",
-      "/nugget/onderhoud-accus.html"
     ]
   },
   {
