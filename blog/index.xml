@@ -10,7 +10,37 @@
 <atom:link href="https://kapitan.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Thu, 18 May 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 20 Sep 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Eindelijk is data delen geen gunst, maar een recht</title>
+  <dc:creator>Antoinette Vlieger, Daniel Kapitan, Egge van der Poel</dc:creator>
+  <link>https://kapitan.net/blog/data-is-een-recht.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>De nieuwe Europese Data Governance Verordening is vanaf maandag 24 september van toepassing in alle Europese lidstaten. Het is belangrijke wetgeving, die is ontworpen om de nu nog te beperkte uitwisseling van data binnen de EU te stimuleren. Op Europees niveau wordt hard gewerkt aan een vrij verkeer van data, vergelijkbaar met het vrije verkeer van goederen of personen. Met de Data Governance Verordening wil de EU onder meer het vertrouwen in het delen van gegevens vergroten en het hergebruik van bepaalde gegevens in handen van de overheid makkelijker maken. In beginsel allemaal goed nieuws. Toch lijkt Nederland, en dan met name de Nederlandse zorgsector, in het geheel niet klaar voor de datarevolutie die met deze nieuwe wet door de Europese wetgever is ingezet. Want zowel onze overheid als de bestuurders in de (semi-)publieke sector stellen zich zeer terughoudend op ten aanzien van oplossingen die het vrije verkeer van data bevorderen. Zo startte de Europese Commissie in februari al een procedure tegen de Nederlandse staat, omdat die de Open Data Richtlijn al twee jaar onrechtmatig negeert.</p>
+<section id="op-je-data-blijven-zitten" class="level2">
+<h2 class="anchored" data-anchor-id="op-je-data-blijven-zitten">Op je data blijven zitten</h2>
+<p>Het inmiddels demissionaire Kabinet toonde zich sowieso geen liefhebber van vrije data. Dat paste bij de Rutte-doctrine om openbaarheid van bestuur in te perken, maar het is een zorgelijke houding. De behoefte aan het uitwisselen van data is groter dan ooit, zeker in de zorg. Toch blijft een meerderheid van de instellingen nu nog ‘op haar data zitten’ vanuit een foutieve veronderstelling dat zorgdata hun eigendom zijn. De terughoudendheid om data met collega-wetenschappers en artsen te delen heeft grote negatieve gevolgen, zo zagen we ook bij het bestrijden van het coronavirus. De Data Governance Verordening — vooral relevant voor organisaties met een publieke taak — kan voor een omslag gaan zorgen. Een fundamenteel uitgangspunt is dat data over personen beschermd blijft door privacywetgeving. Maar als die data eenmaal rechtmatig is gedeeld, bijvoorbeeld voor wetenschappelijk onderzoek, dan moet deze ook met anderen gedeeld worden.</p>
+</section>
+<section id="game-changer" class="level2">
+<h2 class="anchored" data-anchor-id="game-changer">Game changer</h2>
+<p>De nieuwe verordening zet daarmee in op ‘data delen by default’ — als standaard dus en niet als uitzondering. En dat is een game changer. Voor het versnellen en verbeteren van wetenschappelijk onderzoek kan het immers veel betekenen als onderzoekers standaard gemakkelijker over meer relevante data kunnen beschikken. Maar ook voor dit nieuwe datarecht geldt dat het pas echt effect krijgt als betrokken partijen er een beroep op gaan doen en de exacte reikwijdte van hun rechten gaan testen. En dat is precies wat zorgbestuurders en wetenschappers mogen en moeten gaan doen. Wetenschappers kunnen datasets in rechte opeisen, om korte metten te maken met het idee dat data krijgen een gunst is. En wie geconfronteerd wordt met een te hoge factuur voor die data, kan een bestuursrechter laten toetsen of dit niet meer is dan de marginale kosten die maximaal in rekening mogen worden gebracht. Terughoudendheid en vrijblijvendheid moeten plaatsmaken voor assertiviteit en interactie. Een goede zaak, want het bevorderen van het delen van data is van grote waarde voor zorg en wetenschap.</p>
+<p><em>Antoinette Vlieger is advocaat bij Boomberg Advocaten. Daniel Kapitan is onafhankelijk adviseur, datawetenschapper en AI Fellow aan de TU Eindhoven. Egge van der Poel is onafhankelijk adviseur, onderzoeker en schrijver.</em></p>
+<p>Yasmin Dwiputri &amp; Data Hazards Project / Better Images of AI / AI across industries / CC-BY 4.0</p>
+<p><small class="text-muted">Opinie verschenen in <a href="https://edata.nl/2022/02/01/column-dromen-over-open-data-en-algoritmes/">het Financieele Dagblad</a>.</small></p>
+
+
+</section>
+
+ ]]></description>
+  <category>nederlands</category>
+  <category>data solidarity</category>
+  <guid>https://kapitan.net/blog/data-is-een-recht.html</guid>
+  <pubDate>Wed, 20 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Podcast bij de Dataloog</title>
   <dc:creator>Daniel Kapitan</dc:creator>
@@ -1366,23 +1396,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-f9332563a7f441538c40b839713942f4.vega-embed {
+  #altair-viz-168bdca7a6114ea1814f9cb0751077b7.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-f9332563a7f441538c40b839713942f4.vega-embed details,
-  #altair-viz-f9332563a7f441538c40b839713942f4.vega-embed details summary {
+  #altair-viz-168bdca7a6114ea1814f9cb0751077b7.vega-embed details,
+  #altair-viz-168bdca7a6114ea1814f9cb0751077b7.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-f9332563a7f441538c40b839713942f4"></div>
+<div id="altair-viz-168bdca7a6114ea1814f9cb0751077b7"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-f9332563a7f441538c40b839713942f4") {
-      outputDiv = document.getElementById("altair-viz-f9332563a7f441538c40b839713942f4");
+    if (outputDiv.id !== "altair-viz-168bdca7a6114ea1814f9cb0751077b7") {
+      outputDiv = document.getElementById("altair-viz-168bdca7a6114ea1814f9cb0751077b7");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",

@@ -2,46 +2,48 @@
   {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/blue-radix.html",
-      "/projects/amphia.html",
-      "/projects/roetz-life.html",
-      "/projects/mytomorrows.html",
-      "/projects/sensire.html",
       "/projects/pharmaccess.html",
-      "/projects/has.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/sfeerimpressie.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/onderhoud-accus.html"
+      "/projects/mytomorrows.html",
+      "/projects/blue-radix.html",
+      "/projects/sensire.html",
+      "/projects/has.html",
+      "/projects/roetz-life.html",
+      "/projects/amphia.html"
     ]
   },
   {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/gebakken-griet.html",
-      "/recepten/pad-thai.html",
+      "/recepten/sauteed-spinach-onions-mushroom.html",
       "/recepten/bloemkool-ovenschotel.html",
-      "/recepten/oostenrijkse-goulashsoep.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/zalm-met-miso-mayo.html",
       "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/szechuan-asperges.html",
-      "/recepten/geroosterde-witte-asperges.html",
       "/recepten/smoor-ayam.html",
-      "/recepten/roti-masala-kip.html",
+      "/recepten/deya's-porridge.html",
       "/recepten/tian-de-legumes.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/pad-thai.html",
       "/recepten/dahl-met-zoete-aardappel.html",
-      "/recepten/zoete-aardappel-stamppot.html"
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/zalm-met-miso-mayo.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html"
     ]
   },
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/data-is-een-recht.html",
       "/blog/podcast-dataloog-datasolidariteit.html",
       "/blog/datasolidariteit.html",
       "/blog/podcast-aitoday.html",
