@@ -1,7 +1,20 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/pharmaccess.html",
+      "/projects/blue-radix.html",
+      "/projects/mytomorrows.html",
+      "/projects/sensire.html",
+      "/projects/amphia.html",
+      "/projects/roetz-life.html",
+      "/projects/has.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/webinar-knmg.html",
       "/blog/data-is-een-recht.html",
       "/blog/dsc-whitepaper-pets.html",
       "/blog/podcast-dataloog-datasolidariteit.html",
@@ -18,18 +31,6 @@
       "/blog/nrc-houd-toezicht-algoritmes.html",
       "/blog/azimov.html",
       "/blog/origins-of-kapitan.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/pharmaccess.html",
-      "/projects/blue-radix.html",
-      "/projects/mytomorrows.html",
-      "/projects/sensire.html",
-      "/projects/amphia.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html"
     ]
   },
   {

@@ -10,7 +10,31 @@
 <atom:link href="https://kapitan.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Wed, 20 Sep 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 09 Nov 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>De veranderende rol van de arts door AI</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://kapitan.net/blog/webinar-knmg.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/883743887?h=740b7646bb" frameborder="0" allow="autoplay; title=" "="" fullscreen;="" picture-in-picture"="" allowfullscreen=""></iframe></div>
+
+
+</section>
+
+ ]]></description>
+  <category>nederlands</category>
+  <category>webinar</category>
+  <category>responsible ai</category>
+  <category>healthcare</category>
+  <guid>https://kapitan.net/blog/webinar-knmg.html</guid>
+  <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/still-knmg.png" medium="image" type="image/png" height="98" width="144"/>
+</item>
 <item>
   <title>Eindelijk is data delen geen gunst, maar een recht</title>
   <dc:creator>Antoinette Vlieger, Daniel Kapitan, Egge van der Poel</dc:creator>
@@ -1419,23 +1443,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-89529dbb795648e98296e879a9349b0a.vega-embed {
+  #altair-viz-0b42ef5c490142528c6c73d0047ed3e8.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-89529dbb795648e98296e879a9349b0a.vega-embed details,
-  #altair-viz-89529dbb795648e98296e879a9349b0a.vega-embed details summary {
+  #altair-viz-0b42ef5c490142528c6c73d0047ed3e8.vega-embed details,
+  #altair-viz-0b42ef5c490142528c6c73d0047ed3e8.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-89529dbb795648e98296e879a9349b0a"></div>
+<div id="altair-viz-0b42ef5c490142528c6c73d0047ed3e8"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-89529dbb795648e98296e879a9349b0a") {
-      outputDiv = document.getElementById("altair-viz-89529dbb795648e98296e879a9349b0a");
+    if (outputDiv.id !== "altair-viz-0b42ef5c490142528c6c73d0047ed3e8") {
+      outputDiv = document.getElementById("altair-viz-0b42ef5c490142528c6c73d0047ed3e8");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
