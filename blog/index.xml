@@ -39,7 +39,7 @@
   <category>data solidarity</category>
   <guid>https://kapitan.net/blog/data-is-een-recht.html</guid>
   <pubDate>Wed, 20 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kapitan.net/images/YasminDwiputri-DataHazards.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Whitepaper on privacy-enhancing technologies</title>
@@ -1419,23 +1419,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-d3b1eaf96c554969a194602c9d0db8db.vega-embed {
+  #altair-viz-89529dbb795648e98296e879a9349b0a.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-d3b1eaf96c554969a194602c9d0db8db.vega-embed details,
-  #altair-viz-d3b1eaf96c554969a194602c9d0db8db.vega-embed details summary {
+  #altair-viz-89529dbb795648e98296e879a9349b0a.vega-embed details,
+  #altair-viz-89529dbb795648e98296e879a9349b0a.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-d3b1eaf96c554969a194602c9d0db8db"></div>
+<div id="altair-viz-89529dbb795648e98296e879a9349b0a"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-d3b1eaf96c554969a194602c9d0db8db") {
-      outputDiv = document.getElementById("altair-viz-d3b1eaf96c554969a194602c9d0db8db");
+    if (outputDiv.id !== "altair-viz-89529dbb795648e98296e879a9349b0a") {
+      outputDiv = document.getElementById("altair-viz-89529dbb795648e98296e879a9349b0a");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
