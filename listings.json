@@ -1,19 +1,8 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/pharmaccess.html",
-      "/projects/blue-radix.html",
-      "/projects/mytomorrows.html",
-      "/projects/sensire.html",
-      "/projects/amphia.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/obsidian-setup.html",
       "/blog/webinar-knmg.html",
       "/blog/data-is-een-recht.html",
       "/blog/dsc-whitepaper-pets.html",
@@ -34,40 +23,52 @@
     ]
   },
   {
-    "listing": "/recepten/index.html",
+    "listing": "/nugget/index.html",
     "items": [
-      "/recepten/gebakken-griet.html",
-      "/recepten/geroosterde-witte-asperges.html",
-      "/recepten/black-pepper-tofu.html",
-      "/recepten/ottolenghi-roasted-eggplant.html",
-      "/recepten/roti-masala-kip.html",
-      "/recepten/moeders-aardappelgratin.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/dahl-met-zoete-aardappel.html",
-      "/recepten/miso-ramen.html",
-      "/recepten/zoete-aardappel-stamppot.html",
-      "/recepten/vegetarische-erwtensoep.html",
-      "/recepten/szechuan-asperges.html",
-      "/recepten/mung-bean-porridge.html",
-      "/recepten/smoor-ayam.html",
-      "/recepten/ottolenghi-pasta-a-la-norma.html",
-      "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/pad-thai.html",
-      "/recepten/zalm-met-miso-mayo.html",
-      "/recepten/bloemkool-ovenschotel.html",
-      "/recepten/tian-de-legumes.html",
-      "/recepten/oostenrijkse-goulashsoep.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/sauteed-spinach-onions-mushroom.html",
-      "/recepten/yakisoba.html"
+      "/nugget/onderhoud-accus.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/winterklaar-maken.html"
     ]
   },
   {
-    "listing": "/nugget/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/nugget/sfeerimpressie.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/onderhoud-accus.html"
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/amphia.html",
+      "/projects/pharmaccess.html",
+      "/projects/sensire.html",
+      "/projects/mytomorrows.html",
+      "/projects/blue-radix.html"
+    ]
+  },
+  {
+    "listing": "/recepten/index.html",
+    "items": [
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/smoor-ayam.html",
+      "/recepten/pad-thai.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/miso-ramen.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/ottolenghi-pasta-a-la-norma.html",
+      "/recepten/ottolenghi-roasted-eggplant.html",
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/gebakken-griet.html",
+      "/recepten/yakisoba.html",
+      "/recepten/mung-bean-porridge.html",
+      "/recepten/sauteed-spinach-onions-mushroom.html",
+      "/recepten/vegetarische-erwtensoep.html",
+      "/recepten/zalm-met-miso-mayo.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/dahl-met-zoete-aardappel.html",
+      "/recepten/black-pepper-tofu.html",
+      "/recepten/moeders-aardappelgratin.html"
     ]
   }
 ]
