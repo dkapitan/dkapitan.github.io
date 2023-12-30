@@ -40,12 +40,12 @@ TL;DR
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="https://kapitan.net/blog/images/todoist-karma.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">My Karma points in Todoist at the end of 2023</figcaption>
+<figcaption class="figure-caption">My Karma points in Todoist at the end of 2023.</figcaption>
 </figure>
 </div>
 <p>Beyond organising the things I need to do, I have been looking to sharpen my saw for reading and writing, both of which I do a lot. Also here, I switched to a fully digital workflow some years ago: my books now all live in <a href="https://calibre-ebook.com/">calibre</a>, I take notes on the <a href="https://remarkable.com/">reMarkable 2</a> and do all of my writing in markdown. Over the years, I have tried many different apps: <a href="https://dayoneapp.com/">Day One</a>, <a href="ia writer">iA Writer</a> and even a bare-bones code editor with a GitHub repository hosting a <a href="https://www.mkdocs.org/">MkDocs</a> site.</p>
-<p>But I was never quite satisfied with any of these setups. To address my note-taking needs whilst reading, I tried different tablets with digital pens, but found none of these worked for me because I could not easily get my highlights and notes into my workflow. I also prefer to read on a passive, e-ink screen which is why I tried the reMarkable mark I when it first came out. Alas, I quickly returned that one because it lacked the integrations I needed. So here I am, still spending lots of time looking up quotes and references that I had read somewhere when writing content for my lectures. And on top of that there is the additional friction of getting my markdown notes into my publishing workflow.</p>
-<p>Surely, in this day and age there must be a better way in which we can use digital tools to support our reading, thinking and writing? Surely I should be able to render a website, a pdf - even a Word document if a clients asks for it - using the same markdown content? And indeed, it seems that as of 2022 a number of tools have delivered on the promise of supporting a smooth, fully digital workflow for reading, thinking and writing. In my case, I chose <a href="https://obsidian.md/">Obsidian</a> and <a href="https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/">Quarto</a> as the core components.<sup>1</sup></p>
+<p>But I was never quite satisfied with any of these setups. To address my note-taking needs whilst reading, I tried different tablets with digital pens, but found none of these worked for me because I could not easily get my highlights and notes into my workflow. I also prefer to read on a passive, e-ink screen which is why I tried the reMarkable mark I when it first came out. Alas, I quickly returned that one because it lacked the integrations I needed, too. So here I am, still spending lots of time looking up quotes and references that I had read somewhere when writing content for my lectures. And on top of that there is the additional friction of getting my markdown notes into my publishing workflow.</p>
+<p>In this day and age, surely there must be a better way in which we can use digital tools to support our reading, thinking and writing? Surely I should be able to render a website, a pdf - even a Word document if a clients asks for it - using the same markdown content? And indeed, it seems that as of 2022 a number of tools have delivered on the promise of supporting a smooth, fully digital workflow for reading, thinking and writing. In my case, I chose <a href="https://obsidian.md/">Obsidian</a> and <a href="https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/">Quarto</a> as the core components.<sup>1</sup></p>
 <section id="obsidian-arguably-the-most-flexible-note-taking-app" class="level2">
 <h2 class="anchored" data-anchor-id="obsidian-arguably-the-most-flexible-note-taking-app">Obsidian, arguably the most flexible note-taking app</h2>
 <p>Obsidian arguably is the most flexible&nbsp;note-taking app&nbsp;out there. The key differentiating feature for me is its ability to create graphs of interlinked notes, thereby natively supporting <a href="https://notes.andymatuschak.org/Evergreen_notes">Andy Matuschak’s Evergreen note-taking concept</a>. Its vibrant community, with over 1,370 contributed plugins at the time of writing is also a boon, which allows me to integrate it with my other tools.</p>
@@ -58,7 +58,7 @@ TL;DR
 </div>
 <section id="easier-to-read-think-and-take-notes" class="level3">
 <h3 class="anchored" data-anchor-id="easier-to-read-think-and-take-notes">Easier to read, think and take notes</h3>
-<p>With this setup, taking notes while reading books on my smartphone already is a lot easier. Using Moon+ Reader, I can just highlight texts, copy and paste it directly into Obsidian. For longer reads on my reMarkable, is have setup <a href="https://scrybble.ink/">scrybble</a> to sync notes to Obsidian. This Amsterdam-based startup (yay!) is still quite young, and the functionality is still basic so am awaiting eagerly future releases.</p>
+<p>With this setup, taking notes while reading books on my smartphone already is a lot easier. Using Moon+ Reader, I can just highlight texts, copy and paste it directly into Obsidian. For longer reads on my reMarkable, I have setup <a href="https://scrybble.ink/">scrybble</a> to sync notes to Obsidian. This Amsterdam-based startup (yay!) is quite young, and the functionality is still basic so am awaiting eagerly future releases.</p>
 <p>When I am at the desk, I can now do all of my reading and note-taking in Obsidian thanks to the <a href="https://github.com/caronchen/obsidian-calibre-plugin">calibre plugin</a>. After tinkering with the configuration, I found it so blissful being able to read, think and write from a single application. No distractions! Also, now I can gradually ease into the Evergreen way of note-taking to structure my thinking. Opening a linked note using <code>Cmd+T</code>, with the <strong>stack notes</strong> option turned on, just adds to the joy of working like this:</p>
 <p><img src="https://kapitan.net/blog/https:/user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif" class="img-fluid"></p>
 </section>
@@ -69,14 +69,14 @@ TL;DR
 </section>
 <section id="quarto-for-a-streamlined-publication-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="quarto-for-a-streamlined-publication-workflow">Quarto for a streamlined publication workflow</h2>
-<p>My work as a data scientist and architect relies extensively on code and data analysis. Python-based notebooks have long provided the capability of merging the paper narrative, the computational code powering the analysis, and the summary plots into a reproducible report. Quarto supports all of this into a streamlined publication workflow that lowers the adoption barrier of the <a href="https://www.writethedocs.org/guide/docs-as-code/"><strong>“docs as code”</strong></a> paradigm. With a single command, the notebook text sources (narrative and code) are transformed into a polished publication-ready article in a variety of formats, be it a PDF or dynamic HTML page enabling the reader to interact with the data tables and plots. Even without its discerning feature of publishing executable notebooks, I found the output crisp and professional. Earlier this year, I decided to go all out on Quarto, and redesigned my <a href="https://github.com/dkapitan/dkapitan.github.io">company website</a> with it.</p>
+<p>My work as a data scientist and architect relies extensively on code and data analysis. Python-based notebooks have long provided the capability of merging the paper narrative, the computational code powering the analysis, and the summary plots into a reproducible report. Quarto supports all of this into a streamlined publication workflow that lowers the adoption barrier of the <a href="https://www.writethedocs.org/guide/docs-as-code/">“docs-as-code”</a> paradigm. With a single command, the notebook text sources (narrative and code) are transformed into a polished publication-ready article in a variety of formats, be it a PDF or dynamic HTML page enabling the reader to interact with the data tables and plots. Even without its discerning feature of publishing executable notebooks, I found the output crisp and professional. Earlier this year, I decided to go all out on Quarto, and redesigned my <a href="https://github.com/dkapitan/dkapitan.github.io">company website</a> with it.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kapitan.net/blog/images/quarto-workflow.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">source: <a href="https://gael-close.github.io/posts/2209-tech-writing/2209-tech-writing.html">Gaël Close</a>.</figcaption>
 </figure>
 </div>
-<p>In the current setup, I could easily copy a markdown file from my Obsidian journal into my Quarto website project. Some friction remains, though, having to switch between the different flavours of markdown. For example, compare the syntax for callouts in Quarto vs.&nbsp;Obsidian:</p>
+<p>In the new setup, I can easily copy a markdown file from my Obsidian journal into my Quarto website project and include it in the pipeline with minor changes to the YAML front-matter. Some friction remains, though, having to switch between the different markdown flavours of the two tools. For example, compare the syntax for callouts in Quarto vs.&nbsp;Obsidian:</p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <section id="callouts-in-quarto" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
@@ -94,7 +94,7 @@ Main text goes here.
 </section>
 </div>
 </div>
-<p>Despite these inconveniences, I will conclude with this advice for the coming year: give an end-to-end markdown-based workflow a try. And if you like the setup described hear, make sure to donate and support <a href="https://calibre-ebook.com/donate">calibre</a>, <a href="https://help.obsidian.md/Licenses+and+payment/Catalyst+license">Obsidian</a> and <a href="https://syncthing.net/donations/">Syncthing</a> - besides getting yourself a classy e-ink note-taking device 😉.</p>
+<p>Despite these inconveniences, I will conclude with this advice for the coming year: give an end-to-end markdown-based workflow a try. And if you like the setup described hear, make sure to donate and support <a href="https://calibre-ebook.com/donate">calibre</a>, <a href="https://help.obsidian.md/Licenses+and+payment/Catalyst+license">Obsidian</a> and <a href="https://syncthing.net/donations/">Syncthing</a> - besides getting yourself a classy e-ink note-taking device 😉.<sup>3</sup></p>
 
 
 </section>
@@ -105,6 +105,7 @@ Main text goes here.
 <ol>
 <li id="fn1"><p>There are alternative <a href="https://github.com/tehtbl/awesome-note-taking">markdown note-taking apps</a>, and in theory you can use any <a href="https://jamstack.org/generators/">static site generator that support markdown templates</a> instead of Quarto.↩︎</p></li>
 <li id="fn2"><p>Depending on your operating system and personal preference, you can choose any e-reader app you like, as long as it is capable of importing a file-based Calibre library.↩︎</p></li>
+<li id="fn3"><p>A colleague of mine pointed me to the idea of a <a href="https://www.buildingasecondbrain.com/">Second Brain</a> after reading a draft of this blog post. It seems more people are trying to scratch the same itch.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
   <category>english</category>
@@ -1546,23 +1547,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-9f9be38cdc4b48bd9f85cdc2965b177c.vega-embed {
+  #altair-viz-1fc6c5241c7f40f9a054a026b4537f74.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-9f9be38cdc4b48bd9f85cdc2965b177c.vega-embed details,
-  #altair-viz-9f9be38cdc4b48bd9f85cdc2965b177c.vega-embed details summary {
+  #altair-viz-1fc6c5241c7f40f9a054a026b4537f74.vega-embed details,
+  #altair-viz-1fc6c5241c7f40f9a054a026b4537f74.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-9f9be38cdc4b48bd9f85cdc2965b177c"></div>
+<div id="altair-viz-1fc6c5241c7f40f9a054a026b4537f74"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-9f9be38cdc4b48bd9f85cdc2965b177c") {
-      outputDiv = document.getElementById("altair-viz-9f9be38cdc4b48bd9f85cdc2965b177c");
+    if (outputDiv.id !== "altair-viz-1fc6c5241c7f40f9a054a026b4537f74") {
+      outputDiv = document.getElementById("altair-viz-1fc6c5241c7f40f9a054a026b4537f74");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
