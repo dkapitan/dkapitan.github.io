@@ -48,7 +48,7 @@ TL;DR
 <p>In this day and age, surely there must be a better way in which we can use digital tools to support our reading, thinking and writing? Surely I should be able to render a website, a pdf - even a Word document if a clients asks for it - using the same markdown content? And indeed, it seems that as of 2022 a number of tools have delivered on the promise of supporting a smooth, fully digital workflow for reading, thinking and writing. In my case, I chose <a href="https://obsidian.md/">Obsidian</a> and <a href="https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/">Quarto</a> as the core components.<sup>1</sup></p>
 <section id="obsidian-arguably-the-most-flexible-note-taking-app" class="level2">
 <h2 class="anchored" data-anchor-id="obsidian-arguably-the-most-flexible-note-taking-app">Obsidian, arguably the most flexible note-taking app</h2>
-<p>Obsidian arguably is the most flexible&nbsp;note-taking app&nbsp;out there. The key differentiating feature for me is its ability to create graphs of interlinked notes, thereby natively supporting <a href="https://notes.andymatuschak.org/Evergreen_notes">Andy Matuschak’s Evergreen note-taking concept</a>. Its vibrant community, with over 1,370 contributed plugins at the time of writing is also a boon, which allows me to integrate it with my other tools.</p>
+<p>Obsidian arguably is the most flexible&nbsp;note-taking app&nbsp;out there. The key differentiating feature for me is its ability to create graphs of interlinked notes, thereby natively supporting <a href="https://notes.andymatuschak.org/Evergreen_notes">Andy Matuschak’s Evergreen note-taking concept</a>. Its vibrant community is also a boon: with over 1,370 contributed plugins at the time of writing , I could find everything I need to integrate it with the other tools in my workflow.</p>
 <p>The diagram below shows how I have integrated calibre and Obsidian for use on my MacBook, Pixel 5 Android phone and reMarkable 2. <a href="https://syncthing.net">Syncthing</a> does the heavy lifting of keeping my markdown notes and ebooks in sync across multiple devices. That way, I have maximal control with the least amount of lock-in. Incidentally, my calibre library is also synced to my NAS, with an additional backup to Google Drive which serves as my primary storage platform. Note that this setup work for any combination of {Linux | OSX | Windows} desktops and {iOS | Android} smartphones, as all the apps are cross-platform.<sup>2</sup></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1547,23 +1547,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-2f9c829804c1480c8167241b2dc81581.vega-embed {
+  #altair-viz-f728fc11d8e048eab5b024b1a857a25a.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-2f9c829804c1480c8167241b2dc81581.vega-embed details,
-  #altair-viz-2f9c829804c1480c8167241b2dc81581.vega-embed details summary {
+  #altair-viz-f728fc11d8e048eab5b024b1a857a25a.vega-embed details,
+  #altair-viz-f728fc11d8e048eab5b024b1a857a25a.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-2f9c829804c1480c8167241b2dc81581"></div>
+<div id="altair-viz-f728fc11d8e048eab5b024b1a857a25a"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-2f9c829804c1480c8167241b2dc81581") {
-      outputDiv = document.getElementById("altair-viz-2f9c829804c1480c8167241b2dc81581");
+    if (outputDiv.id !== "altair-viz-f728fc11d8e048eab5b024b1a857a25a") {
+      outputDiv = document.getElementById("altair-viz-f728fc11d8e048eab5b024b1a857a25a");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
