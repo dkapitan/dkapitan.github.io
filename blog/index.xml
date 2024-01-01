@@ -58,7 +58,7 @@ TL;DR
 </div>
 <section id="easier-to-read-think-and-take-notes" class="level3">
 <h3 class="anchored" data-anchor-id="easier-to-read-think-and-take-notes">Easier to read, think and take notes</h3>
-<p>With this setup, taking notes while reading books on my smartphone already is a lot easier. Using Moon+ Reader, I can just highlight texts, copy and paste it directly into Obsidian. For longer reads on my reMarkable, I have setup <a href="https://scrybble.ink/">scrybble</a> to sync notes to Obsidian. This Amsterdam-based startup (yay!) is quite young, and the functionality is still basic so am awaiting eagerly future releases.</p>
+<p>With this setup, taking notes while reading books on my smartphone already is a lot easier. Using Moon+ Reader, I can just highlight texts, copy and paste it directly into Obsidian. For longer reads on my reMarkable, I have setup <a href="https://scrybble.ink/">scrybble</a> to sync notes to Obsidian. This Amsterdam-based startup (yay!) is quite young, and the functionality is still basic so am eagerly awaiting future releases.</p>
 <p>When I am at the desk, I can now do all of my reading and note-taking in Obsidian thanks to the <a href="https://github.com/caronchen/obsidian-calibre-plugin">calibre plugin</a>. After tinkering with the configuration, I found it so blissful being able to read, think and write from a single application. No distractions! Also, now I can gradually ease into the Evergreen way of note-taking to structure my thinking. Opening a linked note using <code>Cmd+T</code>, with the <strong>stack notes</strong> option turned on, just adds to the joy of working like this:</p>
 <p><img src="https://kapitan.net/blog/https:/user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif" class="img-fluid"></p>
 </section>
@@ -1547,23 +1547,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-f728fc11d8e048eab5b024b1a857a25a.vega-embed {
+  #altair-viz-d5c1b21022314443955c4d6baed68dcd.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-f728fc11d8e048eab5b024b1a857a25a.vega-embed details,
-  #altair-viz-f728fc11d8e048eab5b024b1a857a25a.vega-embed details summary {
+  #altair-viz-d5c1b21022314443955c4d6baed68dcd.vega-embed details,
+  #altair-viz-d5c1b21022314443955c4d6baed68dcd.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-f728fc11d8e048eab5b024b1a857a25a"></div>
+<div id="altair-viz-d5c1b21022314443955c4d6baed68dcd"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-f728fc11d8e048eab5b024b1a857a25a") {
-      outputDiv = document.getElementById("altair-viz-f728fc11d8e048eab5b024b1a857a25a");
+    if (outputDiv.id !== "altair-viz-d5c1b21022314443955c4d6baed68dcd") {
+      outputDiv = document.getElementById("altair-viz-d5c1b21022314443955c4d6baed68dcd");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
