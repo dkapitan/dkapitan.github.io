@@ -1,5 +1,25 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/amphia.html",
+      "/projects/pharmaccess.html",
+      "/projects/sensire.html",
+      "/projects/mytomorrows.html",
+      "/projects/blue-radix.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/onderhoud-accus.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/winterklaar-maken.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/obsidian-setup.html",
@@ -23,32 +43,13 @@
     ]
   },
   {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/onderhoud-accus.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/winterklaar-maken.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/amphia.html",
-      "/projects/pharmaccess.html",
-      "/projects/sensire.html",
-      "/projects/mytomorrows.html",
-      "/projects/blue-radix.html"
-    ]
-  },
-  {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/haricotverts-ottolenghi.html",
       "/recepten/smoor-ayam.html",
       "/recepten/pad-thai.html",
       "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/buffalo-bloemkoolwings.html",
       "/recepten/deya's-porridge.html",
       "/recepten/oostenrijkse-goulashsoep.html",
       "/recepten/roti-masala-kip.html",
