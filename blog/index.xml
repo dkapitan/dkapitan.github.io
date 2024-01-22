@@ -18,7 +18,7 @@
 
 
 
-<p>I have been in love with Altair ever since I first ran into it. The logic, the structure, the syntax: it’s all just there and it helps me to get my work done. Paired with <a href="https://quarto.org">Quarto</a> or <a href="https://streamlit.io">Streamlit</a>, I can create stunning pdf reports, interactive documents and single-page apps for my clients, all from one codebase. After attending a workshop by my fellow data viz afficianado <a href="https://www.thedatavisionlab.com/">Sara Sprinkhuizen</a>, I wanted to implement her tried-and-test best practices for charts into an Altair.</p>
+<p>I have been in love with Altair ever since I first ran into it. The logic, the structure, the syntax: it’s all just there and it helps me to get my work done. Paired with <a href="https://quarto.org">Quarto</a> or <a href="https://streamlit.io">Streamlit</a>, I can create stunning pdf reports, interactive documents and single-page apps for my clients, all from one codebase. After attending a workshop by my fellow data viz afficianado <a href="https://www.thedatavisionlab.com/">Sara Sprinkhuizen</a>, I wanted to implement her tried-and-tested best practices for charts into an Altair.</p>
 <p>In this post, we will illustate how these improvements work for a handful of visualizations that are often used for exploratory data analysis. We will implement her design principles in an Altair theme, such that we can consistently generate better charts in our workflow. Let’s start and see how Altair’s default theme renders a scatterplot, bar chart and line chart.</p>
 <div class="cell" data-execution_count="1">
 <details>
@@ -2439,23 +2439,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-7ffeb6d790974f5b977088985dbeb103.vega-embed {
+  #altair-viz-0f1c548bcbef40628b9fe603b9994916.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-7ffeb6d790974f5b977088985dbeb103.vega-embed details,
-  #altair-viz-7ffeb6d790974f5b977088985dbeb103.vega-embed details summary {
+  #altair-viz-0f1c548bcbef40628b9fe603b9994916.vega-embed details,
+  #altair-viz-0f1c548bcbef40628b9fe603b9994916.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-7ffeb6d790974f5b977088985dbeb103"></div>
+<div id="altair-viz-0f1c548bcbef40628b9fe603b9994916"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-7ffeb6d790974f5b977088985dbeb103") {
-      outputDiv = document.getElementById("altair-viz-7ffeb6d790974f5b977088985dbeb103");
+    if (outputDiv.id !== "altair-viz-0f1c548bcbef40628b9fe603b9994916") {
+      outputDiv = document.getElementById("altair-viz-0f1c548bcbef40628b9fe603b9994916");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
