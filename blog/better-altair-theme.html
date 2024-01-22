@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Implmenting best practices for data visualization as an Altair theme.">
+<meta name="description" content="Implementing best practices for data visualization as an Altair theme.">
 
 <title>Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking - Amazing Altair with an even better theme</title>
 <style>
@@ -254,7 +254,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 
 <div>
   <div class="description">
-    Implmenting best practices for data visualization as an Altair theme.
+    Implementing best practices for data visualization as an Altair theme.
   </div>
 </div>
 
@@ -276,8 +276,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 </header>
 
 <p>I have been in love with Altair ever since I first ran into it. The logic, the structure, the syntax: it’s all just there and it helps me to get my work done. Paired with <a href="https://quarto.org">Quarto</a> or <a href="https://streamlit.io">Streamlit</a>, I can create stunning pdf reports, interactive documents and single-page apps for my clients, all from one codebase. After attending a workshop by my fellow data viz afficianado <a href="https://www.thedatavisionlab.com/">Sara Sprinkhuizen</a>, I wanted to implement her tried-and-test best practices for charts into an Altair.</p>
-<p>In this post, we will illustate how these improvements work for a handful of visualizations that are often used for exploratory data analysis. We will implement her design principles in an Altair theme, such that we can consistently generate better charts in our workflow.</p>
-<p>But first, let’s start how Altair’s default theme renders a scatterplot, bar chart and line chart.</p>
+<p>In this post, we will illustate how these improvements work for a handful of visualizations that are often used for exploratory data analysis. We will implement her design principles in an Altair theme, such that we can consistently generate better charts in our workflow. Let’s start and see how Altair’s default theme renders a scatterplot, bar chart and line chart.</p>
 <div class="cell" data-execution_count="1">
 <details>
 <summary>Code</summary>
@@ -552,10 +551,10 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="some-simple-but-sensible-design-principles">Some simple but sensible design principles</h2>
 <p>Sara’s main points for improving the standard layout of charts basically boil down to the following princples:</p>
 <ul>
+<li><strong>use informative action titles and subtitles</strong>: much like effective presentations, using so-called <a href="https://slideworks.io/resources/how-to-write-action-titles-like-mckinsey">action titles</a> will greatly increase the impact of your data visualization. Formulated as a short, simple sentence, action titles should ideally be the main takeaway or ‘so what’ of the chart, and – if done right – allows the audience to only read the title to understand the primary message of the visual.</li>
 <li><strong>less is more</strong>: before minimalism became all the rage in design, Edward Tufte coined the principle of <a href="https://infovis-wiki.net/wiki/Data-Ink_Ratio">maximizing the data-to-ink ratio</a>. Charts are easier to read by removing unnecessary clutter. So get rid of gridlines, background colors and the like.</li>
 <li><strong>keep it horizontal</strong>: text is easier to read when it is horizontally aligned. So straighten up those rotated x-axis labels and y-axis titles</li>
-<li><strong>use informative action titles and subtitles</strong>: much like effective presentations, using so-called <a href="https://slideworks.io/resources/how-to-write-action-titles-like-mckinsey">action titles</a> will greatly increase the impact of your data visualization. Formulated as a short, simple sentence. It should ideally be the main takeaway or ‘so what’ of the chart, and – if done right – allows the audience to only read the title to understand the primary message of the visual.</li>
-<li><strong>loose the legends</strong>: having to lookup colors increases the cognitive load of reading a chart. Use annotations instead.</li>
+<li><strong>lose the legends</strong>: having to lookup colors increases the cognitive load of reading a chart. Use annotations instead.</li>
 </ul>
 <p>All these principles can be readily implemented in Altair. Sergio Sánchez in fact captured the first three principles when implementing the Urban Institute styleguide (shown below) as <a href="https://towardsdatascience.com/consistently-beautiful-visualizations-with-altair-themes-c7f9f889602">an Altair theme</a>.</p>
 <p><img src="images/urban-institute-styleguide.webp" class="img-fluid"></p>
