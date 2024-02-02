@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -80,7 +80,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -89,6 +94,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -107,6 +113,33 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
 </head>
 
@@ -114,25 +147,25 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-md navbar-dark ">
+    <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="navbar-logo">
     </a>
   </div>
-        <div class="quarto-navbar-tools ms-auto">
+        <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Creating generative art with L-systems in Python</li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Creating generative art with L-systems in Python</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -142,11 +175,11 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://www.linkedin.com/in/dkapitan/" rel="" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
-    <a href="https://github.com/dkapitan" rel="" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
-    <a href="https://kapitan.net/blog/index.xml" rel="" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
+    <a href="https://www.linkedin.com/in/dkapitan/" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/dkapitan" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+    <a href="https://kapitan.net/blog/index.xml" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
     <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
 </div>
     <div class="sidebar-menu-container"> 
@@ -219,7 +252,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -244,7 +277,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     
     <div>
@@ -258,7 +291,9 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 <p><img src="../images/lartpy.jpg" class="img-fluid"></p>
 <p><a href="https://en.wikipedia.org/wiki/Creative_coding">Creative coding</a> is fun if you know a thing or two about programming. And if, like me, you are an utter noob when it comes to brushes and pencils, then it is even more enticing as a means to express yourself and create something just for the sake of it. It doesn’t have to be functional, but you do get to hone your hacking skills and set challenges for yourself along the way.</p>
@@ -275,7 +310,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <p>There are different kinds of L-systems, with increasing complexity. We will start with the simplest: Lindenmayer’s original L-system for modelling the growth of algae (We will jump right in, please read the <a href="https://en.wikipedia.org/wiki/L-system">article on Wikipedia</a> if you need more context).</p>
 <section id="d0l-deterministic-context-free-l-system" class="level2">
 <h2 class="anchored" data-anchor-id="d0l-deterministic-context-free-l-system">D0L: deterministic context-free L-system</h2>
-<div class="cell" data-cell_id="4f89aef0f75d4aa3808305b92a4925d3" data-deepnote_cell_type="code" data-execution_millis="21" data-execution_start="1619612317163" data-source_hash="8b352d4c" data-tags="[]">
+<div id="cell-3" class="cell" data-cell_id="4f89aef0f75d4aa3808305b92a4925d3" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="21" data-execution_start="1619612317163" data-source_hash="8b352d4c" data-tags="[]">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define L-system</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">'A'</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">'A'</span>: <span class="st">'AB'</span>,</span>
@@ -315,14 +350,14 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 </div>
 </div>
 <p>I actually found the recursive Python implementation on this <a href="https://understanding-recursion.readthedocs.io/en/latest/16%20L-System%20Solution.html">introductory website on recursion</a>. While I still struggle to apply recursion, I find it satisfying to solve coding problems this way. And even with just these twenty lines of code, we have already stumbled on the <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a>! Have a look at the length of each successive sequence:</p>
-<div class="cell" data-cell_id="7c9e0ab688d543ddb427e0706d09d8c1" data-deepnote_cell_type="code" data-execution_millis="135" data-execution_start="1619612317215" data-is_code_hidden="true" data-source_hash="8264db4e" data-tags="[]">
+<div id="cell-5" class="cell" data-cell_id="7c9e0ab688d543ddb427e0706d09d8c1" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="135" data-execution_start="1619612317215" data-is_code_hidden="true" data-source_hash="8264db4e" data-tags="[]">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>([<span class="bu">len</span>(word) <span class="cf">for</span> word <span class="kw">in</span> productions])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1, 2, 3, 5, 8, 13, 21, 34]</code></pre>
 </div>
 </div>
 <p>Awesome as the nature of code may be, we are still a long way off from actually generating a tree. For that, we need branching rules. To do so, basic L-systems also allow constants, which are left untouched by the production rules. It is common to add constants <code>+</code> and <code>-</code> to denote rotations when branching, and <code>[</code>,<code>]</code> for handling the locations of the branching points. For a fractal plant, the code is as follows:</p>
-<div class="cell" data-cell_id="0edc13f7a3a94a8f8c6d39e03e99b6dd" data-deepnote_cell_type="code" data-execution_millis="134" data-execution_start="1619612317216" data-source_hash="b4945e20" data-tags="[]">
+<div id="cell-7" class="cell" data-cell_id="0edc13f7a3a94a8f8c6d39e03e99b6dd" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="134" data-execution_start="1619612317216" data-source_hash="b4945e20" data-tags="[]">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">"X"</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">"X"</span>: <span class="st">"F+[[X]-X]-F[-FX]+X"</span>,</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>         <span class="st">"F"</span>: <span class="st">"FF"</span>}</span>
@@ -351,7 +386,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 p2: F(0.33) → F[+F]F
 p3: F(0.34) → F[−F]F</code></pre>
 <p>the Python implementation could look something like this:</p>
-<div class="cell" data-cell_id="4e3895f0f15b431a9489742b3f7cd84f" data-deepnote_cell_type="code" data-execution_millis="10" data-execution_start="1619612508337" data-source_hash="77e3defc" data-tags="[]">
+<div id="cell-10" class="cell" data-cell_id="4e3895f0f15b431a9489742b3f7cd84f" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="10" data-execution_start="1619612508337" data-source_hash="77e3defc" data-tags="[]">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy.random <span class="im">import</span> default_rng</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">"F"</span></span>
@@ -391,7 +426,7 @@ p3: F(0.34) → F[−F]F</code></pre>
 </div>
 </div>
 <p>Here’s another run with a different result:</p>
-<div class="cell" data-cell_id="ec7650359b644649a843d7a30e0ce467" data-deepnote_cell_type="code" data-execution_start="1619612520082" data-is_code_hidden="true" data-source_hash="32960fdd" data-tags="[]">
+<div id="cell-12" class="cell" data-cell_id="ec7650359b644649a843d7a30e0ce467" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="0" data-execution_start="1619612520082" data-is_code_hidden="true" data-source_hash="32960fdd" data-tags="[]">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># show that a new run generates different result</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>generate_stochastic(AXIOM, productions, iterations)</span>
@@ -408,7 +443,7 @@ p3: F(0.34) → F[−F]F</code></pre>
 <section id="adding-parameters" class="level2">
 <h2 class="anchored" data-anchor-id="adding-parameters">Adding parameters</h2>
 <p>In a parametric L-system, letters are allowed to have parameters, which correspond with formal parameters used in the specification of L-system productions. This can be used to model <em>Anabaena catenula</em> (taken from <a href="http://algorithmicbotany.org/papers/hanan.dis1992.html">Hanan’s dissertation</a>):</p>
-<div class="cell" data-cell_id="ffbb155396f541bea91cdddafa44a742" data-deepnote_cell_type="code" data-execution_millis="71" data-execution_start="1619612317279" data-source_hash="ddba2700" data-tags="[]">
+<div id="cell-14" class="cell" data-cell_id="ffbb155396f541bea91cdddafa44a742" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="71" data-execution_start="1619612317279" data-source_hash="ddba2700" data-tags="[]">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> namedtuple</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -471,7 +506,7 @@ p3: F(0.34) → F[−F]F</code></pre>
 <section id="using-pyp5js-for-pythonic-drawing-on-the-web" class="level1">
 <h1>Using pyp5js for Pythonic drawing on the web</h1>
 <p>When Lindenmayer devised the L-system, <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">Logo</a> was one of the few programming langauges available. It included <a href="https://en.wikipedia.org/wiki/Turtle_graphics">turtle graphics</a> and thus the basis of algorithmic art was born by translating the alphabet of an L-system to turtle commands. The examples from the Nature of Code have in fact <a href="https://github.com/nature-of-code/noc-examples-processing/blob/master/chp08_fractals/NOC_8_09_LSystem/Turtle.pde">implemented this in Processing</a>. But rather than constrain yourself to the desktop, more mileage can be had by using <a href="https://p5js.org">p5js</a> which is “… an interpretation of Processing for today’s web”. To demonstrate, take the following example:</p>
-<div class="cell" data-cell_id="339bc90f77ba4f03ae639db0ba417ad8" data-deepnote_cell_type="code" data-execution_millis="73" data-execution_start="1619612317283" data-source_hash="cbe4ac7d" data-tags="[]">
+<div id="cell-17" class="cell" data-cell_id="339bc90f77ba4f03ae639db0ba417ad8" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="73" data-execution_start="1619612317283" data-source_hash="cbe4ac7d" data-tags="[]">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">'G'</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'F'</span>: <span class="st">'FF'</span>,</span>
@@ -578,10 +613,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -591,8 +625,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -605,6 +648,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -648,6 +810,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -673,6 +836,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -735,11 +924,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><br> Copyright © 2023 Daniel Kapitan<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></div>   
-    <div class="nav-footer-center"><br> <strong>Postal address:</strong><br> DWMM Holding B.V.<br> Marie Baronstraat 15<br> 3056 AA ROTTERDAM</div>
-    <div class="nav-footer-right"><br> <strong>Chamber of Commerce (KvK):</strong> 52920259<br> <strong>RSIN:</strong> 850665851<br> <strong>IBAN:</strong> NL47 KNAB 0259 5268 27<br> <strong>Terms &amp; Conditions</strong> in <a href="../resources/230901-algemene-voorwaarden.pdf">Dutch</a><br></div>
+    <div class="nav-footer-left">
+<p><br> Copyright © 2023 Daniel Kapitan<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><br> <strong>Postal address:</strong><br> DWMM Holding B.V.<br> Marie Baronstraat 15<br> 3056 AA ROTTERDAM</p>
+</div>
+    <div class="nav-footer-right">
+<p><br> <strong>Chamber of Commerce (KvK):</strong> 52920259<br> <strong>RSIN:</strong> 850665851<br> <strong>IBAN:</strong> NL47 KNAB 0259 5268 27<br> <strong>Terms &amp; Conditions</strong> in <a href="../resources/230901-algemene-voorwaarden.pdf">Dutch</a><br></p>
+</div>
   </div>
 </footer>
+
 
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -103,32 +109,59 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking" href="index.xml"></head>
+<link rel="alternate" type="application/rss+xml" title="Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking" href="index.xml" data-external="1"></head>
 
 <body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-md navbar-dark ">
+    <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="navbar-logo">
     </a>
   </div>
-        <div class="quarto-navbar-tools ms-auto">
+        <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../blog/index.html">Blog</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../blog/index.html">Blog</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -138,11 +171,11 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://www.linkedin.com/in/dkapitan/" rel="" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
-    <a href="https://github.com/dkapitan" rel="" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
-    <a href="https://kapitan.net/blog/index.xml" rel="" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
+    <a href="https://www.linkedin.com/in/dkapitan/" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/dkapitan" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+    <a href="https://kapitan.net/blog/index.xml" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
     <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
 </div>
     <div class="sidebar-menu-container"> 
@@ -215,10 +248,10 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(19)</span></div><div class="category" data-category="coding">coding <span class="quarto-category-count">(4)</span></div><div class="category" data-category="data commons">data commons <span class="quarto-category-count">(5)</span></div><div class="category" data-category="data solidarity">data solidarity <span class="quarto-category-count">(4)</span></div><div class="category" data-category="english">english <span class="quarto-category-count">(7)</span></div><div class="category" data-category="generative art">generative art <span class="quarto-category-count">(1)</span></div><div class="category" data-category="healthcare">healthcare <span class="quarto-category-count">(2)</span></div><div class="category" data-category="modeling">modeling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nederlands">nederlands <span class="quarto-category-count">(12)</span></div><div class="category" data-category="podcast">podcast <span class="quarto-category-count">(2)</span></div><div class="category" data-category="privacy-enhancing technologies">privacy-enhancing technologies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="responsible ai">responsible ai <span class="quarto-category-count">(6)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(3)</span></div><div class="category" data-category="webinar">webinar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workflow">workflow <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="coding">coding <span class="quarto-category-count">(4)</span></div><div class="category" data-category="data commons">data commons <span class="quarto-category-count">(5)</span></div><div class="category" data-category="data solidarity">data solidarity <span class="quarto-category-count">(5)</span></div><div class="category" data-category="datasolidariteit">datasolidariteit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="english">english <span class="quarto-category-count">(7)</span></div><div class="category" data-category="generative art">generative art <span class="quarto-category-count">(1)</span></div><div class="category" data-category="healthcare">healthcare <span class="quarto-category-count">(2)</span></div><div class="category" data-category="modeling">modeling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nederlands">nederlands <span class="quarto-category-count">(13)</span></div><div class="category" data-category="podcast">podcast <span class="quarto-category-count">(2)</span></div><div class="category" data-category="privacy-enhancing technologies">privacy-enhancing technologies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="responsible ai">responsible ai <span class="quarto-category-count">(6)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(3)</span></div><div class="category" data-category="webinar">webinar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workflow">workflow <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -229,7 +262,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -237,7 +270,9 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 
 
@@ -251,19 +286,58 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="english,visualization,coding" data-listing-date-sort="1705795200000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="0" data-categories="nederlands,datasolidariteit,data solidarity" data-listing-date-sort="1706659200000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1476">
 <div class="thumbnail">
-<p><a href="../blog/better-altair-theme.html"> <img src="../blog/images/urban-institute-styleguide.webp" class="thumbnail-image"> </a></p>
+<p><a href="../blog/datasolidariteit-ibestuur.html" class="no-external"></a></p><a href="../blog/datasolidariteit-ibestuur.html" class="no-external">
+<p><img src="../blog/images/data-in-de-zorg-shutterstock_2419651697.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/datasolidariteit-ibestuur.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/better-altair-theme.html">
 <h3 class="no-anchor listing-title">
-Amazing Altair with an even better theme
+<a href="../blog/datasolidariteit-ibestuur.html" class="no-external">Een vals dilemma: privacy versus datasolidariteit</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/datasolidariteit-ibestuur.html" class="no-external">Artikel gepubliceerd in iBestuur</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
+nederlands
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('datasolidariteit'); return false;">
+datasolidariteit
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data solidarity'); return false;">
+data solidarity
+</div>
+</div>
+<div class="listing-description">
+<a href="../blog/datasolidariteit-ibestuur.html" class="no-external">Veel mensen denken ‘als data over mij gaan, dan zijn het automatisch persoonsgegevens die beschermd moeten worden’. Data zijn geen eigendom, maar een gemeengoed. Gezondheidsdata gaan over de patiënt, maar zijn niet van de patiënt. Samen met Antoinette Vlieger en Egge van der Poel pleit ik voor datasolidariteit als concept waarmee bewuste afwegingen gemaakt worden tussen collectieve en individuele belangen, tussen de huidige privacy en de gezondheidszorg van generaties na ons. </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/datasolidariteit-ibestuur.html" class="no-external">
+<div class="listing-date">
+Jan 2024
+</div>
+<div class="listing-author">
+Daniel Kapitan, Egge van der Poel, Antoinette Vlieger
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="english,visualization,coding" data-listing-date-sort="1705795200000" data-listing-file-modified-sort="1706858238244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="852">
+<div class="thumbnail">
+<p><a href="../blog/better-altair-theme.html" class="no-external"></a></p><a href="../blog/better-altair-theme.html" class="no-external">
+<p><img src="../blog/images/urban-institute-styleguide.webp" class="thumbnail-image"></p>
+</a><p><a href="../blog/better-altair-theme.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/better-altair-theme.html" class="no-external">Amazing Altair with an even better theme</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/better-altair-theme.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
 english
@@ -275,33 +349,31 @@ visualization
 coding
 </div>
 </div>
-<a href="../blog/better-altair-theme.html">
 <div class="listing-description">
-<p>Implementing best practices for data visualization as an Altair theme.</p>
+<a href="../blog/better-altair-theme.html" class="no-external">Implementing best practices for data visualization as an Altair theme.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/better-altair-theme.html">
+<a href="../blog/better-altair-theme.html" class="no-external">
 <div class="listing-date">
 Jan 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="english,coding,workflow" data-listing-date-sort="1703894400000" data-listing-file-modified-sort="1705905543199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="quarto-post image-right" data-index="2" data-categories="english,coding,workflow" data-listing-date-sort="1703894400000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1546">
 <div class="thumbnail">
-<p><a href="../blog/obsidian-setup.html"> <img src="../blog/images/obsidian-setup.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/obsidian-setup.html" class="no-external"></a></p><a href="../blog/obsidian-setup.html" class="no-external">
+<p><img src="../blog/images/obsidian-setup.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/obsidian-setup.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/obsidian-setup.html">
 <h3 class="no-anchor listing-title">
-Another year, another lifehack
+<a href="../blog/obsidian-setup.html" class="no-external">Another year, another lifehack</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/obsidian-setup.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
 english
@@ -313,14 +385,12 @@ coding
 workflow
 </div>
 </div>
-<a href="../blog/obsidian-setup.html">
 <div class="listing-description">
-<p>How to configure and use a fully integrated markdown-based workflow for reading, thinking and writing.</p>
+<a href="../blog/obsidian-setup.html" class="no-external">How to configure and use a fully integrated markdown-based workflow for reading, thinking and writing. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/obsidian-setup.html">
+<a href="../blog/obsidian-setup.html" class="no-external">
 <div class="listing-date">
 Dec 2023
 </div>
@@ -330,19 +400,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="nederlands,webinar,responsible ai,healthcare" data-listing-date-sort="1699488000000" data-listing-file-modified-sort="1705905543203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="nederlands,webinar,responsible ai,healthcare" data-listing-date-sort="1699488000000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <div class="thumbnail">
-<p><a href="../blog/webinar-knmg.html"> <img src="../images/still-knmg.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/webinar-knmg.html" class="no-external"></a></p><a href="../blog/webinar-knmg.html" class="no-external">
+<p><img src="../images/still-knmg.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/webinar-knmg.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/webinar-knmg.html">
 <h3 class="no-anchor listing-title">
-De veranderende rol van de arts door AI
+<a href="../blog/webinar-knmg.html" class="no-external">De veranderende rol van de arts door AI</a>
 </h3>
 <div class="listing-subtitle">
-Webinar georganiseerd door Artsenfederatie KNMG
+<a href="../blog/webinar-knmg.html" class="no-external">Webinar georganiseerd door Artsenfederatie KNMG</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -357,14 +427,12 @@ responsible ai
 healthcare
 </div>
 </div>
-<a href="../blog/webinar-knmg.html">
 <div class="listing-description">
-<p>AI is de afgelopen tijd veelvuldig in de media geweest. De toon van de berichtgeving loopt sterk uiteen, van hype, naar hysterie, naar (deels gegronde) vrees. In dit webinar gaan we in op wat je als arts nou moet weten van deze ontwikkeling. Wat zijn de kansen? Maar ook: welke vragen moet je stellen? Hoe zet je AI op een verantwoorde manier in/ welke AI-toepassingen zijn momenteel in gebruik? Ik mocht de webinar aftrappen met een 20-minuten crash-course in AI (begint op 00:02:50), gevolgd door een paneldebat.</p>
+<a href="../blog/webinar-knmg.html" class="no-external">AI is de afgelopen tijd veelvuldig in de media geweest. De toon van de berichtgeving loopt sterk uiteen, van hype, naar hysterie, naar (deels gegronde) vrees. In dit webinar gaan we in op wat je als arts nou moet weten van deze ontwikkeling. Wat zijn de kansen? Maar ook: welke vragen moet je stellen? Hoe zet je AI op een verantwoorde manier in/ welke AI-toepassingen zijn momenteel in gebruik? Ik mocht de webinar aftrappen met een 20-minuten crash-course in AI (begint op 00:02:50), gevolgd door een paneldebat. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/webinar-knmg.html">
+<a href="../blog/webinar-knmg.html" class="no-external">
 <div class="listing-date">
 Nov 2023
 </div>
@@ -374,19 +442,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="nederlands,data solidarity" data-listing-date-sort="1695168000000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="4" data-categories="nederlands,data solidarity" data-listing-date-sort="1695168000000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="540">
 <div class="thumbnail">
-<p><a href="../blog/data-is-een-recht.html"> <img src="../images/YasminDwiputri-DataHazards.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/data-is-een-recht.html" class="no-external"></a></p><a href="../blog/data-is-een-recht.html" class="no-external">
+<p><img src="../images/YasminDwiputri-DataHazards.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/data-is-een-recht.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/data-is-een-recht.html">
 <h3 class="no-anchor listing-title">
-Eindelijk is data delen geen gunst, maar een recht
+<a href="../blog/data-is-een-recht.html" class="no-external">Eindelijk is data delen geen gunst, maar een recht</a>
 </h3>
 <div class="listing-subtitle">
-Opinie gepubliceerd in het Financieele Dagblad
+<a href="../blog/data-is-een-recht.html" class="no-external">Opinie gepubliceerd in het Financieele Dagblad</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -395,14 +463,12 @@ nederlands
 data solidarity
 </div>
 </div>
-<a href="../blog/data-is-een-recht.html">
 <div class="listing-description">
-<p>Vanaf maandag is de Data Governance Verordening van kracht. Data delen, bijvoorbeeld onder wetenschappers, moet de standaard worden. Wetenschappers moeten zich assertief opstellen en desnoods hulp van de rechter inroepen.</p>
+<a href="../blog/data-is-een-recht.html" class="no-external">Vanaf maandag is de Data Governance Verordening van kracht. Data delen, bijvoorbeeld onder wetenschappers, moet de standaard worden. Wetenschappers moeten zich assertief opstellen en desnoods hulp van de rechter inroepen.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/data-is-een-recht.html">
+<a href="../blog/data-is-een-recht.html" class="no-external">
 <div class="listing-date">
 Sep 2023
 </div>
@@ -412,19 +478,19 @@ Antoinette Vlieger, Daniel Kapitan, Egge van der Poel
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="english,data commons,privacy-enhancing technologies" data-listing-date-sort="1688169600000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="english,data commons,privacy-enhancing technologies" data-listing-date-sort="1688169600000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="../blog/dsc-whitepaper-pets.html"> <img src="../images/dsc-pets-overview.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/dsc-whitepaper-pets.html" class="no-external"></a></p><a href="../blog/dsc-whitepaper-pets.html" class="no-external">
+<p><img src="../images/dsc-pets-overview.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/dsc-whitepaper-pets.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/dsc-whitepaper-pets.html">
 <h3 class="no-anchor listing-title">
-Whitepaper on privacy-enhancing technologies
+<a href="../blog/dsc-whitepaper-pets.html" class="no-external">Whitepaper on privacy-enhancing technologies</a>
 </h3>
 <div class="listing-subtitle">
-In collaboration with the Centre of Excellence – Data Sharing and Cloud
+<a href="../blog/dsc-whitepaper-pets.html" class="no-external">In collaboration with the Centre of Excellence – Data Sharing and Cloud</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
 english
@@ -436,14 +502,12 @@ data commons
 privacy-enhancing technologies
 </div>
 </div>
-<a href="../blog/dsc-whitepaper-pets.html">
 <div class="listing-description">
-<p>This whitepaper discusses several groups of PETs and privacy assessment measures, covering their implementation and value potential in respective use cases.</p>
+<a href="../blog/dsc-whitepaper-pets.html" class="no-external">This whitepaper discusses several groups of PETs and privacy assessment measures, covering their implementation and value potential in respective use cases. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/dsc-whitepaper-pets.html">
+<a href="../blog/dsc-whitepaper-pets.html" class="no-external">
 <div class="listing-date">
 Jul 2023
 </div>
@@ -453,19 +517,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="nederlands,podcast,data commons,data solidarity" data-listing-date-sort="1684368000000" data-listing-file-modified-sort="1705905543203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="nederlands,podcast,data commons,data solidarity" data-listing-date-sort="1684368000000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <div class="thumbnail">
-<p><a href="../blog/podcast-dataloog-datasolidariteit.html"> <img src="../images/podcast-de-dataloog.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/podcast-dataloog-datasolidariteit.html" class="no-external"></a></p><a href="../blog/podcast-dataloog-datasolidariteit.html" class="no-external">
+<p><img src="../images/podcast-de-dataloog.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/podcast-dataloog-datasolidariteit.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/podcast-dataloog-datasolidariteit.html">
 <h3 class="no-anchor listing-title">
-Podcast bij de Dataloog
+<a href="../blog/podcast-dataloog-datasolidariteit.html" class="no-external">Podcast bij de Dataloog</a>
 </h3>
 <div class="listing-subtitle">
-Interview door Harm Bodewes en Jurjen Helmus
+<a href="../blog/podcast-dataloog-datasolidariteit.html" class="no-external">Interview door Harm Bodewes en Jurjen Helmus</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -480,14 +544,12 @@ data commons
 data solidarity
 </div>
 </div>
-<a href="../blog/podcast-dataloog-datasolidariteit.html">
 <div class="listing-description">
-<p>Een heerlijk Socratisch gesprek over datasolidariteit.</p>
+<a href="../blog/podcast-dataloog-datasolidariteit.html" class="no-external">Een heerlijk Socratisch gesprek over datasolidariteit.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/podcast-dataloog-datasolidariteit.html">
+<a href="../blog/podcast-dataloog-datasolidariteit.html" class="no-external">
 <div class="listing-date">
 May 2023
 </div>
@@ -497,19 +559,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="nederlands,data commons,data solidarity" data-listing-date-sort="1672099200000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="7" data-categories="nederlands,data commons,data solidarity" data-listing-date-sort="1672099200000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1130">
 <div class="thumbnail">
-<p><a href="../blog/datasolidariteit.html"> <img src="../images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/datasolidariteit.html" class="no-external"></a></p><a href="../blog/datasolidariteit.html" class="no-external">
+<p><img src="../images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" class="thumbnail-image"></p>
+</a><p><a href="../blog/datasolidariteit.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/datasolidariteit.html">
 <h3 class="no-anchor listing-title">
-We moeten het meer hebben over datasolidariteit
+<a href="../blog/datasolidariteit.html" class="no-external">We moeten het meer hebben over datasolidariteit</a>
 </h3>
 <div class="listing-subtitle">
-Opinie gepubliceerd op socialevraagstukken.nl
+<a href="../blog/datasolidariteit.html" class="no-external">Opinie gepubliceerd op socialevraagstukken.nl</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -521,14 +583,12 @@ data commons
 data solidarity
 </div>
 </div>
-<a href="../blog/datasolidariteit.html">
 <div class="listing-description">
-<p>Het debat over het delen van persoonsgegevens gaat al te vaak over privacy. We moeten het meer hebben over de maatschappelijke waarde van data delen, over datasolidariteit.</p>
+<a href="../blog/datasolidariteit.html" class="no-external">Het debat over het delen van persoonsgegevens gaat al te vaak over privacy. We moeten het meer hebben over de maatschappelijke waarde van data delen, over datasolidariteit.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/datasolidariteit.html">
+<a href="../blog/datasolidariteit.html" class="no-external">
 <div class="listing-date">
 Dec 2022
 </div>
@@ -538,19 +598,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="nederlands,podcast,responsible ai" data-listing-date-sort="1656979200000" data-listing-file-modified-sort="1705905543199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="8" data-categories="nederlands,podcast,responsible ai" data-listing-date-sort="1656979200000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <div class="thumbnail">
-<p><a href="../blog/podcast-aitoday.html"> <img src="../images/podcast-aitoday.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/podcast-aitoday.html" class="no-external"></a></p><a href="../blog/podcast-aitoday.html" class="no-external">
+<p><img src="../images/podcast-aitoday.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/podcast-aitoday.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/podcast-aitoday.html">
 <h3 class="no-anchor listing-title">
-Podcast bij AIToday
+<a href="../blog/podcast-aitoday.html" class="no-external">Podcast bij AIToday</a>
 </h3>
 <div class="listing-subtitle">
-Geinterviewed door Joop Snijders en Niels Naglé
+<a href="../blog/podcast-aitoday.html" class="no-external">Geinterviewed door Joop Snijders en Niels Naglé</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -562,14 +622,12 @@ podcast
 responsible ai
 </div>
 </div>
-<a href="../blog/podcast-aitoday.html">
 <div class="listing-description">
-<p>Sinds tijden weer een <em>live</em> gesprek!</p>
+<a href="../blog/podcast-aitoday.html" class="no-external">Sinds tijden weer een <em>live</em> gesprek!</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/podcast-aitoday.html">
+<a href="../blog/podcast-aitoday.html" class="no-external">
 <div class="listing-date">
 Jul 2022
 </div>
@@ -579,19 +637,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="nederlands,responsible ai" data-listing-date-sort="1650844800000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="9" data-categories="nederlands,responsible ai" data-listing-date-sort="1650844800000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1014">
 <div class="thumbnail">
-<p><a href="../blog/eerlijke-algoritmen.html"> <img src="../images/alexander-grey-TZZwC_xsClY-unsplash.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/eerlijke-algoritmen.html" class="no-external"></a></p><a href="../blog/eerlijke-algoritmen.html" class="no-external">
+<p><img src="../images/alexander-grey-TZZwC_xsClY-unsplash.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/eerlijke-algoritmen.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/eerlijke-algoritmen.html">
 <h3 class="no-anchor listing-title">
-Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?
+<a href="../blog/eerlijke-algoritmen.html" class="no-external">Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?</a>
 </h3>
 <div class="listing-subtitle">
-Opinie gepubliceerd op socialevraagstukken.nl
+<a href="../blog/eerlijke-algoritmen.html" class="no-external">Opinie gepubliceerd op socialevraagstukken.nl</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -600,14 +658,12 @@ nederlands
 responsible ai
 </div>
 </div>
-<a href="../blog/eerlijke-algoritmen.html">
 <div class="listing-description">
-<p>De Autoriteit Persoonsgegevens legde de Belastingdienst onlangs een boete op voor het gebruik van de ‘fraudesignaleringsvoorziening’, waarin jarenlang illegaal persoonsgegevens verwerkt werden. Wat zijn knelpunten van algoritmegebruik bij overheidstoezicht en wat nodig is om wel tot eerlijke, niet-discriminerende algoritmen te komen.</p>
+<a href="../blog/eerlijke-algoritmen.html" class="no-external">De Autoriteit Persoonsgegevens legde de Belastingdienst onlangs een boete op voor het gebruik van de ‘fraudesignaleringsvoorziening’, waarin jarenlang illegaal persoonsgegevens verwerkt werden. Wat zijn knelpunten van algoritmegebruik bij overheidstoezicht en wat nodig is om wel tot eerlijke, niet-discriminerende algoritmen te komen.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/eerlijke-algoritmen.html">
+<a href="../blog/eerlijke-algoritmen.html" class="no-external">
 <div class="listing-date">
 Apr 2022
 </div>
@@ -617,19 +673,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="english,modeling" data-listing-date-sort="1646870400000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="english,modeling" data-listing-date-sort="1646870400000" data-listing-file-modified-sort="1706858238244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="../blog/analytical-problem-solving.html"> <img src="../images/logo-american-statistician.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/analytical-problem-solving.html" class="no-external"></a></p><a href="../blog/analytical-problem-solving.html" class="no-external">
+<p><img src="../images/logo-american-statistician.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/analytical-problem-solving.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/analytical-problem-solving.html">
 <h3 class="no-anchor listing-title">
-Analytical problem solving
+<a href="../blog/analytical-problem-solving.html" class="no-external">Analytical problem solving</a>
 </h3>
 <div class="listing-subtitle">
-based on causal, correlational and deductive models
+<a href="../blog/analytical-problem-solving.html" class="no-external">based on causal, correlational and deductive models</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
 english
@@ -638,14 +694,12 @@ english
 modeling
 </div>
 </div>
-<a href="../blog/analytical-problem-solving.html">
 <div class="listing-description">
-<p>I co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving.</p>
+<a href="../blog/analytical-problem-solving.html" class="no-external">I co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/analytical-problem-solving.html">
+<a href="../blog/analytical-problem-solving.html" class="no-external">
 <div class="listing-date">
 Mar 2022
 </div>
@@ -655,19 +709,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="nederlands,responsible ai" data-listing-date-sort="1643673600000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="11" data-categories="nederlands,responsible ai" data-listing-date-sort="1643673600000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="372">
 <div class="thumbnail">
-<p><a href="../blog/hippo-ai.html"> <img src="../images/my-boobs-are-not-for-sale.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/hippo-ai.html" class="no-external"></a></p><a href="../blog/hippo-ai.html" class="no-external">
+<p><img src="../images/my-boobs-are-not-for-sale.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/hippo-ai.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/hippo-ai.html">
 <h3 class="no-anchor listing-title">
-Dromen over open data en algoritmen
+<a href="../blog/hippo-ai.html" class="no-external">Dromen over open data en algoritmen</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/hippo-ai.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -676,14 +730,12 @@ nederlands
 responsible ai
 </div>
 </div>
-<a href="../blog/hippo-ai.html">
 <div class="listing-description">
-<p>Column voor E-data &amp; Research waarin ik, net zoals mijn voorganger in deze column, droom ik van een wereld waarin data niet wordt gezien als een commodity maar als een common pool resource.</p>
+<a href="../blog/hippo-ai.html" class="no-external">Column voor E-data &amp; Research waarin ik, net zoals mijn voorganger in deze column, droom ik van een wereld waarin data niet wordt gezien als een commodity maar als een common pool resource.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/hippo-ai.html">
+<a href="../blog/hippo-ai.html" class="no-external">
 <div class="listing-date">
 Feb 2022
 </div>
@@ -693,19 +745,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="english,visualization,generative art,coding" data-listing-date-sort="1619395200000" data-listing-file-modified-sort="1705905543199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="12" data-categories="english,visualization,generative art,coding" data-listing-date-sort="1619395200000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1111">
 <div class="thumbnail">
-<p><a href="../blog/lartpy.html"> <img src="../images/lartpy.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/lartpy.html" class="no-external"></a></p><a href="../blog/lartpy.html" class="no-external">
+<p><img src="../images/lartpy.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/lartpy.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/lartpy.html">
 <h3 class="no-anchor listing-title">
-Creating generative art with L-systems in Python
+<a href="../blog/lartpy.html" class="no-external">Creating generative art with L-systems in Python</a>
 </h3>
 <div class="listing-subtitle">
-Some experiments on the algorithmic beauty of plants
+<a href="../blog/lartpy.html" class="no-external">Some experiments on the algorithmic beauty of plants</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
 english
@@ -720,33 +772,31 @@ generative art
 coding
 </div>
 </div>
-<a href="../blog/lartpy.html">
 <div class="listing-description">
-<p>Would it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?“, I thought (pun intended). Of course, someone already thought of that and it even has a name: algorithmic botany.</p>
+<a href="../blog/lartpy.html" class="no-external">Would it be possible to create a Python project that can generate those pencil-like drawings with random forests, with different types of trees?“, I thought (pun intended). Of course, someone already thought of that and it even has a name: algorithmic botany. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/lartpy.html">
+<a href="../blog/lartpy.html" class="no-external">
 <div class="listing-date">
 Apr 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="nederlands,data commons,data solidarity" data-listing-date-sort="1614556800000" data-listing-file-modified-sort="1705905543203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="13" data-categories="nederlands,data commons,data solidarity" data-listing-date-sort="1614556800000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <div class="thumbnail">
-<p><a href="../blog/scik.html"> <img src="../images/instituut-voor-briljante-mislukkingen.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/scik.html" class="no-external"></a></p><a href="../blog/scik.html" class="no-external">
+<p><img src="../images/instituut-voor-briljante-mislukkingen.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/scik.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/scik.html">
 <h3 class="no-anchor listing-title">
-Stichting Corona in Kaart is briljant mislukt
+<a href="../blog/scik.html" class="no-external">Stichting Corona in Kaart is briljant mislukt</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/scik.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -758,14 +808,12 @@ data commons
 data solidarity
 </div>
 </div>
-<a href="../blog/scik.html">
 <div class="listing-description">
-<p>Toen corona losbarstte, was er weinig zicht op de lokale verspreiding van het coronavirus. De Stichting Corona in Kaart ontwikkelde daarom een regionaal data- en informatieplatform en realiseerde een pilot in Rotterdam. Helaas lukte het niet om het platform in de lucht te houden en op nationaal niveau uit te rollen.</p>
+<a href="../blog/scik.html" class="no-external">Toen corona losbarstte, was er weinig zicht op de lokale verspreiding van het coronavirus. De Stichting Corona in Kaart ontwikkelde daarom een regionaal data- en informatieplatform en realiseerde een pilot in Rotterdam. Helaas lukte het niet om het platform in de lucht te houden en op nationaal niveau uit te rollen. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/scik.html">
+<a href="../blog/scik.html" class="no-external">
 <div class="listing-date">
 Mar 2021
 </div>
@@ -775,19 +823,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="english,visualization,coding" data-listing-date-sort="1611878400000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="14" data-categories="english,visualization,coding" data-listing-date-sort="1611878400000" data-listing-file-modified-sort="1706858238244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="865">
 <div class="thumbnail">
-<p><a href="../blog/comet-chart.html"> <img src="../images/comet-chart.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/comet-chart.html" class="no-external"></a></p><a href="../blog/comet-chart.html" class="no-external">
+<p><img src="../images/comet-chart.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/comet-chart.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/comet-chart.html">
 <h3 class="no-anchor listing-title">
-Comet charts in Python
+<a href="../blog/comet-chart.html" class="no-external">Comet charts in Python</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/comet-chart.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
 english
@@ -799,33 +847,31 @@ visualization
 coding
 </div>
 </div>
-<a href="../blog/comet-chart.html">
 <div class="listing-description">
-<p>Visualizing statistical mix effects and Simpson’s paradox with Altair</p>
+<a href="../blog/comet-chart.html" class="no-external">Visualizing statistical mix effects and Simpson’s paradox with Altair</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/comet-chart.html">
+<a href="../blog/comet-chart.html" class="no-external">
 <div class="listing-date">
 Jan 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="nederlands,data commons" data-listing-date-sort="1602979200000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="15" data-categories="nederlands,data commons" data-listing-date-sort="1602979200000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1392">
 <div class="thumbnail">
-<p><a href="../blog/dutch-design-week.html"> <img src="../images/ddw19-health-embassy.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/dutch-design-week.html" class="no-external"></a></p><a href="../blog/dutch-design-week.html" class="no-external">
+<p><img src="../images/ddw19-health-embassy.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/dutch-design-week.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/dutch-design-week.html">
 <h3 class="no-anchor listing-title">
-Een donorcodicil voor je data?
+<a href="../blog/dutch-design-week.html" class="no-external">Een donorcodicil voor je data?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/dutch-design-week.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -834,14 +880,12 @@ nederlands
 data commons
 </div>
 </div>
-<a href="../blog/dutch-design-week.html">
 <div class="listing-description">
-<p>Het idee van data donorschap dwaalt al een tijdje in mijn hoofd. In de afgelopen jaren zie ik het vaker als idee genoemd worden, als oplossing om op een verantwoorde manier data te delen voor maatschappelijke vraagstukken. Tijdens de Dutch Design Week ging ik hierover in gesprek bij de Waag.</p>
+<a href="../blog/dutch-design-week.html" class="no-external">Het idee van data donorschap dwaalt al een tijdje in mijn hoofd. In de afgelopen jaren zie ik het vaker als idee genoemd worden, als oplossing om op een verantwoorde manier data te delen voor maatschappelijke vraagstukken. Tijdens de Dutch Design Week ging ik hierover in gesprek bij de Waag. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/dutch-design-week.html">
+<a href="../blog/dutch-design-week.html" class="no-external">
 <div class="listing-date">
 Oct 2020
 </div>
@@ -851,19 +895,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="nederlands,healthcare" data-listing-date-sort="1569196800000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="16" data-categories="nederlands,healthcare" data-listing-date-sort="1569196800000" data-listing-file-modified-sort="1706858238248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
 <div class="thumbnail">
-<p><a href="../blog/happi.html"> <img src="../images/happi-app-datalab-scaled-1-2048x652.png" class="thumbnail-image"> </a></p>
+<p><a href="../blog/happi.html" class="no-external"></a></p><a href="../blog/happi.html" class="no-external">
+<p><img src="../images/happi-app-datalab-scaled-1-2048x652.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/happi.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/happi.html">
 <h3 class="no-anchor listing-title">
-Happi - patiënten met een chronische aandoening helpen gezond te blijven.
+<a href="../blog/happi.html" class="no-external">Happi - patiënten met een chronische aandoening helpen gezond te blijven.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/happi.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -872,14 +916,12 @@ nederlands
 healthcare
 </div>
 </div>
-<a href="../blog/happi.html">
 <div class="listing-description">
-<p>Kunnen we chronische patiënten helpen om gezonder te blijven? Die vraag was het vertrekpunt voor internisten Joop Arends (UMC Utrecht) en Guido van den Berk (OLVG) om samen met E-sites de Happi app te ontwikkelen.</p>
+<a href="../blog/happi.html" class="no-external">Kunnen we chronische patiënten helpen om gezonder te blijven? Die vraag was het vertrekpunt voor internisten Joop Arends (UMC Utrecht) en Guido van den Berk (OLVG) om samen met E-sites de Happi app te ontwikkelen. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/happi.html">
+<a href="../blog/happi.html" class="no-external">
 <div class="listing-date">
 Sep 2019
 </div>
@@ -889,19 +931,19 @@ Daniel Kapitan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="nederlands,responsible ai" data-listing-date-sort="1526688000000" data-listing-file-modified-sort="1705905543199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="17" data-categories="nederlands,responsible ai" data-listing-date-sort="1526688000000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
 <div class="thumbnail">
-<p><a href="../blog/nrc-houd-toezicht-algoritmes.html"> <img src="../images/nrc-open-source.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external"></a></p><a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">
+<p><img src="../images/nrc-open-source.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/nrc-houd-toezicht-algoritmes.html">
 <h3 class="no-anchor listing-title">
-Houd toezicht op de glazen algoritme-bol
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">Houd toezicht op de glazen algoritme-bol</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -910,33 +952,31 @@ nederlands
 responsible ai
 </div>
 </div>
-<a href="../blog/nrc-houd-toezicht-algoritmes.html">
 <div class="listing-description">
-<p>Ingezonden brief aan NRC naar aanleiding van discussie over gebruik van algoritmes voor opsporing van fraude.</p>
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">Ingezonden brief aan NRC naar aanleiding van discussie over gebruik van algoritmes voor opsporing van fraude. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/nrc-houd-toezicht-algoritmes.html">
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">
 <div class="listing-date">
 May 2018
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="nederlands,responsible ai" data-listing-date-sort="1525132800000" data-listing-file-modified-sort="1705905543195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="18" data-categories="nederlands,responsible ai" data-listing-date-sort="1525132800000" data-listing-file-modified-sort="1706858238244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
 <div class="thumbnail">
-<p><a href="../blog/azimov.html"> <img src="../images/asimov-law-robotics.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/azimov.html" class="no-external"></a></p><a href="../blog/azimov.html" class="no-external">
+<p><img src="../images/asimov-law-robotics.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/azimov.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/azimov.html">
 <h3 class="no-anchor listing-title">
-Europese ontwikkeling van kunstmatige intelligentie
+<a href="../blog/azimov.html" class="no-external">Europese ontwikkeling van kunstmatige intelligentie</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/azimov.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
 nederlands
@@ -945,46 +985,42 @@ nederlands
 responsible ai
 </div>
 </div>
-<a href="../blog/azimov.html">
 <div class="listing-description">
-<p>Reflectie op de Europese ambities en onderzoeksagenda.</p>
+<a href="../blog/azimov.html" class="no-external">Reflectie op de Europese ambities en onderzoeksagenda.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/azimov.html">
+<a href="../blog/azimov.html" class="no-external">
 <div class="listing-date">
 May 2018
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="english" data-listing-date-sort="1506816000000" data-listing-file-modified-sort="1705905543199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="19" data-categories="english" data-listing-date-sort="1506816000000" data-listing-file-modified-sort="1706858238252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="785">
 <div class="thumbnail">
-<p><a href="../blog/origins-of-kapitan.html"> <img src="../images/zheng-he.jpg" class="thumbnail-image"> </a></p>
+<p><a href="../blog/origins-of-kapitan.html" class="no-external"></a></p><a href="../blog/origins-of-kapitan.html" class="no-external">
+<p><img src="../images/zheng-he.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/origins-of-kapitan.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/origins-of-kapitan.html">
 <h3 class="no-anchor listing-title">
-Origins of Kapitan
+<a href="../blog/origins-of-kapitan.html" class="no-external">Origins of Kapitan</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/origins-of-kapitan.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('english'); return false;">
 english
 </div>
 </div>
-<a href="../blog/origins-of-kapitan.html">
 <div class="listing-description">
-<p>A personal history, explaining how we acquired Kapitan as our family name.</p>
+<a href="../blog/origins-of-kapitan.html" class="no-external">A personal history, explaining how we acquired Kapitan as our family name.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/origins-of-kapitan.html">
+<a href="../blog/origins-of-kapitan.html" class="no-external">
 <div class="listing-date">
 Oct 2017
 </div>
@@ -1075,10 +1111,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1088,8 +1123,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1102,6 +1146,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1145,6 +1308,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1170,6 +1334,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1232,11 +1422,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><br> Copyright © 2023 Daniel Kapitan<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></div>   
-    <div class="nav-footer-center"><br> <strong>Postal address:</strong><br> DWMM Holding B.V.<br> Marie Baronstraat 15<br> 3056 AA ROTTERDAM</div>
-    <div class="nav-footer-right"><br> <strong>Chamber of Commerce (KvK):</strong> 52920259<br> <strong>RSIN:</strong> 850665851<br> <strong>IBAN:</strong> NL47 KNAB 0259 5268 27<br> <strong>Terms &amp; Conditions</strong> in <a href="../resources/230901-algemene-voorwaarden.pdf">Dutch</a><br></div>
+    <div class="nav-footer-left">
+<p><br> Copyright © 2023 Daniel Kapitan<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><br> <strong>Postal address:</strong><br> DWMM Holding B.V.<br> Marie Baronstraat 15<br> 3056 AA ROTTERDAM</p>
+</div>
+    <div class="nav-footer-right">
+<p><br> <strong>Chamber of Commerce (KvK):</strong> 52920259<br> <strong>RSIN:</strong> 850665851<br> <strong>IBAN:</strong> NL47 KNAB 0259 5268 27<br> <strong>Terms &amp; Conditions</strong> in <a href="../resources/230901-algemene-voorwaarden.pdf">Dutch</a><br></p>
+</div>
   </div>
 </footer>
+
 
 
 
