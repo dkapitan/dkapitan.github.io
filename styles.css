@@ -1,9 +1,9 @@
 .text-muted {
     --bs-text-opacity: 1;
-    color: #959595 !important;
+    color: #e7e5e2 !important;
 }
 
 .text-hero {
     --bs-text-opacity: 1;
-    color: #e7e5e2 !important;
+    color: #959595 !important;
 }
