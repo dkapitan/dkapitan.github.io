@@ -11,6 +11,7 @@
       "/recepten/ottolenghi-pasta-a-la-norma.html",
       "/recepten/gebakken-griet.html",
       "/recepten/buffalo-bloemkoolwings.html",
+      "/recepten/dahl-met-zoete-aardappel copy.html",
       "/recepten/pad-thai.html",
       "/recepten/deya's-porridge.html",
       "/recepten/bloemkool-ovenschotel.html",
@@ -31,6 +32,27 @@
       "/recepten/mung-bean-porridge.html",
       "/recepten/koreanse-wrap-met-biefstuk.html",
       "/recepten/mac-cheese-pompoen-spinazie.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/pharmaccess.html",
+      "/projects/blue-radix.html",
+      "/projects/has.html",
+      "/projects/amphia.html",
+      "/projects/sensire.html",
+      "/projects/roetz-life.html",
+      "/projects/mytomorrows.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/onderhoud-accus.html",
+      "/nugget/dakkoffer.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/winterklaar-maken.html"
     ]
   },
   {
@@ -56,27 +78,6 @@
       "/blog/nrc-houd-toezicht-algoritmes.html",
       "/blog/azimov.html",
       "/blog/origins-of-kapitan.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/onderhoud-accus.html",
-      "/nugget/dakkoffer.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/winterklaar-maken.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/pharmaccess.html",
-      "/projects/blue-radix.html",
-      "/projects/has.html",
-      "/projects/amphia.html",
-      "/projects/sensire.html",
-      "/projects/roetz-life.html",
-      "/projects/mytomorrows.html"
     ]
   }
 ]
