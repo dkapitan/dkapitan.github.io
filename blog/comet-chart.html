@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Visualizing statistical mix effects and Simpson’s paradox with Altair">
 
-<title>Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking - Comet charts in Python</title>
+<title>Comet charts in Python – Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,7 +34,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -134,13 +134,13 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Comet charts in Python</li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -162,7 +162,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
       <div class="sidebar-item-container"> 
             <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -276,7 +276,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
 <p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
 <p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div id="aea9dc51" class="cell" data-execution_count="1">
+<div id="c09026e2" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> vega_datasets</span>
@@ -353,23 +353,23 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-6965192b576e419a853cf9cf01fc1cc5.vega-embed {
+  #altair-viz-c5e64070d1904dd385738fbdf339ed9b.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-6965192b576e419a853cf9cf01fc1cc5.vega-embed details,
-  #altair-viz-6965192b576e419a853cf9cf01fc1cc5.vega-embed details summary {
+  #altair-viz-c5e64070d1904dd385738fbdf339ed9b.vega-embed details,
+  #altair-viz-c5e64070d1904dd385738fbdf339ed9b.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-6965192b576e419a853cf9cf01fc1cc5"></div>
+<div id="altair-viz-c5e64070d1904dd385738fbdf339ed9b"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-6965192b576e419a853cf9cf01fc1cc5") {
-      outputDiv = document.getElementById("altair-viz-6965192b576e419a853cf9cf01fc1cc5");
+    if (outputDiv.id !== "altair-viz-c5e64070d1904dd385738fbdf339ed9b") {
+      outputDiv = document.getElementById("altair-viz-c5e64070d1904dd385738fbdf339ed9b");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -461,18 +461,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -504,7 +493,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/kapitan\.net");
@@ -512,7 +523,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
