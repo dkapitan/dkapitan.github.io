@@ -1,5 +1,5 @@
 ---
-title: Soto ayam
+title: Buffalo bloemkoolwings
 description: |
     Buffalo wings is een populair recept uit de Verenigde Staten. Het recept uit Boordevol Groente (externe link) is een versie met bloemkoolroosjes uit de oven met harissa.
 image: ./images/buffalo-bloemkoolwings.jpg

@@ -1,0 +1,37 @@
+---
+title: Couscous salade
+description: |
+    Makkelijke, frisse couscous salade met een heerlijke combinatie van smaken. Met granaatappelpitjes, feta en munt. Recept van Eef kookt zo.
+image: ./images/couscous-salade.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+## Ingredienten
+
+- 250 gram couscous
+- 350 ml gekookt water
+- 1 komkommer
+- 3 tomaten
+- 1 gele paprika
+- 400 gram kikkererwten (uit blik) (Bonduelle)
+- 180 gram granaatappelpitjes, of watermeloen als alternatief
+- 150 gram feta
+- 30 ml olijfolie
+- 2 limoenen (uitgeperst)
+- peper en zout
+- bosje verse munt (fijn gesneden)
+
+:::
+:::{.g-col-4}
+![](./images/couscous-salade.jpg)
+:::
+:::
+
+## Bereidingswijze
+
+1. Doe de couscous in een ruime kom en giet hier het gekookte water overheen. Dek de kom af en laat 8 minuten rusten.
+1. Snij de komkommer, tomaten en paprika in kleine blokjes. 1. Spoel de kikkererwten om en warm daarna op in een pannetje.
+1. Zodra de couscous klaar is, voeg je komkommer, tomaten, paprika, kikkererwten en granaatappelpitjes toe. Verkruimel de feta er overheen. Meng alles goed door elkaar.
+2. Voeg de olijfolie toe samen met het limoensap en de munt. Voeg peper en zout naar smaak toe en meng alles wederom goed door elkaar.
