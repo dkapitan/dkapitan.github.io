@@ -2,7 +2,7 @@
 title: Tahu telor
 description: |
     Ook bekend als tahu Semarang.
-image: ./images/lia-warani.jpg
+image: ./images/tahu-telor.jpg
 categories: [Lia Warani, Indonesisch, vegetarisch]
 ---
 
