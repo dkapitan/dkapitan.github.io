@@ -9,31 +9,8 @@
 <link>https://kapitan.net/projects/</link>
 <atom:link href="https://kapitan.net/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.56</generator>
-<lastBuildDate>Fri, 09 Aug 2024 07:22:45 GMT</lastBuildDate>
-<item>
-  <title>Amphia Sensium</title>
-  <link>https://kapitan.net/projects/amphia.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="section" class="level1">
-<h1></h1>
-<p>Stay tuned, more to follow soon.</p>
-<p>Meanwhile, read an interview with Frank Niemantsverdriet and myself on how Amphia uses AI to combat scarcity in healthcare (<a href="https://www.jads.nl/news/combating-healthcare-scarcity-with-data-what-role-will-your-hospital-play/">English</a>, <a href="https://www.deondernemer.nl/innovatie/advertorial-jads-zorgschaarste-data~4152485">Dutch</a>).</p>
-
-
-</section>
-
- ]]></description>
-  <category>applied AI</category>
-  <category>mentoring</category>
-  <guid>https://kapitan.net/projects/amphia.html</guid>
-  <pubDate>Fri, 09 Aug 2024 07:22:45 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
-</item>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Sat, 28 Sep 2024 09:38:22 GMT</lastBuildDate>
 <item>
   <title>MyTomorrows TrialSearch AI</title>
   <link>https://kapitan.net/projects/mytomorrows.html</link>
@@ -53,75 +30,8 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/mytomorrows.html</guid>
-  <pubDate>Fri, 09 Aug 2024 07:22:45 GMT</pubDate>
+  <pubDate>Sat, 28 Sep 2024 09:38:22 GMT</pubDate>
   <media:content url="https://kapitan.net/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
-</item>
-<item>
-  <title>Sensire</title>
-  <link>https://kapitan.net/projects/sensire.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="section" class="level1">
-<h1></h1>
-<p>More to follow soon.</p>
-
-
-</section>
-
- ]]></description>
-  <category>english</category>
-  <category>data-centric ai</category>
-  <guid>https://kapitan.net/projects/sensire.html</guid>
-  <pubDate>Fri, 09 Aug 2024 07:22:45 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>HAS Green Academy</title>
-  <link>https://kapitan.net/projects/has.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="section" class="level1">
-<h1></h1>
-<p>Stay tuned, more to follow soon.</p>
-<p><small class="text-muted">This project was conducted in collaboration with Verdonck, Klooster &amp; Associates.</small></p>
-
-
-</section>
-
- ]]></description>
-  <category>applied AI</category>
-  <category>lecturing</category>
-  <guid>https://kapitan.net/projects/has.html</guid>
-  <pubDate>Fri, 09 Aug 2024 07:22:45 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/has.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>Blue Radix</title>
-  <link>https://kapitan.net/projects/blue-radix.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="section" class="level1">
-<h1></h1>
-<p>Stay tuned, more to follow soon.</p>
-
-
-</section>
-
- ]]></description>
-  <category>data-centric ai</category>
-  <category>mentoring</category>
-  <guid>https://kapitan.net/projects/blue-radix.html</guid>
-  <pubDate>Fri, 09 Aug 2024 07:22:45 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Roetz Life</title>
@@ -147,8 +57,76 @@
   <category>data-centric ai</category>
   <category>coaching</category>
   <guid>https://kapitan.net/projects/roetz-life.html</guid>
-  <pubDate>Fri, 09 Aug 2024 07:22:45 GMT</pubDate>
+  <pubDate>Sat, 28 Sep 2024 09:38:22 GMT</pubDate>
   <media:content url="https://kapitan.net/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Amphia Sensium</title>
+  <link>https://kapitan.net/projects/amphia.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<p>Stay tuned, more to follow soon.</p>
+<p>Meanwhile, read an interview with Frank Niemantsverdriet and myself on how Amphia uses AI to combat scarcity in healthcare (<a href="https://www.jads.nl/news/combating-healthcare-scarcity-with-data-what-role-will-your-hospital-play/">English</a>, <a href="https://www.deondernemer.nl/innovatie/advertorial-jads-zorgschaarste-data~4152485">Dutch</a>).</p>
+
+
+</section>
+
+ ]]></description>
+  <category>applied AI</category>
+  <category>mentoring</category>
+  <guid>https://kapitan.net/projects/amphia.html</guid>
+  <pubDate>Sat, 28 Sep 2024 09:38:22 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Sensire</title>
+  <link>https://kapitan.net/projects/sensire.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<p>More to follow soon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>english</category>
+  <category>data-centric ai</category>
+  <guid>https://kapitan.net/projects/sensire.html</guid>
+  <pubDate>Sat, 28 Sep 2024 09:38:22 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>HAS Green Academy</title>
+  <link>https://kapitan.net/projects/has.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<p>Stay tuned, more to follow soon.</p>
+<p><small class="text-muted">This project was conducted in collaboration with Verdonck, Klooster &amp; Associates.</small></p>
+
+
+</section>
+
+ ]]></description>
+  <category>applied AI</category>
+  <category>lecturing</category>
+  <guid>https://kapitan.net/projects/has.html</guid>
+  <pubDate>Sat, 28 Sep 2024 09:38:22 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/has.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>PharmAccess Foundation</title>
@@ -167,8 +145,30 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://kapitan.net/projects/pharmaccess.html</guid>
-  <pubDate>Fri, 09 Aug 2024 07:22:45 GMT</pubDate>
+  <pubDate>Sat, 28 Sep 2024 09:38:22 GMT</pubDate>
   <media:content url="https://kapitan.net/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Blue Radix</title>
+  <link>https://kapitan.net/projects/blue-radix.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<p>Stay tuned, more to follow soon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>data-centric ai</category>
+  <category>mentoring</category>
+  <guid>https://kapitan.net/projects/blue-radix.html</guid>
+  <pubDate>Sat, 28 Sep 2024 09:38:22 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
