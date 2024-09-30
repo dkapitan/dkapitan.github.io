@@ -1,13 +1,14 @@
 ---
 title: Spicy linzensoep
 description: |
-    Rode linzensoep met bumbu pepesan met garam masala-uien, paksoi en yoghurt. Heerlijk fusion gerecht van Vanja van der Leeden.
+    Rode linzensoep met bumbu pepesan met garam masala-uien, paksoi en yoghurt.
 image: ./images/spicy-linzensoep.jpg
 categories: [vegetarisch, Indonesisch]
 ---
 
 :::{.grid}
 :::{.g-col-8}
+Heerlijk fusion gerecht van [Vanja van der Leeden](https://vanja.nl/recepten/spicy-linzensoep-2/), die schrijft dat ze het toevallig had bedacht:
 
 > Ik zat eens met een restje bumbu pepesan, de Indonesische kruidenpasta die je op vis smeert en in bananenblad stoomt. Ik maakte er linzensoep mee en raad ‘es: het werd de allerlekkerste linzensoep op aarde. Een kom hiervan op een winderige koude dag en niemand doet je meer wat – al was het maar omdat je er zelf ook wat winderig van wordt. De gekaramelliseerde uien erbij zijn geen must, maar als je tijd hebt, zou ik ze er zeker bij maken.
 
