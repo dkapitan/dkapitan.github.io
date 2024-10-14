@@ -1,0 +1,38 @@
+---
+title: Hete geblakerde cherry-tomaatjes met koude yoghurt
+description: |
+    Een klassieker van Ottolenghi, uit Simpel.
+image: ./images/tomaat-yoghurt.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-6}
+## Ingredienten
+
+- 350 g cherrytomaten
+- 3 el olijfolie
+- 3/4 tl komijnzaad
+- 1/2 tl bruine basterdsuiker
+- 3 tenen knoflook
+- 3 takjes verse tijm
+- 5 g oregano, laat 3 takjes heel en pluk de takjes van de overige 2
+- 1 citroen: schaaf van de ene helft 3 repen gele schil af en rasp van de andere helft 1 theelepel schil af
+- 350 g extra dikke yoghurt, Griekse stijl
+- 1/2 tl chilivlokken
+- zeezoutvlokken en zwarte peper
+
+:::
+:::{.g-col-6}
+## 
+
+![](./images/tomaat-yoghurt.jpg)
+:::
+:::
+
+## Bereidingswijze
+
+1. Verhit de oven tot 200 °C.
+2. Doe de tomaten in een kom met olijfolie, het komijnzaad, de suiker, knoflook, tijm, oreganotakjes, repen citroenschil, 1/2 theelepel zoutvlokken en royaal versgemalen peper. Rooster ze 20 minuten tot er blazen ontstaan op het vel van de tomaatjes en de vloeistof borrelt. Schakel de oven uit en de gril aan en gril alles nog 6-8 minuten tot de bovenkant van de tomaatjes geblakerd is.
+3. Roer terwijl de tomaten worden geroosterd de yoghurt glad met de citroenrasp en 1/4 theelepel zeezout. Zet hem tot het serveren in de koelkast.
+4. Strijk als de tomaatjes klaar zijn een dikke laag koude yoghurt op een ondiepe schaal (met een rand) of in een brede, ondiepe kkom en maak met de bolle kant van een lepel een kuiltje in het midden. Schep de hete tomaatjes erin met het uitgelopen sap, de citroenschil, knoflook en kruiden en bestrooi met de geplukte oreganoblaadjes en chilivlokken. Serveer het gerecht meteen, met wat brood erbij.
