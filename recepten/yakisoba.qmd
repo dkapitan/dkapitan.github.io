@@ -6,17 +6,11 @@ image: images/yakisoba.jpg
 categories: [vegetarisch]
 ---
 
-:::{.grid}
-:::{.g-col-8}
 Yakisoba is a classic Japanese stir fry noodles dish with pork and vegetables, and it's seasoned with a sweet & savory sauce similar to Worcestershire sauce.
 
-:::
-:::{.g-col-4}
-![]( images/yakisoba.jpg)
-:::
-:::
-
-## Ingredienten
+:::{.grid}
+:::{.g-col-8}
+## Ingredients
 
 ### Main
 - ½ onion
@@ -31,10 +25,22 @@ Yakisoba is a classic Japanese stir fry noodles dish with pork and vegetables, a
 - 4-6 Tbsp yakisoba sauce (Recipe follows)
   
 ### Sauce
-- 2 tsp sugar (add more sugar if you don't use Japanese Bulldog Worcestershire sauce)
-- 2 tsp so/
+- ¼ cup Worcestershire sauce
+- 4 tsp oyster sauce
+- 4 tsp ketchup
+- 2 tsp soy sauce
+- 2 tsp sugar (plus more, to taste)
+
+
+:::
+:::{.g-col-4}
+## 
+
+![]( images/yakisoba.jpg)
+:::
+:::
  
-## Bereidingswijze
+## Instructions
 
 - Whisk all the ingredients for Yakisoba sauce and set aside.
 - Slice the onion, cut the carrot into julienned strips, and slice the shiitake mushrooms.
