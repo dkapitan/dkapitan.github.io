@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Daniel Kapitan (presentatie)">
+<meta name="author" content="Ellen Jonges (artikel)">
+<meta name="description" content="Algoritmes maken het mogelijk om producten en diensten steeds verder te personaliseren. Dat geldt ook voor (de premies van) verzekeringen. Maar hoe personaliseer je eerlijk? Op basis van mijn presentatie die ik gaf op de Datamiddag 2024 bij het Verbond van Verzekeraars, schreef Ellen Jonges dit artikel.">
 
-<title>Projects – Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
+<title>Fairness bij gebruik van algoritmes in het verzekeringswezen – Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3N2FL85753"></script>
 
 <script type="text/javascript">
@@ -106,38 +78,9 @@ gtag('js', new Date());
 gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-sidebar docked nav-fixed">
 
@@ -159,7 +102,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Fairness bij gebruik van algoritmes in het verzekeringswezen</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -182,13 +125,13 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../projects/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../projects/pharmaccess.html" class="sidebar-item-text sidebar-link">
@@ -262,14 +205,37 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
+<h1 class="title">Fairness bij gebruik van algoritmes in het verzekeringswezen</h1>
+<p class="subtitle lead">Verbond van Verzekeraars Datamiddag 2024</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">nederlands</div>
+    <div class="quarto-category">fairness</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    <p>Algoritmes maken het mogelijk om producten en diensten steeds verder te personaliseren. Dat geldt ook voor (de premies van) verzekeringen. Maar hoe personaliseer je eerlijk? Op basis van mijn presentatie die ik gaf op de Datamiddag 2024 bij het Verbond van Verzekeraars, schreef Ellen Jonges dit artikel.</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta column-page-right">
 
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Daniel Kapitan (presentatie) </p>
+             <p>Ellen Jonges (artikel) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Oct 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -279,171 +245,60 @@ window.Quarto = {
 </header>
 
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtPCVysN4Jpn7ikQMAGFwHg_ljyxRptacZ1vbMPZuPZOnohhArnqHxjmsqrZRQWzhMj0ou1tpYcDW3/embed?start=false&amp;loop=false&amp;delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<section id="optimaliseren" class="level3">
+<h3 class="anchored" data-anchor-id="optimaliseren">Optimaliseren</h3>
+<p>Als je algoritmes gebruikt om risicoprofielen te maken waarop vervolgens besluiten worden genomen, zal je volgens Kapitan moeten kiezen waarop het algoritme geoptimaliseerd moet worden. Denk bijvoorbeeld aan de afweging tussen zo min mogelijk fout positieven of fout negatieven. Deze keuze is direct gerelateerd aan een maatstaf voor eerlijkheid (fairness). Onderzoek wijst uit dat hier een keuze in gemaakt moet worden, omdat verschillende definities van fairness wiskundig onverenigbaar zijn.</p>
+</section>
+<section id="actuarial-fairness-onmogelijk" class="level3">
+<h3 class="anchored" data-anchor-id="actuarial-fairness-onmogelijk">Actuarial fairness onmogelijk</h3>
+<p>Kapitan: “eerlijkheid is wiskundig gezien een onoplosbaar probleem dat zelfs de beste wiskundigen niet voor de verzekeringsbranche kunnen oplossen.” Voor zijn uitspraak refereert hij onder andere aan een <a href="https://link.springer.com/article/10.1007/s13347-023-00624-9">artikel</a> van Joachim Baumann. Om dat te duiden begint hij bij actuarial fairness. Dat houdt in dat iemand die een hoger risico loopt meer premie betaalt. “Over het algemeen vinden we dat eerlijk, toch?” vraagt hij zich hardop af.</p>
+<p>“Maar in zijn artikel stelt Baumann dat actuarial fairness wiskundig gezien helemaal niet mogelijk is. Want het échte risico op individueel niveau is niet meetbaar. Je zult het risico hooguit kunnen benaderen. Daarom kunnen we alléén fairness tussen groepen met elkaar vergelijken. Maar wat is dan eerlijk? Geef je bijvoorbeeld iedereen een gelijk uitgangspunt? Of een gelijke kans?”</p>
+<p>Hij vervolgt: “Ervan uitgaande dat Baumann gelijk heeft, zijn er tools en wiskundige formules beschikbaar om group fairness in te zetten. En ja, je wilt als verzekeraar uiteindelijk toewerken naar individuele premies, maar deze kun je in de praktijk alleen bij benadering uitrekenen met gebruik van technieken gebaseerd op group fairness.” Kapitan benadrukt daarbij dat hij geen verzekeringsdeskundige is, maar dat hij zich in zijn analyse heeft laten leiden door Baumann, doch ook door het advies van het College voor de Rechten van de Mens over de Dazure overlijdensrisicoverzekering.</p>
+</section>
+<section id="soorten-group-fairness" class="level3">
+<h3 class="anchored" data-anchor-id="soorten-group-fairness">Soorten group fairness</h3>
+<p>Op basis van literatuur zijn er volgens Kapitan grosso modo drie group fairness-definities te onderscheiden:</p>
+<section id="definitie-1-onafhankelijkheid-independence" class="level4">
+<h4 class="anchored" data-anchor-id="definitie-1-onafhankelijkheid-independence">Definitie 1: Onafhankelijkheid (Independence)</h4>
+<p>Deze definitie houdt in dat iedereen gelijk wordt behandeld. Een voorbeeld hiervan is de casus ‘<a href="https://nl.wikipedia.org/wiki/Arrest_Belgische_Verbruikersunie_Test-Aankoop">Arrest Test-Aankoop</a>’. De uitkomst van dit arrest is dat het vanaf december 2012 niet meer is toegestaan om bij verzekeringsproducten verschil te maken tussen mannen en vrouwen wat betreft premies of uitkeringen. Zelfs niet als vrouwen een lager risico hebben op ongelukken, en langer leven. De uitkomsten voor de groepen mannen en vrouwen moet dus onafhankelijk zijn van de variabele ‘sekse’.</p>
+</section>
+<section id="definitie-2-gelijkheid-separation" class="level4">
+<h4 class="anchored" data-anchor-id="definitie-2-gelijkheid-separation">Definitie 2: Gelijkheid (Separation)</h4>
+<p>Dit betekent dat de kans op fouten hetzelfde is tussen groepen, gezien vanuit het perspectief vanuit de verzekerde. Een voorbeeld hiervan is de eerdergenoemde casus ‘<a href="https://www.fiscaalleven.eu/KamerbriefPremiedifferentiatieObvPostcodeBijORVFM14-204MAdviesDazure.pdf">Dazure levensverzekeringen</a>’.</p>
+<p>Dus stel; je woont in een postcodegebied en je hebt een hoog inkomen. Maar in dat postcodegebied ben je een uitzondering. Jij krijgt dan een lagere premie dan past bij jouw risico. De Engelse term voor de vorm van group fairness wordt ook wel ‘equal odds’ genoemd, dat wil zeggen dat fairness in deze definitie betekent dat iedereen dezelfde kans heeft op een ‘foute’ risico-indeling, ongeacht tot welke groep je ook behoort,</p>
+</section>
+<section id="definitie-3-calibratie-sufficiency" class="level4">
+<h4 class="anchored" data-anchor-id="definitie-3-calibratie-sufficiency">Definitie 3: Calibratie (Sufficiency)</h4>
+<p>De derde definitie houdt in dat de kans op fouten hetzelfde is tussen groepen, gezien vanuit het perspectief vanuit de verzekeraar. Een voorbeeld hiervan is de casus ‘<a href="https://fairmlbook.org/classification.html#case-study-credit-scoring">Voorspellen van kredietwaardigheid</a>’.</p>
+<p>Het calibreren van een model wil zeggen dat je een vergelijking maakt tussen voorspelde waarden en echte waarden. De calibratie van het model, dus hoe goed het model voorspelt, moet volgens deze opvatting van fairness hetzelfde zijn voor alle groepen. Dit is volgens Baumann de meest eerlijke werkvorm, omdat je eist dat de voorspellingen die een algoritme maakt en waarom een premie wordt gebaseerd, een-op-een evenredig moet zijn met de werkelijke schadelast van de groep. Let wel: calibratie is niet genoeg om actuarial fairness te garanderen. Maar Baumann heeft wiskundig bewezen dat als er sprake is van actuarial fairness, er in elk geval sprake moet zijn van calibratie.</p>
+</section>
+</section>
+<section id="pleidooi" class="level3">
+<h3 class="anchored" data-anchor-id="pleidooi">Pleidooi</h3>
+<p>“Wat hij in het stuk ook zo mooi beschrijft,” vult Kapitan aan, “is dat verzekeraars uiteindelijk zoveel mogelijk klantgericht willen werken op basis van gepersonaliseerde premies. En omdat je dan uitsluitend met group fairness kunt werken, is Baumanns pleidooi: de enige manier om perfecte individuele premies te benaderen, is gebruikmaken van calibratie.” Kapitan is het met hem eens: “Ik vind zijn argumenten het meest overtuigend, omdat die het dichtst liggen bij wat ik denk dat de meest robuuste algoritmes zijn. Wel is er echt nog meer causistiek nodig of dit in de praktijk te doen is. Deze verschillende noties van group fairness zijn slechts een startpunt.”</p>
+</section>
+<section id="kiezen" class="level3">
+<h3 class="anchored" data-anchor-id="kiezen">Kiezen</h3>
+<p>Volgens Kapitan is het aan verzekeraars om uit te zoeken en intern afspraken te maken over wat ‘eerlijkheid’ in verzekeringstermen precies is. Het is nodig om daarbij steeds een bewuste afweging te maken, omdat drie principes niet verenigbaar zijn. “Je moet kiezen. En op basis van wat bijvoorbeeld de directie of pricing board kiest, weten data scientists hoe zij algoritmes moeten trainen en optimaliseren om producten op een eerlijke manier te personaliseren.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Meer weten over group fairness?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Het open access boek <a href="https://anthology-of-data.science/books/fairml.html">Fairness and Machine Learning</a> geeft een uitgebreide introductie en uitleg over dit onderwerp.</p>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="applied AI,mentoring" data-listing-file-modified-sort="1729331357838" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<a href="../projects/amphia.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/amphia-sensium.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Amphia Sensium
-</h5>
-<div class="card-text listing-description">
-<p>Development of algorithms for early warning signals using smart plasters.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="applied AI,mentoring" data-listing-file-modified-sort="1729331357838" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
-<a href="../projects/mytomorrows.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/mytomorrows.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-MyTomorrows TrialSearch AI
-</h5>
-<div class="card-text listing-description">
-<p>Pre-screening of patient eligibility for clinical trials using large language models.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="english,data-centric ai" data-listing-file-modified-sort="1729331357838" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<a href="../projects/sensire.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/sensire.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sensire
-</h5>
-<div class="card-text listing-description">
-<p>Coaching a data science team during the design and implementation of a state-of-the-art data platform for elderly and home care.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="data-centric ai,mentoring" data-listing-file-modified-sort="1729331357838" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<a href="../projects/blue-radix.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/blue-radix-closeup.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Blue Radix
-</h5>
-<div class="card-text listing-description">
-<p>Concepting the next generation AI for autonomous greenhouses.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="data-centric ai,coaching" data-listing-file-modified-sort="1729331357838" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
-<a href="../projects/roetz-life.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/roetz-life.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Roetz Life
-</h5>
-<div class="card-text listing-description">
-<p>Designing a state-of-the art data platform for the Roetz Life circular e-bike.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="applied AI,lecturing" data-listing-file-modified-sort="1729331357838" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
-<a href="../projects/has.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/has.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-HAS Green Academy
-</h5>
-<div class="card-text listing-description">
-<p>Strategic positioning and research for new data science &amp; AI curriculum in food and agriculture domain.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="english,data architecture,healthcare" data-listing-file-modified-sort="1729331357838" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<a href="../projects/pharmaccess.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/pharmaccess-momcare-graphic.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PharmAccess Foundation
-</h5>
-<div class="card-text listing-description">
-<p>Demonstrating fair data sharing through health data commons in sub-Saharan Africa as a catalyst for realising universal health care.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

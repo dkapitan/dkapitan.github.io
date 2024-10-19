@@ -10,7 +10,77 @@
 <atom:link href="https://kapitan.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 31 Jan 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 07 Oct 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Fairness bij gebruik van algoritmes in het verzekeringswezen</title>
+  <dc:creator>Daniel Kapitan (presentatie)</dc:creator>
+  <dc:creator>Ellen Jonges (artikel)</dc:creator>
+  <link>https://kapitan.net/blog/vvv-fairness.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtPCVysN4Jpn7ikQMAGFwHg_ljyxRptacZ1vbMPZuPZOnohhArnqHxjmsqrZRQWzhMj0ou1tpYcDW3/embed?start=false&amp;loop=false&amp;delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<section id="optimaliseren" class="level3">
+<h3 class="anchored" data-anchor-id="optimaliseren">Optimaliseren</h3>
+<p>Als je algoritmes gebruikt om risicoprofielen te maken waarop vervolgens besluiten worden genomen, zal je volgens Kapitan moeten kiezen waarop het algoritme geoptimaliseerd moet worden. Denk bijvoorbeeld aan de afweging tussen zo min mogelijk fout positieven of fout negatieven. Deze keuze is direct gerelateerd aan een maatstaf voor eerlijkheid (fairness). Onderzoek wijst uit dat hier een keuze in gemaakt moet worden, omdat verschillende definities van fairness wiskundig onverenigbaar zijn.</p>
+</section>
+<section id="actuarial-fairness-onmogelijk" class="level3">
+<h3 class="anchored" data-anchor-id="actuarial-fairness-onmogelijk">Actuarial fairness onmogelijk</h3>
+<p>Kapitan: “eerlijkheid is wiskundig gezien een onoplosbaar probleem dat zelfs de beste wiskundigen niet voor de verzekeringsbranche kunnen oplossen.” Voor zijn uitspraak refereert hij onder andere aan een <a href="https://link.springer.com/article/10.1007/s13347-023-00624-9">artikel</a> van Joachim Baumann. Om dat te duiden begint hij bij actuarial fairness. Dat houdt in dat iemand die een hoger risico loopt meer premie betaalt. “Over het algemeen vinden we dat eerlijk, toch?” vraagt hij zich hardop af.</p>
+<p>“Maar in zijn artikel stelt Baumann dat actuarial fairness wiskundig gezien helemaal niet mogelijk is. Want het échte risico op individueel niveau is niet meetbaar. Je zult het risico hooguit kunnen benaderen. Daarom kunnen we alléén fairness tussen groepen met elkaar vergelijken. Maar wat is dan eerlijk? Geef je bijvoorbeeld iedereen een gelijk uitgangspunt? Of een gelijke kans?”</p>
+<p>Hij vervolgt: “Ervan uitgaande dat Baumann gelijk heeft, zijn er tools en wiskundige formules beschikbaar om group fairness in te zetten. En ja, je wilt als verzekeraar uiteindelijk toewerken naar individuele premies, maar deze kun je in de praktijk alleen bij benadering uitrekenen met gebruik van technieken gebaseerd op group fairness.” Kapitan benadrukt daarbij dat hij geen verzekeringsdeskundige is, maar dat hij zich in zijn analyse heeft laten leiden door Baumann, doch ook door het advies van het College voor de Rechten van de Mens over de Dazure overlijdensrisicoverzekering.</p>
+</section>
+<section id="soorten-group-fairness" class="level3">
+<h3 class="anchored" data-anchor-id="soorten-group-fairness">Soorten group fairness</h3>
+<p>Op basis van literatuur zijn er volgens Kapitan grosso modo drie group fairness-definities te onderscheiden:</p>
+<section id="definitie-1-onafhankelijkheid-independence" class="level4">
+<h4 class="anchored" data-anchor-id="definitie-1-onafhankelijkheid-independence">Definitie 1: Onafhankelijkheid (Independence)</h4>
+<p>Deze definitie houdt in dat iedereen gelijk wordt behandeld. Een voorbeeld hiervan is de casus ‘<a href="https://nl.wikipedia.org/wiki/Arrest_Belgische_Verbruikersunie_Test-Aankoop">Arrest Test-Aankoop</a>’. De uitkomst van dit arrest is dat het vanaf december 2012 niet meer is toegestaan om bij verzekeringsproducten verschil te maken tussen mannen en vrouwen wat betreft premies of uitkeringen. Zelfs niet als vrouwen een lager risico hebben op ongelukken, en langer leven. De uitkomsten voor de groepen mannen en vrouwen moet dus onafhankelijk zijn van de variabele ‘sekse’.</p>
+</section>
+<section id="definitie-2-gelijkheid-separation" class="level4">
+<h4 class="anchored" data-anchor-id="definitie-2-gelijkheid-separation">Definitie 2: Gelijkheid (Separation)</h4>
+<p>Dit betekent dat de kans op fouten hetzelfde is tussen groepen, gezien vanuit het perspectief vanuit de verzekerde. Een voorbeeld hiervan is de eerdergenoemde casus ‘<a href="https://www.fiscaalleven.eu/KamerbriefPremiedifferentiatieObvPostcodeBijORVFM14-204MAdviesDazure.pdf">Dazure levensverzekeringen</a>’.</p>
+<p>Dus stel; je woont in een postcodegebied en je hebt een hoog inkomen. Maar in dat postcodegebied ben je een uitzondering. Jij krijgt dan een lagere premie dan past bij jouw risico. De Engelse term voor de vorm van group fairness wordt ook wel ‘equal odds’ genoemd, dat wil zeggen dat fairness in deze definitie betekent dat iedereen dezelfde kans heeft op een ‘foute’ risico-indeling, ongeacht tot welke groep je ook behoort,</p>
+</section>
+<section id="definitie-3-calibratie-sufficiency" class="level4">
+<h4 class="anchored" data-anchor-id="definitie-3-calibratie-sufficiency">Definitie 3: Calibratie (Sufficiency)</h4>
+<p>De derde definitie houdt in dat de kans op fouten hetzelfde is tussen groepen, gezien vanuit het perspectief vanuit de verzekeraar. Een voorbeeld hiervan is de casus ‘<a href="https://fairmlbook.org/classification.html#case-study-credit-scoring">Voorspellen van kredietwaardigheid</a>’.</p>
+<p>Het calibreren van een model wil zeggen dat je een vergelijking maakt tussen voorspelde waarden en echte waarden. De calibratie van het model, dus hoe goed het model voorspelt, moet volgens deze opvatting van fairness hetzelfde zijn voor alle groepen. Dit is volgens Baumann de meest eerlijke werkvorm, omdat je eist dat de voorspellingen die een algoritme maakt en waarom een premie wordt gebaseerd, een-op-een evenredig moet zijn met de werkelijke schadelast van de groep. Let wel: calibratie is niet genoeg om actuarial fairness te garanderen. Maar Baumann heeft wiskundig bewezen dat als er sprake is van actuarial fairness, er in elk geval sprake moet zijn van calibratie.</p>
+</section>
+</section>
+<section id="pleidooi" class="level3">
+<h3 class="anchored" data-anchor-id="pleidooi">Pleidooi</h3>
+<p>“Wat hij in het stuk ook zo mooi beschrijft,” vult Kapitan aan, “is dat verzekeraars uiteindelijk zoveel mogelijk klantgericht willen werken op basis van gepersonaliseerde premies. En omdat je dan uitsluitend met group fairness kunt werken, is Baumanns pleidooi: de enige manier om perfecte individuele premies te benaderen, is gebruikmaken van calibratie.” Kapitan is het met hem eens: “Ik vind zijn argumenten het meest overtuigend, omdat die het dichtst liggen bij wat ik denk dat de meest robuuste algoritmes zijn. Wel is er echt nog meer causistiek nodig of dit in de praktijk te doen is. Deze verschillende noties van group fairness zijn slechts een startpunt.”</p>
+</section>
+<section id="kiezen" class="level3">
+<h3 class="anchored" data-anchor-id="kiezen">Kiezen</h3>
+<p>Volgens Kapitan is het aan verzekeraars om uit te zoeken en intern afspraken te maken over wat ‘eerlijkheid’ in verzekeringstermen precies is. Het is nodig om daarbij steeds een bewuste afweging te maken, omdat drie principes niet verenigbaar zijn. “Je moet kiezen. En op basis van wat bijvoorbeeld de directie of pricing board kiest, weten data scientists hoe zij algoritmes moeten trainen en optimaliseren om producten op een eerlijke manier te personaliseren.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Meer weten over group fairness?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Het open access boek <a href="https://anthology-of-data.science/books/fairml.html">Fairness and Machine Learning</a> geeft een uitgebreide introductie en uitleg over dit onderwerp.</p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>nederlands</category>
+  <category>fairness</category>
+  <guid>https://kapitan.net/blog/vvv-fairness.html</guid>
+  <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://kapitan.net/blog/images/vvv-dkapitan.png" medium="image" type="image/png" height="43" width="144"/>
+</item>
 <item>
   <title>Een vals dilemma: privacy versus datasolidariteit</title>
   <dc:creator>Daniel Kapitan</dc:creator>
@@ -2291,7 +2361,7 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
 <p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
 <p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div id="2ee7c719" class="cell" data-execution_count="1">
+<div id="b947cf69" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> altair <span class="im" style="color: #00769E;
@@ -2572,23 +2642,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-81e5024cb1dd44d0b173a22ac46ce797.vega-embed {
+  #altair-viz-019953b6761f4e0e8e08167014167791.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-81e5024cb1dd44d0b173a22ac46ce797.vega-embed details,
-  #altair-viz-81e5024cb1dd44d0b173a22ac46ce797.vega-embed details summary {
+  #altair-viz-019953b6761f4e0e8e08167014167791.vega-embed details,
+  #altair-viz-019953b6761f4e0e8e08167014167791.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-81e5024cb1dd44d0b173a22ac46ce797"></div>
+<div id="altair-viz-019953b6761f4e0e8e08167014167791"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-81e5024cb1dd44d0b173a22ac46ce797") {
-      outputDiv = document.getElementById("altair-viz-81e5024cb1dd44d0b173a22ac46ce797");
+    if (outputDiv.id !== "altair-viz-019953b6761f4e0e8e08167014167791") {
+      outputDiv = document.getElementById("altair-viz-019953b6761f4e0e8e08167014167791");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -2777,48 +2847,6 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
   <guid>https://kapitan.net/blog/azimov.html</guid>
   <pubDate>Tue, 01 May 2018 00:00:00 GMT</pubDate>
   <media:content url="https://kapitan.net/images/asimov-law-robotics.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Origins of Kapitan</title>
-  <link>https://kapitan.net/blog/origins-of-kapitan.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="you-can-call-me-kapitan" class="level3">
-<h3 class="anchored" data-anchor-id="you-can-call-me-kapitan"><em>“You can call me Kapitan”</em></h3>
-<p>Every so often friends ask me how a Chinese Indonesian ends up with such a name. Although its etymological origin is quite evident, you would not expect it to be related to the Indonesian <em>coupe d’etat</em> in 1965, the clans of the Moluccas and an infamous Chinese eunuch explorer named Zheng He.</p>
-<div class="grid">
-<div class="g-col-8">
-<p>Originally, my paternal’s family name was The. If I had been given a Chinese name it would have been something like The Kong Bing, where Kong is the <a href="https://en.wikipedia.org/wiki/Generation_name">generation name</a> me and my brothers (I have none) would have had. Incidentally, I do have two cousins who actually bear this name, i.e.&nbsp;The Kong Han in the Netherlands and The Kong Gwan in Los Angeles.</p>
-<p>The roots of my father’s family are well documented, since we are the descendants of the <a href="https://en.wikipedia.org/wiki/Kapitan_Cina">Kapitan China</a> of Surabaya:</p>
-<blockquote class="blockquote">
-<p>Kapitan China was a title given to leaders of overseas Chinese enclaves in Southeast Asia. The local 15th century rulers of the region, and later the colonial establishment, chose to deal with a single individual from each ethnic group under their rule. In native harbour cities, resident Chinese often took the role of syahbandar, master of port, collecting dues and supervising traffic in the name of the ruler. <br><small class="text-muted">taken from <a href="https://www.goodreads.com/book/show/1326399.The_Encyclopedia_of_the_Chinese_Overseas/">the encyclopedia of the Chinese overseas</a>.</small></p>
-</blockquote>
-</div>
-<div class="g-col-4">
-<p><img src="https://kapitan.net/images/the-kapitan.jpg" class="img-fluid"></p>
-</div>
-</div>
-<p>As the local rulers of the <a href="https://en.wikipedia.org/wiki/Peranakan">Peranakan China</a> (literally: children of the Chinese) in Surabaya, my forefathers were quite well off. Our family is named after The Goan Tjing, who was the first to make it to the rank of majoor, one rung up the social ladder, above kapitan. As a testament to his achievements, the family shrine is still in place on <a href="https://goo.gl/maps/QzJB9LKaEWv">JI. Karat 50 Surabaya</a>, although I am not sure for how long: my dad tells me that local authorities are looking to demolish the place to make way for urban development. Tracing back the diaspora of the Chinese in Southeast Asia, one inevitably arrives at <a href="https://en.wikipedia.org/wiki/Zheng_He">Zheng He</a>, China’s most famous sea-faring explorer. Family legend has it that we are direct descendants of this admiral of the Chinese fleet during the Ming dynasty. He was castrated in his teens.</p>
-<p><img src="https://kapitan.net/images/rumah-sembahyang-the.jpg" class="img-fluid"></p>
-</section>
-<section id="how-my-dad-changed-his-name" class="level3">
-<h3 class="anchored" data-anchor-id="how-my-dad-changed-his-name">How my dad changed his name</h3>
-<p>Surprisingly enough, the Kapitan China are not the reason why I was born as Kapitan in Jakarta on September 9, 1973. Our family name has a different origin, namely that of <a href="https://en.wikipedia.org/wiki/Pattimura">Kapitan Pattimura</a>, a Moluccan rebel-hero. The Kapitan are quite a well-known family on Seram. Here, the title Kapitan refers to the warrior chiefs that lead their people in the battle for independence against the Dutch. Moluccan legend has it that the four Kapitans Wattimena, Wattimury, Nanlohy, and Talakua were once the leaders of the Country of Nusa Ina, aka the Mother Island. Their ventures along the Tale river led to the discovery of many places in the Moluccas. What once was a legendary title was in time adopted as a family name.</p>
-<p>It is a matter of historical contingency that my father choose to take-up the name of his best friend in the early 1960s. Joshua Oppenheimer’s dyptich, <a href="https://en.wikipedia.org/wiki/The_Act_of_Killing">the Act of Killing</a> and <a href="http://thelookofsilence.com/">the Look of Silence</a> recount the backdrop of anti-Communist and, therefore, anti-Chinese sentiments that led to the forced <a href="https://en.wikipedia.org/wiki/Legislation_on_Chinese_Indonesians">renunciation of Chinese surnames in Indonesia</a>. My dad, then in his teens, did not take matters too seriously and nearly missed the deadline for changing his name and getting his new passport. On an impulse, he asked his best friend, Gerard Kapitan, whether he could take up his name. So, rather than adapting The to an Indonesian-sounding alternative (we have Tedjasurya and Themasoa in our family), The Sik Thay became Frederik Kapitan in 1964. We recently found out that the male lineage of the Kapitan family was in fact broken. Gerard’s (grand?)mother specifically asked for permission to take-up this name once again if and when she bore a son. Franz Kapitan (Gerard’s brother) told us that if the elders hadn’t honoured her request, we all would have been called Tentua.</p>
-<p>Fast forward 50 years later. Our two boys, Manu Lee and Mas Lee, don’t know better than that their last name is Kapitan. A cool and unusual name, which we love to show off by using online-handles such as <a href="https://en.wikipedia.org/wiki/El_Capitan">El Kapitan</a>. And yes, we re-instated the Chinese generation name. I was quite delighted when my sister asked me to become guardian of her first-born, <a href="https://www.facebook.com/justinlee.kragten">Justin Lee Kragten</a>.</p>
-<p>A couple of years ago I befriended a Chinese young lady, and I shared this story with her. One thing led to another, and ultimately she helped me re-discover an appropriate Chinese name, 郑空慈, which more or less translates into “Emptiness &amp; Loving-Kindness, carried by someone from Zheng’s family”. And thus I came full circle.</p>
-
-
-</section>
-
- ]]></description>
-  <category>english</category>
-  <guid>https://kapitan.net/blog/origins-of-kapitan.html</guid>
-  <pubDate>Sun, 01 Oct 2017 00:00:00 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/zheng-he.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
