@@ -19,6 +19,7 @@
       "/recepten/couscous-salade.html",
       "/recepten/sauteed-spinach-onions-mushroom.html",
       "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/courgette-soep.html",
       "/recepten/moeders-aardappelgratin.html",
       "/recepten/mac-cheese-pompoen-spinazie.html",
       "/recepten/zoete-aardappel-stamppot.html",
@@ -36,6 +37,27 @@
       "/recepten/roti-masala-kip.html",
       "/recepten/ottolenghi-pasta-a-la-norma.html",
       "/recepten/smoor-ayam.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/amphia.html",
+      "/projects/mytomorrows.html",
+      "/projects/sensire.html",
+      "/projects/blue-radix.html",
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/pharmaccess.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/dakkoffer.html",
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html"
     ]
   },
   {
@@ -62,27 +84,6 @@
       "/blog/nrc-houd-toezicht-algoritmes.html",
       "/blog/azimov.html",
       "/blog/origins-of-kapitan.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/sfeerimpressie.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/amphia.html",
-      "/projects/mytomorrows.html",
-      "/projects/sensire.html",
-      "/projects/blue-radix.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/pharmaccess.html"
     ]
   }
 ]
