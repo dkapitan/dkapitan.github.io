@@ -10,7 +10,7 @@
 <atom:link href="https://kapitan.net/recepten/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Sat, 30 Nov 2024 06:54:39 GMT</lastBuildDate>
+<lastBuildDate>Sat, 30 Nov 2024 06:59:16 GMT</lastBuildDate>
 <item>
   <title>Vegetarische erwtensoep</title>
   <link>https://kapitan.net/recepten/vegetarische-erwtensoep.html</link>
@@ -79,7 +79,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/vegetarische-erwtensoep.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/vegetarische-erwtensoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -135,7 +135,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/sticky-aubergine-met-rijst.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/sticky-aubergine.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -206,7 +206,7 @@
   <category>vegetarisch</category>
   <category>Indonesisch</category>
   <guid>https://kapitan.net/recepten/spicy-linzensoep.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/spicy-linzensoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -257,7 +257,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/tian-de-legumes.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/tian-de-legumes.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
@@ -323,7 +323,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/yakisoba.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/yakisoba.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -374,7 +374,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/haricotverts-ottolenghi.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/haricots-verts-salade.png" medium="image" type="image/png" height="87" width="144"/>
 </item>
 <item>
@@ -430,7 +430,7 @@
   <category>Lia Warani</category>
   <category>Indonesisch</category>
   <guid>https://kapitan.net/recepten/soto-ayam.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/soto-ayam.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -483,7 +483,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/szechuan-asperges.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/szechuan-asperges.png" medium="image" type="image/png" height="194" width="144"/>
 </item>
 <item>
@@ -530,7 +530,7 @@
 
  ]]></description>
   <guid>https://kapitan.net/recepten/geroosterde-witte-asperges.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/geroosterde-asperges.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -578,8 +578,47 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/ottolenghi-geblakerde-cherrytomaatjes.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/tomaat-yoghurt.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Minestrone soep</title>
+  <link>https://kapitan.net/recepten/minestrone-soep.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="grid">
+<div class="g-col-8">
+<p>Zoals gezegd, hét recept voor minestrone bestaat niet. U mag aan dit recept dan ook zoveel sleutelen als u wilt. Borlotti- in plaats van witte bonen. Salie in plaats van rozemarijn. Sperzie- in plaats van snijbonen. Artisjokken in plaats van courgette. Blik- in plaats van verse tomaten. Spinazie (of palmkool) in plaats van andijvie. Pasta (een korte soort) in plaats van rijst. Wel of geen pesto. Het mag en kan allemaal. Ik zou alleen de Parmezaankorsten niet weglaten, die geven de soep een fijne, diepe smaak. (Ik spaar ze altijd op in een zakje in de vriezer.) Ik geef zowel de tijden voor bereiding in een gewone pan als voor bereiding in een snelkookpan of Instant Pot.</p>
+</div>
+<div class="g-col-4">
+<p><img src="https://kapitan.net/recepten/images/minestrone-soep.webp" class="img-fluid"></p>
+</div>
+</div>
+<section id="ingredienten-voor-4---6-personen" class="level2">
+<h2 class="anchored" data-anchor-id="ingredienten-voor-4---6-personen">Ingredienten (voor 4 - 6 personen)</h2>
+<p>75 ml olijfolie 1 flinke ui, gesnipperd 200 g wortel, in plakjes 2 stengels bleekselderij, in boogjes 1 dunne prei; snuf chilivlokken 1 el rozemarijnnaaldjes, grof gehakt 4 tenen knoflook, fijngehakt 125 g witte bonen, 8 uur geweekt in royaal koud water 500 g tomaten, ontveld en grof gesneden 100 g parmezaankorsten 1,5 liter groentebouillon of water (+ misschien wat extra) 60 g arboriorijst 125 g diepvries tuinbonen 250 g snijbonen, in ruiten 1 grote courgette, in kwartjes ½ grote of 1 kleine krop andijvie, grof gesneden</p>
+<p>Voor het serveren: versgeraspte Parmezaanse kaas; versgemaakte pesto óf olijfolie</p>
+</section>
+<section id="bereiding" class="level2">
+<h2 class="anchored" data-anchor-id="bereiding">Bereiding</h2>
+<ul>
+<li>Verhit de olijfolie in een grote soeppan, een snelkookpan of in een Instant Pot op de sauteerstand. Voeg de ui, wortel, bleekselderij en prei toe, samen met een snuf zout en fruit de groenten onder regelmatig omscheppen ongeveer 10 minuten aan. Ze mogen een beetje kleuren, maar ook weer niet te donker worden. Voeg de chilivlokken, rozemarijn en knoflook toe en fruit, onder voortdurend roeren, 5 minuten mee.</li>
+<li>Laat de bonen uitlekken en doe ze in de pan. Voeg tomaten, parmezaankorsten en bouillon of water toe en breng aan de kook. Draai het vuur laag en laat ongeveer 1,5 uur koken, of tot de bonen gaar zijn. Als u de soep maakt in een snelkookpan of Instant Pot: laat 30 minuten koken onder hoge druk.</li>
+<li>Voeg de arboriorijst, de tuinbonen, snijbonen en courgette toe en laat nog eens 20 minuten koken, of 7 minuten onder hoge druk. Laat de soep afkoelen en laat hem een nacht staan.</li>
+<li>Vis de volgende dag de parmezaankorsten uit de soep en warm hem op. Kook de andijvie een paar minuten mee. Afhankelijk van hoe dik u uw minestrone wilt hebben, kunt u nu eventueel extra water of bouillon toevoegen. Proef de soep en maak zo nodig verder op smaak met zout en peper. Geef er in elk geval een schaaltje versgeraspte Parmezaanse kaas bij en óf een schaaltje pesto óf een fles olijfolie.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>vegetarian</category>
+  <guid>https://kapitan.net/recepten/minestrone-soep.html</guid>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
+  <media:content url="https://kapitan.net/recepten/images/minestrone-soep.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Gua Bao</title>
@@ -632,7 +671,7 @@
  ]]></description>
   <category>Asian streetfood</category>
   <guid>https://kapitan.net/recepten/gua-bao-buns.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/Gua-Bao-Buns-Pork-Belly-square.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -707,7 +746,7 @@
 
  ]]></description>
   <guid>https://kapitan.net/recepten/oostenrijkse-goulashsoep.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/oostenrijkse-goulashsoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -757,7 +796,7 @@
 
  ]]></description>
   <guid>https://kapitan.net/recepten/bloemkool-ovenschotel.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/bloemkool-ovenschotel-met-gehakt.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -809,7 +848,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/black-pepper-tofu.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/black-pepper-tofu.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -857,7 +896,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/couscous-salade.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/couscous-salade.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -939,7 +978,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/sauteed-spinach-onions-mushroom.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/sauteed-spinach.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -993,7 +1032,7 @@
  ]]></description>
   <category>Asian streetfood</category>
   <guid>https://kapitan.net/recepten/koreanse-wrap-met-biefstuk.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/koreaanse-wraps-met-biefstuk.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1070,7 +1109,7 @@
  ]]></description>
   <category>vegetarian</category>
   <guid>https://kapitan.net/recepten/courgette-soep.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/courgettesoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1117,58 +1156,8 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/moeders-aardappelgratin.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
+  <pubDate>Sat, 30 Nov 2024 06:59:16 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/aardappelgratin.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Mac-n-cheese met pompoen en spinazie</title>
-  <link>https://kapitan.net/recepten/mac-cheese-pompoen-spinazie.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://kapitan.net/recepten/images/mac-cheese-pompoen-spinazie.png" class="img-fluid"></p>
-<p>Mac &amp; cheese staat niet bekend om zijn grote hoeveelheid groente - daar brengt deze variant verandering in met wel 250 gram per portie!</p>
-<section id="ingredienten" class="level2">
-<h2 class="anchored" data-anchor-id="ingredienten">Ingredienten</h2>
-<p>Voor 4 personen:</p>
-<ul>
-<li>360 gram rigatoni</li>
-<li>2 uien</li>
-<li>2 tenen knoflook</li>
-<li>4 theelepels&nbsp;paprikapoeder</li>
-<li>4 theelepels gedroogde tijm</li>
-<li>600 gram pompoenblokjes</li>
-<li>300 gram spinazie</li>
-<li>100 gram gerapste cheddar</li>
-<li>100 gram geraspte oude Goudse kaas</li>
-<li>40 gram pompoenpitten</li>
-<li>2 el olijfolie</li>
-<li>300 ml groentebouillon</li>
-<li>scheutje melk (optioneel)</li>
-<li>Peper en zout naar smaak</li>
-</ul>
-</section>
-<section id="bereidingswijze" class="level2">
-<h2 class="anchored" data-anchor-id="bereidingswijze">Bereidingswijze</h2>
-<ol type="1">
-<li>Verwarm de oven voor op 220 graden. Bereid de bouillon. Kook ruim water in een pan met deksel voor de rigatoni en kook de rigatoni, afgedekt, 13 – 15 minuten. Giet daarna af, bewaar een klein beetje kookvocht en laat zonder deksel uitstomen. Snijd de ui in halve ringen. Pers de knoflook of snijd fijn.</li>
-<li>Verhit de olijfolie in een koekenpan met deksel op middelhoog vuur en fruit de ui, de knoflook en het paprikapoeder 2 – 3 minuten. Voeg de pompoenblokjes en de gedroogde tijm toe en roerbak 4 – 6 minuten. Blus af met de bouillon en kook, afgedekt, 8 – 10 minuten, of tot de pompoen zacht is.</li>
-<li>Haal de pompoen van het vuur en schep over in een hoge kom. Voeg een scheutje melk toe en pureer met een staafmixer. Voeg een extra scheutje melk of wat kookvocht van de rigatoni toe wanneer de saus te dik is. Schenk de saus vervolgens weer terug in de pan.</li>
-<li>Voeg de spinazie, 3/4 van de cheddar, 3/4 van de oude kaas en de rigatoni toe aan de pompoensaus en roer goed door. Breng op smaak met peper en zout en verhit het geheel nog 1 minuut.</li>
-<li>Schep alles in een ovenschaal en bestrooi met de overige kaas. Bak de pastaschotel 10 – 15 minuten in de oven, of tot de bovenkant mooi bruin is. Verhit ondertussen een koekenpan, zonder olie, op middelhoog vuur en rooster de pompoenpitten tot ze beginnen poffen. Haal uit de pan en bewaar apart.</li>
-<li>Verdeel de mac &amp; cheese over de borden. Garneer met de pompoenpitten.</li>
-</ol>
-
-
-</section>
-
- ]]></description>
-  <category>vegetarisch</category>
-  <guid>https://kapitan.net/recepten/mac-cheese-pompoen-spinazie.html</guid>
-  <pubDate>Sat, 30 Nov 2024 06:54:39 GMT</pubDate>
-  <media:content url="https://kapitan.net/recepten/images/mac-cheese-pompoen-spinazie.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>

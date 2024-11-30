@@ -1,5 +1,26 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/amphia.html",
+      "/projects/mytomorrows.html",
+      "/projects/sensire.html",
+      "/projects/blue-radix.html",
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/pharmaccess.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/dakkoffer.html",
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/vvv-fairness.html",
@@ -26,27 +47,6 @@
     ]
   },
   {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/sfeerimpressie.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/amphia.html",
-      "/projects/mytomorrows.html",
-      "/projects/sensire.html",
-      "/projects/blue-radix.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/pharmaccess.html"
-    ]
-  },
-  {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/vegetarische-erwtensoep.html",
@@ -59,6 +59,7 @@
       "/recepten/szechuan-asperges.html",
       "/recepten/geroosterde-witte-asperges.html",
       "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
+      "/recepten/minestrone-soep.html",
       "/recepten/gua-bao-buns.html",
       "/recepten/oostenrijkse-goulashsoep.html",
       "/recepten/bloemkool-ovenschotel.html",
