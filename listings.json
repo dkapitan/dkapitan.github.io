@@ -1,5 +1,52 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/vvv-fairness.html",
+      "/blog/datasolidariteit-ibestuur.html",
+      "/blog/better-altair-theme.html",
+      "/blog/obsidian-setup.html",
+      "/blog/webinar-knmg.html",
+      "/blog/data-is-een-recht.html",
+      "/blog/dsc-whitepaper-pets.html",
+      "/blog/podcast-dataloog-datasolidariteit.html",
+      "/blog/datasolidariteit.html",
+      "/blog/podcast-aitoday.html",
+      "/blog/eerlijke-algoritmen.html",
+      "/blog/analytical-problem-solving.html",
+      "/blog/hippo-ai.html",
+      "/blog/lartpy.html",
+      "/blog/scik.html",
+      "/blog/comet-chart.html",
+      "/blog/dutch-design-week.html",
+      "/blog/happi.html",
+      "/blog/nrc-houd-toezicht-algoritmes.html",
+      "/blog/azimov.html",
+      "/blog/origins-of-kapitan.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/dakkoffer.html",
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/amphia.html",
+      "/projects/mytomorrows.html",
+      "/projects/sensire.html",
+      "/projects/blue-radix.html",
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/pharmaccess.html"
+    ]
+  },
+  {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/vegetarische-erwtensoep.html",
@@ -36,54 +83,8 @@
       "/recepten/dahl-met-zoete-aardappel.html",
       "/recepten/roti-masala-kip.html",
       "/recepten/ottolenghi-pasta-a-la-norma.html",
-      "/recepten/smoor-ayam.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/amphia.html",
-      "/projects/mytomorrows.html",
-      "/projects/sensire.html",
-      "/projects/blue-radix.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/pharmaccess.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/sfeerimpressie.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/vvv-fairness.html",
-      "/blog/datasolidariteit-ibestuur.html",
-      "/blog/better-altair-theme.html",
-      "/blog/obsidian-setup.html",
-      "/blog/webinar-knmg.html",
-      "/blog/data-is-een-recht.html",
-      "/blog/dsc-whitepaper-pets.html",
-      "/blog/podcast-dataloog-datasolidariteit.html",
-      "/blog/datasolidariteit.html",
-      "/blog/podcast-aitoday.html",
-      "/blog/eerlijke-algoritmen.html",
-      "/blog/analytical-problem-solving.html",
-      "/blog/hippo-ai.html",
-      "/blog/lartpy.html",
-      "/blog/scik.html",
-      "/blog/comet-chart.html",
-      "/blog/dutch-design-week.html",
-      "/blog/happi.html",
-      "/blog/nrc-houd-toezicht-algoritmes.html",
-      "/blog/azimov.html",
-      "/blog/origins-of-kapitan.html"
+      "/recepten/smoor-ayam.html",
+      "/recepten/gegrilde-groenten-soep.html"
     ]
   }
 ]
