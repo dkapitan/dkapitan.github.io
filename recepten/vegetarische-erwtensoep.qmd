@@ -3,7 +3,7 @@ title: Vegetarische erwtensoep
 description: |
     Een klassieker, maar dan zonder varkenskluif. Waarschijnlijk wel met worst erbij ...
 image: ./images/vegetarische-erwtensoep.jpg
-categories: [vegetarisch]
+categories: [vegetarisch, soep]
 ---
 
 :::{.grid}

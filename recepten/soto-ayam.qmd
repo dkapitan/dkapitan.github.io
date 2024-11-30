@@ -3,7 +3,7 @@ title: Soto ayam
 description: |
     Uit 'Rijsttafelen' van Lia Warani.
 image: ./images/soto-ayam.jpg
-categories: [Lia Warani, Indonesisch]
+categories: [Lia Warani, Indonesisch, soep]
 ---
 
 :::{.grid}

@@ -3,7 +3,7 @@ title: Martin's courgette roomsoep met gremolata
 description: |
     Een favoriet van de jongens, recept van mijn schoonvader. 
 image: ./images/courgettesoep.jpg
-categories: [vegetarian]
+categories: [vegetarisch, soep]
 ---
 
 :::{.grid}

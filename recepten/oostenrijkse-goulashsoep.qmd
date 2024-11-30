@@ -3,7 +3,7 @@ title: Oostenrijkse goulashsoep
 description: |
     Recept zoals de soep op de skipisten in Tirol geserveerd wordt, met een kleine Nederlandse twist.
 image: ./images/oostenrijkse-goulashsoep.jpg
-categories: []
+categories: [soep]
 ---
 
 :::{.grid}

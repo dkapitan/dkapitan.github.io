@@ -3,7 +3,7 @@ title: Bloemkool ovenschotel met gehakt
 description: |
     Een heerlijke bloemkool ovenschotel met gehakt, spekjes, krieltjes en kerrie. Je kunt de ovenschotel prima van te voren maken waardoor je hem op een doordeweekse avond zo snel en makkelijk op tafel zet. 
 image: ./images/bloemkool-ovenschotel-met-gehakt.webp
-categories: []
+categories: [vegetarisch]
 ---
 
 :::{.grid}

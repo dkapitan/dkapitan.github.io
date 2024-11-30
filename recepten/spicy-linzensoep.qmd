@@ -3,7 +3,7 @@ title: Spicy linzensoep
 description: |
     Rode linzensoep met bumbu pepesan met garam masala-uien, paksoi en yoghurt.
 image: ./images/spicy-linzensoep.jpg
-categories: [vegetarisch, Indonesisch]
+categories: [vegetarisch, Indonesisch, soep]
 ---
 
 :::{.grid}

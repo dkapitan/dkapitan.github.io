@@ -3,7 +3,7 @@ title: Geroosterde witte asperges met paddestoelen, tijm en walnoten
 description: |
     Ik vind het zonde om asperger helemaal onder te dompelen in kaassaus met ham. Dit is veel beter.
 image: ./images/geroosterde-asperges.jpg
-categories: []
+categories: [vegetarisch]
 ---
 
 :::{.grid}

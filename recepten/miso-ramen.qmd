@@ -3,7 +3,7 @@ title: Miso ramen
 description: |
     Have changed the ingredients to make suitable for quick preparation.
 image: ./images/miso-ramen.jpg
-categories: []
+categories: [Asian streetfood, soep]
 ---
 
 :::{.grid}

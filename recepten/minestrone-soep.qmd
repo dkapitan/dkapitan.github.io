@@ -3,7 +3,7 @@ title: Minestrone soep
 description: |
     Hét recept voor minestrone bestaat niet, dus maak ’m zoals je wilt, schrijft Janneke Vreugdenhil over dit recept. Maar vergeet niet de Parmezaankorsten, dat zijn umamibommetjes.
 image: ./images/minestrone-soep.webp
-categories: [vegetarian]
+categories: [vegetarisch, soep]
 ---
 
 :::{.grid}
