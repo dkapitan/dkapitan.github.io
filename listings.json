@@ -1,26 +1,5 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/amphia.html",
-      "/projects/mytomorrows.html",
-      "/projects/sensire.html",
-      "/projects/blue-radix.html",
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/pharmaccess.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/sfeerimpressie.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/vvv-fairness.html",
@@ -47,44 +26,65 @@
     ]
   },
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/mytomorrows.html",
+      "/projects/pharmaccess.html",
+      "/projects/sensire.html",
+      "/projects/blue-radix.html",
+      "/projects/amphia.html",
+      "/projects/has.html",
+      "/projects/roetz-life.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/dakkoffer.html",
+      "/nugget/onderhoud-accus.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/winterklaar-maken.html"
+    ]
+  },
+  {
     "listing": "/recepten/index.html",
     "items": [
-      "/recepten/vegetarische-erwtensoep.html",
-      "/recepten/sticky-aubergine-met-rijst.html",
-      "/recepten/spicy-linzensoep.html",
-      "/recepten/tian-de-legumes.html",
-      "/recepten/yakisoba.html",
-      "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/soto-ayam.html",
-      "/recepten/szechuan-asperges.html",
-      "/recepten/geroosterde-witte-asperges.html",
-      "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
-      "/recepten/minestrone-soep.html",
-      "/recepten/gua-bao-buns.html",
-      "/recepten/oostenrijkse-goulashsoep.html",
-      "/recepten/bloemkool-ovenschotel.html",
-      "/recepten/black-pepper-tofu.html",
-      "/recepten/couscous-salade.html",
-      "/recepten/sauteed-spinach-onions-mushroom.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/courgette-soep.html",
-      "/recepten/moeders-aardappelgratin.html",
-      "/recepten/mac-cheese-pompoen-spinazie.html",
-      "/recepten/zoete-aardappel-stamppot.html",
-      "/recepten/lia-warani.html",
-      "/recepten/pad-thai.html",
-      "/recepten/miso-ramen.html",
-      "/recepten/tahu-telor.html",
       "/recepten/zalm-met-miso-mayo.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/buffalo-bloemkoolwings.html",
-      "/recepten/mung-bean-porridge.html",
+      "/recepten/miso-ramen.html",
+      "/recepten/couscous-salade.html",
+      "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
+      "/recepten/courgette-soep.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/moeders-aardappelgratin.html",
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/yakisoba.html",
+      "/recepten/minestrone-soep.html",
+      "/recepten/vegetarische-erwtensoep.html",
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/mac-cheese-pompoen-spinazie.html",
       "/recepten/ottolenghi-roasted-eggplant.html",
-      "/recepten/gebakken-griet.html",
-      "/recepten/dahl-met-zoete-aardappel.html",
-      "/recepten/roti-masala-kip.html",
-      "/recepten/ottolenghi-pasta-a-la-norma.html",
+      "/recepten/gua-bao-buns.html",
+      "/recepten/sticky-aubergine-met-rijst.html",
       "/recepten/smoor-ayam.html",
+      "/recepten/gebakken-griet.html",
+      "/recepten/pad-thai.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/tahu-telor.html",
+      "/recepten/black-pepper-tofu.html",
+      "/recepten/lia-warani.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/dahl-met-zoete-aardappel.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/ottolenghi-pasta-a-la-norma.html",
+      "/recepten/sauteed-spinach-onions-mushroom.html",
+      "/recepten/mung-bean-porridge.html",
+      "/recepten/spicy-linzensoep.html",
+      "/recepten/soto-ayam.html",
+      "/recepten/buffalo-bloemkoolwings.html",
       "/recepten/gegrilde-groenten-soep.html"
     ]
   }
