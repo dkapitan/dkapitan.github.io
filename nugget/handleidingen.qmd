@@ -1,0 +1,10 @@
+---
+title: Handleidingen
+description: Handleidingen van de Nugget
+page-layout: full
+
+---
+
+## Thetford toilet C402
+
+{{< pdf /resources/nugget/UM_C400_NL.pdf width=100% height=800 >}}
