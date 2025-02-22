@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/handleidingen.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/onderhoud-accus.html"
-    ]
-  },
-  {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/zalm-met-miso-mayo.html",
@@ -87,6 +77,16 @@
       "/projects/has.html",
       "/projects/roetz-life.html",
       "/projects/blue-radix.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/dakkoffer.html",
+      "/nugget/thetford-toilet.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/onderhoud-accus.html"
     ]
   }
 ]
