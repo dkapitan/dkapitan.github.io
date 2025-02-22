@@ -1,5 +1,57 @@
 [
   {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/dakkoffer.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/handleidingen.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/onderhoud-accus.html"
+    ]
+  },
+  {
+    "listing": "/recepten/index.html",
+    "items": [
+      "/recepten/zalm-met-miso-mayo.html",
+      "/recepten/black-pepper-tofu.html",
+      "/recepten/smoor-ayam.html",
+      "/recepten/courgette-soep.html",
+      "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
+      "/recepten/pad-thai.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/couscous-salade.html",
+      "/recepten/sticky-aubergine-met-rijst.html",
+      "/recepten/soto-ayam.html",
+      "/recepten/yakisoba.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/moeders-aardappelgratin.html",
+      "/recepten/miso-ramen.html",
+      "/recepten/ottolenghi-pasta-a-la-norma.html",
+      "/recepten/minestrone-soep.html",
+      "/recepten/tahu-telor.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/gua-bao-buns.html",
+      "/recepten/ottolenghi-roasted-eggplant.html",
+      "/recepten/lia-warani.html",
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/mung-bean-porridge.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/spicy-linzensoep.html",
+      "/recepten/gebakken-griet.html",
+      "/recepten/sauteed-spinach-onions-mushroom.html",
+      "/recepten/mac-cheese-pompoen-spinazie.html",
+      "/recepten/vegetarische-erwtensoep.html",
+      "/recepten/gegrilde-groenten-soep.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/dahl-met-zoete-aardappel.html",
+      "/recepten/buffalo-bloemkoolwings.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/vvv-fairness.html",
@@ -26,66 +78,15 @@
     ]
   },
   {
-    "listing": "/recepten/index.html",
-    "items": [
-      "/recepten/gebakken-griet.html",
-      "/recepten/gegrilde-groenten-soep.html",
-      "/recepten/miso-ramen.html",
-      "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
-      "/recepten/geroosterde-witte-asperges.html",
-      "/recepten/zoete-aardappel-stamppot.html",
-      "/recepten/roti-masala-kip.html",
-      "/recepten/couscous-salade.html",
-      "/recepten/pad-thai.html",
-      "/recepten/minestrone-soep.html",
-      "/recepten/yakisoba.html",
-      "/recepten/dahl-met-zoete-aardappel.html",
-      "/recepten/black-pepper-tofu.html",
-      "/recepten/tian-de-legumes.html",
-      "/recepten/lia-warani.html",
-      "/recepten/moeders-aardappelgratin.html",
-      "/recepten/ottolenghi-pasta-a-la-norma.html",
-      "/recepten/szechuan-asperges.html",
-      "/recepten/smoor-ayam.html",
-      "/recepten/mung-bean-porridge.html",
-      "/recepten/spicy-linzensoep.html",
-      "/recepten/tahu-telor.html",
-      "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/ottolenghi-roasted-eggplant.html",
-      "/recepten/oostenrijkse-goulashsoep.html",
-      "/recepten/zalm-met-miso-mayo.html",
-      "/recepten/bloemkool-ovenschotel.html",
-      "/recepten/buffalo-bloemkoolwings.html",
-      "/recepten/sauteed-spinach-onions-mushroom.html",
-      "/recepten/soto-ayam.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/mac-cheese-pompoen-spinazie.html",
-      "/recepten/vegetarische-erwtensoep.html",
-      "/recepten/gua-bao-buns.html",
-      "/recepten/sticky-aubergine-met-rijst.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/courgette-soep.html"
-    ]
-  },
-  {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/pharmaccess.html",
-      "/projects/blue-radix.html",
-      "/projects/sensire.html",
-      "/projects/roetz-life.html",
       "/projects/mytomorrows.html",
+      "/projects/pharmaccess.html",
       "/projects/amphia.html",
-      "/projects/has.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/onderhoud-accus.html"
+      "/projects/sensire.html",
+      "/projects/has.html",
+      "/projects/roetz-life.html",
+      "/projects/blue-radix.html"
     ]
   }
 ]
