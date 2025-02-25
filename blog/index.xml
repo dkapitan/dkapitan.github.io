@@ -9,8 +9,44 @@
 <link>https://kapitan.net/blog/</link>
 <atom:link href="https://kapitan.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.41</generator>
-<lastBuildDate>Mon, 07 Oct 2024 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Tue, 25 Feb 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bij het streven naar data- en AI-geletterdheid moeten we wiskunde-angst niet uit de weg gaan.</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://kapitan.net/blog/geletterdheid.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br></p>
+<p>Met de komst van de AI Verordening moeten alle organisaties die AI gebruiken of ontwikkelen vanaf deze maand ervoor zorgen dat hun <a href="https://www.autoriteitpersoonsgegevens.nl/themas/algoritmes-ai/ai-verordening/ai-geletterdheid">medewerkers ‘AI-geletterd’ zijn</a>. Los van de vraag of het zinnig is om dit als verplichting op te nemen in een nieuwe wet - daarover later meer - lijkt mij dit op zich een goede zaak. Het is logisch om binnen de toenemende digitalisering van onze samenleving aandacht te vragen voor digitale vaardigheden (“bekwaamheid en begrip van internet-, computer- en softwaregebruik”), datageletterdheid (“vermogen om zinvolle informatie af te leiden uit gegevens (data) en gegevensverzamelingen”) en nu dus ook AI-geletterdheid (“vaardigheden, kennis en begrip hebben over de technische werking van AI-systemen, maar ook over de sociale, ethische en praktische aspecten”). Het is misschien behulpzaam om deze vaardigheden als concentrische cirkels te zien, waarbij ik denk dat AI-geletterdheid niet kan zonder datageletterdheid en digitale vaardigheden daar weer een onderliggende basis voor is.</p>
+<p><img src="https://kapitan.net/blog/images/geletterdheid.png" class="img-fluid"></p>
+<p>Weinig mensen zullen aanstoot nemen om brede maatschappelijke aandacht te vragen voor het ontwikkelen van deze vaardigheden. Vrij beschikbare online cursussen zoals het <a href="https://thedataliteracyproject.org/">Data Literacy Project</a> en <a href="https://www.elementsofai.com/">Elements of AI</a> kan ik hiervoor van harte aanbevelen.<sup>1</sup> Beide zijn zeer toegangkelijk en als je hebt afgerond zal de mystiek van data science en AI voor een groot deel verdwenen zijn. Mooi. Is dan hiermee alles gezegd?</p>
+<p>Ik denk het niet. Ik kan mij namelijk niet aan de indruk ontrekken dat goed bedoelde initatieven die streven om kennis over data science en AI bij een breed publiek over te dragen nogal de neiging hebben om de basis van dit alles, namelijk wiskunde, uit de weg te gaan.<sup>2</sup> Wellicht heeft het ermee te maken dat veel mensen last hebben van wiskunde-angst.</p>
+<p>Wat zeg je, bestaat dat? <a href="https://www.nporadio1.nl/nieuws/wetenschap-techniek/9b911cad-8230-4714-b19b-954ddbc4a9f2/kun-je-echt-last-hebben-van-wiskundeangst">Jazeker</a>. Als ik voor de klas sta voor een nieuwe groep bij het Mastering Data Science &amp; AI programma bij <a href="https://eaisi.nl/academy">EAISI Academy</a>, begin ik vaak met deelnemers te vragen hun hand op te steken als ze een lichte spanning voelen wanneer ze terugdenken het maken van wiskunde sommen tijdens hun middelbare schooltijd. Steevast gaat ongeveer een derde van de handen omhoog. Bij de verdediging van Daphne Miedema’s promotieonderzoek <a href="https://research.tue.nl/nl/publications/on-learning-sql-disentangling-concepts-in-data-systems-education">On Learning SQL</a> leerde ik dat <em>math anxiety</em> inderdaad bij circa 30% van studenten in technische studies een beperkende rol speelt om optimaal analytische vaardigheden aan te leren. Mijn vraag die als grap bedoelt was, is een echt fenomeen waar we rekening mee moeten houden wanneer we zoveel mogelijk mensen voldoende vaardig willen maken op het gebied van data science en AI.</p>
+<p>Als mensen een goed beeld willen hebben van wat data science en AI wel - en vooral niet - is, dan ontkomen we er niet aan om basisprincipes uit de wiskunde over te brengen. Niet iedereen hoeft wiskundige formules te kunnen herleiden, maar beginselen zoals bijvoorbeeld kansberekening en het leren lezen van een histogram zijn denk ik concepten die iedereen op haar of zijn niveau een bepaald begrip voor moet ontwikkelen om data- en AI-geletterd te zijn. Daarbij is denk ik vanwege de hype rondom large language models inmiddels zo’n verwrongen beeld ontstaan van wat AI nu is, dat iedereeen die een cursus heeft gedaan ‘hoe leer je prompts schrijven’ denkt dat ze daarmee voldoende voorbereid zijn. Niks is minder waar. Zolang je geen idee hebt hoe LLMs worden getraind (het voorspellen van het volgende woord) is het lastig te begrijpen waarom ze soms onzin uitkramen.<sup>3</sup></p>
+<p>Het verplicht stellen van AI-geletterdheid deed mij denken aan een discussie die ik had met een goede collega destijds bij T-Mobile. Hij was hoofd van juridische zaken, zeer belezen en we hadden altijd interessante discussies over maatschappelijke vraagstukken. Het was rond die tijd, in 2007/2008, dat wiskunde verplicht werd gesteld voor het VWO. Hij vond het onnodig en hield een vurig pleidooi over het belang van algemene vorming via verplicht taal- en geschiedenisonderwijs. Ik vond dat wiskunde net zo goed in die categorie valt, wat we dus nu data- en AI-geletterheid noemen. Maar het verplicht stellen heeft helaas weinig effect gehad: <a href="https://www.pisa-nederland.nl/resultaten2022/">de wiskundeprestaties van Nederlandse scholieren zijn sinds 2006 nog niet eerder zo sterk gedaald</a>.</p>
+<p>Het verplicht stellen van AI-geletterdheid zal denk ik niet tot het gewenste effect leiden als we ons niet inzetten om ‘wiskundegeletterdheid’ voor een groot publiek te verbeteren. En net zo is datageletterdheid een holle frase als we ons alleen richten op de organisatorische aspecten van data management of data-gedreven werken, zonder dieper te gaan op de principes van informatie modelering en kennisrepresentatie. De hamvraag is natuurlijk, hoe dan? Misschien heeft <a href="https://www.mathwithmenno.nl/">Menno</a> een idee.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Diegenen die voorkeur geven aan een boek kunnen misschien bij de Slegte nog een exemplaar van <a href="https://www.mauritskaptein.com/books/new-book-hallo-wereld-hallo-computer/">Hallo wereld, hallo computer</a> op de kop tikken. Alhoewel dat in 2018 is geschreven, is het een goed en nog steeds actueel boek om basiskennis op te doen.↩︎</p></li>
+<li id="fn2"><p>De eerder genoemde cursussen zijn hier een positieve uitzondering op.↩︎</p></li>
+<li id="fn3"><p>Onder de niet aflatende trend om digitale systemen te antropomorfiseren noemen we dit hallucineren, alsof het een tijdelijke geestestoestand van de LLM is, een tijdelijke <em>slip of the mind</em>. Maar ik dwaal af.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>nederlands</category>
+  <category>geletterdheid</category>
+  <guid>https://kapitan.net/blog/geletterdheid.html</guid>
+  <pubDate>Tue, 25 Feb 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://kapitan.net/blog/images/geletterdheid.png" medium="image" type="image/png" height="105" width="144"/>
+</item>
 <item>
   <title>Fairness bij gebruik van algoritmes in het verzekeringswezen</title>
   <dc:creator>Daniel Kapitan (presentatie)</dc:creator>
@@ -2361,7 +2397,7 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
 <p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
 <p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div id="777b81c6" class="cell" data-execution_count="1">
+<div id="ea89ebcc" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> altair <span class="im" style="color: #00769E;
@@ -2642,23 +2678,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-3e9ffcc685d14a24b1fab587e19f8ea8.vega-embed {
+  #altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-3e9ffcc685d14a24b1fab587e19f8ea8.vega-embed details,
-  #altair-viz-3e9ffcc685d14a24b1fab587e19f8ea8.vega-embed details summary {
+  #altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9.vega-embed details,
+  #altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-3e9ffcc685d14a24b1fab587e19f8ea8"></div>
+<div id="altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-3e9ffcc685d14a24b1fab587e19f8ea8") {
-      outputDiv = document.getElementById("altair-viz-3e9ffcc685d14a24b1fab587e19f8ea8");
+    if (outputDiv.id !== "altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9") {
+      outputDiv = document.getElementById("altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -2816,37 +2852,6 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
   <guid>https://kapitan.net/blog/nrc-houd-toezicht-algoritmes.html</guid>
   <pubDate>Sat, 19 May 2018 00:00:00 GMT</pubDate>
   <media:content url="https://kapitan.net/images/nrc-open-source.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Europese ontwikkeling van kunstmatige intelligentie</title>
-  <link>https://kapitan.net/blog/azimov.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="section" class="level1">
-<h1></h1>
-<p>Het debat over de toekomst van kunstmatige intelligentie (KI) is weer (nog?) in volle gang. Blij om te zien dat in Europa er meer aandacht voor is. De Fransen zouden de Fransen niet zijn als ze niet <a href="http://het%20debat%20over%20de%20toekomst%20van%20ai%20is%20nog%20steeds%20in%20volle%20gang.%20blij%20om%20te%20zien%20dat%20in%20europa%20hier%20meer%20aandacht%20voor%20is.%20de%20fransen%20zouden%20de%20fransen%20niet%20zijn%20om%20niet%20de%20_moral%20highground_%20te%20claimen%20%28https//www.trouw.nl/opinie/europa-heeft-een-unique-selling-point-de-ethische-kijk-op-kunstmatige-intelligentie~a735de20/">de moral high-ground claimen</a>. Enfin, het is in elk geval een goede stap dat <a href="https://ec.europa.eu/commission/presscorner/detail/nl/IP_18_3362">Europa haar eigen ambities en onderzoeksagenda voor kunstmatige intelligentie gaat vormgeven</a>. Het valt mij op dat veiligheid en ethiek vaak genoemd wordt waarin Europa zich in kan onderscheiden. Vanuit de <a href="https://www.fhi.ox.ac.uk/">Future of Humanity Institute aan de University of Oxford</a> wordt hier reeds onderzoek naar gedaan en breekt men een lans voor <a href="https://80000hours.org/problem-profiles/positively-shaping-artificial-intelligence/">meer middelen voor veilige ontwikkeling van KI</a>. Mogelijk kunnen we hier echt iets in betekenen.</p>
-<div class="grid">
-<div class="g-col-8">
-<p>Tegelijkertijd vraag ik mij af of wat ons te wachten zijn. Staan we echt aan de vooravond van singularity, met een reële kans dat we rond 2050 zullen worden gedomineerd door volwaardige, human-capable, superintelligente machines? Moeten we serieus gaan nadenken of we iets zoals Asimov’s drie wetten voor robots moeten gaan formuleren èn inbouwen in onze intelligente machines? Is het noodzakelijk, nuttig en/of relevant dat robots een mindontwikkelen, zodat we ze waarden kunnen meegeven? In zijn magnum opus <a href="https://www.goodreads.com/book/show/35167699-from-bacteria-to-bach-and-back"><em>From Bacteria to Bach and Back</em></a> maakt Daniel Dennett onderscheid tussen competence (iets kunnen) versus comprehension (iets begrijpen). Vooralsnog is KI van vandaag de dag vooral competent, maar zijn we nog ver van begrip.</p>
-</div>
-<div class="g-col-4">
-<p><img src="https://kapitan.net/images/asimov-law-robotics.jpg" class="img-fluid"></p>
-</div>
-</div>
-<p>Eén vraag lijkt mij hoe dan ook het onderzoeken waard: waar gaan we de energie vandaan halen om KI te laten evolueren? Alan Winfield van de University of Bristol heeft <a href="http://eprints.uwe.ac.uk/23446/1/Winfield_alife14_submission2.pdf">een schatting gemaakt hoeveel energie nodig is om complex, kunstmatige leven te laten evolueren</a>. Voorlopige conclusie: met die singularity zal het niet zo’n vaart lopen, totdat we efficiëntere substrates c.q. platformen hebben ontwikkeld om deep learning op te implementeren. Ter vergelijking: een supercomputer verbruikt net zoveel stroom als 10.000 huishoudens, een menselijk brein verbruikt slechts een equivalent van kleine ledlamp.</p>
-
-
-</section>
-
- ]]></description>
-  <category>nederlands</category>
-  <category>responsible ai</category>
-  <guid>https://kapitan.net/blog/azimov.html</guid>
-  <pubDate>Tue, 01 May 2018 00:00:00 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/asimov-law-robotics.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
