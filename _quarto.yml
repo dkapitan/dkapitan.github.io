@@ -74,7 +74,7 @@ website:
 
 format:
   html:
-    page-layout: full
+    # page-layout: full
     date-format: "MMM YYYY"
     theme:
       light:
