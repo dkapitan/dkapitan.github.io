@@ -23,7 +23,7 @@
 <p><br></p>
 <p>Met de komst van de AI Verordening moeten alle organisaties die AI gebruiken of ontwikkelen vanaf deze maand ervoor zorgen dat hun <a href="https://www.autoriteitpersoonsgegevens.nl/themas/algoritmes-ai/ai-verordening/ai-geletterdheid">medewerkers ‘AI-geletterd’ zijn</a>. Los van de vraag of het zinnig is om dit als verplichting op te nemen in een nieuwe wet - daarover later meer - lijkt mij dit op zich een goede zaak. Het is logisch om binnen de toenemende digitalisering van onze samenleving aandacht te vragen voor digitale vaardigheden (“bekwaamheid en begrip van internet-, computer- en softwaregebruik”), datageletterdheid (“vermogen om zinvolle informatie af te leiden uit gegevens (data) en gegevensverzamelingen”) en nu dus ook AI-geletterdheid (“vaardigheden, kennis en begrip hebben over de technische werking van AI-systemen, maar ook over de sociale, ethische en praktische aspecten”). Het is misschien behulpzaam om deze vaardigheden als concentrische cirkels te zien, waarbij ik denk dat AI-geletterdheid niet kan zonder datageletterdheid en digitale vaardigheden daar weer een onderliggende basis voor is.</p>
 <p><img src="https://kapitan.net/blog/images/geletterdheid.png" class="img-fluid"></p>
-<p>Weinig mensen zullen aanstoot nemen om brede maatschappelijke aandacht te vragen voor het ontwikkelen van deze vaardigheden. Vrij beschikbare online cursussen zoals het <a href="https://thedataliteracyproject.org/">Data Literacy Project</a> en <a href="https://www.elementsofai.com/">Elements of AI</a> kan ik hiervoor van harte aanbevelen.<sup>1</sup> Beide zijn zeer toegangkelijk en als je hebt afgerond zal de mystiek van data science en AI voor een groot deel verdwenen zijn. Mooi. Is dan hiermee alles gezegd?</p>
+<p>Weinig mensen zullen aanstoot nemen om brede maatschappelijke aandacht te vragen voor het ontwikkelen van deze vaardigheden. Vrij beschikbare online cursussen zoals het <a href="https://thedataliteracyproject.org/">Data Literacy Project</a> en <a href="https://www.elementsofai.com/">Elements of AI</a> kan ik hiervoor van harte aanbevelen.<sup>1</sup> Beide zijn zeer toegangkelijk en als je ze hebt afgerond zal de mystiek van data science en AI voor een groot deel verdwenen zijn. Mooi. Is dan hiermee alles gezegd?</p>
 <p>Ik denk het niet. Ik kan mij namelijk niet aan de indruk ontrekken dat goed bedoelde initatieven die streven om kennis over data science en AI bij een breed publiek over te dragen nogal de neiging hebben om de basis van dit alles, namelijk wiskunde, uit de weg te gaan.<sup>2</sup> Wellicht heeft het ermee te maken dat veel mensen last hebben van wiskunde-angst.</p>
 <p>Wat zeg je, bestaat dat? <a href="https://www.nporadio1.nl/nieuws/wetenschap-techniek/9b911cad-8230-4714-b19b-954ddbc4a9f2/kun-je-echt-last-hebben-van-wiskundeangst">Jazeker</a>. Als ik voor de klas sta voor een nieuwe groep bij het Mastering Data Science &amp; AI programma bij <a href="https://eaisi.nl/academy">EAISI Academy</a>, begin ik vaak met deelnemers te vragen hun hand op te steken als ze een lichte spanning voelen wanneer ze terugdenken het maken van wiskunde sommen tijdens hun middelbare schooltijd. Steevast gaat ongeveer een derde van de handen omhoog. Bij de verdediging van Daphne Miedema’s promotieonderzoek <a href="https://research.tue.nl/nl/publications/on-learning-sql-disentangling-concepts-in-data-systems-education">On Learning SQL</a> leerde ik dat <em>math anxiety</em> inderdaad bij circa 30% van studenten in technische studies een beperkende rol speelt om optimaal analytische vaardigheden aan te leren. Mijn vraag die als grap bedoelt was, is een echt fenomeen waar we rekening mee moeten houden wanneer we zoveel mogelijk mensen voldoende vaardig willen maken op het gebied van data science en AI.</p>
 <p>Als mensen een goed beeld willen hebben van wat data science en AI wel - en vooral niet - is, dan ontkomen we er niet aan om basisprincipes uit de wiskunde over te brengen. Niet iedereen hoeft wiskundige formules te kunnen herleiden, maar beginselen zoals bijvoorbeeld kansberekening en het leren lezen van een histogram zijn denk ik concepten die iedereen op haar of zijn niveau een bepaald begrip voor moet ontwikkelen om data- en AI-geletterd te zijn. Daarbij is denk ik vanwege de hype rondom large language models inmiddels zo’n verwrongen beeld ontstaan van wat AI nu is, dat iedereeen die een cursus heeft gedaan ‘hoe leer je prompts schrijven’ denkt dat ze daarmee voldoende voorbereid zijn. Niks is minder waar. Zolang je geen idee hebt hoe LLMs worden getraind (het voorspellen van het volgende woord) is het lastig te begrijpen waarom ze soms onzin uitkramen.<sup>3</sup></p>
@@ -2397,7 +2397,7 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
 <p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
 <p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div id="ea89ebcc" class="cell" data-execution_count="1">
+<div id="dcce7c55" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> altair <span class="im" style="color: #00769E;
@@ -2678,23 +2678,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9.vega-embed {
+  #altair-viz-b6a46fc1a78946de9fc63a49194f14f8.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9.vega-embed details,
-  #altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9.vega-embed details summary {
+  #altair-viz-b6a46fc1a78946de9fc63a49194f14f8.vega-embed details,
+  #altair-viz-b6a46fc1a78946de9fc63a49194f14f8.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9"></div>
+<div id="altair-viz-b6a46fc1a78946de9fc63a49194f14f8"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9") {
-      outputDiv = document.getElementById("altair-viz-efbe5a9ee4eb4a2b9c8f711ef90657a9");
+    if (outputDiv.id !== "altair-viz-b6a46fc1a78946de9fc63a49194f14f8") {
+      outputDiv = document.getElementById("altair-viz-b6a46fc1a78946de9fc63a49194f14f8");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
