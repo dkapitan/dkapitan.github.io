@@ -198,7 +198,7 @@ With a PhD in physics from University of Oxford and currently Fellow at the Eind
 Daniel starts when organizations are ready to embark on their digital journey, and finishes when people are enabled to continue to work with data and AI by themselves.
 
 ### Roles
-Daniel works as an advisor, architect, lecturer, applied researcher and mentor. He is one of the few specialists in the Netherlands who has the unique combination of corporate experience, scientific research and executive education. Through these various roles he aims to apply ‘AI for good’. He lectures on data and AI, publishes regularly and is an active member of the Data Sharing Coalition to foster data solidarity and secure data sharing for tackling societal issues.
+Daniel works as an advisor, architect, lecturer, applied researcher and mentor. He is one of the few specialists in the Netherlands who has the unique combination of corporate experience, scientific research and executive education. Through these various roles he aims to apply ‘AI for good’. He lectures on data and AI, publishes regularly and advocates for data solidarity and open source AI as a means towards more equitable use these technologies.
 
 ### Areas of expertise
 Explainable AI, physics-informed machine learning, data-centric AI, data architecture, federated learning, knowledge science, data commons.
