@@ -10,7 +10,7 @@
 <atom:link href="https://kapitan.net/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Wed, 26 Feb 2025 09:09:16 GMT</lastBuildDate>
+<lastBuildDate>Fri, 14 Mar 2025 16:41:02 GMT</lastBuildDate>
 <item>
   <title>Sensire</title>
   <link>https://kapitan.net/projects/sensire.html</link>
@@ -30,7 +30,7 @@
   <category>english</category>
   <category>data-centric ai</category>
   <guid>https://kapitan.net/projects/sensire.html</guid>
-  <pubDate>Wed, 26 Feb 2025 09:09:16 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 16:41:02 GMT</pubDate>
   <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -52,7 +52,7 @@
   <category>data-centric ai</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/blue-radix.html</guid>
-  <pubDate>Wed, 26 Feb 2025 09:09:16 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 16:41:02 GMT</pubDate>
   <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -79,7 +79,7 @@
   <category>data-centric ai</category>
   <category>coaching</category>
   <guid>https://kapitan.net/projects/roetz-life.html</guid>
-  <pubDate>Wed, 26 Feb 2025 09:09:16 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 16:41:02 GMT</pubDate>
   <media:content url="https://kapitan.net/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -99,7 +99,7 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://kapitan.net/projects/pharmaccess.html</guid>
-  <pubDate>Wed, 26 Feb 2025 09:09:16 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 16:41:02 GMT</pubDate>
   <media:content url="https://kapitan.net/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -121,7 +121,7 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/mytomorrows.html</guid>
-  <pubDate>Wed, 26 Feb 2025 09:09:16 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 16:41:02 GMT</pubDate>
   <media:content url="https://kapitan.net/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
@@ -144,7 +144,7 @@
   <category>applied AI</category>
   <category>lecturing</category>
   <guid>https://kapitan.net/projects/has.html</guid>
-  <pubDate>Wed, 26 Feb 2025 09:09:16 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 16:41:02 GMT</pubDate>
   <media:content url="https://kapitan.net/images/has.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -167,7 +167,7 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/amphia.html</guid>
-  <pubDate>Wed, 26 Feb 2025 09:09:16 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 16:41:02 GMT</pubDate>
   <media:content url="https://kapitan.net/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
