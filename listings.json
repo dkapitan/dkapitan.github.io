@@ -27,16 +27,6 @@
     ]
   },
   {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/thetford-toilet.html",
-      "/nugget/dakkoffer.html",
-      "/nugget/sfeerimpressie.html"
-    ]
-  },
-  {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/couscous-salade.html",
@@ -63,6 +53,7 @@
       "/recepten/yakisoba.html",
       "/recepten/miso-ramen.html",
       "/recepten/pad-thai.html",
+      "/recepten/harira.html",
       "/recepten/zalm-met-miso-mayo.html",
       "/recepten/tahu-telor.html",
       "/recepten/vegetarische-erwtensoep.html",
@@ -76,6 +67,16 @@
       "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
       "/recepten/zoete-aardappel-stamppot.html",
       "/recepten/courgette-soep.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/thetford-toilet.html",
+      "/nugget/dakkoffer.html",
+      "/nugget/sfeerimpressie.html"
     ]
   },
   {
