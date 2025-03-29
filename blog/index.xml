@@ -2397,7 +2397,7 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
 <p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
 <p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div id="745f45ca" class="cell" data-execution_count="1">
+<div id="b7d3ec80" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> altair <span class="im" style="color: #00769E;
@@ -2678,23 +2678,23 @@ font-style: inherit;">"black"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-435eddb07f344a7e9fd763816f032390.vega-embed {
+  #altair-viz-9374a43f341f469db989afc905510e9f.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-435eddb07f344a7e9fd763816f032390.vega-embed details,
-  #altair-viz-435eddb07f344a7e9fd763816f032390.vega-embed details summary {
+  #altair-viz-9374a43f341f469db989afc905510e9f.vega-embed details,
+  #altair-viz-9374a43f341f469db989afc905510e9f.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-435eddb07f344a7e9fd763816f032390"></div>
+<div id="altair-viz-9374a43f341f469db989afc905510e9f"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-435eddb07f344a7e9fd763816f032390") {
-      outputDiv = document.getElementById("altair-viz-435eddb07f344a7e9fd763816f032390");
+    if (outputDiv.id !== "altair-viz-9374a43f341f469db989afc905510e9f") {
+      outputDiv = document.getElementById("altair-viz-9374a43f341f469db989afc905510e9f");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
