@@ -10,7 +10,7 @@
 <atom:link href="https://kapitan.net/recepten/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Sun, 18 May 2025 15:45:44 GMT</lastBuildDate>
+<lastBuildDate>Sun, 18 May 2025 15:52:31 GMT</lastBuildDate>
 <item>
   <title>Couscous salade</title>
   <link>https://kapitan.net/recepten/couscous-salade.html</link>
@@ -56,7 +56,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/couscous-salade.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/couscous-salade.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -134,7 +134,7 @@
   <category>vegetarisch</category>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/courgette-soep.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/courgettesoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -182,7 +182,7 @@
   <category>vegetarisch</category>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/gegrilde-groenten-soep.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/gegrilde-groenten-soep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -253,7 +253,7 @@
   <category>Indonesisch</category>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/tahu-telor.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/tahu-telor.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -312,7 +312,7 @@
   <category>vegetarisch</category>
   <category>Indonesisch</category>
   <guid>https://kapitan.net/recepten/mung-bean-porridge.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/bubur-kacang-hijau.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -364,7 +364,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/black-pepper-tofu.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/black-pepper-tofu.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -416,7 +416,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/zoete-aardappel-stamppot.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/bloemkool-ovenschotel-met-gehakt.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -467,7 +467,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/bloemkool-ovenschotel.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/bloemkool-ovenschotel-met-gehakt.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -515,7 +515,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/geroosterde-witte-asperges.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/geroosterde-asperges.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -569,8 +569,54 @@
  ]]></description>
   <category>Indonesisch</category>
   <guid>https://kapitan.net/recepten/ayam-bakar.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/smoor-ayam.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Steamed broccoli with soy and ginger</title>
+  <link>https://kapitan.net/recepten/steamed-broccoli-soy-ginger.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="grid">
+<div class="g-col-8">
+<p>Bron: <a href="https://grubgalore.com/recipe/steamed-broccoli-with-soy-ginger/">https://grubgalore.com/recipe/steamed-broccoli-with-soy-ginger/</a></p>
+</div>
+<div class="g-col-4">
+<p><img src="https://kapitan.net/recepten/images/broccoli-ginger-sesame.jpg" class="img-fluid"></p>
+</div>
+</div>
+<section id="ingredienten" class="level2">
+<h2 class="anchored" data-anchor-id="ingredienten">Ingredienten</h2>
+<p>Voor 4 personen:</p>
+<ul>
+<li>1 large head of broccoli cut into florets or 2 packs broccolini</li>
+<li>2 heaped tbsp sesame seeds</li>
+<li>5 garlic cloves peeled and sliced</li>
+<li>3 tbsp soy sauce</li>
+<li>1/2 tsp toasted sesame oil</li>
+<li>juice of 1-2 limes</li>
+<li>thumb size piece of ginger, peeled</li>
+</ul>
+</section>
+<section id="bereidingswijze" class="level2">
+<h2 class="anchored" data-anchor-id="bereidingswijze">Bereidingswijze</h2>
+<p>In a dry wok (or pan) toast the sesame seeds until golden brown and set aside in a small dish.</p>
+<p>Gently fry the garlic in enough olive oil till golden brown. I find tilting the wok to the side easiest as it allows the oil to pool so it fries the garlic quicker. Drain the garlic chips on tissue paper and set aside.</p>
+<p>Leave 1 tbps of oil in the pan and add the sesame oil and soy sauce and lime juice. Grate the ginger and press through a fine sieve into the pan extracting as much juice as possible. Heat gently for two minutes. You are aiming for a balance of saltines, nuttiness and zing.</p>
+<p>Adjust the seasoning to suit.</p>
+<p>Steam the broccoli until slightly tender. Serve drizzled with the warmed dressing which you will need to keep stirring in the pan then top with the toasted sesame seeds and garlic chips.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Asian streetfood</category>
+  <guid>https://kapitan.net/recepten/steamed-broccoli-soy-ginger.html</guid>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
+  <media:content url="https://kapitan.net/recepten/images/broccoli-ginger-sesame.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Thaise salade met mango en avocado</title>
@@ -626,7 +672,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/thaise-salade.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/thaise-salade.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -675,7 +721,7 @@
 
  ]]></description>
   <guid>https://kapitan.net/recepten/roti-masala-kip.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/roti-kip.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -728,7 +774,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/szechuan-asperges.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/szechuan-asperges.png" medium="image" type="image/png" height="194" width="144"/>
 </item>
 <item>
@@ -781,7 +827,7 @@
  ]]></description>
   <category>Asian streetfood</category>
   <guid>https://kapitan.net/recepten/thaise-rode-curry.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/thaise-rode-curry.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -861,7 +907,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/harira.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/harira.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -937,7 +983,7 @@
  ]]></description>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/oostenrijkse-goulashsoep.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/oostenrijkse-goulashsoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -994,7 +1040,7 @@
   <category>Indonesisch</category>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/soto-ayam.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/soto-ayam.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1046,7 +1092,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/buffalo-bloemkoolwings.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/buffalo-bloemkoolwings.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1100,68 +1146,12 @@
  ]]></description>
   <category>Asian streetfood</category>
   <guid>https://kapitan.net/recepten/gua-bao-buns.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
+  <pubDate>Sun, 18 May 2025 15:52:31 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/Gua-Bao-Buns-Pork-Belly-square.webp" medium="image" type="image/webp"/>
-</item>
-<item>
-  <title>Smoor ayam</title>
-  <link>https://kapitan.net/recepten/smoor-ayam.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="grid">
-<div class="g-col-8">
-<p>De meest bekende boemboe in Nederland denk ik: Ajam smoor. Of ayam semur zoals ze in Indonesië zeggen. Of gewoon ‘smoor’ zoals wij thuis zeggen. In elke supermarkt is ‘boemboe ajam smoor’ te koop. Een kant-en-klare pasta die je een beetje aanbakt en dan aanlengt met water. Eerlijk is eerlijk, er zitten beste goeie tussen. Maar hey, als je toch de tijd hebt om te ‘smoren’ (letterlijk: stoven in het Indonesisch), neem dan 10 minuten extra tijd en maak zelf een super lekkere boemboe. Daar kan geen pakje tegenop. Eet het met witte rijst en bijvoorbeeld&nbsp;sambal goreng boontjes&nbsp;of een ander Indisch groentegerecht. Uiteraard mag de&nbsp;atjar ketimoen&nbsp;of&nbsp;atjar tjampoer&nbsp;ook niet ontbreken.</p>
-<p>Bron: <a href="https://smaakmenutie.nl/ajam-smoor/">https://smaakmenutie.nl/ajam-smoor/</a></p>
-</div>
-<div class="g-col-4">
-<p><img src="https://kapitan.net/recepten/images/smoor-ayam.jpg" class="img-fluid"></p>
-</div>
-</div>
-<section id="ingredienten" class="level2">
-<h2 class="anchored" data-anchor-id="ingredienten">Ingredienten</h2>
-<p>Voor 4 personen:</p>
-<ul>
-<li>1 kg drumsticks</li>
-<li>4 sjalotten (of 2 uien)</li>
-<li>3 tenen knoflook</li>
-<li>3 kemirinoten (optioneel)</li>
-<li>2 salamblaadjes (laurierblaadjes)</li>
-<li>1 rode peper (lombok)</li>
-<li>1 stengel sereh (citroengras)</li>
-<li>1 tomaat</li>
-<li>1 tl nootmuskaat</li>
-<li>1 tl laos</li>
-<li>1 tl djahe (gemberpoeder)</li>
-<li>2 tl gula djawa (palmsuiker)</li>
-<li>1/2 tl assem (tamerindepasta)</li>
-<li>6 el ketjap manis</li>
-</ul>
-</section>
-<section id="bereidingswijze" class="level2">
-<h2 class="anchored" data-anchor-id="bereidingswijze">Bereidingswijze</h2>
-<p>Neem de kom van de staafmixer of foodprocessor en mix 4 sjalotjes, 3-4 tenen knoflook, 1 rode peper, 1 tomaat (liefst zonder vel), 1 tl nootmuskaat, 1 tl laos, 1 tl djahé, 1/2 tl assem, 2-3 tl gula djawa en optioneel 3 kemirinoten tot een gladde boemboe.</p>
-<p>Verwarm een flinke scheut olie in de (braad)pan of wok en fruit de boemboe enkele minuten of matig vuur.</p>
-<p>Voeg vervolgens 250-300 ml water toe en 5-6 flinke el ketjap manis. Breng het geheel tegen de kook.</p>
-<p>Voeg nu de kip drumsticks toe samen met 2 blaadjes salam en 1 gekneusde stengel sereh. Doe het deksel op de pan en laat het geheel nu minstens 90 minuten zachtjes smoren (stoven).</p>
-<p>Hoe langer je het smoort hoe malser de kip. Om het geheel wat in te dikken laat je het deksel de laatste 15 minuten van de pan.</p>
-<p>Proef of het smaakt naar wens. Voeg eventueel extra ketjap manis toe of sambal als je van wat meer spicy houdt.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Indonesisch</category>
-  <guid>https://kapitan.net/recepten/smoor-ayam.html</guid>
-  <pubDate>Sun, 18 May 2025 15:45:44 GMT</pubDate>
-  <media:content url="https://kapitan.net/recepten/images/smoor-ayam.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
-  <guid>https://kapitan.net/recepten/courgette-soep.html</guid>
-  <pubDate>Sat, 12 Apr 2025 17:37:36 GMT</pubDate>
+r 2025 17:37:36 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/courgettesoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

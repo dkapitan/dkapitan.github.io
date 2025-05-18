@@ -12,6 +12,7 @@
       "/recepten/bloemkool-ovenschotel.html",
       "/recepten/geroosterde-witte-asperges.html",
       "/recepten/ayam-bakar.html",
+      "/recepten/steamed-broccoli-soy-ginger.html",
       "/recepten/thaise-salade.html",
       "/recepten/roti-masala-kip.html",
       "/recepten/szechuan-asperges.html",
@@ -46,15 +47,13 @@
     ]
   },
   {
-    "listing": "/projects/index.html",
+    "listing": "/nugget/index.html",
     "items": [
-      "/projects/sensire.html",
-      "/projects/roetz-life.html",
-      "/projects/amphia.html",
-      "/projects/blue-radix.html",
-      "/projects/pharmaccess.html",
-      "/projects/has.html",
-      "/projects/mytomorrows.html"
+      "/nugget/dakkoffer.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/thetford-toilet.html",
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html"
     ]
   },
   {
@@ -85,13 +84,15 @@
     ]
   },
   {
-    "listing": "/nugget/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/thetford-toilet.html",
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html"
+      "/projects/sensire.html",
+      "/projects/roetz-life.html",
+      "/projects/amphia.html",
+      "/projects/blue-radix.html",
+      "/projects/pharmaccess.html",
+      "/projects/has.html",
+      "/projects/mytomorrows.html"
     ]
   }
 ]
