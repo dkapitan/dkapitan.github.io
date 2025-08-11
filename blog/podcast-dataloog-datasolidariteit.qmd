@@ -9,6 +9,7 @@ image: /images/podcast-de-dataloog.jpg
 html:
     code-fold: true
 categories: [nederlands, podcast, data commons, data solidarity]
+lang: nl
 ---
 
 

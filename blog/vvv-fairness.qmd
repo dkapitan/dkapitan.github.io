@@ -12,6 +12,7 @@ image: ./images/vvv-dkapitan.png
 html:
     code-fold: true
 categories: [nederlands, fairness]
+lang: nl
 ---
 
 ```{=html}

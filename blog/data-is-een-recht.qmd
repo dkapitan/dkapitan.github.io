@@ -7,6 +7,7 @@ date: 2023-09-20
 date-format: "MMM YYYY"
 image: /images/YasminDwiputri-DataHazards.png
 categories: [nederlands, data solidarity]
+lang: nl
 ---
 
 De nieuwe Europese Data Governance Verordening is vanaf maandag 24 september van toepassing in alle Europese lidstaten. Het is belangrijke wetgeving, die is ontworpen om de nu nog te beperkte uitwisseling van data binnen de EU te stimuleren. Op Europees niveau wordt hard gewerkt aan een vrij verkeer van data, vergelijkbaar met het vrije verkeer van goederen of personen. Met de Data Governance Verordening wil de EU onder meer het vertrouwen in het delen van gegevens vergroten en het hergebruik van bepaalde gegevens in handen van de overheid makkelijker maken. In beginsel allemaal goed nieuws.

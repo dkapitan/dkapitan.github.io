@@ -7,6 +7,7 @@ date: 2019-09-23
 date-format: "MMM YYYY"
 image: /images/happi-app-datalab-scaled-1-2048x652.png
 categories: [nederlands, healthcare]
+lang: nl
 ---
 
 Happi ondersteunt HIV-patiënten proactief bij het ‘managen’ van hun ziekte. Gebruikers kunnen in de gratis app onder andere signalen instellen wanneer het tijd is om hun medicatie te nemen, of hun polikliniekbezoek voorbereiden. In mijn tijd bij Mediquest heb ik het 'datalab', zijnde de achterkant van de Happi app ontworpen en geïmplenteerd. Lees meer over dit project in onderstaand artikel dat in _the Lancet_ verscheen en de presentatie die ik samen met Joop Arends gaf bij het ministerie van VWS.

@@ -13,6 +13,7 @@ image: ./images/data-in-de-zorg-shutterstock_2419651697.jpg
 html:
     code-fold: true
 categories: [nederlands, data solidarity]
+lang: nl
 ---
 
 ## Data zijn een gemeengoed

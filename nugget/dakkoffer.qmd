@@ -4,6 +4,7 @@ description: |
     Montage en gebruik van de dakkoffer.
 image: ./dakkoffer.jpg
 categories: [gebruik]
+lang: nl
 ---
 
 ![](dakkoffer.jpg)

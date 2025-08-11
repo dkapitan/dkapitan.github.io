@@ -10,6 +10,7 @@ image: /images/still-knmg.png
 html:
     code-fold: true
 categories: [nederlands, webinar, responsible ai, healthcare]
+lang: nl
 ---
 
 #

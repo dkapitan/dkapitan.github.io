@@ -9,6 +9,7 @@ image: /images/alexander-grey-TZZwC_xsClY-unsplash.jpg
 html:
     code-fold: true
 categories: [nederlands, responsible ai]
+lang: nl
 ---
 
 Het gebruik van algoritmen voor toezicht door de overheid blijft een heikel punt. Bij het verschijnen van het vierde en vijfde rapport over de Fraudesignaleringsvoorziening (FSV) bij de Belastingdienst.[^1] liet de politiek geen kans onbenut om in krachtige termen haar ongenoegen te uiten: ‘schandalig’, ‘racistisch’, ‘woest makend’ en ‘oneerlijk’. In de Tweede Kamer werd met ruime meerderheid een motie aangenomen[^2] om impact assessments verplicht te stellen ter voorkoming van misbruik van algoritmen. Maar om tot eerlijke algoritmen te komen, is meer nodig.

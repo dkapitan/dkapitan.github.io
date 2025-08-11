@@ -5,6 +5,7 @@ description: |
 image: ./pop-top.jpg
 lightbox: auto
 categories: [gebruiksaanwijzing]
+lang: nl
 ---
 
 ::: {layout="[[10, -1 , 10], [1], [10, -1, 10, -1, 10]]"}

@@ -7,6 +7,7 @@ date: 2020-10-18
 date-format: "MMM YYYY"
 image: /images/ddw19-health-embassy.jpg
 categories: [nederlands, data commons]
+lang: nl
 ---
 
 Nieuwe handelingsperspectieven voor het gebruik, het beheer en de opslag van medische data: in de Waag Talk over datacommons tijdens Dutch Design Week gingen we in gesprek over het eigenaarschap van medische gegevens. Want die gegevens kunnen veel betekenen voor onderzoek en het stellen van diagnoses, maar ze zijn ook zeer persoonlijk. Hoe kun je het systeem zo inrichten dat mensen altijd zelf de eigenaar zijn van hun medisch dossier en hun medische gegevens, en dat ze zelf kunnen besluiten wanneer ze wat vrijgeven?

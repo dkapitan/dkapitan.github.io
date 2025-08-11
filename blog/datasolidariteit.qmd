@@ -7,6 +7,7 @@ date: 2022-12-27
 date-format: "MMM YYYY"
 image: /images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg
 categories: [nederlands, data commons, data solidarity]
+lang: nl
 ---
 Privacy domineert nog steeds het debat rondom het delen en hergebruik van persoonsgegevens, zoals blijkt uit de discussie rondom het verstrekken van vaccinatiegegevens door het RIVM aan het CBS. Maar privacy is het probleem niet.
 

@@ -4,6 +4,7 @@ description: Reflectie op de Europese ambities en onderzoeksagenda.
 date: 2018-05-01
 image: /images/asimov-law-robotics.jpg
 categories: [nederlands, responsible ai]
+lang: nl
 ---
 
 #

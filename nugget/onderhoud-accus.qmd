@@ -4,6 +4,7 @@ description: |
     Laat de accu's niet leeg lopen.
 image: ./camper-accu-laden.jpg
 categories: [onderhoud]
+lang: nl
 ---
 
 ## Accu's in goede conditie houden

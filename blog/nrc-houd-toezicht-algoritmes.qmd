@@ -7,6 +7,7 @@ date-format: "MMM YYYY"
 image: /images/nrc-open-source.jpg
 toc: false
 categories: [nederlands, responsible ai]
+lang: nl
 ---
 
 #

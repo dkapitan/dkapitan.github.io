@@ -9,6 +9,7 @@ image: /images/podcast-aitoday.jpg
 html:
     code-fold: true
 categories: [nederlands, podcast, responsible ai]
+lang: nl
 ---
 
 

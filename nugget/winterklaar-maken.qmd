@@ -4,6 +4,7 @@ description: |
     Checklist voor de winterperiode.
 image: ./winter.jpg
 categories: [onderhoud]
+lang: nl
 ---
 
 ## Het legen van de watertanks
