@@ -6,6 +6,7 @@ date: 2025-02-25
 date-format: "MMM YYYY"
 image: ./images/geletterdheid.png
 categories: [nederlands, geletterdheid]
+lang: nl
 ---
 <br>
 
