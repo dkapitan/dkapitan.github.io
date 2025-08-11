@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: docs
 
+lang: en
+
 website:
   title: "Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching & Mentoring | Masterclasses & Public Speaking"
   site-url: https://kapitan.net
