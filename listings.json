@@ -1,62 +1,5 @@
 [
   {
-    "listing": "/recepten/index.html",
-    "items": [
-      "/recepten/couscous-salade.html",
-      "/recepten/courgette-soep.html",
-      "/recepten/gegrilde-groenten-soep.html",
-      "/recepten/tahu-telor.html",
-      "/recepten/mung-bean-porridge.html",
-      "/recepten/black-pepper-tofu.html",
-      "/recepten/zoete-aardappel-stamppot.html",
-      "/recepten/bloemkool-ovenschotel.html",
-      "/recepten/geroosterde-witte-asperges.html",
-      "/recepten/ayam-bakar.html",
-      "/recepten/steamed-broccoli-soy-ginger.html",
-      "/recepten/thaise-salade.html",
-      "/recepten/roti-masala-kip.html",
-      "/recepten/szechuan-asperges.html",
-      "/recepten/thaise-rode-curry.html",
-      "/recepten/harira.html",
-      "/recepten/oostenrijkse-goulashsoep.html",
-      "/recepten/soto-ayam.html",
-      "/recepten/buffalo-bloemkoolwings.html",
-      "/recepten/gua-bao-buns.html",
-      "/recepten/smoor-ayam.html",
-      "/recepten/ottolenghi-roasted-eggplant.html",
-      "/recepten/sauteed-spinach-onions-mushroom.html",
-      "/recepten/tian-de-legumes.html",
-      "/recepten/yakisoba.html",
-      "/recepten/minestrone-soep.html",
-      "/recepten/zalm-met-miso-mayo.html",
-      "/recepten/sticky-aubergine-met-rijst.html",
-      "/recepten/spicy-linzensoep.html",
-      "/recepten/vegetarische-erwtensoep.html",
-      "/recepten/deya's-porridge.html",
-      "/recepten/miso-ramen.html",
-      "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
-      "/recepten/dahl-met-zoete-aardappel.html",
-      "/recepten/koreanse-wrap-met-biefstuk.html",
-      "/recepten/ottolenghi-pasta-a-la-norma.html",
-      "/recepten/pad-thai.html",
-      "/recepten/lia-warani.html",
-      "/recepten/gebakken-griet.html",
-      "/recepten/haricotverts-ottolenghi.html",
-      "/recepten/moeders-aardappelgratin.html",
-      "/recepten/mac-cheese-pompoen-spinazie.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/dakkoffer.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/thetford-toilet.html",
-      "/nugget/onderhoud-accus.html",
-      "/nugget/winterklaar-maken.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/geletterdheid.html",
@@ -84,15 +27,72 @@
     ]
   },
   {
+    "listing": "/recepten/index.html",
+    "items": [
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/thaise-salade.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/steamed-broccoli-soy-ginger.html",
+      "/recepten/sauteed-spinach-onions-mushroom.html",
+      "/recepten/pad-thai.html",
+      "/recepten/yakisoba.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/harira.html",
+      "/recepten/couscous-salade.html",
+      "/recepten/mac-cheese-pompoen-spinazie.html",
+      "/recepten/minestrone-soep.html",
+      "/recepten/sticky-aubergine-met-rijst.html",
+      "/recepten/miso-ramen.html",
+      "/recepten/spicy-linzensoep.html",
+      "/recepten/dahl-met-zoete-aardappel.html",
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/vegetarische-erwtensoep.html",
+      "/recepten/ottolenghi-roasted-eggplant.html",
+      "/recepten/tahu-telor.html",
+      "/recepten/courgette-soep.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/lia-warani.html",
+      "/recepten/gegrilde-groenten-soep.html",
+      "/recepten/thaise-rode-curry.html",
+      "/recepten/zalm-met-miso-mayo.html",
+      "/recepten/smoor-ayam.html",
+      "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
+      "/recepten/moeders-aardappelgratin.html",
+      "/recepten/ottolenghi-pasta-a-la-norma.html",
+      "/recepten/ayam-bakar.html",
+      "/recepten/gua-bao-buns.html",
+      "/recepten/soto-ayam.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/gebakken-griet.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/black-pepper-tofu.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/mung-bean-porridge.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/buffalo-bloemkoolwings.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/sensire.html",
-      "/projects/roetz-life.html",
       "/projects/amphia.html",
+      "/projects/roetz-life.html",
       "/projects/blue-radix.html",
-      "/projects/pharmaccess.html",
       "/projects/has.html",
-      "/projects/mytomorrows.html"
+      "/projects/pharmaccess.html",
+      "/projects/mytomorrows.html",
+      "/projects/sensire.html"
+    ]
+  },
+  {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/onderhoud-accus.html",
+      "/nugget/dakkoffer.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/thetford-toilet.html"
     ]
   }
 ]
