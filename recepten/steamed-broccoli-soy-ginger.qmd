@@ -3,7 +3,7 @@ title: Steamed broccoli with soy and ginger
 description: |
     Easy alternative to plain boiled broccoli.
 image: ./images/broccoli-ginger-sesame.jpg
-categories: [Asian streetfood]
+categories: [vegetarisch]
 ---
 
 :::{.grid}
