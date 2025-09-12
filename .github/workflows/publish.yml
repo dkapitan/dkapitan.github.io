@@ -25,7 +25,6 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - run: curl -fsSL https://d2lang.com/install.sh | sh -s --
       - run: quarto add --no-prompt data-intuitive/quarto-d2
-      - run: uv pip install --system jupyter
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
