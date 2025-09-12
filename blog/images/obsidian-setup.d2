@@ -1,0 +1,105 @@
+MacBook: {
+  near: top-left
+  icon: https://icons.terrastruct.com/tech%2Flaptop.svg
+  icon.near: outside-top-right
+  label.near: top-right
+
+  calibre: {
+    icon: ./images/Calibre_logo_3.png
+    icon.near: outside-top-left
+    label.near: outside-top-right
+    content server
+  }
+
+  Obsidian: {
+    icon: ./images/Obsidian_software_logo.svg
+    icon.near: outside-top-left
+    label.near: outside-top-right
+
+    calibre
+    d2
+    git
+    scrybble
+  }
+
+  calibre.content server -- Obsidian.calibre
+
+  Syncthing: {
+    icon: https://play-lh.googleusercontent.com/KIy_dqUdZqcsTq4GDstHrHwLRvu60gT3v0p41gw792BC6OxamNhUw2eIy0-LI05qNEA=w240-h480-rw
+    icon.near: outside-top-left
+    label.near: outside-top-right
+
+    ~/calibre: {
+      shape: image
+      icon: https://icons.terrastruct.com/essentials%2F245-folder.svg
+    }
+    ~/obsidian-journal: {
+      shape: image
+      icon: https://icons.terrastruct.com/essentials%2F245-folder.svg
+    }
+  }
+  calibre -- Syncthing.~/calibre
+  Obsidian -- Syncthing.~/obsidian-journal
+}
+
+Pixel: {
+  near: top-right
+  icon: https://icons.terrastruct.com/tech%2F052-smartphone-3.svg
+  icon.near: outside-top-right
+  label.near: top-right
+
+  Moon+ Reader: {
+    shape: image
+    icon: https://play-lh.googleusercontent.com/DSZo9j5cd46iHJNg1WvqQUfxdOiufs4LEnKuwmiY4wzYS-enODO4pYQOEc9auExxkQ=w240-h480-rw
+  }
+
+  Obsidian: {
+    shape: image
+    icon: ./images/Obsidian_software_logo.svg
+  }
+
+  Syncthing: {
+    icon: https://play-lh.googleusercontent.com/KIy_dqUdZqcsTq4GDstHrHwLRvu60gT3v0p41gw792BC6OxamNhUw2eIy0-LI05qNEA=w240-h480-rw
+    icon.near: outside-top-left
+    label.near: outside-top-right
+
+    /calibre: {
+      shape: image
+      icon: https://icons.terrastruct.com/essentials%2F245-folder.svg
+    }
+    /obsidian-journal: {
+      shape: image
+      icon: https://icons.terrastruct.com/essentials%2F245-folder.svg
+    }
+  }
+  obsidian -- Syncthing./obsidian-journal
+  Moon+ Reader -- Syncthing./calibre
+}
+
+MacBook.Syncthing <-> Pixel.Syncthing
+
+reMarkable 2: {
+  near: bottom-right
+  shape: image
+  icon: https://icons.terrastruct.com/tech%2F079-tablet-1.svg
+  label.near: outside-right-center
+}
+
+scrybble: {
+  near: bottom-left
+  shape: image
+  icon: https://icons.terrastruct.com/tech%2Fbrowser-2.svg
+  label.near: outside-left-center
+}
+
+reMarkable Connect: {
+  shape: image
+  icon: https://icons.terrastruct.com/infra%2F019-network.svg
+  label.near: outside-top-center
+  width: 50
+  height: 50
+}
+
+reMarkable Connect -- scrybble: API
+reMarkable Connect -- reMarkable 2
+scrybble -- MacBook.Obsidian.scrybble

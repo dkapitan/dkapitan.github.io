@@ -1,6 +1,6 @@
 ---
 title: Datasolidariteit
-subtitle: Interview bij the Optimist radio
+subtitle: Interview bij Optimist Spotlight
 description: In gesprek met Brian de Mello en Mick van Geijn met als doel om het thema datasolidariteit voor een breder publiek te duiden.
 author: Daniel Kapitan
 date: 2025-09-04
