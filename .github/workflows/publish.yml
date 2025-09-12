@@ -21,7 +21,8 @@ jobs:
       #   run: uv python install
       - name: Install the project
         run: uv sync --locked --all-extras --dev
-      - run: source .venv/bin/activate
+      - name: Add venv to PATH
+        run: echo "$(pwd)/.venv/bin" >> $GITHUB_PATH
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       - run: curl -fsSL https://d2lang.com/install.sh | sh -s --
