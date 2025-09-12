@@ -9,8 +9,8 @@
 <link>https://kapitan.net/projects/</link>
 <atom:link href="https://kapitan.net/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.33</generator>
-<lastBuildDate>Mon, 11 Aug 2025 08:11:35 GMT</lastBuildDate>
+<generator>quarto-1.7.34</generator>
+<lastBuildDate>Fri, 12 Sep 2025 06:32:53 GMT</lastBuildDate>
 <item>
   <title>Amphia Sensium</title>
   <link>https://kapitan.net/projects/amphia.html</link>
@@ -31,7 +31,7 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/amphia.html</guid>
-  <pubDate>Mon, 11 Aug 2025 08:11:35 GMT</pubDate>
+  <pubDate>Fri, 12 Sep 2025 06:32:53 GMT</pubDate>
   <media:content url="https://kapitan.net/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -58,30 +58,8 @@
   <category>data-centric ai</category>
   <category>coaching</category>
   <guid>https://kapitan.net/projects/roetz-life.html</guid>
-  <pubDate>Mon, 11 Aug 2025 08:11:35 GMT</pubDate>
+  <pubDate>Fri, 12 Sep 2025 06:32:53 GMT</pubDate>
   <media:content url="https://kapitan.net/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Blue Radix</title>
-  <link>https://kapitan.net/projects/blue-radix.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="section" class="level1">
-<h1></h1>
-<p>Stay tuned, more to follow soon.</p>
-
-
-</section>
-
- ]]></description>
-  <category>data-centric ai</category>
-  <category>mentoring</category>
-  <guid>https://kapitan.net/projects/blue-radix.html</guid>
-  <pubDate>Mon, 11 Aug 2025 08:11:35 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>HAS Green Academy</title>
@@ -103,8 +81,52 @@
   <category>applied AI</category>
   <category>lecturing</category>
   <guid>https://kapitan.net/projects/has.html</guid>
-  <pubDate>Mon, 11 Aug 2025 08:11:35 GMT</pubDate>
+  <pubDate>Fri, 12 Sep 2025 06:32:53 GMT</pubDate>
   <media:content url="https://kapitan.net/images/has.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Sensire</title>
+  <link>https://kapitan.net/projects/sensire.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<p>More to follow soon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>english</category>
+  <category>data-centric ai</category>
+  <guid>https://kapitan.net/projects/sensire.html</guid>
+  <pubDate>Fri, 12 Sep 2025 06:32:53 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Blue Radix</title>
+  <link>https://kapitan.net/projects/blue-radix.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="section" class="level1">
+<h1></h1>
+<p>Stay tuned, more to follow soon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>data-centric ai</category>
+  <category>mentoring</category>
+  <guid>https://kapitan.net/projects/blue-radix.html</guid>
+  <pubDate>Fri, 12 Sep 2025 06:32:53 GMT</pubDate>
+  <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>PharmAccess Foundation</title>
@@ -123,7 +145,7 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://kapitan.net/projects/pharmaccess.html</guid>
-  <pubDate>Mon, 11 Aug 2025 08:11:35 GMT</pubDate>
+  <pubDate>Fri, 12 Sep 2025 06:32:53 GMT</pubDate>
   <media:content url="https://kapitan.net/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -145,30 +167,8 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/mytomorrows.html</guid>
-  <pubDate>Mon, 11 Aug 2025 08:11:35 GMT</pubDate>
+  <pubDate>Fri, 12 Sep 2025 06:32:53 GMT</pubDate>
   <media:content url="https://kapitan.net/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
-</item>
-<item>
-  <title>Sensire</title>
-  <link>https://kapitan.net/projects/sensire.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="section" class="level1">
-<h1></h1>
-<p>More to follow soon.</p>
-
-
-</section>
-
- ]]></description>
-  <category>english</category>
-  <category>data-centric ai</category>
-  <guid>https://kapitan.net/projects/sensire.html</guid>
-  <pubDate>Mon, 11 Aug 2025 08:11:35 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
