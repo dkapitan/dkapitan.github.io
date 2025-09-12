@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -68,14 +68,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-6a3d12c26c2fc1597b84067804686218.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8cb0128ebd684da8dd6d8ff79664b76c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-72f09a5fe74d316f84994666935209ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6633c97995f9b0ba9a58a45118d4d2ad.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -126,7 +127,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -157,7 +158,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="navbar-logo">
+    <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="navbar-logo light-content">
+    <img src="../images/logo-dr-daniel-kapitan.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -182,12 +184,16 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="sidebar-tools-main tools-wide">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
     <a href="https://www.linkedin.com/in/dkapitan/" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/dkapitan" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
     <a href="https://kapitan.net/blog/index.xml" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
     <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
 </div>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -323,7 +329,7 @@ window.Quarto = {
 <section id="d0l-deterministic-context-free-l-system" class="level2">
 <h2 class="anchored" data-anchor-id="d0l-deterministic-context-free-l-system">D0L: deterministic context-free L-system</h2>
 <div id="cell-3" class="cell" data-cell_id="4f89aef0f75d4aa3808305b92a4925d3" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="21" data-execution_start="1619612317163" data-source_hash="8b352d4c" data-tags="[]">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define L-system</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define L-system</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">'A'</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">'A'</span>: <span class="st">'AB'</span>,</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         <span class="st">'B'</span>: <span class="st">'A'</span>}</span>
@@ -348,7 +354,7 @@ window.Quarto = {
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># main</span></span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>generate_d0l(AXIOM, productions, iterations)</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: A
 1: AB
@@ -363,19 +369,19 @@ window.Quarto = {
 </div>
 <p>I actually found the recursive Python implementation on this <a href="https://understanding-recursion.readthedocs.io/en/latest/16%20L-System%20Solution.html">introductory website on recursion</a>. While I still struggle to apply recursion, I find it satisfying to solve coding problems this way. And even with just these twenty lines of code, we have already stumbled on the <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a>! Have a look at the length of each successive sequence:</p>
 <div id="cell-5" class="cell" data-cell_id="7c9e0ab688d543ddb427e0706d09d8c1" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="135" data-execution_start="1619612317215" data-is_code_hidden="true" data-source_hash="8264db4e" data-tags="[]">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>([<span class="bu">len</span>(word) <span class="cf">for</span> word <span class="kw">in</span> productions])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>([<span class="bu">len</span>(word) <span class="cf">for</span> word <span class="kw">in</span> productions])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1, 2, 3, 5, 8, 13, 21, 34]</code></pre>
 </div>
 </div>
 <p>Awesome as the nature of code may be, we are still a long way off from actually generating a tree. For that, we need branching rules. To do so, basic L-systems also allow constants, which are left untouched by the production rules. It is common to add constants <code>+</code> and <code>-</code> to denote rotations when branching, and <code>[</code>,<code>]</code> for handling the locations of the branching points. For a fractal plant, the code is as follows:</p>
 <div id="cell-7" class="cell" data-cell_id="0edc13f7a3a94a8f8c6d39e03e99b6dd" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="134" data-execution_start="1619612317216" data-source_hash="b4945e20" data-tags="[]">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">"X"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">"X"</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">"X"</span>: <span class="st">"F+[[X]-X]-F[-FX]+X"</span>,</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>         <span class="st">"F"</span>: <span class="st">"FF"</span>}</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>generate_d0l(AXIOM, productions, iterations)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: X
 1: F+[[X]-X]-F[-FX]+X
@@ -399,7 +405,7 @@ p2: F(0.33) → F[+F]F
 p3: F(0.34) → F[−F]F</code></pre>
 <p>the Python implementation could look something like this:</p>
 <div id="cell-10" class="cell" data-cell_id="4e3895f0f15b431a9489742b3f7cd84f" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="10" data-execution_start="1619612508337" data-source_hash="77e3defc" data-tags="[]">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy.random <span class="im">import</span> default_rng</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy.random <span class="im">import</span> default_rng</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">"F"</span></span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {<span class="st">"F"</span>: [<span class="st">"F[+F]F[−F]F"</span>, <span class="st">"F[+F]F"</span>, <span class="st">"F[−F]F"</span>]}</span>
@@ -428,7 +434,7 @@ p3: F(0.34) → F[−F]F</code></pre>
 <span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>generate_stochastic(AXIOM, productions, iterations)</span>
-<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: F
 1: F[−F]F
@@ -439,10 +445,10 @@ p3: F(0.34) → F[−F]F</code></pre>
 </div>
 <p>Here’s another run with a different result:</p>
 <div id="cell-12" class="cell" data-cell_id="ec7650359b644649a843d7a30e0ce467" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="0" data-execution_start="1619612520082" data-is_code_hidden="true" data-source_hash="32960fdd" data-tags="[]">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># show that a new run generates different result</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># show that a new run generates different result</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>generate_stochastic(AXIOM, productions, iterations)</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: F
 1: F[+F]F[−F]F
@@ -456,7 +462,7 @@ p3: F(0.34) → F[−F]F</code></pre>
 <h2 class="anchored" data-anchor-id="adding-parameters">Adding parameters</h2>
 <p>In a parametric L-system, letters are allowed to have parameters, which correspond with formal parameters used in the specification of L-system productions. This can be used to model <em>Anabaena catenula</em> (taken from <a href="http://algorithmicbotany.org/papers/hanan.dis1992.html">Hanan’s dissertation</a>):</p>
 <div id="cell-14" class="cell" data-cell_id="ffbb155396f541bea91cdddafa44a742" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="71" data-execution_start="1619612317279" data-source_hash="ddba2700" data-tags="[]">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> namedtuple</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> namedtuple</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># parameters</span></span>
@@ -501,7 +507,7 @@ p3: F(0.34) → F[−F]F</code></pre>
 <span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>generate_parametric(AXIOM, productions, iterations)</span>
-<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: [F(s=1, t=2, o=1)]
 1: [F(s=2, t=1, o=1)]
@@ -519,14 +525,14 @@ p3: F(0.34) → F[−F]F</code></pre>
 <h1>Using pyp5js for Pythonic drawing on the web</h1>
 <p>When Lindenmayer devised the L-system, <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">Logo</a> was one of the few programming langauges available. It included <a href="https://en.wikipedia.org/wiki/Turtle_graphics">turtle graphics</a> and thus the basis of algorithmic art was born by translating the alphabet of an L-system to turtle commands. The examples from the Nature of Code have in fact <a href="https://github.com/nature-of-code/noc-examples-processing/blob/master/chp08_fractals/NOC_8_09_LSystem/Turtle.pde">implemented this in Processing</a>. But rather than constrain yourself to the desktop, more mileage can be had by using <a href="https://p5js.org">p5js</a> which is “… an interpretation of Processing for today’s web”. To demonstrate, take the following example:</p>
 <div id="cell-17" class="cell" data-cell_id="339bc90f77ba4f03ae639db0ba417ad8" data-deepnote_cell_type="code" data-deepnote_to_be_reexecuted="false" data-execution_millis="73" data-execution_start="1619612317283" data-source_hash="cbe4ac7d" data-tags="[]">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">'G'</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>AXIOM <span class="op">=</span> <span class="st">'G'</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>RULES <span class="op">=</span> {</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'F'</span>: <span class="st">'FF'</span>,</span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'G'</span>: <span class="st">'F-[[G]+G]+F[+FG]-G'</span></span>
 <span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>productions <span class="op">=</span> [AXIOM]</span>
 <span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>generate_d0l(AXIOM, productions, iterations<span class="op">=</span><span class="dv">5</span>)</span>
-<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">''</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span> <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(productions)]))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0: G
 1: F-[[G]+G]+F[+FG]-G
@@ -597,13 +603,14 @@ p3: F(0.34) → F[−F]F</code></pre>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
