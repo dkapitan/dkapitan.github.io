@@ -58,21 +58,17 @@ website:
   page-footer:
     left: |
       <br>
+      __Chamber of Commerce (KvK):__ 52920259<br>
+      __RSIN:__ 850665851
+    center: |
+      <br>
+      __IBAN:__ NL47 KNAB 0259 5268 27<br>
+      __Terms & Conditions__ in [Dutch](/resources/230901-algemene-voorwaarden.pdf)
+    right: |
+      <br>
       Copyright &copy; 2023 Daniel Kapitan<br>
       This website was created with 
       [![](/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)
-    center: |
-      <br>
-      __Postal address:__<br>
-      DWMM Holding B.V.<br>
-      Marie Baronstraat 15<br>
-      3056 AA  ROTTERDAM
-    right: |
-      <br>
-      __Chamber of Commerce (KvK):__ 52920259<br>
-      __RSIN:__ 850665851<br>
-      __IBAN:__ NL47 KNAB 0259 5268 27<br>
-      __Terms & Conditions__ in [Dutch](/resources/230901-algemene-voorwaarden.pdf)<br>
 
 format:
   html:
