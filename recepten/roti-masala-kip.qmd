@@ -1,0 +1,42 @@
+---
+title: Roti kip
+description: |
+    Makkelijk zelf te maken, met kant-en-klare roti uit de toko.
+image: ./images/roti-kip.jpg
+categories: []
+---
+
+:::{.grid}
+:::{.g-col-8}
+Toch eens een keer vegetarisch proberen?
+
+
+:::
+:::{.g-col-4}
+![](./images/roti-kip.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 2 uien
+- 4 teentjes knoflook
+- 1 rode peper
+- 750 gr kippen dijvlees zonder bot
+- 750 gr stevig kokende aardappelen
+- 500 gr kouseband
+- 2 kleine Surinaamse maggi blokjes of 1 groot kipbouillon blokje
+- 1 tl zwarte peper
+- 1 tl gemalen komijn
+- 2 volle el Surinaamse masala
+- 2 el tomatenpuree
+- zonnebloemolie
+- zout
+
+## Bereidingswijze
+Schil de uien en knoflook en verwijder de zaadlijsten van de rode peper. Hak dit helemaal fijn, een hakmolentje doet hierbij wonderen. Snijd de kip in medium stukjes, ongeveer zo groot als een dobbelsteen. Schil de aardappelen en snijd deze in ongeveer dezelfde stukjes. De kouseband snijd je in stukjes van ongeveer 2cm lang. Zet alles op aparte borden klaar.
+
+Neem een grote wok en verhit hier 2el zonnebloemolie in. Fruit het ui/knoflook/peper mengsel een minuutje in de hete olie. Strooi, de peper, komijn en masala erbij en verkruimel de maggi blokjes erboven. Roer dit goed door en voeg eventueel een klein scheutje water toe. Bak dit even door totdat je een heerlijk geurende masala pasta hebt.
+
+Doe de stukjes kip erbij en bak deze in een paar minuten bruin. Schep de tomatenpuree erdoor en bak nog een minuutje door. Als laatst gaan de aardappels en kouseband erbij. Goed door elkaar mengen zodat alle aardappels en kouseband een laagje masala hebben. Breng op smaak met zout en zet daarna het vuur uit. Let op: dit hoeft niet gaar te zijn, want dat gebeurt in de stoofpot.

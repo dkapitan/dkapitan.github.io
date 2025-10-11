@@ -1,0 +1,42 @@
+---
+title: Thaise salade met mango en avocado
+description: |
+    Een salade van Wagamama, met een goddelijke combi van mango en avocado met een pittige dressing.
+image: ./images/thaise-salade.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Bron: [https://chickslovefood.com/recept/elises-favo-thaise-salade/](https://chickslovefood.com/recept/elises-favo-thaise-salade/)
+:::
+:::{.g-col-4}
+![](./images/thaise-salade.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 2 personen:
+
+- salade:
+  - 1 avocado
+  - 1 kleine mango (geschild en in parten)
+  - 1 zakje gemengde bladsla
+  - 100 gram taugé
+  - halve rode ui
+  - handje gebrande cashewnoten
+- dressing:
+  - 2 eetlepels mayonaise
+  - eetlepel witte ui 
+  - 2 eetlepels verse gember
+  - halve knoflookteen
+  - 1 eetlepel ketchup
+  - 1 eetlepel rijstazijn
+  - 2 eetlepels sojasaus
+  - 1 eetlepel water
+  - 1 eetlepel rode peper
+
+## Bereidingswijze
+Doe voor de dressing alle ingrediënten in de keukenmachine (of gebruik een staafmixer) en meng alles door elkaar tot een romige dressing. Zet de dressing even weg.
+
+Maak de salade op door eerst de sla op een diep bord te leggen. Leg vervolgens de mango, avocado, rode ui en taugé hier op. Giet de dressing over de salade en maak af met de cashewnoten.

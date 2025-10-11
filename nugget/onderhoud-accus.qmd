@@ -1,0 +1,17 @@
+---
+title: Onderhoud accus
+description: |
+    Laat de accu's niet leeg lopen.
+image: ./camper-accu-laden.jpg
+categories: [onderhoud]
+lang: nl
+---
+
+## Accu's in goede conditie houden
+
+Accu's gaan minder lang mee als je ze te leeg zijn. Daarnaast moet je ervoor zorgen dat de spanning van de huishoudaccu's niet onder de 6V komt. Onder die waarde laden ze namelijk niet meer op. 
+Als de Nugget in stalling staat of lang niet wordt gebruikt, dan moet **je de hoofdschakelaar van de accu uitzetten.**
+
+Daarnaast is het goed om bij langdurig stallen, de accu minimaal 48 uur per maand op te laden.
+
+![](hoofdschakelaar.jpg)

@@ -1,0 +1,56 @@
+---
+title: Tahu telor
+description: |
+    Ook bekend als tahu Semarang.
+image: ./images/tahu-telor.jpg
+categories: [Lia Warani, Indonesisch, vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Tahu telor is een omelet, of ook wel frittata, met tofu (tahu is het Indonesische woord voor tofu), een all time favorite. Vega, gezond en makkelijk. [Lia Warani](https://kapitan.net/recepten/lia-warani.html) maakt het met een ketjap-petis saus en met meel om het te binden. Wij gaan voor een modernere variant van [Vanya van der Leeden](https://miljuschka.nl/tahu-telor-luchtige-tofu-omelet-ketjap-notensaus/) met een ketjap-notensaus en melk. Door de omelet in de oven te garen wordt-ie extra luchtig, als een soufflé.
+
+:::
+:::{.g-col-4}
+![](./images/tahu-telor.jpg)
+:::
+:::
+
+
+## Ingredienten
+
+### Tahu telor
+
+- 8 eieren
+- 175 ml melk
+- 4 el kokosrasp
+- 1 tl komijnpoeder
+- 1 tl korianderpoeder
+- 1 tl trassipoeder (of een scheutje vissaus)
+- 3/4 tl zout
+- 1 knoflookteen, tot pulp geraspt
+- 1/2 bosje selderij fijngehakt
+- 1 tl palmsuiker (bruine basterdsuiker of kokosbloesemsuiker kan ook)
+
+### Saus
+
+- 1 middelgrote ui gesnipperd
+- 2 knoflooktenen fijngehakt
+- 1 el zonnebloemolie
+- 1 el sambal oelek
+- 2 tl biologisch groentebouillonpoeder of een 1/2 groentebouillonblokje
+- 5 limoenblaadjes gekneusd
+- 5 el ketjap manis
+- 1 tl trassipoeder (of laat het weg)
+- 4 el amandelpasta of pindakaas
+- 1/2 limoen
+- Zout naar smaak
+
+Je kunt ook voor de _lazy people_ variant gaan en een pak [Ratu Culinair gado-gado saus](https://www.orientalwebshop.nl/nl/ratu-culinair-gado-gado-saus-400g) gebruiken.
+
+## Bereidingswijze
+
+1. Plaats de tofu in een diep bord, leg er een stuk keukenpapier op en zet er iets zwaars op (bijvoorbeeld een vijzel op een bord) zodat het overtollige vocht eruit loopt. 
+2. Maak intussen de saus - die kun je trouwens ook goed voorbereiden, hij zal wel indikken dus houd daar rekening mee. Fruit de ui en de knoflook aan in 1 eetlepel zonnebloemolie. Voeg de sambal en het bouillonpoeder toe en bak het geheel met het limoenblad tot het lekker ruikt. Voeg de ketjap, de trassie, de amandelpasta en 200 ml water toe. Knijp er een halve limoen bovenuit en laat deze op laag vuur een half uur mee koken. Verwijder de limoen en haal van het vuur. Neem de citroenbladeren uit de saus, blender egaal met de staafmixer (voeg eventueel het citroenblad daarnaar weer toe zodat het nog smaak kan afgeven). 
+3. Verwarm de oven voor op 180 graden. Kluts de eieren in een kom met de melk en de overige ingrediënten. Snij de tofu in blokjes en voeg toe aan het eimengsel. Vet een middelgrote koekenpan in met olie, neem ook de randen mee. Giet het eiermengsel in de pan en zet in de voorverwarmde oven. Bak in 30-35 minuten tot de tahu telor mooi is gerezen en gebruind aan de bovenkant. 
+4. Verwarm de saus nog even. Snij de tahu telor in punten en giet er saus over. Bestrooi met gebakken sjalotjes of uitjes.  Lekker met een frisse salade van peultjes, munt en limoen. 

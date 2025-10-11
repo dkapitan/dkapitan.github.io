@@ -1,0 +1,38 @@
+---
+title: Geroosterde witte asperges met paddestoelen, tijm en walnoten
+description: |
+    Ik vind het zonde om asperger helemaal onder te dompelen in kaassaus met ham. Dit is veel beter.
+image: ./images/geroosterde-asperges.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Bron: [https://www.24kitchen.nl/recepten/geroosterde-witte-asperges-met-paddenstoelen-tijm-en-walnoten](https://www.24kitchen.nl/recepten/geroosterde-witte-asperges-met-paddenstoelen-tijm-en-walnoten)
+:::
+:::{.g-col-4}
+![](./images/geroosterde-asperges.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 1 kilo witte asperges
+- 0.5 bouillonblokje (bospaddestoelen)
+- 250 g kastanjechampignons
+- 2 el olijfolie om in te bakken
+- 5 takjes tijm
+- 1 el walnootolie
+- 1 el extra vierge olijfolie
+- 2 tl mosterd
+- 1 tl honing
+- 2 tl appelazijn
+- 2 el fijngehakte peterselie
+
+## Bereidingswijze
+Verwarm de oven voor op 200 graden en breng 250 milliliter water aan de kook. Los het bouillonblokje op in het water. Schil de asperges en snijd 1 à 2 centimeter van de kontjes. Leg de asperges in een ruime ovenschaal of op een bakplaat met omhoog staand randje. Zorg dat ze niet op elkaar liggen, maar allemaal naast elkaar. Overgiet met de bouillon en gaar ongeveer 30-35 minuten in de oven, afhankelijk van de dikte van de asperges.
+
+Maak ondertussen de champignons schoon, snijd in kwarten en bak op hoog vuur in olijfolie. Voeg de takjes tijm toe, breng op smaak met peper. Bak 5 tot 7 minuten, totdat de champignons mooi bruin zijn, maar nog wel een bite hebben. Meng de resterende ingrediënten behalve de walnoten en peterselie.
+
+Serveer de asperges met de dressing, champignons, peterselie en walnoten.

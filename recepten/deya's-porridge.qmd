@@ -1,0 +1,36 @@
+---
+title: Deya's porridge
+description: |
+    Terwijl ik op bezoek was in St Neots, kreeg ik dit voorgeschoteld op zondagochtend.
+image: ./images/deyas-porridge.jpeg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Eerste keer dat ik het maakte, smaakte het nogal flauw. Ik ga eens kokos proberen in plaats van water. De lijnzaad en de chiazaad binden het vocht.
+
+:::
+:::{.g-col-4}
+![](./images/deyas-porridge.jpeg)
+:::
+:::
+
+## Ingredienten
+
+Voor een portie:
+
+- 30g havermout (6 eetlepels)
+- 2-3 gr chia zaad
+- 10 gr amandelen
+- 10 gr walnoten
+- 10 gr pompoenzaad
+- 2 paranoten
+- 1 theelepel gemalen lijnzaad
+- 1 appel, in stukjes
+- kaneel en zout
+- ahornsiroop
+
+## Bereiding
+
+Alles in een pan, water totdat alle ingredienten zijn ondergedompeld, iets meer als je het dunner wilt hebben.

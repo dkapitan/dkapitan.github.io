@@ -1,0 +1,18 @@
+---
+title: De veranderende rol van de arts door AI
+subtitle: Webinar georganiseerd door Artsenfederatie KNMG
+description: |
+    AI is de afgelopen tijd veelvuldig in de media geweest. De toon van de berichtgeving loopt sterk uiteen, van hype, naar hysterie, naar (deels gegronde) vrees. In dit webinar gaan we in op wat je als arts nou moet weten van deze ontwikkeling. Wat zijn de kansen? Maar ook: welke vragen moet je stellen? Hoe zet je AI op een verantwoorde manier in/ welke AI-toepassingen zijn momenteel in gebruik? Ik mocht de webinar aftrappen met een 20-minuten crash-course in AI (begint op 00:02:50), gevolgd door een paneldebat.
+author: Daniel Kapitan
+date: 2023-11-09
+date-format: "MMM YYYY"
+image: /images/still-knmg.png
+html:
+    code-fold: true
+categories: [nederlands, webinar, responsible ai, healthcare]
+lang: nl
+---
+
+#
+
+{{< video https://vimeo.com/883743887/740b7646bb >}}

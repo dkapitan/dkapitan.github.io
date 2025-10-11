@@ -1,0 +1,45 @@
+---
+title: Soto ayam
+description: |
+    Uit 'Rijsttafelen' van Lia Warani.
+image: ./images/soto-ayam.jpg
+categories: [Lia Warani, Indonesisch, soep]
+---
+
+:::{.grid}
+:::{.g-col-6}
+
+## Ingredienten
+Voor 4 personen:
+
+- 4 sjalottes 
+- 2 teentjes knoflook
+- 4 kemiries 
+- 1⁄2 theel. ketoembar 
+- 1 1⁄2 vingerlengte koenir of 2 theel. poeder 
+- 1 theel. gekruimelde trassi
+- 1 1/2 eetl. boter 
+- 1 vette kip 
+- 1 stengel sereh 
+- 2 bouillonblokjes
+- 2 dunne preitjes
+- 50 g laska (rijstvermecelli)
+- 200 g witte kool
+- 4 eieren 
+- 4 aardappelen
+- 1/2 bosje bieslook
+- 1 bosje selderij
+- fruitjes 
+
+:::
+:::{.g-col-6}
+![](./images/soto-ayam.jpg)
+:::
+:::
+
+## Bereidingswijze
+
+1. De sjalottes, knoflook, kemiries, ketoembar en trassi fijn kneuzen en fruiten in de boter. Twee flinke glazen water bijvoegen en hierin de gesneden kip koken tot ze zacht is. Zodra het water kookt, de sereh en bouillonblokjes toevoegen. Deksel op de pan, niet te groot vuur. Wanneer de kip bijna gaar is de gesneden prei toevoegen. Indien nodig telkens wat heet water bijvoegen, want de kip moet zwemmen in het vocht.
+1. De laksa, kool, eieren en aardappelen worden apart gaar gekookt; snijd daarna de eieren en aardappelen in ronde platte schijfjes. Bieslook en selderij snipperen.
+1. U dient de soto als volgt op: in diepe borden schept u wat van de gesneden aardappelen, daar over heen plakjes ei, de gesneden laksa en kool. Bovenop de gesnipperde bieslook en selderij, het laatst wat fruitjes. Tot slot een paar soeplepels van de soto er over heen.
+1. Hierbij wordt natuurlijk de bijbehorende sambal gebruikt, als finishing touch. Daarvoor heeft u van tevoren vier kemiries, drie ontpitte lomboks met wat trassi en zout en een mespunt suiker gekneusd. Een theelepel van deze sambal is genoeg voor elke portie. De fijnproevers hebben ook een schoteltje met ketjap, waarin citroensap geperst, klaar staan om de heerlijke smaak te vervolmaken. Een hapje kroepoek oedang er tussen door, een klein kommetje warme rijst als bijvulling van deze heerlijke maaltijd zal een ieder zeer tevreden van tafel doen opstaan. 

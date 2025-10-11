@@ -1,0 +1,57 @@
+---
+title: Spicy linzensoep
+description: |
+    Rode linzensoep met bumbu pepesan met garam masala-uien, paksoi en yoghurt.
+image: ./images/spicy-linzensoep.jpg
+categories: [vegetarisch, Indonesisch, soep]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Heerlijk fusion gerecht van [Vanja van der Leeden](https://vanja.nl/recepten/spicy-linzensoep-2/), die schrijft dat ze het toevallig had bedacht:
+
+> Ik zat eens met een restje bumbu pepesan, de Indonesische kruidenpasta die je op vis smeert en in bananenblad stoomt. Ik maakte er linzensoep mee en raad ‘es: het werd de allerlekkerste linzensoep op aarde. Een kom hiervan op een winderige koude dag en niemand doet je meer wat – al was het maar omdat je er zelf ook wat winderig van wordt. De gekaramelliseerde uien erbij zijn geen must, maar als je tijd hebt, zou ik ze er zeker bij maken.
+
+Bereidingstijd: 45 minuten
+
+:::
+:::{.g-col-4}
+![](./images/spicy-linzensoep.jpg)
+:::
+:::
+
+
+## Ingredienten
+
+Onderstaande is net genoeg voor 3 personen. Ik doe alles twee keer.
+
+### bumbu
+- 2 citroengrasstengels, alleen het witte gedeelte
+- 3-4 cm gemberwortel, geschild en in plakjes
+- 2-3 lombokpepers, grof gehakt (laat ze weg als er kinderen mee-eten)
+- 4 keriminoten (optioneel, vervang eventueel door cashewnoten of laat ze weg. Ze maken de bumbu smeuiger)
+- 1 ui, grof gehakt
+- 4 knoflooktenen, gepeld
+- 3 trosmaatjes, in stukjes
+- 6 kleine limoenblaadjes
+- ½ theel. zout
+- 4 eetl. neutrale olie
+
+### verder
+- 200 gram rode splitlinzen
+- 900- 1 l. groentebouillon (zelfgemaakte of van een bio-blokje)
+- 2 rode uien, gepeld
+- 2 theel. garam masala
+- 4 stronkjes Shanghai paksoi (of Turkse spinazie of choy am)
+- halfvolle yoghurt  om te serveren
+- ½ bosje koriander (ca. 7,5 gram)
+
+
+## Bereidingswijze
+
+1. Snij het citroengras grof. Schep het in een hoge maatbeker met de overige ingrediënten: de gember, de kemirinoten, de lombokpepers, de ui, de knoflook, de tomaatjes, het limoenblad en het zout. Blender met behulp van een staafmixer tot een pap.
+2. Verhit een soeppan. Voeg 1 eetlepel neutrale olie toe en roerbak de bumbu  10 minuten tot al het vocht is verdampt en hij lekker smaakt. Voeg de linzen toe, roer om en blus af met bouillon. Laat met een deksel op een kier op zacht vuur in zo’n 25 minuten gaarkoken. Voeg eventueel extra bouillon toe als er teveel is verdampt.
+3. Snijd de rode uien in ringen. Verhit 2 eetlepels neutrale olie in een koekenpan en voeg de uien toe met de garam masala en een snuf zout, zodat de uien vocht loslaten. Roerbak zo’n 15 minuten op laag vuur totdat de uien gekaramelliseerd zijn en ook licht gebakken. Laat uitlekken op keukenpapier.
+4. Snij de paksoi in grove stukken. Verhit 1 eetlepel neutrale olie en roerbak kort, het is lekker als de groente nog beet heeft.
+5. Serveer de linzensoep met paksoi, een plonsje yoghurt, uien en lekker veel koriander.
+

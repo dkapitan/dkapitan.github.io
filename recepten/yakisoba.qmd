@@ -1,0 +1,53 @@
+---
+title: Yakisoba
+description: |
+    Yakisoba is a classic Japanese stir fry noodles dish with pork and vegetables, and it's seasoned with a sweet & savory sauce similar to Worcestershire sauce.
+image: images/yakisoba.jpg
+categories: [vegetarisch]
+---
+
+Yakisoba is a classic Japanese stir fry noodles dish with pork and vegetables, and it's seasoned with a sweet & savory sauce similar to Worcestershire sauce.
+
+:::{.grid}
+:::{.g-col-8}
+## Ingredients
+
+### Main
+- ½ onion
+- 1 carrot
+- 3 shiitake mushrooms
+- 2 green onions/scallions
+- 4 cabbage leaves
+- ¾ lb sliced pork belly (3/4 lb = 340 g (or your choice of meat and/or seafood))
+- 2 Tbsp neutral flavor oil (vegetable, canola, etc)
+- Freshly ground black pepper
+- 1 package Yakisoba Noodles (comes with 3 servings, 16-17 oz or 454-480 g)
+- 4-6 Tbsp yakisoba sauce (Recipe follows)
+  
+### Sauce
+- ¼ cup Worcestershire sauce
+- 4 tsp oyster sauce
+- 4 tsp ketchup
+- 2 tsp soy sauce
+- 2 tsp sugar (plus more, to taste)
+
+
+:::
+:::{.g-col-4}
+## 
+
+![]( images/yakisoba.jpg)
+:::
+:::
+ 
+## Instructions
+
+- Whisk all the ingredients for Yakisoba sauce and set aside.
+- Slice the onion, cut the carrot into julienned strips, and slice the shiitake mushrooms.
+- Chop the green onion into 2 inch pieces, cut the cabbage into small bite pieces and cut the meat into 1 inch pieces.
+- In a skillet or wok, heat oil on medium high heat. Cook the meat until no longer pink.
+- Add the onion and carrot and cook for 1-2 minutes.
+- Add the cabbage and coo until almost tender.
+- Lastly add the green onion and shiitake mushrooms and cook for 1 minute. Season with freshly ground black pepper.
+- Transfer the yakisoba noodles to a sieve and quickly run hot water over yakisoba noodle. Separate the noodles with hands. Add the noodles to the skillet/wok, and lower the heat to medium. It’s best to use tongs to combine the noodles with ingredients. Keep an eye on the noodles as they may stick to the skillet/wok.
+- Add Yakisoba Sauce. Depending on the amount of ingredients, adjust the amount of sauce to use. Mix all together using tongs. Transfer to plates and garnish with dried green seaweed and pickled red ginger. Serve immediately.

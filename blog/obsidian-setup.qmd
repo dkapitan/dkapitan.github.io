@@ -1,0 +1,86 @@
+---
+title: Another year, another lifehack
+description: |
+    How to configure and use a fully integrated markdown-based workflow for reading, thinking and writing.
+date: 2023-12-30
+author: Daniel Kapitan
+image: images/obsidian-setup.png
+toc: true
+format:
+    html:
+        code-fold: true
+filters:
+    - d2
+categories: [english, coding, workflow]
+
+---
+
+::: {.callout-tip}
+## TL;DR
+How to integrate [Calibre](https://calibre-ebook.com/), [Quarto](https://quarto.org), [Obsidian](https://obsidian.md), [Syncthing](https://syncthing.net), [reMarkable](https://remarkable.com) to make the most of a fully integrated markdown-based workflow for reading, thinking and writing.
+:::
+
+> __Habit 7: Sharpen the Saw__:
+> 
+> Increase motivation, energy, and work/life balance by making time for renewing activities. ~ _Stephen Covey_
+
+Keeping things organised and efficient is one of my basic needs. It helps me keep a clear mind and be productive. I have been using the [getting things done method](https://gettingthingsdone.com/what-is-gtd/) for over a decade now, and was one of the early adopters of [Todoist](https://todoist.com/home). In fact, at my current rate of 80 points per week, I expect to become Enlightened somewhere at the beginning of the upcoming [Year of the Dragon](https://en.wikipedia.org/wiki/Dragon_(zodiac)).
+
+![My Karma points in Todoist at the end of 2023.](images/todoist-karma.png){fig-align="left"}
+
+Beyond organising the things I need to do, I have been looking to sharpen my saw for reading and writing, both of which I do a lot. Also here, I switched to a fully digital workflow some years ago: my books now all live in [calibre](https://calibre-ebook.com/), I take notes on the [reMarkable 2](https://remarkable.com/) and do all of my writing in markdown. Over the years, I have tried many different apps: [Day One](https://dayoneapp.com/),  [iA Writer](ia writer) and even a bare-bones code editor with a GitHub repository hosting a [MkDocs](https://www.mkdocs.org/) site.
+
+But I was never quite satisfied with any of these setups. To address my note-taking needs whilst reading, I tried different tablets with digital pens, but found none of these worked for me because I could not easily get my highlights and notes into my workflow. I also prefer to read on a passive, e-ink screen which is why I tried the reMarkable mark I when it first came out. Alas, I quickly returned that one because it lacked the integrations I needed, too. So here I am, still spending lots of time looking up quotes and references that I had read somewhere when writing content for my lectures. And on top of that there is the additional friction of getting my markdown notes into my publishing workflow. 
+
+In this day and age, surely there must be a better way in which we can use digital tools to support our reading, thinking and writing? Surely I should be able to render a website, a pdf - even a Word document if a clients asks for it - using the same markdown content? And indeed, it seems that as of 2022 a number of tools have delivered on the promise of supporting a smooth, fully digital workflow for reading, thinking and writing. In my case, I chose [Obsidian](https://obsidian.md/) and [Quarto](https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/) as the core components.[^alternatives]
+
+## Obsidian, arguably the most flexible note-taking app
+Obsidian arguably is the most flexible note-taking app out there. The key differentiating feature for me is its ability to create graphs of interlinked notes, thereby natively supporting [Andy Matuschak's Evergreen note-taking concept](https://notes.andymatuschak.org/Evergreen_notes). Its vibrant community is also a boon: with over 1,370 contributed plugins at the time of writing , I could find everything I need to integrate it with the other tools in my workflow.
+
+The diagram below shows how I have integrated calibre and Obsidian for use on my MacBook, Pixel 5 Android phone and reMarkable 2. [Syncthing](https://syncthing.net) does the heavy lifting of keeping my markdown notes and ebooks in sync across multiple devices. That way, I have maximal control with the least amount of lock-in. Incidentally, my calibre library is also synced to my NAS, with an additional backup to Google Drive which serves as my primary storage platform. Note that this setup work for any combination of {Linux | OSX | Windows} desktops and {iOS | Android} smartphones, as all the apps are cross-platform.[^reader]
+
+![](./images/obsidian-setup.png)
+
+### Easier to read, think and take notes
+With this setup, taking notes while reading books on my smartphone already is a lot easier. Using Moon+ Reader, I can just highlight texts, copy and paste it directly into Obsidian. For longer reads on my reMarkable, I have setup [scrybble](https://scrybble.ink/) to sync notes to Obsidian. This Amsterdam-based startup (yay!) is quite young, and the functionality is still basic so am eagerly awaiting future releases.
+
+When I am at the desk, I can now do all of my reading and note-taking in Obsidian thanks to the [calibre plugin](https://github.com/caronchen/obsidian-calibre-plugin). After tinkering with the configuration, I found it so blissful being able to read, think and write from a single application. No distractions! Also, now I can gradually ease into the Evergreen way of note-taking to structure my thinking. Opening a linked note using `Cmd+T`, with the __stack notes__ option turned on, just adds to the joy of working like this:
+
+![](https://user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif)
+
+### Easier to write and publish
+Further down into the workflow, I can now write and publish from Obsidian, too. This paper in fact served as a challenge-based learning project of sorts to do exactly that. Drawing diagrams with [d2](https://d2lang.org) is supported thanks to the [official plugin](https://github.com/terrastruct/d2-obsidian).  I could also publish a static site directly on, say, GitHub pages from Obsidian as well using the [Obsidian Git plugin](https://github.com/denolehov/obsidian-git). I find, however, that the Quarto engine is the better tool for my publishing needs. 
+
+## Quarto for a streamlined publication workflow
+My work as a data scientist and architect relies extensively on code and data analysis.  Python-based notebooks have long provided the capability of merging the paper narrative, the computational code powering the analysis, and the summary plots into a reproducible report. Quarto supports all of this into a streamlined publication workflow that lowers the adoption barrier of the ["docs-as-code"](https://www.writethedocs.org/guide/docs-as-code/) paradigm. With a single command, the notebook text sources (narrative and code) are transformed into a polished publication-ready article in a variety of formats, be it a PDF or dynamic HTML page enabling the reader to interact with the data tables and plots. Even without its discerning feature of publishing executable notebooks, I found the output crisp and professional. Earlier this year, I decided to go all out on Quarto, and redesigned my [company website](https://github.com/dkapitan/dkapitan.github.io) with it.
+
+![source: [Gaël Close](https://gael-close.github.io/posts/2209-tech-writing/2209-tech-writing.html).](images/quarto-workflow.png)
+
+In the new setup, I can easily copy a markdown file from my Obsidian journal into my Quarto website project and include it in the pipeline with minor changes to the YAML front-matter. Some friction remains, though, having to switch between the different markdown flavours of the two tools. For example, compare the syntax for callouts in Quarto vs. Obsidian: 
+
+::: {layout-ncol=2}
+
+### Callouts in Quarto
+
+```
+::: {.callout-tip}
+## Tip-callout with a custom titles
+
+Main text goes here.
+:::
+```
+
+### Callouts in Obsidian
+
+```
+> [!tip] Tip-callout with a custom titles
+> Main text goes here.
+```
+
+:::
+
+Despite these inconveniences, I will conclude with this advice for the coming year: give an end-to-end markdown-based workflow a try. And if you like the setup described hear, make sure to donate and support [calibre](https://calibre-ebook.com/donate), [Obsidian](https://help.obsidian.md/Licenses+and+payment/Catalyst+license) and [Syncthing](https://syncthing.net/donations/) - besides getting yourself a classy e-ink note-taking device 😉.[^brain]
+
+[^alternatives]: There are alternative [markdown note-taking apps](https://github.com/tehtbl/awesome-note-taking), and in theory you can use any [static site generator that support markdown templates](https://jamstack.org/generators/) instead of Quarto.
+[^reader]: Depending on your operating system and personal preference, you can choose any e-reader app you like, as long as it is capable of importing a file-based Calibre library.
+[^brain]: A colleague of mine pointed me to the idea of a [Second Brain](https://www.buildingasecondbrain.com/) after reading a draft of this blog post. It seems more people are trying to scratch the same itch. 

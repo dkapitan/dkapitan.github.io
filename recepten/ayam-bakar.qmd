@@ -1,0 +1,48 @@
+---
+title: Ayam bakar (geroosterde kip)
+description: |
+    Een Indonesische klassieker
+image: ./images/smoor-ayam.jpg
+categories: [Indonesisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+'Met het personeel eten we altijd voordat de gasten komen; meestal een eenvoudig bordje rijst met wat vlees of tofu en groenten. Maar er zijn van die dagen dat de koks uitpakken en iets speciaals op de pass zetten. Nooit ingewikkelde gerechten, want veel tijd hebben ze naast het bereiden van de uitgebreide rijsttafels niet. Een terugkerende favoriet is geroosterde kip, oftewel ayam bakar. Een algemene benaming voor een gerecht dat in Indonesië in talloze variaties gegeten wordt. De bereidingen hebben vaak gemeen dat de kip eerst gaargekookt of -gestoofd wordt en dan nog kort geroosterd. De koks bij Blauw hebben natuurlijk ieder hun eigen favoriete recept; dit is een beetje van alles gecombineerd.' - Meta van den Boomen
+
+Bron: [https://www.okokorecepten.nl/recept/kip-gevogelte/kippenbouten/pittige-geroosterde-kip-ayam-bakar-pedas](https://www.okokorecepten.nl/recept/kip-gevogelte/kippenbouten/pittige-geroosterde-kip-ayam-bakar-pedas)
+
+:::
+:::{.g-col-4}
+![](./images/ayam-bakar.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 2 personen:
+
+- 1 limoen
+- ½ theelepel zout
+- 2 kippenbouten
+- 2 sjalotjes
+- 5 cm gember
+- 2 teentjes knoflook
+- plantaardige olie
+- 2 rawit pepers
+- 1 theelepel ketumbar (gemalen koriander)
+- 200 ml kecap manis
+- 3 blaadjes djeruk purut (citroenblad)
+- 25 g gula djawa (palmsuiker)
+- 1 theelepel witte peper
+- 1 eetlepel maïzena
+
+## Bereidingswijze
+Pers de limoen uit en meng het sap met het zout. Marineer de kippenbouten 20 minuten in het sap.
+
+Snipper de sjalotjes. Schil de gember en hak de gember heel fijn. Hak de knoflook fijn. Verhit een scheutje olie in een pan met dikke bodem en fruit de sjalotjes, gember en knoflook aan tot de sjalotjes zacht zijn.
+
+Hak de rawit fijn en doe de rawit en ketumbar bij de sjalotjes. Bak even mee. Leg de kippenbouten in de pan en schenk het limoensap erbij. Voeg de kecap en djeruk purut toe. Breng aan de kook, doe het deksel op de pan en zet het vuur laag. Laat de kippenbouten in 40 minuten zachtjes gaar sudderen.
+
+Haal de kip uit de pan. Hak de gula djawa fijn en voeg de gula djawa en peper toe aan de saus. Roer in een kommetje de maïzena met 2 eetlepels water los en schenk het maizenapapje bij de saus. Breng aan de kook en laat de saus iets indikken. Zet het vuur uit.
+
+Gril de kippenbouten op de barbecue, in de oven op grillstand of in een grillpan een paar minuten aan elke kant, zodat het velletje krokant wordt. Zet de grill niet te hoog, want door de kecap verbrandt het vel snel. Serveer de kippenbouten met de saus. Plakjes komkommer en tomaat zijn er lekker verfrissend bij.

@@ -1,0 +1,27 @@
+---
+title: Houd toezicht op de glazen algoritme-bol
+description: |
+   Ingezonden brief aan NRC naar aanleiding van discussie over gebruik van algoritmes voor opsporing van fraude.
+date: 2018-05-19
+date-format: "MMM YYYY"
+image: /images/nrc-open-source.jpg
+toc: false
+categories: [nederlands, responsible ai]
+lang: nl
+---
+
+#
+
+::: {.grid}
+::: {.g-col-8}
+Het gebruik van allerlei data door de overheid biedt voordelen, tegelijkertijd zijn er valkuilen. In het artikel [_U gaat frauderen. Dat zegt de computer_ (12 mei 2018)](https://www.nrc.nl/nieuws/2018/05/11/u-gaat-frauderen-dat-zegt-de-computer-a1602684) worden verschillende argumenten aangevoerd waarom het openbaar maken van de algoritmes die gebruikt worden niet wenselijk is: niet te begrijpen, veiligheid, privacy, et cetera. Integendeel: het openbaar c.q. toetsbaar maken van modellen is cruciaal om algoritmes verantwoord te gebruiken in het publieke domein. Met dezelfde open source-filosofie waarmee het internet groot is geworden, zou de werking van deze algoritmes door buitenstaanders kunnen worden beoordeeld. Een peer review-mechanisme, waarmee data scientists elkaars werk evalueren vanuit het maatschappelijk belang.
+:::
+::: {.g-col-4}
+![](/images/nrc-open-source.jpg)
+:::
+:::
+Niemand heeft veel last van een webwinkel die een verkeerd product aanbeveelt. Uitspraken over toegang tot sociale voorzieningen zijn van een geheel andere orde. Het huidige ‘gesloten’ beleid maakt mensen wantrouwend. Vervolgens worden onzinnige stoplappen gebruikt om tegemoet te komen aan het negatieve sentiment, zoals het uitmiddelen van de berekeningen over een straat. Het belang van data en algoritmes is te groot om deze niet openbaar te maken, juist in het publieke domein. Als de overheid bereid is haar data en modellen beschikbaar te stellen, zullen met mij veel experts zich aandienen om meer inzicht te verschaffen in de werking ervan en hiermee het maatschappelijk debat te ondersteunen.
+
+<small class="text-muted">Ingezonden brief aan het NRC Handelsblad, gepubliceed op <a href=https://www.nrc.nl/nieuws/2018/05/19/brieven-a1603511#/handelsblad/2018/05/19/#210/>19 mei 2018</a>.</small>
+
+

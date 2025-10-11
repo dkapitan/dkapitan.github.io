@@ -1,0 +1,51 @@
+---
+title: Vegetarische erwtensoep
+description: |
+    Een klassieker, maar dan zonder varkenskluif. Waarschijnlijk wel met worst erbij ...
+image: ./images/vegetarische-erwtensoep.jpg
+categories: [vegetarisch, soep]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Een klassieker, maar dan zonder varkenskluif. Waarschijnlijk wel met worst erbij ...
+
+:::
+:::{.g-col-4}
+![](./images/vegetarische-erwtensoep.jpg)
+:::
+:::
+
+## Ingredienten
+
+### Basissoep
+- 500 gram spliterwten
+- 1.5 liter groentenbouillon van 1.5 liter water en 2 blokjes goede biologische bouillonblokjes
+- 1 laurierblad
+- peper en zout
+
+### Groenten
+- ½ knolselderij
+- 1 winterpeen
+- 2 prei
+- 2 wortelpeterselie
+- 5 stengels bleekselderij
+- ½ bos bladselderij
+- goede roerbakolie (high olic)
+
+## Bereidingswijze
+
+### Basis erwtensoep (met snelkookpan)
+
+- Was de spliterwten.
+- Beprik de ui met de kruidnagels en het laurierblad en leg hem in de pan.
+- Kook de spliterwten met de groentenbouillon en kruiden in een snelkookpan (lage stand, circa 1 uur)
+
+### Groenten
+
+- Maak alle groenten schoon en snij alles in blokjes en ringetjes van dezelfde maat. En zet alle groenten per soort even apart .
+- Neem een ruime wok, giet een goede laag olie in de pan en zet de pan op op een grote pit.
+- Roerbak alle groenten van hard naar zacht, dus eerst de knolselderij, de wortel, de wortelpeterselie, de bleekselderij en de prei. Wacht met toevoegen van de volgende groenten tot de vorige groenten bijna gaar is. Neem hier de tijd voor.
+- Haal ondertussen de blaadjes van de steeltjes van de bladselderij en hak ze op de snijplank fijn.
+- Voeg de geroerbakte groenten bij de gekookte spliterwten en voeg de bladselderij toe.
+- Laat alles nog even koken en maak op smaak met voldoende peper en wat zout.

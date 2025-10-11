@@ -1,0 +1,11 @@
+---
+title: Recepten
+listing:
+    contents: .
+    type: grid
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: true
+    categories: true
+    feed: true
+---

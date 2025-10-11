@@ -1,0 +1,13 @@
+---
+title: Thetford C402 cassette toilet
+description: Handleiding van het toilet
+page-layout: full
+lang: nl
+---
+
+{{< pdf /resources/nugget/UM_C400_NL.pdf width=100% height=800 >}}
+
+## Zekering vervangen
+
+Zekering zit aan de rechterwand in de binnenruimte. Klepje kan je open klikken door aan de zijkanten een beetje samen te knijpen. 3A steekzekering.
+

@@ -1,0 +1,22 @@
+---
+title: Dromen over open data en algoritmen
+description: Column voor E-data & Research waarin ik, net zoals mijn voorganger in deze column, droom ik van een wereld waarin data niet wordt gezien als een commodity maar als een common pool resource. 
+author: Daniel Kapitan
+date: 2022-02-01
+date-format: "MMM YYYY"
+image: /images/my-boobs-are-not-for-sale.png
+categories: [nederlands, responsible ai]
+lang: nl
+---
+
+Toen ik in 1991 begon aan mijn studie in Leiden, begon iemand in Finland met het schrijven van een nieuw operating systeem. Gewoon voor de lol. De broncode was vanaf het begin openbaar. Anderen waren van harte welkom om mee te doen. Vandaag de dag draait 96% van de grootste servers wereldwijd op Linux. In 1999 ging Red Hat naar de beurs. Zij bewezen daarmee dat het onmogelijke mogelijk is: een bedrijf bouwen op open source software en toch geld verdienen.
+
+Net zoals mijn voorganger in deze column, droom ik van een wereld waarin data niet wordt gezien als een commodity maar als een common pool resource. Een wereld waarin de broncode van algoritmes openbaar is en daarmee toetsbaar voor peer review. Kortom, een wereld waarin de hacking cultuur samenkomt met die van Elinor Ostrom. Helaas staan tussen droom en daad wetten in de weg, en praktische bezwaren.
+
+Of kan het toch? Droom eens met mij mee: we leggen voor de hele wereld een openbare database aan van beelden van borstkankercellen van zogenaamde HER2-positieve borstkanker. Deze vorm van kanker komt bij 19 op de 100.000 vrouwen voor en is met relatief goedkope beeldvormende diagnostiek vast te stellen. Omdat de database enkel foto’s van cellen bevat met een label kwaadaardig/goedaardig zijn er ook weinig belemmeringen wat betreft privacy. Deze database wordt vervolgens publiek beschikbaar gesteld zodat iedereen zelf een algoritme kan ontwikkelen. De enige verplichting is dat je het resultaat – het getrainde model, de broncode, de methodische verantwoording – ook weer deelt.
+
+Ik stel mij voor dat een dergelijke aanpak binnen afzienbare termijn goede en robuuste algoritmes zal opleveren. Vanwege de volledige openheid van het ontwikkelproces, kan ook meteen worden voldaan aan een aantal belangrijke eisen van transparantie, uitlegbaarheid en reproduceerbaarheid voor hoog-risico toepassingen van algoritmes. Commerciële partijen kunnen zich via een open source business model richten op dienstverlening op het gebied van certificering, integratie met bestaande software systemen en het beheren van de levenscyclus van de modellen.
+
+De werkelijkheid: op 30 september 2021 ontving de Hippo Foundation de Duitse AI startup prijs 2021. Bovenstaand voorbeeld is letterlijk de eerste aandoening die zij via [viktoriaonezero.org](http://viktoriaonezero.org/) aan het bouwen zijn. Gelukkig ben ik niet de enige die durft te dromen.
+
+<small class="text-muted">Column verschenen in <a href=https://edata.nl/2022/02/01/column-dromen-over-open-data-en-algoritmes/>E-data & Research</a>.</small>

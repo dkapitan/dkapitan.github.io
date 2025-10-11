@@ -1,0 +1,47 @@
+---
+title: Gebakken griet
+description: |
+    Nederlandse gebakken vis is best lekker.
+image: ./images/gebakken-griet.jpg
+categories: [flexitarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Griet kan worden bereid zoals tong en tarbot. In plaats van yoghurt kan ook kwark of verse magere kaas als Taillefine worden gebruikt.
+
+:::
+:::{.g-col-4}
+![](./images/gebakken-griet.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 2 of 4 grieten van elk 450 g (schoongemaakt)
+- zout
+- 3 lepels bloem
+- 150 g boter
+- 3 lepels zonnebloemolie
+- 6 lepels mayonaise
+- 4 lepels magere yoghurt
+- 2 lepels gehakte augurk
+- 1 lepel gehakte peterselie
+- 1 lepel gehakte bieslook
+- peper
+- citroensap
+- worcestershiresaus
+
+## Bereidingswijze
+Spoel de vis onder stromend water af en dep droog. Wrijf ze in met zout en laat 15 minuten liggen. Dep ze weer droog en wentel door de bloem. Schud overtollig bloem eraf.
+
+Verhit de helft van de boter en de olie en bak de griet per 1 of 2 tegelijk in 12-15 minuten aan beide kanten mooi bruin. Doe de rest van de boter in de pan en bak de rest van de vis. Leg op een voorverwarmde schaal.
+
+Roer de mayonaise en yoghurt tot een gladde saus.
+
+Voeg augurk en kruiden toe.
+
+Breng op smaak met citroensap en worcestershiresaus.
+
+Serveer de saus bij de vis.

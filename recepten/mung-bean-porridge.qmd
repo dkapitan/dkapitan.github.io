@@ -1,0 +1,44 @@
+---
+title: Mung bean porridge
+description: |
+    I used to eat this a lot as a kid in Indonesia.
+image: ./images/bubur-kacang-hijau.jpg
+categories: [vegetarisch, Indonesisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Taken from [PisangSusu.com](https://pisangsusu.com/bubur-kacang-hijau-mung-bean-porridge/). My mom says adding some [(tinned) fresh nank](https://www.orientalwebshop.nl/conserven/fruit/aroy-d-jackfruit-in-siroop-565g) is really nice.
+
+:::
+:::{.g-col-4}
+![](./images/bubur-kacang-hijau.jpg)
+:::
+:::
+
+## Ingredienten
+
+- 175 dry mung beans
+- 50 grams gula Jawa
+- 50 grams regular sugar
+- 100 ml coconut milk (or more as a sauce for serving)
+- 5 pandan leaves
+- 1/2 teaspoon of salt
+- 450 ml of water
+- 10 cm fresh ginger root
+
+
+## Bereidingswijze
+
+### Pre-soaking
+
+- Pre-soaking the beans is important otherwise it will take too long before they are done. Use 350 ml of water to soak 175 grams of dried beans for 12 hours (overnight).
+
+### Cooking
+
+- Peel the ginger, cut the pandan leaves length-wise and tie a knot in them. Put them in the beans with the salt and gula jawa, and add 100 ml of water. I bring the beans to the boil and then turn the gas down so that it can simmer very quietly with the lid on the pan. Occasionally (once every 10 minutes) I stir everything so it can not stick to the bottom. Let simmer for 50 minutes.
+- In the meantime, I warm up the coconut milk with half a cup of water (my coconut milk is quite thick).
+- I add two pandan leaves and a pinch of salt into the coconut milk and warm it up. When I see a few bubbles (it boils), I stir everything and turn the gas off. I let my coconut milk sit with the lid on. The pandan leaves had the time to give off their amazing flavor.
+- Back to the beans. After 50 minutes I see during a stirring session that some beans start to lose their skins.
+- I turn off the gas and let the porridge rest for a while, **about 20 minutes**. It is still too hot to eat and that makes the porridge even more porridge.
+- I scoop the beans into a large dish and pour over the re-heated coconut milk. Most beans have still retained their shape, but are buttery tender. I love that I still see what I eat. Do you want them even mushier, then just boil a little longer.

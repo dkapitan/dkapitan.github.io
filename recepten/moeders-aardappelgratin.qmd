@@ -1,0 +1,35 @@
+---
+title: Moeder's aardappelgratin
+description: |
+    Een klassieker uit het Groot Europees Kookboek van Martin van Huijstee (1991).
+image: ./images/aardappelgratin.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Een klassieker uit het Groot Europees Kookboek van Martin van Huijstee (1991).
+
+:::
+:::{.g-col-4}
+![](./images/aardappelgratin.jpg)
+:::
+:::
+
+## Ingredienten
+
+- 1 teentje knoflook
+- 50 g boter
+- 1 kg vastkokende aardappels (geschild en in dunne plakjes gesneden (mandoline))
+- 100 g geraspte kaas (belegen, Gruyere)
+- 200 ml slagroom
+- 200 ml volle melk
+
+## Bereidingswijze
+
+- Wrijf de binnenkant van een ovenschaal met het teentje knoflook in en beboter de schaal met 25 g van de boter.
+- Leg de plakjes aardappel dakpansgewijs in lagen in de schaal en bestrooi elke laag met wat zou, peper, nootmuskaat en geraspte kaas.
+- Vermeng de melk met de slagroom en schenk het mengsel in de schaal.
+- Bak de aardappelgratin circa 75 minuten in de op 175° C voorverwarmde overn tot de plakjes gaar zijn. Dek af met aluminiumfolie om te voorkomen dat het uitdroogt.
+- Verhoog de oventemperatuur de laatste 10 minuten tot 200° C, zodat het gerecht een bruin korstje kan krijgen. Verwijder de aluminiumfolie.
+- Serveer de gratin in de schaal.

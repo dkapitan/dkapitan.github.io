@@ -1,0 +1,40 @@
+---
+title: Gua Bao
+description: |
+    Gua Bao are fluffy bao buns stuffed with tender sticky pork belly. This recipe is easy to make, using frozen buns from the supermarket.
+image: ./images/Gua-Bao-Buns-Pork-Belly-square.webp
+categories: [Asian streetfood]
+---
+
+:::{.grid}
+:::{.g-col-8}
+The [original recipe](https://www.kitchensanctuary.com/gua-bao/) is quite elaborate: cooking pork belly, making the buns yourself. But this quick version using [ready-made buns](https://tokohoiyunrotterdam.wordpress.com/2020/12/13/lotus-leaf-bun-gao-bao-stoombroodjes/) and bacon cuts are almost as good.
+
+## Ingredients
+
+- 1 kg rindless bacon slices (speklappen)
+- for the glazing
+  - 2 tbsp vegetable oil
+  - pinch salt and pepper
+  - 1 tbsp minced ginger
+  - 1 red chilli finely chopped
+  - 2 tbsp honey
+  - 2 tbsp brown sugar
+  - 3 tbsp dark soy sauce
+  - 1 tsp lemon grass paste
+- 12 buns ([Happy Belly Lotus Leaf Bun](https://tokohoiyunrotterdam.wordpress.com/2020/12/13/lotus-leaf-bun-gao-bao-stoombroodjes/) package has 10, so make sure to buy 2)
+
+:::
+:::{.g-col-4}
+![](./images/Gua-Bao-Buns-Pork-Belly-tall2.webp)
+:::
+:::
+
+## Instructions
+
+- Cut the bacon in bite-size pieces. They can be quite chunky, but make sure it can fit in the bun
+- Fry the bacon on medium heat first, such that the water and excess fat comes out. Pour out the fat (which I just through away)
+- One the bacon has been reduced, you can turn up the heat to fry them to become crisp. I actually use a pan without teflon: if the bacon starts sticking, use a spatula to scrape it loose again. As you continue frying it, the caramalized fat will eventually create a coating
+- While the bacon is frying, put together all the ingredients for the glazing
+- Now pour the glaze over the pork and continue to cook until the pork looks dark and sticky - about 6-7 minutes. Turn off the heat and transfer to a warm bowl until you're ready to assemble the gua bao.
+- Prepare the bao buns in a steamer according to the package instructions

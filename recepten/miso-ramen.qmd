@@ -1,0 +1,61 @@
+---
+title: Miso ramen
+description: |
+    Have changed the ingredients to make suitable for quick preparation.
+image: ./images/miso-ramen.jpg
+categories: [Asian streetfood, soep]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Taken from [Just One Cookbook](https://www.justonecookbook.com/homemade-chashu-miso-ramen/#wprm-recipe-container-58184) and [RecipeTin Japan](https://japan.recipetineats.com/home-made-ramen-soup-recipe/). Have changed the ingredients to make suitable for quick preparation. You can make an easy, daily version, or go to town by preparing your [own broth](https://www.justonecookbook.com/homemade-chicken-stock/), [ramen eggs](https://www.justonecookbook.com/ramen-egg/) and [chashu (Japanese pork belly)](https://www.justonecookbook.com/homemade-chashu/).
+
+:::
+:::{.g-col-4}
+![](./images/miso-ramen.jpg)
+:::
+:::
+
+## Ingredienten
+
+### For the soup
+
+- 2 cloves garlic (1½ tsp minced garlic)
+- 1 knob ginger (½ tsp grated ginger)
+- 1 shallot
+- 1 Tbsp white sesame seeds (roasted/toasted)
+- 1 Tbsp sesame oil (roasted)
+- ¼ lb ground pork (113 g)
+- 1 tsp Doubanjiang (spicy chili bean sauce/broad bean paste)
+- 3 Tbsp miso (Each miso brand/type makes slightly different broth)
+- 1 Tbsp sugar
+- 1 Tbsp sake
+- 1 litre chicken stock/broth (Ordinary stock cubes will do)
+- 1 tsp salt (kosher or sea salt; use half if using table salt (adjust according to your chicken broth))
+- 1 package bonito powder
+- ¼ tsp white pepper powder
+
+### For the ramen and optional toppings
+- 2 packages ramen noodles (e.g. DonDon brand)
+- vegetables (add anything you fancy: bean sprouts, spinach, carrot)
+- meat (idem)
+
+
+## Bereidingswijze
+
+### To prepare the soup
+
+- Mince the garlic (I use this garlic press) and ginger (I use this ceramic grater).
+- Mince the shallot. Prepare everything ahead of time.
+- Grind sesame seeds, leaving some seeds unground for texture.
+- In a medium pot, heat sesame oil over medium low heat and add the minced garlic, ginger, and shallot. With a wooden spatula, stir fry until fragrant.
+- Add spicy bean paste (La Doubanjiang) or non-spicy bean paste (Doubanjiang) and miso. Quickly blend well with the meat before they get burnt. You may want to add this per serving, if your kids can't stand the heat ...
+- And add the ground sesame seeds and sugar and mix well.
+- Add sake and chicken stock, and bring it to a simmer.
+- Taste your soup and add salt (if necessary) and white pepper. Each chicken stock varies in saltiness, so you have to taste your own soup to decide how much salt is necessary.
+- Cover with the lid and keep the ramen soup simmered while you cook noodles.
+
+### For the ramen
+
+- Prepare the ramen in boiling water as per the package instructions. This just takes a couple of minutes, so you can save this for last.
+- Add vegetables and/or meat to your liking

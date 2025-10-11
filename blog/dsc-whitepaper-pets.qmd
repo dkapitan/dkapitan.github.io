@@ -1,0 +1,18 @@
+---
+title: Whitepaper on privacy-enhancing technologies
+subtitle: In collaboration with the Centre of Excellence – Data Sharing and Cloud
+description: |
+    This whitepaper discusses several groups of PETs and privacy assessment measures, covering their implementation and value potential in respective use cases.
+author: Daniel Kapitan
+date: 2023-07-01
+date-format: "MMM YYYY"
+image: /images/dsc-pets-overview.png
+toc: false
+categories: [english, data commons, privacy-enhancing technologies]
+---
+
+#
+
+{{< pdf /resources/dsc2023whitepaper-pets.pdf width=100% height=800 >}}
+
+

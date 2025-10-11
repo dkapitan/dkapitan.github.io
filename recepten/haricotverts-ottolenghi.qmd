@@ -1,0 +1,44 @@
+---
+title: Haricots verts en peultjes met hazelnoten en sinaasappel
+description: |
+    Nog een klassieker van Ottolenghi.
+image: ./images/haricots-verts-salade.png
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+
+
+:::
+:::{.g-col-4}
+![](./images/haricots-verts-salade.png)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 400 gram haricots verts
+- 400 gram peultjes
+- 70 gram hazelnoten in het vlies
+- 1 sinaasappel
+- 20 gr bieslook (fijn geknipt)
+- 1 teen knoflook (fijngehakt)
+- 3 el olijfolie
+- 2 el hazelnootolie (of andere notenolie)
+- grof zeezout en zwarte peper
+
+## Bereidingswijze
+
+1. Verhit de oven voor op 180 graden. Spreid de hazelnoten uit over een bakplaat. Rooster de hazelnoten ongeveer 10 minuten. Laat ze daarna afkoelen tot je ze kan vastpakken, doe ze in een schone theedoek en wrijf de vliesjes er vanaf. Hak de noten vervolgens grof, het is niet erg als er nog hele noten tussen zitten.
+
+1. Haal de haricot verts en peultjes met een scherp mes af, hou ze gescheiden. Breng een flinke pan water aan de kook, zodat de boontjes genoeg ruimte hebben en dus hun kleur behouden.
+
+1. Blancheer de haricot verts ongeveer 4 minuten, giet af en spoel ze onder koud water af.
+
+1. Blancheer vervolgens de peultjes in 1 minuut, giet ook af en spoel onder koud water af.
+
+1. Schaaf met een dunschiller fijne repen van de sinaasappelschil (ik gebruik zelf een zesteur).
+
+1. Meng alle ingredienten in een grote schaal, voeg eventueel wat sap toe van de sinaasappel en breng verder op smaak met peper en zout.

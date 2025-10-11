@@ -1,0 +1,11 @@
+---
+title: MyTomorrows TrialSearch AI
+description: |
+    Pre-screening of patient eligibility for clinical trials using large language models.
+image: /images/mytomorrows.png
+categories: [applied AI, mentoring]
+---
+
+#
+
+Story about MyTomorrows to follow soon. Meanwhile read [the paper](https://arxiv.org/pdf/2304.07396.pdf) describing the results from this project.

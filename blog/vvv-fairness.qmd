@@ -1,0 +1,67 @@
+---
+title: "Fairness bij gebruik van algoritmes in het verzekeringswezen" 
+subtitle: Verbond van Verzekeraars Datamiddag 2024
+description: |
+    Algoritmes maken het mogelijk om producten en diensten steeds verder te personaliseren. Dat geldt ook voor (de premies van) verzekeringen. Maar hoe personaliseer je eerlijk? Op basis van mijn presentatie die ik gaf op de Datamiddag 2024 bij het Verbond van Verzekeraars, schreef Ellen Jonges dit artikel.
+author:
+    - Daniel Kapitan (presentatie)
+    - Ellen Jonges (artikel)
+date: 2024-10-07
+date-format: "MMM YYYY"
+image: ./images/vvv-dkapitan.png
+html:
+    code-fold: true
+categories: [nederlands, fairness]
+lang: nl
+---
+
+```{=html}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtPCVysN4Jpn7ikQMAGFwHg_ljyxRptacZ1vbMPZuPZOnohhArnqHxjmsqrZRQWzhMj0ou1tpYcDW3/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+
+### Optimaliseren
+
+Als je algoritmes gebruikt om risicoprofielen te maken waarop vervolgens besluiten worden genomen, zal je volgens Kapitan moeten kiezen waarop het algoritme geoptimaliseerd moet worden. Denk bijvoorbeeld aan de afweging tussen zo min mogelijk fout positieven of fout negatieven. Deze keuze is direct gerelateerd aan een maatstaf voor eerlijkheid (fairness). Onderzoek wijst uit dat hier een keuze in gemaakt moet worden, omdat verschillende definities van fairness wiskundig onverenigbaar zijn.
+
+### Actuarial fairness onmogelijk
+
+Kapitan: “eerlijkheid is wiskundig gezien een onoplosbaar probleem dat zelfs de beste wiskundigen niet voor de verzekeringsbranche kunnen oplossen.” Voor zijn uitspraak refereert hij onder andere aan een [artikel](https://link.springer.com/article/10.1007/s13347-023-00624-9) van Joachim Baumann. Om dat te duiden begint hij bij actuarial fairness. Dat houdt in dat iemand die een hoger risico loopt meer premie betaalt. “Over het algemeen vinden we dat eerlijk, toch?” vraagt hij zich hardop af.
+
+“Maar in zijn artikel stelt Baumann dat actuarial fairness wiskundig gezien helemaal niet mogelijk is. Want het échte risico op individueel niveau is niet meetbaar. Je zult het risico hooguit kunnen benaderen. Daarom kunnen we alléén fairness tussen groepen met elkaar vergelijken. Maar wat is dan eerlijk? Geef je bijvoorbeeld iedereen een gelijk uitgangspunt? Of een gelijke kans?”
+
+Hij vervolgt: “Ervan uitgaande dat Baumann gelijk heeft, zijn er tools en wiskundige formules beschikbaar om group fairness in te zetten. En ja, je wilt als verzekeraar uiteindelijk toewerken naar individuele premies, maar deze kun je in de praktijk alleen bij benadering uitrekenen met gebruik van technieken gebaseerd op group fairness.” Kapitan benadrukt daarbij dat hij geen verzekeringsdeskundige is, maar dat hij zich in zijn analyse heeft laten leiden door Baumann, doch ook door het advies van het College voor de Rechten van de Mens over de Dazure overlijdensrisicoverzekering.
+
+### Soorten group fairness
+
+Op basis van literatuur zijn er volgens Kapitan grosso modo drie group fairness-definities te onderscheiden:
+
+#### Definitie 1: Onafhankelijkheid (Independence)
+
+Deze definitie houdt in dat iedereen gelijk wordt behandeld. Een voorbeeld hiervan is de casus ‘[Arrest Test-Aankoop](https://nl.wikipedia.org/wiki/Arrest_Belgische_Verbruikersunie_Test-Aankoop)'. De uitkomst van dit arrest is dat het vanaf december 2012 niet meer is toegestaan om bij verzekeringsproducten verschil te maken tussen mannen en vrouwen wat betreft premies of uitkeringen. Zelfs niet als vrouwen een lager risico hebben op ongelukken, en langer leven. De uitkomsten voor de groepen mannen en vrouwen moet dus onafhankelijk zijn van de variabele ‘sekse’.
+
+#### Definitie 2: Gelijkheid (Separation)
+
+Dit betekent dat de kans op fouten hetzelfde is tussen groepen, gezien vanuit het perspectief vanuit de verzekerde. Een voorbeeld hiervan is de eerdergenoemde casus '[Dazure levensverzekeringen](https://www.fiscaalleven.eu/KamerbriefPremiedifferentiatieObvPostcodeBijORVFM14-204MAdviesDazure.pdf)’.
+
+Dus stel; je woont in een postcodegebied en je hebt een hoog inkomen. Maar in dat postcodegebied ben je een uitzondering. Jij krijgt dan een lagere premie dan past bij jouw risico. De Engelse term voor de vorm van group fairness wordt ook wel ‘equal odds’ genoemd, dat wil zeggen dat fairness in deze definitie betekent dat iedereen dezelfde kans heeft op een ‘foute’ risico-indeling, ongeacht tot welke groep je ook behoort,
+
+#### Definitie 3: Calibratie (Sufficiency)
+
+De derde definitie houdt in dat de kans op fouten hetzelfde is tussen groepen, gezien vanuit het perspectief vanuit de verzekeraar. Een voorbeeld hiervan is de casus ‘[Voorspellen van kredietwaardigheid](https://fairmlbook.org/classification.html#case-study-credit-scoring)’.
+
+Het calibreren van een model wil zeggen dat je een vergelijking maakt tussen voorspelde waarden en echte waarden. De calibratie van het model, dus hoe goed het model voorspelt, moet volgens deze opvatting van fairness hetzelfde zijn voor alle groepen. Dit is volgens Baumann de meest eerlijke werkvorm, omdat je eist dat de voorspellingen die een algoritme maakt en waarom een premie wordt gebaseerd, een-op-een evenredig moet zijn met de werkelijke schadelast van de groep. Let wel: calibratie is niet genoeg om actuarial fairness te garanderen. Maar Baumann heeft wiskundig bewezen dat als er sprake is van actuarial fairness, er in elk geval sprake moet zijn van calibratie.
+
+### Pleidooi
+
+“Wat hij in het stuk ook zo mooi beschrijft,” vult Kapitan aan, “is dat verzekeraars uiteindelijk zoveel mogelijk klantgericht willen werken op basis van gepersonaliseerde premies. En omdat je dan uitsluitend met group fairness kunt werken, is Baumanns pleidooi: de enige manier om perfecte individuele premies te benaderen, is gebruikmaken van calibratie.” Kapitan is het met hem eens: “Ik vind zijn argumenten het meest overtuigend, omdat die het dichtst liggen bij wat ik denk dat de meest robuuste algoritmes zijn. Wel is er echt nog meer causistiek nodig of dit in de praktijk te doen is. Deze verschillende noties van group fairness zijn slechts een startpunt.”
+
+### Kiezen
+
+Volgens Kapitan is het aan verzekeraars om uit te zoeken en intern afspraken te maken over wat ‘eerlijkheid’ in verzekeringstermen precies is. Het is nodig om daarbij steeds een bewuste afweging te maken, omdat drie principes niet verenigbaar zijn. “Je moet kiezen. En op basis van wat bijvoorbeeld de directie of pricing board kiest, weten data scientists hoe zij algoritmes moeten trainen en optimaliseren om producten op een eerlijke manier te personaliseren.”
+
+::: {.callout-tip}
+## Meer weten over group fairness?
+
+Het open access boek [Fairness and Machine Learning](https://anthology-of-data.science/books/fairml.html) geeft een uitgebreide introductie en uitleg over dit onderwerp.
+:::

@@ -1,0 +1,34 @@
+---
+title: Eindelijk is data delen geen gunst, maar een recht
+subtitle: Opinie gepubliceerd in het Financieele Dagblad
+description: Vanaf maandag is de Data Governance Verordening van kracht. Data delen, bijvoorbeeld onder wetenschappers, moet de standaard worden. Wetenschappers moeten zich assertief opstellen en desnoods hulp van de rechter inroepen.
+author: Antoinette Vlieger, Daniel Kapitan, Egge van der Poel
+date: 2023-09-20
+date-format: "MMM YYYY"
+image: /images/YasminDwiputri-DataHazards.png
+categories: [nederlands, data solidarity]
+lang: nl
+---
+
+De nieuwe Europese Data Governance Verordening is vanaf maandag 24 september van toepassing in alle Europese lidstaten. Het is belangrijke wetgeving, die is ontworpen om de nu nog te beperkte uitwisseling van data binnen de EU te stimuleren. Op Europees niveau wordt hard gewerkt aan een vrij verkeer van data, vergelijkbaar met het vrije verkeer van goederen of personen. Met de Data Governance Verordening wil de EU onder meer het vertrouwen in het delen van gegevens vergroten en het hergebruik van bepaalde gegevens in handen van de overheid makkelijker maken. In beginsel allemaal goed nieuws.
+Toch lijkt Nederland, en dan met name de Nederlandse zorgsector, in het geheel niet klaar voor de datarevolutie die met deze nieuwe wet door de Europese wetgever is ingezet. Want zowel onze overheid als de bestuurders in de (semi-)publieke sector stellen zich zeer terughoudend op ten aanzien van oplossingen die het vrije verkeer van data bevorderen. Zo startte de Europese Commissie in februari al een procedure tegen de Nederlandse staat, omdat die de Open Data Richtlijn al twee jaar onrechtmatig negeert.
+
+
+## Op je data blijven zitten
+
+Het inmiddels demissionaire Kabinet toonde zich sowieso geen liefhebber van vrije data. Dat paste bij de Rutte-doctrine om openbaarheid van bestuur in te perken, maar het is een zorgelijke houding. De behoefte aan het uitwisselen van data is groter dan ooit, zeker in de zorg. Toch blijft een meerderheid van de instellingen nu nog ‘op haar data zitten’ vanuit een foutieve veronderstelling dat zorgdata hun eigendom zijn. De terughoudendheid om data met collega-wetenschappers en artsen te delen heeft grote negatieve gevolgen, zo zagen we ook bij het bestrijden van het coronavirus.
+De Data Governance Verordening — vooral relevant voor organisaties met een publieke taak — kan voor een omslag gaan zorgen. Een fundamenteel uitgangspunt is dat data over personen beschermd blijft door privacywetgeving. Maar als die data eenmaal rechtmatig is gedeeld, bijvoorbeeld voor wetenschappelijk onderzoek, dan moet deze ook met anderen gedeeld worden.
+
+
+## Game changer
+
+De nieuwe verordening zet daarmee in op 'data delen by default' — als standaard dus en niet als uitzondering. En dat is een game changer. Voor het versnellen en verbeteren van wetenschappelijk onderzoek kan het immers veel betekenen als onderzoekers standaard gemakkelijker over meer relevante data kunnen beschikken.
+Maar ook voor dit nieuwe datarecht geldt dat het pas echt effect krijgt als betrokken partijen er een beroep op gaan doen en de exacte reikwijdte van hun rechten gaan testen. En dat is precies wat zorgbestuurders en wetenschappers mogen en moeten gaan doen.
+Wetenschappers kunnen datasets in rechte opeisen, om korte metten te maken met het idee dat data krijgen een gunst is. En wie geconfronteerd wordt met een te hoge factuur voor die data, kan een bestuursrechter laten toetsen of dit niet meer is dan de marginale kosten die maximaal in rekening mogen worden gebracht.
+Terughoudendheid en vrijblijvendheid moeten plaatsmaken voor assertiviteit en interactie. Een goede zaak, want het bevorderen van het delen van data is van grote waarde voor zorg en wetenschap.
+
+_Antoinette Vlieger is advocaat bij Boomberg Advocaten. Daniel Kapitan is onafhankelijk adviseur, datawetenschapper en AI Fellow aan de TU Eindhoven. Egge van der Poel is onafhankelijk adviseur, onderzoeker en schrijver._
+
+Yasmin Dwiputri & Data Hazards Project / Better Images of AI / AI across industries / CC-BY 4.0
+
+<small class="text-muted">Opinie verschenen in <a href=https://edata.nl/2022/02/01/column-dromen-over-open-data-en-algoritmes/>het Financieele Dagblad</a>.</small>

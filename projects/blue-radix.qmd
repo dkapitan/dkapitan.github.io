@@ -1,0 +1,11 @@
+---
+title: Blue Radix
+description: |
+    Concepting the next generation AI for autonomous greenhouses.
+image: /images/blue-radix-closeup.jpg
+categories: [data-centric ai, mentoring]
+---
+
+#
+
+Stay tuned, more to follow soon.

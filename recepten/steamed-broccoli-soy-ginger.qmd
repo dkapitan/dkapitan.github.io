@@ -1,0 +1,38 @@
+---
+title: Steamed broccoli with soy and ginger
+description: |
+    Easy alternative to plain boiled broccoli.
+image: ./images/broccoli-ginger-sesame.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Bron: [https://grubgalore.com/recipe/steamed-broccoli-with-soy-ginger/](https://grubgalore.com/recipe/steamed-broccoli-with-soy-ginger/)
+:::
+:::{.g-col-4}
+![](./images/broccoli-ginger-sesame.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 1 large head of broccoli cut into florets or 2 packs broccolini
+- 2 heaped tbsp sesame seeds
+- 5 garlic cloves peeled and sliced
+- 3 tbsp soy sauce
+- 1/2 tsp toasted sesame oil
+- juice of 1-2 limes
+- thumb size piece of ginger, peeled
+ 
+## Bereidingswijze
+In a dry wok (or pan) toast the sesame seeds until golden brown and set aside in a small dish.
+
+Gently fry the garlic in enough olive oil till golden brown. I find tilting the wok to the side easiest as it allows the oil to pool so it fries the garlic quicker. Drain the garlic chips on tissue paper and set aside.
+
+Leave 1 tbps of oil in the pan and add the sesame oil and soy sauce and lime juice. Grate the ginger and press through a fine sieve into the pan extracting as much juice as possible. Heat gently for two minutes. You are aiming for a balance of saltines, nuttiness and zing.
+
+Adjust the seasoning to suit.
+
+Steam the broccoli until slightly tender. Serve drizzled with the warmed dressing which you will need to keep stirring in the pan then top with the toasted sesame seeds and garlic chips.

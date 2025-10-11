@@ -1,0 +1,13 @@
+---
+title: Amphia Sensium
+description: |
+    Development of algorithms for early warning signals using smart plasters.
+image: /images/amphia-sensium.jpg
+categories: [applied AI, mentoring]
+---
+
+#
+
+Stay tuned, more to follow soon.
+
+Meanwhile, read an interview with Frank Niemantsverdriet and myself on how Amphia uses AI to combat scarcity in healthcare ([English](https://www.jads.nl/news/combating-healthcare-scarcity-with-data-what-role-will-your-hospital-play/), [Dutch](https://www.deondernemer.nl/innovatie/advertorial-jads-zorgschaarste-data~4152485)).

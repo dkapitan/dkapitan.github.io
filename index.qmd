@@ -1,0 +1,218 @@
+---
+sidebar: true
+toc: false
+format:
+  html:
+    page-layout: article
+  
+---
+```{=html}
+<!-- Bug in hero - only displays properly with empty div at the top -->
+<div class="jumbotron bgimg">
+  <div class="container">
+    <h1 class="display-4"></h1>
+    <p class="lead"></p>
+  </div>
+</div>
+<style type="text/css">
+.bgimg {
+  background-image: url('images/hero.jpg');
+  Background-size: cover;
+}
+.lead {
+    font-family: "Zilla Slab";
+    text-align: center;
+}
+.hero-quote {
+  font-family: "Zilla Slab";
+  font-color: white;
+  color: white;
+}
+
+.fw-bold {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-style: bold !important;
+  color: white !important;
+}
+</style>
+<div class="p-5 mb-4 bg-light rounded-3 bgimg">
+  <br><br><br><br>
+  <div class="hero-quote">
+    <h1 class="display-5 fw-bold">Looking<br>to do more<br>with data and AI?</h1>
+  </div>
+</div>
+<p class="lead">
+   <small class="text-hero">DATA-CENTRIC AI &emsp; | &emsp; APPLIED AI &emsp; | &emsp; COACHING & MENTORING &emsp; | &emsp; MASTERCLASSES & PUBLIC SPEAKING</small>
+</p>
+```
+
+
+
+<br>
+
+::: {.grid}
+::: {.g-col-1}
+:::
+
+::: {.g-col-10}
+#### Unmet expectations of AI
+
+Many people continue to have high expectations of what data and AI can bring. Yet, the majority of organisations struggle to capture real value from data and AI-driven innovations. Studies have shown that up to 95% of such innovations never make it past the proof-of-concept stage into full-scale operations.
+
+#### Gaining strategic autonomy
+
+The key towards creating sustainable change with digital technologies lies in increasing your own data literacy and understanding of AI, and that of your organisation. AI is not sci-fi, we need to demystify digital technologies. That way, professionals and domain experts can obtain strategic autonomy to reason, think, imagine and create applications with AI themselves. Technology can only be of value when it is put within the appropriate business, societal or human context. 
+
+We offer the following services to help you master data and AI yourself.
+:::
+
+::: {.g-col-1}
+:::
+:::
+
+<br><br>
+
+:::: {#light-grey-background}
+::: {.grid}
+::: {.g-col-8}
+
+### Data-centric AI
+
+Data sit at the core of digital business transformation. As machine learning algorithms mature, the biggest challenge in making AI work is to improve the quality and scale of the data required to train AI. In our experience most AI projects fail because existing data platforms lack the reliability, flexibility and performance to effectively develop and deploy AI systems. We systematically engineer data so it can be used by AI systems to improve your business, drive innovation and enable data-based decision intelligence. We call that data-centric AI.
+
+<small class="text-muted">Data Architecture | MLOps (Machine Learning Operations) | Federated Learning | Privacy-Enhancing Technologies</small>
+:::
+
+:::{.g-col-4}
+![](images/noun-timeline-inverse.png)
+:::
+:::
+::::
+
+<br>
+
+:::: {#applied-ai}
+::: {.grid}
+::: {.g-col-4}
+![](images/noun-generative-ai.png)
+:::
+
+::: {.g-col-8}
+### Applied AI
+The possibilities of AI are virtually endless and can fundamentally change the way you run your business or lead your organisation. It changes business strategies, policies as well as the behaviour of your teams. If your company embarks on integrating AI, it needs to do what is relevant and what you want it for. We developed impactful AI applications that are accurate, taking into account the factors that drive the predictions and relating it to domain expertise. We help you integrate AI innovations in your services or products.
+
+<small class="text-muted-darker">Explainable AI | Generative AI & Large Language Models | Physics-Informed Machine Learning</small> 
+:::
+:::
+::::
+
+<br>
+
+:::: {#light-grey-background}
+::: {.grid}
+::: {.g-col-8}
+
+### Coaching & mentoring
+
+Data and AI will change your business and your way of working. Not everyone is immediately ready for this. We teach, coach and mentor professionals who require a better understanding of data and artificial intelligence, making them comfortable and topic-specialists. We offer in-company on-the-job coaching, working side-by-side with your team to explore how AI can impact your line of business.
+
+<small class="text-muted">One-the-job coaching for individuals and teams | Challenge-based learning | Technical deep-dives for experts</small> 
+:::
+
+::: {.g-col-4}
+![](images/noun-mentor-inverse.png)
+:::
+:::
+::::
+
+<br>
+
+:::: {.container}
+::: {.grid}
+::: {.g-col-4}
+![](images/noun-lecture.png)
+:::
+
+::: {.g-col-8}
+### Masterclasses & public speaking
+We provide masterclasses on topics related to data & AI, ranging from introductory lectures to more advanced deep-dives. For larger audiences, we create workshops or provide keynotes such that professionals at all levels can obtain a better understanding of data and AI.
+
+<small class="text-muted-darker">Keynote speeches | Masterclasses for management and executives | Inspirational lectures</small>
+:::
+:::
+::::
+
+<br>
+
+:::: {#logo-board}
+[![](/images/logo-board.png)](projects/index.qmd)
+:::
+
+<br>
+
+```{=html}
+<style>
+#light-grey-background {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: .3rem !important;
+}
+#logo-board {
+  padding-top: 20px;
+  border-radius: .3rem !important;
+  background-color: #ffffff;
+}
+</style>
+```
+
+
+
+
+
+::: {.grid}
+::: {.g-col-2}
+:::
+
+::: {.g-col-6}
+![](images/vka-profile.png){fig-align="center"}
+
+### "As a data architect and AI expert I can help you create sustainable change with digital technologies."
+:::
+
+::: {.g-col-2}
+:::
+:::
+
+
+<br><br><br>
+
+# About me
+
+Dr Daniel Kapitan (1973) is a well-rounded data scientist and strategic advisor with years of experience in the field of data, machine learning and digital transformation. His knowledge can help companies to identify how to use AI, and how to integrate this into business processes, roles, and day-to-day operations. He aims to create sustainable change in organizations by systematically engineering data that is required for new AI applications.
+
+With a PhD in physics from University of Oxford and currently Fellow at the Eindhoven AI Systems Institute (EAISI), Daniel has a strong scientific grounding in the field. He speaks authoritatively about data-driven transformation programs, reducing complexity to ‘informed simplicity’ for even the most challenging data projects. By combining data and AI know-how with industry expertise, he is capable of bringing about end-to-end business transformation for mid-sized companies, government organizations and scale-ups.
+
+Daniel starts when organizations are ready to embark on their digital journey, and finishes when people are enabled to continue to work with data and AI by themselves.
+
+### Roles
+Daniel works as an advisor, architect, lecturer, applied researcher and mentor. He is one of the few specialists in the Netherlands who has the unique combination of corporate experience, scientific research and executive education. Through these various roles he aims to apply ‘AI for good’. He lectures on data and AI, publishes regularly and advocates for data solidarity and open source AI as a means towards more equitable use these technologies.
+
+### Areas of expertise
+Explainable AI, physics-informed machine learning, data-centric AI, data architecture, federated learning, knowledge science, data commons.
+
+### Industry focus
+Healthcare, public sector, OEMs and scale-ups for which data and AI are a core element of their strategy.
+
+
+### Contact details
+
+__email:__ [daniel@kapitan.net](mailto:daniel@kapitan.net)<br>
+__LinkedIn:__ [follow me](https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dkapitan)
+
+#
+```{=html}
+<a href="/appointment" class="btn btn-primary btn-lg" type="button">Book an appointment</a>
+```

@@ -1,0 +1,18 @@
+---
+title: Analytical problem solving
+subtitle: based on causal, correlational and deductive models
+description: |
+    I co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving.
+author: Daniel Kapitan
+date: 2022-03-10
+date-format: "MMM YYYY"
+image: /images/logo-american-statistician.png
+toc: false
+categories: [english, modeling]
+---
+
+#
+
+{{< pdf /resources/demast2023analytical.pdf width=100% height=800 >}}
+
+

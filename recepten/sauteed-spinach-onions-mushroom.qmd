@@ -1,0 +1,54 @@
+---
+title: Sautéed spinach with mushrooms and caramelized onions
+description: |
+    Delicious sautéed spinach with mushrooms and caramelized Onions is a favorite side dish for grilled meats. This vegetarian dish is quite versatile: you can eat it as-is, or you can serve it alongside some pasta, ravioli or ready made tortellini. It is also great with grilled steak, pork, or chicken.
+image: images/sauteed-spinach.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Delicious sautéed spinach with mushrooms and caramelized onions is a favorite side dish for grilled meats. This vegetarian dish is quite versatile: you can eat it as-is, or you can serve it alongside some pasta, ravioli or ready made tortellini. It is also great with grilled steak, pork, or chicken.
+
+:::
+:::{.g-col-4}
+![](images/sauteed-spinach.jpg)
+:::
+:::
+
+## Ingredienten
+
+### Caramelized onions
+- 1 tablespoon olive oil
+- 3 onions (medium or large, sliced)
+- pinch of salt
+- 1 tablespoon balsamic vinegar
+  
+### Cooked mushrooms and spinach
+- 1 tablespoon olive oil
+- 8 oz mushrooms (sliced (such as button mushrooms, shiitake, etc.))
+- 3 garlic cloves (minced)
+- pinch of salt
+- 6 oz spinach (fresh)
+ 
+### Optional cream sauce
+- 1/3 cup heavy cream
+- 1/4 cup milk
+- 1/2 cup Parmesan cheese shredded
+- 1/4 teaspoon salt
+
+## Bereidingswijze
+
+### Caramelized onions
+- Heat 1 tablespoon olive oil on high heat in a large skillet, when oil is heated, add sliced onions and cook on high heat for about 10 minutes, constantly stirring with spatula. The onions should start to brown, but without burning (a couple of onions may be burnt here and there, but overall they should not be charred).
+- Reduce heat to medium and continue cooking onions for 10 more minutes, continuing to stir, as onions brown even more without burning. At this point add just a pinch of salt over onions.
+- Continue cooking for 10 more minutes on medium or low heat, stirring occasionally to make sure onions don’t stick to the bottom of the pan or burn. Total you should have cooked onions for 30 minutes.
+- Remove from heat and sprinkle onions with a small amount of balsamic vinegar to deglaze the pan. Using spatula, mix the onions, scraping the bottom of the pan and coating onions with a pinch of balsamic vinegar you just added.
+
+### Cooking mushrooms and spinach
+- After you have started cooking onions, heat 1 tablespoon olive oil in another pan, and add sliced mushrooms (I used shiitake with stems removed, you can use any small sized mushrooms) and minced garlic. Add just a pinch of salt. Reduce heat to medium-low and cook mushrooms and garilc covered for about 20 minutes, occasionally stirring.
+- Add cooked mushrooms to the pan with caramelized onions, add 3 cups of spinach and stir on low heat just until spinach wilts. Serve as is as a side dish or proceed to make a creamy sauce as below.
+
+### Optional cream sauce
+- Add heavy cream, milk, Parmesan cheese and 1/4 teaspoon salt to the mushroom-onions-spinach mixture on medium-low heat and mix. Stir to coat on low heat for about 5-10 minutes until Parmesan cheese melts and starts to coat the vegetables.
+- Serve as a side dish along grilled meats.

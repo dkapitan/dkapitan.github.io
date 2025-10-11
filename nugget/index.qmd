@@ -1,0 +1,11 @@
+---
+title: How to be a happy camper with the Nugget
+listing:
+    contents: .
+    type: grid
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    feed: false
+---

@@ -1,0 +1,74 @@
+---
+title: Hoe krijgen we eerlijke algoritmen voor overheidstoezicht?
+subtitle: Opinie gepubliceerd op socialevraagstukken.nl
+description: De Autoriteit Persoonsgegevens legde de Belastingdienst onlangs een boete op voor het gebruik van de ‘fraudesignaleringsvoorziening’, waarin jarenlang illegaal persoonsgegevens verwerkt werden. Wat zijn knelpunten van algoritmegebruik bij overheidstoezicht en wat nodig is om wel tot eerlijke, niet-discriminerende algoritmen te komen.
+author: Daniel Kapitan
+date: 2022-04-25
+date-format: "MMM YYYY"
+image: /images/alexander-grey-TZZwC_xsClY-unsplash.jpg
+html:
+    code-fold: true
+categories: [nederlands, responsible ai]
+lang: nl
+---
+
+Het gebruik van algoritmen voor toezicht door de overheid blijft een heikel punt. Bij het verschijnen van het vierde en vijfde rapport over de Fraudesignaleringsvoorziening (FSV) bij de Belastingdienst.[^1] liet de politiek geen kans onbenut om in krachtige termen haar ongenoegen te uiten: ‘schandalig’, ‘racistisch’, ‘woest makend’ en ‘oneerlijk’. In de Tweede Kamer werd met ruime meerderheid een motie aangenomen[^2] om impact assessments verplicht te stellen ter voorkoming van misbruik van algoritmen. Maar om tot eerlijke algoritmen te komen, is meer nodig.
+
+## Algoritmen gebruiken voor risicoprofilering
+
+Overheden zetten fors in op digitale transformatie, ook voor haar toezichthoudende taken. Uit de I-strategie Rijk 2021-2025[^3] en het onderzoek naar gebruik van algoritmen bij gemeenten[^4] blijkt dat het niet een kwestie is of data en algoritmen gebruikt gaan worden voor risicoprofilering in de uitvoeringspraktijk, maar vooral een vraag hoe en onder welke randvoorwaarden de overheid dit kan inzetten.
+
+Tegelijkertijd zijn er veel kritische geluiden, zoals deze uitspraak van de Haagse rechtbank over SyRI[^5], het rapport van de Rotterdamse Rekenkamer over ethisch gebruik van algoritmen door de gemeente[^6] en het pleidooi van Amnesty International voor een algeheel verbod op gebruik van gevoelige persoonskenmerken en algoritmen door de overheid.[^7] Met een boete van 3,7 miljoen euro maakt de Autoriteit Persoonsgegevens recentelijk onmiskenbaar duidelijk[^8] dat de fraudesignaleringsvoorziening (FSV) van de Belastingdienst een illegale verwerking is.
+
+## Voor een algoritme dat recht doet aan onze democratie is meer nodig
+
+Maar de geest is uit de fles, zoals blijkt uit het WRR rapport ‘Opgave AI’,[^9] en er lijkt er geen weg terug. De opgave waar wij als samenleving voor staan is om AI maatschappelijk in te bedden. De overeenstemming in de kamer over verplicht gebruik van de Impact Assessment Mensenrechten en Algoritmes (IAMA)[^10] is daarvoor niet genoeg. Deze procesbenadering biedt onvoldoende houvast om bestuurlijke richtlijnen te laten matchen met de uitvoeringspraktijk voor een goed resultaat – namelijk een praktisch werkend algoritme dat recht doet aan onze wensen en eisen van een democratische rechtsstaat.
+
+In de afgelopen paar jaar zijn verschillende procesmethodieken ontwikkeld om ethiek een plaats te geven in de ontwikkeling van algoritmen. Een voorbeeld is de IAMA-methodiek. Deze wordt echter slechts ‘als ethisch begeleider en niet als beoordelaar’ ingezet.
+
+## De mystiek van en onbekenheid met algoritmen wreekt zich hier
+
+Naast begeleidingsethiek zijn duidelijke regels nodig die inhoudelijk richting geven aan hoe algoritmen ontwikkeld en gebruikt moeten worden. Zo moet, net als bij COVID-testen, altijd een afweging gemaakt worden tussen sensitiviteit (correct voorspellen van een risico) en specificiteit (zo min mogelijk fout positieve voorspellingen). Deze afweging wordt nu nog te vaak door technische ontwikkelaars gedaan, terwijl hier juist een rol is weggelegd voor bestuurders.
+
+De mystiek van en onbekendheid met algoritmen wreekt zich hier. Bestuurders, toezichthouders, juristen, ethici en datascientists hebben onvoldoende begrip van elkaars vakgebied, waardoor het lastig is om concepten uit de statistiek (de kern van machine learning) te vertalen naar een inhoudelijk, bestuurlijk toetsingskader. Het probleem ligt met name ook in de emotionele en politieke beladenheid van het gebruik van bijzondere persoonsgegevens, zoals leeftijd, geslacht of nationaliteit.
+
+## Kind met het badwater weggooien
+
+In Rotterdam bijvoorbeeld is naar aanleiding van het eerdergenoemde rapport politieke consensus ontstaan over het niet meer gebruiken van ‘gevoelige variabelen’.[^11] Bijvoorbeeld bij het controleren van bijstandsontvangers.
+
+Elk jaar worden onder de 35.000 Rotterdamse bijstandsontvangers circa 6.000 heronderzoeken uitgevoerd om vast te stellen of zij wel rechtmatig een uitkering ontvangen. Om de beschikbare handhavingscapaciteit zo effectief mogelijk in te zetten, wil de gemeente deze heronderzoeken uitvoeren bij uitkeringsontvangers met de grootste kans op het onterecht ontvangen van een uitkering. Daarvoor is een risicomodel ontwikkeld dat onrechtmatigheden voorspelt.
+
+Voor de voorspelling worden persoonsgegevens, zoals leeftijd en geslacht, gebruikt die een correlatie hebben met een verhoogd risico op onrechtmatig gebruik van een bijstandsuitkering. De Rotterdamse Rekenkamer stelt dat dit kan resulteren in ongewenste discriminatie en de gemeente wil daarom deze gevoelige variabelen niet meer gebruiken.
+
+Als deze lijn wordt doorgezet zijn we hard op weg om het kind met het badwater weg te gooien. We kunnen dan net zo goed meteen stoppen met het investeren van tijd en geld in de ontwikkeling van algoritmen voor risicoprofilering door de toezichthoudende overheid. De essentie van algoritmen is dat zij alleen goede voorspellingen kunnen geven door maximaal gebruik te maken van correlaties in de data.
+
+## Statistisch en ethisch verantwoord gebruik
+
+Om discriminatie door een algoritme tegen te gaan, is het juist zaak om alle gevoelige variabelen mee te nemen voor het ontwikkelen van het algoritme en pas achteraf te bepalen welke variabelen uiteindelijk wel of niet gebruikt mogen worden.
+
+Al in 1988 beschreven Schmidt en Witte[^12] een methode voor statistisch én ethisch verantwoord gebruik van algoritmen, in dit geval binnen de context van de rechtspraak. Zij laten zien hoe een technisch team tijdens de ontwikkelfase alle mogelijke variabelen gebruikt om het algoritme te ‘trainen’ om recidiverisico te bepalen. In de gebruiksfase bepalen beleidsmakers dan welke variabelen gebruikt mogen worden om dit risico te voorspellen en daadwerkelijk mee te wegen in de uitspraak.
+
+Stel, er is een hoge correlatie tussen recidiverisico en nationaliteit. Omdat we het onwenselijk vinden dat nationaliteit een overweging is voor de rechtspraak, wordt deze variabele wel gebruikt in de ontwikkelfase van het algoritme, maar wordt hij achterwege gelaten (geblindeerd) in het berekenen van het recidiverisico. Hiermee wordt discriminatie effectief tegengegaan.
+
+## Meer concrete, inhoudelijke richtlijnen zijn nodig
+
+Om algoritmen maatschappelijk in te bedden, zullen alle geledingen van de overheid (wetgevend, uitvoerend en controlerend) en maatschappelijke organisaties tot meer concrete, inhoudelijke richtlijnen moeten komen over hoe data en algoritmen ingezet kunnen worden voor de toezichthoudende overheid.
+
+Dat begint met het inzicht dat persoonsgegevens zoals geslacht of nationaliteit an sich niet discriminerend zijn. Bovendien is een beter begrip van de werking van algoritmen noodzakelijk om een vruchtbaar debat te voeren over het gebruik ervan. Meer multidisciplinair onderzoek is gewenst, bijvoorbeeld via initiatieven zoals de ELSA Labs[^13] of het Civic AI Lab[^14], opdat verschillende vakgebieden meer van elkaar gaan begrijpen.
+
+Totdat hier meer helderheid over is, zou de overheid haar aandacht beter kunnen richten op andere thema’s binnen de digitaliseringsagenda, zoals het toepassen van AI voor ontwikkeling en beheer van de bebouwde omgeving, waar risico op discriminatie aanmerkelijk lager is.
+
+[^1]: [https://www.rijksoverheid.nl/documenten/kamerstukken/2022/03/29/kamerbrief-bij-pwc-rapporten-fsv-mkb-en-querys-aan-de-poort](https://www.rijksoverheid.nl/documenten/kamerstukken/2022/03/29/kamerbrief-bij-pwc-rapporten-fsv-mkb-en-querys-aan-de-poort)
+[^2]: [https://www.tweedekamer.nl/kamerstukken/moties/detail?id=2022Z06024&did=2022D12329](https://www.tweedekamer.nl/kamerstukken/moties/detail?id=2022Z06024&did=2022D12329)
+[^3]: [https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk.pdf](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/09/I-Strategie-Rijk.pdf)
+[^4]: [https://hooghiemstra-en-partners.nl/onderzoek-hoe-gemeenten-besluiten-over-algoritmen-en-mensenrechten](https://hooghiemstra-en-partners.nl/onderzoek-hoe-gemeenten-besluiten-over-algoritmen-en-mensenrechten)
+[^5]: [https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Den-Haag/Nieuws/Paginas/SyRI-wetgeving-in-strijd-met-het-Europees-Verdrag-voor-de-Rechten-voor-de-Mens.aspx](https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Den-Haag/Nieuws/Paginas/SyRI-wetgeving-in-strijd-met-het-Europees-Verdrag-voor-de-Rechten-voor-de-Mens.aspx)
+[^6]: [https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/](https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/)
+[^7]: [https://www.amnesty.nl/wat-we-doen/tech-en-mensenrechten/algoritmes-big-data-overheid](https://www.amnesty.nl/wat-we-doen/tech-en-mensenrechten/algoritmes-big-data-overheid)
+[^8]: [https://autoriteitpersoonsgegevens.nl/nl/nieuws/boete-belastingdienst-voor-zwarte-lijst-fsv](https://autoriteitpersoonsgegevens.nl/nl/nieuws/boete-belastingdienst-voor-zwarte-lijst-fsv)
+[^9]: [https://www.wrr.nl/publicaties/rapporten/2021/11/11/opgave-ai-de-nieuwe-systeemtechnologie](https://www.wrr.nl/publicaties/rapporten/2021/11/11/opgave-ai-de-nieuwe-systeemtechnologie)
+[^10]: [https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes](https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes)
+[^11]: [https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/](https://rekenkamer.rotterdam.nl/onderzoeken/algoritmes/)
+[^12]: [https://link.springer.com/book/10.1007/978-1-4612-3772-3?noAccess=true](https://link.springer.com/book/10.1007/978-1-4612-3772-3?noAccess=true)
+[^13]: [https://nlaic.com/en/building-blocks/human-centric-ai/elsa-concept-for-human-centric-ai/](https://nlaic.com/en/building-blocks/human-centric-ai/elsa-concept-for-human-centric-ai/)
+[^14]: [https://icai.ai/civic-ai-lab/](https://icai.ai/civic-ai-lab/)

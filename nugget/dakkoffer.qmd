@@ -1,0 +1,33 @@
+---
+title: Dakkoffer
+description: |
+    Montage en gebruik van de dakkoffer.
+image: ./dakkoffer.jpg
+categories: [gebruik]
+lang: nl
+---
+
+![](dakkoffer.jpg)
+
+## Montage dakkoffer
+
+De dakkoffer
+
+- wordt op twee Thule Probar EVOs gemonteerd met gebruik van T-adapters;
+- zit aan de linkerkant om het gewicht zoveel mogelijk gebalanceerd te houden; de luifel zit namelijk al rechts;
+- zit zoveel mogelijk naar voren zodat de gasveren van het hefdak het minste gewicht hoeven te verplaatsen
+
+Afmetingen voor het plaatsen van de dakkoffer (zie foto):
+
+- 32 cm van voorkant dakrail tot voorkant voet Thule
+- 80 cm tussen de twee daklegger
+- 13 cm tussen rand daklegger en linker T-adapter
+- 63 cm afstand tussen T-adapters (afstand gaten in dakkoffer)
+
+
+## Gebruik dakkoffer
+
+- Alleen lichte dingen in de dakkoffer, dus jassen, schoenen, slaapzakken
+- Gebruik de opstapbeugel aan de bestuurderszijde
+
+![](opstapbeugel.jpg)

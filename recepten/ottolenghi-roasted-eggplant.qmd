@@ -1,0 +1,36 @@
+---
+title: Roasted eggplant with anchovies and oregano
+description: |
+    From Ottolenghi's Simple.
+image: ./images/ottolenghi-roasted-eggplant.jpg
+categories: [flexitarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+From Ottolenghi's Simple.
+
+:::
+:::{.g-col-4}
+![](./images/ottolenghi-eggplant.jpg)
+:::
+:::
+
+## Ingredienten
+
+- 4 medium eggplants (sliced into 3/4-inch rounds (2 lb 2 oz))
+- Salt
+- 7 tablespoons olive oil
+- 6 anchovy fillets in oil (drained and finely chopped (about 1 tablespoon))
+- 1 tablespoon white wine vinegar
+- 1 small garlic clove (crushed)
+- Black pepper
+- 1 tablespoon oregano leaves
+- 1/4 cup parsley leaves (roughly chopped)
+
+## Bereidingswijze
+
+1. Preheat oven to 450 degrees.
+1. Mix eggplant in a large bowl with 1/2 teaspoon salt. Transfer to 2 large parchment-lined baking sheets and then brush with 5 tablespoons of oil — you want it on both sides of the discs. Bake for 35 minutes, until dark golden brown and cooked through. Remove from the oven and set aside to cool.
+1. In a small bowl, whisk together the anchovies, vinegar, garlic, 1/2 teaspoon of salt, and 1/4 teaspoon of pepper. Slowly pour in the remaining 2 tablespoons of oil, whisking continuously, until combined.
+1. When ready to serve, finely chop the oregano and place in a large bowl along with the eggplant and parsley. Pour in the anchovy dressing, gently mix, and transfer to a platter or bowl.

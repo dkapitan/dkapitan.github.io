@@ -1,0 +1,30 @@
+---
+title: Winterklaar maken
+description: |
+    Checklist voor de winterperiode.
+image: ./winter.jpg
+categories: [onderhoud]
+lang: nl
+---
+
+## Het legen van de watertanks
+
+Om schade door vorst te voorkomen, is het belangrijk om de schoon- en vuilwatertank goed te legen. Een defect in de kraan veroorzaakt door vorst valt niet binnen de garantie. Het is dus belangrijk om de volgende stappen te doorlopen.
+
+### 1. Uitzetten van de waterpomp
+Bij het voeteneind van het beneden bed zit de schakelaar van de waterpomp. Deze zit onder het kooktoestel. Zet de knop op stand '0', daarmee wordt de spanning van de waterpomp gehaald.
+
+### 2. Openzetten kraan wasbak
+Zet de kraan bij de wasbak open. Deze zal nu niet pompen omdat de spanning eraf is. Het water dat in de leidingen zit, zal nu terug in de tank stromen. Blaas de kraan met de mond door, zo blijft er geen water achter in de kraan.
+
+### 3. Openzetten kranen voor schoon- en vuilwatertank
+Zorg ervoor dat de Nugget boven een put staat zodat het water hierin weg kan stromen. Zet vervolgens de kraan van de schoonwatertank open: deze zicht in de rechter kast onder de koelkast. Zet daarna de kraan van de vuilwatertank open: deze zit aan de zijkant van het keukenblok.
+
+### 4. Alle kranen openlaten
+Laat de waterpomp uitstaan en laat alle drie de kranen open staan: de wasbak, de schoon- en vuilwatertank.
+
+Wanneer je de camper weer gaat gebruiken, doe je alle kranen dicht en zet je de schakelaar weer op 'I'.
+
+![](hoofdschakelaar.jpg)
+
+![](vuilwater-kraan.jpg)

@@ -1,0 +1,42 @@
+---
+title: Bloemkool ovenschotel met gehakt
+description: |
+    Een heerlijke bloemkool ovenschotel met gehakt, spekjes, krieltjes en kerrie. Je kunt de ovenschotel prima van te voren maken waardoor je hem op een doordeweekse avond zo snel en makkelijk op tafel zet. 
+image: ./images/bloemkool-ovenschotel-met-gehakt.webp
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Een heerlijke bloemkool ovenschotel met gehakt, spekjes, krieltjes en kerrie. Je kunt de ovenschotel prima van te voren maken waardoor je hem op een doordeweekse avond zo snel en makkelijk op tafel zet. Dus maak nu deze heerlijke ovenschotel zonder pakjes en zakjes!
+
+:::
+:::{.g-col-4}
+![](./images/bloemkool-ovenschotel-met-gehakt.webp)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 1 hele bloemkool in kleine roosjes
+- 450 gram mini krieltjes
+- 300 gram rundergehakt (of vegetarisch alternatief)
+- 125 gram spekreepjes
+- 150 gram geraspte kaas
+- 250 ml kookroom
+- 125 gram crème fraîche
+- 1 ei
+- 1 eetlepel bieslook
+- 1 eetlepel kerriepoeder
+- 1 theelepel paprikapoeder
+- Peper en zout naar smaak
+
+## Bereidingswijze
+Verwarm de oven voor op 200 graden Celsius. Breng in een ruime pan de bloemkoolroosjes met water aan de kook en laat 5 minuten koken.
+Bak ondertussen in een pan het gehakt rul en voeg de spekjes toe. Bak het gehakt en de spekjes in 5 minuten bruin en bak dan de krieltjes even mee.
+Maak het roommengsel door de kookroom te mengen met de crème fraîche, het ei en de kruiden en roer goed door met een vork of garde.
+Giet de bloemkool af en schep door het gehakt met de krieltjes en spekjes en schep in een ovenschaal. Giet het roommengsel over de krieltjes en strooi tenslotte de kaas erover. Bak de ovenschotel in het midden van de oven in 35 minuten goudbruin.
+
+## Tips
+Je kunt deze ovenschotel gemakkelijk van te voren klaarmaken. Je kunt de ovenschotel zonder af te bakken in de koelkast bewaren en vlak voor het serveren afbakken, of je bakt de ovenschotel ook alvast. De volgende dag hoef je de ovenschotel dan alleen nog 10 minuten op te warmen in de oven.

@@ -1,0 +1,27 @@
+---
+title: Stichting Corona in Kaart is briljant mislukt
+description: |
+   Toen corona losbarstte, was er weinig zicht op de lokale verspreiding van het coronavirus. De Stichting Corona in Kaart ontwikkelde daarom een regionaal data- en informatieplatform en realiseerde een pilot in Rotterdam. Helaas lukte het niet om het platform in de lucht te houden en op nationaal niveau uit te rollen.
+author: Daniel Kapitan
+date: 2021-03-01
+date-format: "MMM YYYY"
+image: /images/instituut-voor-briljante-mislukkingen.png
+categories: [nederlands, data commons, data solidarity]
+lang: nl
+---
+
+
+
+::: {.grid}
+::: {.g-col-6}
+Als lead infrastructuur en data was ik vanaf het begin betrokken bij dit schitterende initatief. Ondanks dat het niet is gelukt, heeft o.a. de erkenning met de publieksprijs door het Instituut van Briljante Mislukking de deuren geopend en energie gegeven om te blijven strijden voor democratisering van data in de zorg.
+
+Lees meer over dit project in [dit artikel](https://www.briljantemislukkingen.nl/2021/03/09/coronainkaart/) of luister naar de podcast met Egge van der Poel, Josine van der Brug en Marcel Kerkhoven, met wie ik destijds op de barricades heb gestaan.
+:::
+::: {.g-col-6}
+![](/images/instituut-voor-briljante-mislukkingen.png)
+```{=html}
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3PCRGRIeeC8s9JbbsKC8YN?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+```
+:::
+:::

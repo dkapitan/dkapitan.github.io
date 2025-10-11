@@ -1,0 +1,37 @@
+---
+title: Alles-wat-nog-in-je-koelkast-ligt-soep van geroosterde groenten
+description: |
+    Deze soep kun je in feite maken met alle groenten die je nog in je koelkast heb liggen en die op moeten, want vrijwel alle combinaties werken.
+image: ./images/gegrilde-groenten-soep.jpg
+categories: [vegetarisch, soep]
+---
+
+:::{.grid}
+:::{.g-col-8}
+## Ingredienten
+
+- 8 tomaten
+- 2 rode paprika
+- 2 gele paprika
+- 2 bollen knoflook
+- 2 chili peper
+- 2 uien
+- 3 eetlepels olijfolie
+- 1 liter groentebouillon
+
+Mocht je denken dat twee bollen knoflook wat veel is: we poffen ’m, dan wordt-ie veel milder van smaak. En anders houd je het bij één bol, dat mag natuurlijk ook. Dit recept is goed voor een pan soep, dat zijn 3-4 porties.
+
+:::
+:::{.g-col-4}
+![](./images/gegrilde-groenten-soep.jpg)
+:::
+:::
+
+## Bereiding
+
+- Verwarm de oven voor op 200 graden Celsius.
+- Snijd de paprika’s en uien in stukken. Verdeel alle groenten en de bollen knoflook over een ovenschaal en besprenkel met de olijfolie.
+- Rooster de groenten en knoflook in 40 minuten gaar in de oven op 200 graden Celcius.
+- Bedenk dat harde groenten (wortel, pastinaak) langer moeten roosteren dan zachte groenten (tomaten, paprika’s) en rooster eventueel in twee delen.
+- Doe alle groenten in een blender met een liter groentebouillon (let op: gebruik geen kokende bouillon in een blender, dat kunnen de meeste blenders niet aan vanwege de stoomvorming!), of gebruik een staafmixer. Pureer de groenten en bouillon tot een soep.
+- Voeg eventueel nog een lik crème fraîche toe. Serveer met lekker volkoren of speltbrood en roomboter.

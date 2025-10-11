@@ -1,0 +1,50 @@
+---
+title: Pad Thai
+description: |
+    Er zijn vele verschillende soorten Pad Thai zo kun je dit gerecht maken met vis, garnalen, vegetarisch of zoals ik deed, met kip. Lekker en makkelijk. 
+image: ./images/pad-thai-kom.webp
+categories: [Asian streetfood]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Ik gebruik voor het maken van mijn recept voor Pad Thai deze keer kipfilet. Je kunt ook prima kipdijfilet gebruiken, iets vetter maar ook iets malser. Beide zijn erg lekker in Pad Thai. Vergeet overigens ook niet de pindakaas in de saus. Misschien klinkt het een beetje gek maar dit zorgt ervoor dat dit gerecht van lekker naar héél erg lekker gaat. Voor de pinda’s kun je trouwens zowel gezouten als ongezouten pinda’s gebruiken. Persoonlijk vind ik gezouten pinda’s net even lekkerder omdat ze er dan ook qua smaak goed uitspringen.
+
+:::
+:::{.g-col-4}
+![](./images/pad-thai-kom.webp)
+:::
+:::
+
+## Ingredienten
+
+Voor 4 personen:
+
+- 250 gram kip (kipfilet of kipdijfilet)
+- 150 gram platte noodles of udon (kant-en-klaar kan ook)
+- 100 gram taugé
+- 5 bosui
+- 1 (gele) paprika
+- 2 eieren (middel)
+- 2 tenen knoflook
+- 2 handjes pinda's 
+- 1 ui
+- 1 limoen
+- 3 eetlepels ketchup
+- 2 eetlepels suiker
+- 2 eetlepels vissaus
+- ½ eetlepel pindakaas
+- ½ eetlepel sojasaus
+- ½ theelepel chiliflakes
+- zonnebloemolie, peper en zout
+
+## Bereiding
+
+- Zorg ervoor dat de noodles gekookt zijn en dat je deze na het koken onder koud water hebt afgespoeld (dit kun je eventueel een dag van te voren doen).
+- Snij de kip in stukjes.
+- Snijd de bosui in dunne plakjes, de ui in halve maantjes, de limoen door de helft en één helft in partjes, de knoflook fijn en hak de pinda's grof.
+- Verhit een beetje zonnebloemolie in de wok en bak de kip gaar in de wok terwijl je deze op smaak brengt met peper en zout.
+- Haal de kip daarna uit de wok en houd even apart.
+- Terwijl de kip aan het bakken is maak je de saus. Hiervoor meng je de volgende ingrediënten in een kommetje: ketchup, vissaus, suiker, pindakaas, chiliflakes, sojasaus, knoflook en het sap van de helft van de limoen.
+- Verhit (indien nodig) nog een klein beetje olie in de wok en voeg de eieren toe. Laat even bakken en roer er daarna door zodat je een soort van roerei krijgt. Voeg dan de ui toe, wok even mee en tot slot doe je de kip erbij, daarna de noodles erbij en tot slot de saus. Als laatste voeg je de taugé en de bosui toe.
+- Serveer in een kom en garneer naar smaak met verse koriander, de fijn gehakte pinda's en de overige partjes limoen. Eet smakelijk!

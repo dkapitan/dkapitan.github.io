@@ -1,0 +1,41 @@
+---
+title: Sticky aubergine met rijst
+description: |
+    Makkelijk te maken, kan ook gecombineerd worden als vulling voor bao buns.
+image: ./images/sticky-aubergine.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Deze sticky aubergine met rijst is verslavend lekker! Door de aubergine eerst te marineren met de sojasaus, ketjap, rijstazijn, maïzena en alle kruiden trekken de smaken extra goed in. Vervolgens bak je de aubergine in hete olie en ontstaat er een heerlijke, sticky structuur door de marinade!
+
+## Ingredienten
+Voor 4 personen:
+
+ - 3 aubergines, groot, in stukken
+ - 3 el ketjap manis
+ - 3 tl rijstazijn
+ - 80 ml sojasaus of tamari
+ - 3 teentjes knoflook, fijngesneden
+ - 1.5 tl komijnpoeder, of gemberpoeder
+ - zwarte peper
+ - 2 el maïzena
+ - 2 el olie om in te bakken
+ - garneer met:
+   - bosuitjes
+   - granaatappelpitjes
+   - sesamzaadjes
+:::
+:::{.g-col-4}
+![](./images/sticky-aubergine.jpg)
+:::
+:::
+
+
+## Bereidingswijze
+- Snijd de aubergine in stukken en doe ze in een kom.
+- Voeg ketjap manis, rijstazijn, sojasaus, knoflook, komijn- of gemberpoeder, peper en maïzena toe en mix het goed door elkaar met je handen.
+- Dek de kom goed af en laat het 30 minuten rusten in de koelkast.
+- Verhit olie in de pan en voeg de aubergine met de rest van de marinade toe. Bak de aubergines in 8-10 minuten gaar op een middelhoog vuur. Roer het regelmatig door.
+- Serveer de aubergine met rijst en garneer met bosuitjes, granaatappelpitjes en sesamzaad.

@@ -1,0 +1,122 @@
+// Quarto theme based on https://mozilla.design/mozilla/
+
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab|Zilla+Slab+Highlight|Nunito+Sans|Fira+Code|Lato:400italic,700italic,300,400,700);
+
+/*-- scss:defaults --*/
+// bootstrap variables https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+// https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+
+// Fonts
+$zilla-slab: "Zilla Slab", serif;
+$zilla-slab-highlight: "Zilla Slab Highlight", serif;   
+$nunito: "Nunito Sans", sans-serif;
+$fira-code: "Fira Code";
+
+$font-family-sans-serif: $nunito;
+$font-family-monospace: $fira-code;
+$headings-font-family: $zilla-slab;
+$navbar-default-font: $zilla-slab;
+
+// Set fonts and layout
+// Base layout https://getbootstrap.com/docs/5.1/components/navbar/#containers
+$spacer: 1rem;
+$navbar-padding-y: $spacer * 1.5;
+$navbar-padding-x: null;
+
+.sidebar-navigation .sidebar-item {
+    font-size: 1.2rem
+}
+
+.nav-footer-left, .nav-footer-center, .nav-footer-right {
+    font-family: $zilla-slab;
+    font-size: 1rem !important;
+    text-align: left !important;
+}
+
+div.quarto-post .body .listing-subtitle {
+    font-family: $zilla-slab;
+    font-weight: 300;
+    font-size: .875em;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+}
+
+div.quarto-post .listing-description {
+    font-size: .875em;
+}
+
+// Define colours
+$black: #000000;
+$white: #ffffff;
+$neon-blue: #00ffff;
+$lemon-yellow: #fff44f;
+$warm-red: #ff4f5e;
+$neon-green: #54ffbd;
+$dark-purple: #6e008b;
+$dark-green: #005e5e;
+$dark-blue: #00458b;
+$dark-grey: #959595;
+$light-grey: #e7e5e2;
+
+// Use colour
+// navbar https://quarto.org/docs/output-formats/html-themes.html#navigation
+$navbar-bg: $white;
+$navbar-fg: $black;
+$navbar-hl: $black;
+$sidebar-bg: $white;
+$sidebar-fg: $black;
+$sidebar-hl: $warm-red;
+$footer-bg: $black;
+$footer-fg: $light-grey;
+
+$link-color: $warm-red;
+
+
+.btn-primary {
+    background-color: #ff4f5e !important;
+    border-color: #ff4f5e !important;
+    font-family: "Nunito Sans";
+}
+
+div.sidebar-item-container {
+    &:hover {
+        color: $warm-red !important;
+    }
+}
+
+div.sidebar-item-container .active,
+div.sidebar-item-container .show>.nav-link,
+div.sidebar-item-container .sidebar-link>code {
+	background-color: $white;
+	color: $warm-red !important;
+}
+
+.quarto-listing-category .category.active {
+    font-weight: 600;
+    color: $warm-red;
+}
+
+/*--- scss:defaults ---*/
+#quarto-content>* {
+    padding-top: 0px;
+}
+
+.navbar, .sidebar, .quarto-secondary-nav {
+    font-family: $zilla-slab;
+    padding-bottom: 0.5rem;
+}
+
+// .nav-footer-center, .nav-footer-right {
+//     text-align: left !important;
+// }
+
+/*-- scss:rules --*/
+// sidebar without right border
+.sidebar.sidebar-navigation:not(.rollup) {
+    border-right: 0px solid #ffffff !important
+}
+
+.sidebar.sidebar-navigation>* {
+    padding-top: 0.5em;
+}

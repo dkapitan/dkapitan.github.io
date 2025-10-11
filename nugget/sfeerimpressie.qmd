@@ -1,0 +1,24 @@
+---
+title: Foto's
+description: |
+    Een sfeerimpressie
+image: ./pop-top.jpg
+lightbox: auto
+categories: [gebruiksaanwijzing]
+lang: nl
+---
+
+::: {layout="[[10, -1 , 10], [1], [10, -1, 10, -1, 10]]"}
+![Pop-top](./pop-top.jpg){group="sfeerimpressie"}
+
+![Mooi rood is niet lelijk](./rood-doek.jpg){group="sfeerimpressie"}
+
+![Keuken](./keuken.jpg){group="sfeerimpressie"}
+
+![Wastafel](./wastafel.jpg){group="sfeerimpressie"}
+
+![Wasbak dicht](./wasbak-dicht.jpg){group="sfeerimpressie"}
+
+![Wasbak open](./wasbak-open.jpg){group="sfeerimpressie"}
+:::
+

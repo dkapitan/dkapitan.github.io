@@ -1,0 +1,46 @@
+---
+title: Zoete aardappel stamppot
+description: |
+    Een favoriet van Hello Fresh.
+image: ./images/bloemkool-ovenschotel-met-gehakt.webp
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+We hebben deze vaak besteld toen we een Hello Fresh abonnement hadden. Ingredienten zijn makkelijk los te krijgen in een supermarkt, dus het kan het ook gewoon helemaal zelf doen.
+
+:::
+:::{.g-col-4}
+![](./images/zoete-aardappel-stamppot.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 400 g kruimige aardappelen
+- 800 g zoete aardappel
+- 4 rode uien
+- 40 g pecannoten (in stukjes)
+- 120 g rucola en veldsla (gemengd)
+- 6 tomaten
+- 800 ml bouillon
+- 1 el olijfolie
+- 1 el balsamicoazijn
+- 1 el mosterd
+- peper en zout (naar smaak)
+- melk
+
+## Bereidingswijze
+Verwarm de oven voor op 200 graden. Bereid de bouillon in een pan met deksel voor de puree. Weeg de aardappelen en de zoete aardappel af. Was of schil de aardappelen en de zoete aardappel en snijd in grove stukken. Kook de aardappelen met de zoete aardappel, afgedekt, 12 – 15 minuten in de bouillon. Giet daarna af, bewaar een beetje van de bouillon en laat zonder deksel uitstomen.
+
+Snijd de tomaat in kwarten. Meng in een ovenschaal de tomaat met 1/2 el zwarte balsamicoazijn per persoon. Breng op smaak met peper en zout. Bak de tomaten 10 – 15 minuten in de oven. Hak ondertussen de pecanstukjes grof. Verhit een koekenpan op hoog vuur en rooster de pecanstukjes, zonder olie, goudbruin. Haal uit de pan en bewaar apart.
+
+Snijd de rode ui in halve ringen. Verhit de olijfolie in dezelfde koekenpan en bak de ui 6 – 8 minuten op middelmatig vuur. Breng op smaak met peper en zout.
+
+Stamp de aardappelen en zoete aardappel met een aardappelstamper tot een grove puree. Voeg de mosterd en een scheutje melk of bouillon toe om het smeuïg te maken. Breng op smaak met peper en zout.
+
+Meng de rode ui door de stamppot. Verwarm eventueel nog even om de kaas te laten smelten. Meng er vervolgens de tomaat, rucola en veldsla doorheen.
+
+Verdeel de stamppot over de borden en garneer met de pecanstukjes.

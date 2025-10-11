@@ -1,0 +1,42 @@
+---
+title: Buffalo bloemkoolwings
+description: |
+    Buffalo wings is een populair recept uit de Verenigde Staten. Het recept uit Boordevol Groente (externe link) is een versie met bloemkoolroosjes uit de oven met harissa.
+image: ./images/buffalo-bloemkoolwings.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-6}
+
+## Ingredienten
+Voor 4 personen:
+
+- 90 g bloem
+- 1 tl knoflookpoeder
+- 1 tl paprikapoeder
+- grof zout
+- versgemalen zwarte peper
+- 120 ml karnemelk
+- 1 kleine bloemkool in roosjes
+- 2 el boter
+- 4 el harissa
+- Je favoriete dip (bijvoorbeeld yoghurtdressing)
+
+:::
+:::{.g-col-6}
+![](./images/buffalo-bloemkoolwings.jpg)
+:::
+:::
+
+## Bereidingswijze
+
+1. Verwarm de oven voor tot 230 °C. Bekleed een bakplaat met bakpapier.
+2. Meng in een middelgrote kom de bloem met het knoflookpoeder, het paprikapoeder, ½ theelepel zout en een snuf peper. Voeg de karnemelk en 80 ml water toe en klop tot een glad beslag. Schep de bloemkool erdoor. Schud het overtollige beslag van elk bloemkoolroosje en verdeel over de bakplaat. Laat daarbij voldoende ruimte tussen de roosjes (circa 1 cm) zodat de bloemkool niet zompig wordt.
+3. Bak 6 tot 8 minuten in de oven, totdat de bloemkool krokant is. Keer de roosjes om en bak nog 6 tot 8 minuten, totdat ze ook aan de andere kant goudbruin zijn. Haal uit de oven en zet apart.
+4. Verlaag de oventemperatuur naar 175 °C.
+5. Smelt intussen de boter in een kleine pan op middelhoog vuur. Haal van het vuur, schenk in een middelgrote kom en roer de harissa erdoor. Schep de geroosterde bloemkool erdoor, totdat hij goed is bedekt. Verwijder het bakpapier van de bakplaat en leg er een nieuw vel bakpapier op. Leg de bloemkool terug op de bakplaat en bak nog 10 tot 15 minuten, totdat de roosjes goudbruin en krokant zijn. Schep halverwege om. Serveer heet met een dip naar keuze.
+
+> TIP: Gebruik ongezoete amandelmelk en veganistische boter in plaats van karnemelk en boter om het recept veganistisch te maken.
+
+Dit recept is afkomstig uit het boek [Boordevol Groenten](https://www.bol.com/nl/f/-/9200000132860156/#product_specifications) van Tracy, Dana, Lori & Corky Pollan.

@@ -1,0 +1,12 @@
+/.luarc.json
+
+# Quarto, output-dir is docs for gh-pages
+/.quarto/
+/docs/
+/_freeze/
+
+# notebooks
+**/.ipynb_checkpoints
+
+# OSX
+.DS_Store

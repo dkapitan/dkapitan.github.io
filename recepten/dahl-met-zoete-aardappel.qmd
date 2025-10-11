@@ -1,0 +1,49 @@
+---
+title: Dahl met zoete aardappel en kokosmelk
+description: |
+    Een favoriet van Hello Fresh.
+image: ./images/dahl-zoete-aardappel.jpg
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+We hebben deze vaak besteld toen we een Hello Fresh abonnement hadden. Ingredienten zijn makkelijk los te krijgen in een supermarkt, dus het kan het ook gewoon helemaal zelf doen.
+
+:::
+:::{.g-col-4}
+![](./images/dahl-zoete-aardappel.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 2 uien
+- 6 cm verse gember
+- 300 g zoete aardappel
+- 6 tl kerriepoeder
+- 2 kuipjes tomatenpuree
+- 500 ml kokosmelk
+- 140 g rode splitlinzen
+- 40 g pompoenpitten
+- 20 g verse koriander
+- 2 limoenen
+- 2 stukken naanbrood
+- 400 g spinazie
+- 1000 ml groentenbouillon
+- 2 eetlepels zonneb
+- 4 eetlepels olijfolie
+
+## Bereidingswijze
+Verwarm de oven op 200 graden en bereid de bouillon. Snipper de ui, rasp de gember (eventueel met schil) fijn. Schil de zoete aardappel en snijd in blokjes van 1 1/2 cm.
+
+Verhit de zonnebloemolie in een grote pan met deksel op middelhoog vuur. Fruit de ui 3 - 4 minuten. Voeg de gember, het kerriepoeder en de tomatenpuree toe. Roer goed en bak nog 2 minuten. Roer de kokosmelk los of schud het pakje flink zodat er geen klontjes meer zijn. Voeg de kokosmelk en de bouillon toe aan de pan en breng aan de kook.
+
+Voeg de zoete aardappel en de rode linzen toe, breng op smaak met peper en zout en kook de dahl, afgedekt, 18 - 20 minuten, of tot de linzen en de zoete aardappel zacht zijn. Voeg eventueel meer water toe als de dahl te droog wordt.
+
+Bak ondertussen de pompoenpitten in een koekenpan zonder boter of olie tot ze beginnen te poffen. Hak de koriander fijn, rasp de schil van de limoen en pers de limoen uit. Meng in een kleine kom de helft van de koriander, het limoenrasp, 2 tl limoensap per persoon, de gepofte pompoenpitten en de extra vierge olijfolie. Breng op smaak met peper en zout.
+
+Mix de overige koriander in een kleine kom met de olijfolie en breng op smaak met peper en zout. Leg het naanbrood op een bakplaat met bakpapier en besmeer met de korianderolie. Bak het naanbrood 5 - 7 minuten in de voorverwarmde oven. Laat even afkoelen en snijd door de helft.
+
+Roer, wanneer de linzen gaar zijn, de spinazie door de dahl en laat slinken. Proef de dahl en breng op smaak met zout, peper en het overige limoensap. Verdeel de dahl over de kommen, garneer met de salsa en serveer met het naanbrood.

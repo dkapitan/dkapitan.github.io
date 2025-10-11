@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: en
+
+website:
+  title: "Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching & Mentoring | Masterclasses & Public Speaking"
+  site-url: https://kapitan.net
+  open-graph: true
+  google-analytics: "G-3N2FL85753"
+  search:
+    location: sidebar
+    type: overlay
+  navbar:
+    logo: /images/logo-dr-daniel-kapitan.png
+    title: false
+    pinned: false
+    collapse-below: md
+  sidebar:
+    style: docked  
+    collapse-level: 1
+    background: light
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dkapitan/
+        text: "LinkedIn profile"
+      - icon: github
+        href: https://github.com/dkapitan
+        text: "GitHub profile"
+      - icon: rss
+        href: https://kapitan.net/blog/index.xml
+        text: "RSS feed"
+    contents:
+      - section: "Projects"
+        href: projects/index.qmd
+        contents:
+          - text: "PharmAccess"
+            href: projects/pharmaccess.qmd
+          - text: "MyTomorrows"
+            href: projects/mytomorrows.qmd
+          - text: "Roetz Life"
+            href: projects/roetz-life.qmd
+          - text: "Blue Radix"
+            href: projects/blue-radix.qmd
+          - text: "Amphia Sensium"
+            href: projects/amphia.qmd
+          - text: "HAS Green Academy"
+            href: projects/has.qmd
+          - text: "Sensire"
+            href: projects/sensire.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Anthology of Data Science"
+        href: https://anthology-of-data.science
+      - text: "Book an appointment"
+        href: appointment/index.qmd
+  page-footer:
+    left: |
+      <br>
+      __Chamber of Commerce (KvK):__ 52920259<br>
+      __RSIN:__ 850665851<br>
+    center: |
+      <br>
+      __IBAN:__ NL47 KNAB 0259 5268 27<br>
+      __Terms & Conditions__ in [Dutch](/resources/230901-algemene-voorwaarden.pdf)<br>
+    right: |
+      <br>
+      Copyright &copy; 2023 Daniel Kapitan<br>
+      This website was created with 
+      [![](/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
+
+format:
+  html:
+    # page-layout: full
+    date-format: "MMM YYYY"
+    theme:
+      light:
+        - flatly
+        - mozilla.scss
+    css: styles.css
+    toc: false
+
+execute: 
+  freeze: auto

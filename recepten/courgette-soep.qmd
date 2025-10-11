@@ -1,0 +1,57 @@
+---
+title: Martin's courgette roomsoep met gremolata
+description: |
+    Een favoriet van de jongens, recept van mijn schoonvader. 
+image: ./images/courgettesoep.jpg
+categories: [vegetarisch, soep]
+---
+
+:::{.grid}
+:::{.g-col-8}
+## Ingredienten
+- 3 a 4 courgettes (700 gram, zie tips)
+- 10 gr boter
+- 1 à 2 middelgrote ui(en)
+- 1 teentje knoflook
+- 1 liter kippebouillion
+- 2 dl creme fraiche
+- Zout en peper
+
+En voor de gremolata:
+
+- 2 eetlepels fijngehakte peterselic
+- 1 Kleine citroen
+- 1 teentje knoflook
+
+:::
+:::{.g-col-4}
+![](./images/courgettesoep.jpg)
+:::
+:::
+
+## Bereiding
+- Pel en snij de ui in stukjes, snipper de knoflook
+- Snij de courgette in stukjes
+- Ui en knoflook gedurende 3 minuten zachtjes in boter fruiten .
+- Courgette erbij doen
+- Bouillion erbij gieten en 15 minuten zachtjes koken
+- Maak intussen de gremolata. Boen de citroen goed schoon en rasp de gele schil eraf’
+- Voeg de peterselic toe en pers het teentje knoflook erboven uit. Meng alles door elkaar
+- Pureer nu de soep in de blender
+- Breng op smaak met peper en zout. Vaak zijn 1 à 2 theelepeltjes zout nodig.
+- Voeg al roerend de creme fraiche toe. Beter resultaat geeft enkele pollepels van de soep met de staafmixer
+- mengen met de créme fraiche
+- Serveer in kommen of diepe borden en gameer met een halve eetlepel gremolata per kom cq bord
+
+## Tips
+- De verhouding 700 gram courgette en 1 liter bouillon geeft een soep met een goede dikte.
+- Als de soep toch wat licht van smaak blijft, dan 1 à 2 eetlepels Boursin of Patugrain toevoegen. De smaak wordt dan voller.
+- Met de geraspte citroenschil niet te scheutig zijn . Vaak is de helft van en citroenschil al voldoende
+- Eris ook een variant mogelijk met bieslook en spekjes:
+  - Daarvoor zijn nodig 50 gr spekreepjes en 2 eetlepels gesnipperde bieslook
+  - Begin in dit geval met het uitbakken van de spekjes. Haal die daarna eruit
+  - Dan de ui en knoflook,met iets later de courgette erbij, fruiten in het spekvet
+  - Als garnering bestrooien met de spekjes en de bieslook. Dus dan geen gremolata gebruiken
+- Ander alternatief: krokant gebakken Serranoham
+  - Beleg cen bakplaat met bakpapier. 4 plakjes (4 personen) Serranoham erop
+  - Bak 30 min op 150 graden. Check tussendoor of het niet te hard gaat. Leg weg op keukenpapier. Gameer met ringetjes lenteui

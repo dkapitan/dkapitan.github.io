@@ -1,0 +1,48 @@
+---
+title: Zalm met miso-mayo
+description: |
+    Een Japanse favoriet bij ons thuis.
+image: ./images/zalm-miso-mayo.jpg
+categories: []
+---
+
+:::{.grid}
+:::{.g-col-8}
+Uit 'Japanse lekkernijen'
+
+:::
+:::{.g-col-4}
+![](./images/zalm-miso-mayo.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+### Zalm
+- 4 stukken zalmfilet (totaal 680 g)
+- 1 ui
+- 4 shi-takes, steeltjes verwijderd, in dunne plakjes (Andere paddestoelen kunnen ook.)
+- 30 g geraspte belegen kaas
+
+### voor de miso-mayo
+- 1,2 dl mayonaise
+- 3 el witte of rode miso
+
+### voor de garnering
+- gemalen witte sesamzaad
+- Japans zevenkruidenpoeder (schichimi)
+
+
+## Bereidingswijze
+Verwarm de oven voor op 180 °C.
+
+Meng de mayonaise en miso zorgvuldig.
+
+Maak een diepe inkeping inde zalmfilets, zonder ze helemaal door te snijden.
+
+Pak vier stukken aluminiumfolie die groot genoeg zijn om de zalmfilets in te wikkelen. Besmeer het midden van de folie met 1½ tl miso-mayo en leg hierop de zalmfilet. Verdeel de ui en shii-takes over de zalmfilets. Doe de rest van de miso-mayo en wat geraspte kaas in de inkepingen van de zalm en strooi de rest van de kaas erover.
+
+Garneer met gemalen wit sesamzaad en eventueel zevenkruidenpoeder. Vouw de folie stevig dicht. Bak de zalm 10 min.
+
+Vouw de folie open en bak nog 5 min., tot de kaas een lichtbruin korstje krijgt.

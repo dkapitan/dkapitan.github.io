@@ -1,0 +1,48 @@
+---
+title: Thaise rode curry met kip
+description: |
+    Romig, kruidig, fris en boordevol smaak: dit gerecht heeft alles wat je zoekt in een snelle, makkelijke en indrukwekkende maaltijd.
+image: ./images/thaise-rode-curry.jpg
+categories: [Asian streetfood]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Bron: [https://miljuschka.nl/thaise-rode-curry-nina-pierson/](https://miljuschka.nl/thaise-rode-curry-nina-pierson/)
+:::
+:::{.g-col-4}
+![](./images/thaise-rode-curry.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 400 gr kipdijfilet
+- 1 aubergine
+- 600 ml kokosmelk
+- 3 el rode curry pasta eventueel zelfgemaakt
+- 3 limoenblaadjes
+- 300 gr witte rijst
+- 400 gr bimi
+- 3 el vissaus
+- 2 el palmsuiker
+- 20 gr Thaise basilicum
+- 1 limoen
+
+## Bereidingswijze
+Snijd de kip in stukjes van ongeveer 3 cm. Snijd de aubergine in blokjes van ongeveer 2 cm.
+
+Breng de helft van de kokosmelk in een stoofpan op middelhoog vuur aan de kook. Voeg de currypasta toe. Roer tot de curry en de kokosmelk goed gemengd zijn. Kook de kokosmelk helemaal in, tot de olie van de rest van de pasta is gescheiden. 
+
+Voeg de rest van de kokosmelk en de kip toe en breng aan de kook. Laat 10 minuten op laag vuur garen.
+
+Voeg de aubergine, de limoenblaadjes en 200 ml water toe en breng aan de kook. Laat 15 minuten op laag vuur garen. 
+
+Kook ondertussen de rijst volgens de aanwijzingen op de verpakking.  
+
+Breng ondertussen een pan water aan de kook. Snijd de uiteindes van de bimi en kook de bimi 4 minuten. Giet af. 
+
+Breng de curry op smaak met de vissaus, de palmsuikersuiker en de Thaise basilicum. 
+
+Serveer met witte rijst, gekookte bimi en een partje limoen.

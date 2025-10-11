@@ -1,0 +1,14 @@
+---
+title: HAS Green Academy
+description: |
+    Strategic positioning and research for new data science & AI curriculum in food and agriculture domain.
+image: /images/has.png
+toc: false
+categories: [applied AI, lecturing]
+---
+
+#
+
+Stay tuned, more to follow soon.
+
+<small class="text-muted">This project was conducted in collaboration with Verdonck, Klooster & Associates.</small>

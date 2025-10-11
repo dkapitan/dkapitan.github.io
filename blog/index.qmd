@@ -1,0 +1,12 @@
+---
+title: Blog posts
+date-format: "MMM YYYY"
+listing:
+    contents: .
+    type: default
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: true
+    categories: true
+    feed: true
+---
