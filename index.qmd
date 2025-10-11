@@ -42,7 +42,7 @@ format:
   </div>
 </div>
 <p class="lead">
-   <small class="text-hero">DATA-CENTRIC AI &emsp; | &emsp; APPLIED AI &emsp; | &emsp; COACHING & MENTORING &emsp; | &emsp; MASTERCLASSES & PUBLIC SPEAKING</small>
+   <small class="text-hero">DATA-CENTRIC & APPLIED AI &emsp; | &emsp; COACHING & MENTORING &emsp; | &emsp; MASTERCLASSES & PUBLIC SPEAKING</small>
 </p>
 ```
 
