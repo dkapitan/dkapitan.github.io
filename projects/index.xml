@@ -9,12 +9,13 @@
 <link>https://kapitan.net/projects/</link>
 <atom:link href="https://kapitan.net/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 14 Oct 2025 05:24:06 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Mon, 01 Dec 2025 09:55:10 GMT</lastBuildDate>
 <item>
   <title>Roetz Life</title>
   <link>https://kapitan.net/projects/roetz-life.html</link>
   <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
@@ -35,13 +36,14 @@
   <category>data-centric ai</category>
   <category>coaching</category>
   <guid>https://kapitan.net/projects/roetz-life.html</guid>
-  <pubDate>Tue, 14 Oct 2025 05:24:06 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 09:55:10 GMT</pubDate>
   <media:content url="https://kapitan.net/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>HAS Green Academy</title>
   <link>https://kapitan.net/projects/has.html</link>
   <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
@@ -58,13 +60,14 @@
   <category>applied AI</category>
   <category>lecturing</category>
   <guid>https://kapitan.net/projects/has.html</guid>
-  <pubDate>Tue, 14 Oct 2025 05:24:06 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 09:55:10 GMT</pubDate>
   <media:content url="https://kapitan.net/images/has.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Blue Radix</title>
   <link>https://kapitan.net/projects/blue-radix.html</link>
   <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
@@ -80,13 +83,14 @@
   <category>data-centric ai</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/blue-radix.html</guid>
-  <pubDate>Tue, 14 Oct 2025 05:24:06 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 09:55:10 GMT</pubDate>
   <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>MyTomorrows TrialSearch AI</title>
   <link>https://kapitan.net/projects/mytomorrows.html</link>
   <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
@@ -102,13 +106,14 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/mytomorrows.html</guid>
-  <pubDate>Tue, 14 Oct 2025 05:24:06 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 09:55:10 GMT</pubDate>
   <media:content url="https://kapitan.net/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>Amphia Sensium</title>
   <link>https://kapitan.net/projects/amphia.html</link>
   <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
@@ -125,13 +130,14 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/amphia.html</guid>
-  <pubDate>Tue, 14 Oct 2025 05:24:06 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 09:55:10 GMT</pubDate>
   <media:content url="https://kapitan.net/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>PharmAccess Foundation</title>
   <link>https://kapitan.net/projects/pharmaccess.html</link>
   <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
@@ -145,13 +151,14 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://kapitan.net/projects/pharmaccess.html</guid>
-  <pubDate>Tue, 14 Oct 2025 05:24:06 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 09:55:10 GMT</pubDate>
   <media:content url="https://kapitan.net/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Sensire</title>
   <link>https://kapitan.net/projects/sensire.html</link>
   <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
@@ -167,7 +174,7 @@
   <category>english</category>
   <category>data-centric ai</category>
   <guid>https://kapitan.net/projects/sensire.html</guid>
-  <pubDate>Tue, 14 Oct 2025 05:24:06 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 09:55:10 GMT</pubDate>
   <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
