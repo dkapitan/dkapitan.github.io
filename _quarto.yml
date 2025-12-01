@@ -80,6 +80,9 @@ format:
         - mozilla.scss
     css: styles.css
     toc: false
+    include-before-body:
+      - text: |
+          <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 execute: 
   freeze: auto
