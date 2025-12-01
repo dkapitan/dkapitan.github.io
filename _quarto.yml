@@ -8,7 +8,6 @@ website:
   title: "Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching & Mentoring | Masterclasses & Public Speaking"
   site-url: https://kapitan.net
   open-graph: true
-  google-analytics: "G-3N2FL85753"
   search:
     location: sidebar
     type: overlay
