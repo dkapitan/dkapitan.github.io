@@ -10,7 +10,7 @@
 <atom:link href="https://kapitan.net/recepten/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Mon, 01 Dec 2025 17:48:40 GMT</lastBuildDate>
+<lastBuildDate>Sat, 06 Dec 2025 10:30:34 GMT</lastBuildDate>
 <item>
   <title>Thaise rode curry met kip</title>
   <link>https://kapitan.net/recepten/thaise-rode-curry.html</link>
@@ -62,8 +62,80 @@
  ]]></description>
   <category>Asian streetfood</category>
   <guid>https://kapitan.net/recepten/thaise-rode-curry.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/thaise-rode-curry.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Okonomiyaki</title>
+  <link>https://kapitan.net/recepten/okonomiyaki.html</link>
+  <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+
+
+
+<div class="grid">
+<div class="g-col-8">
+<p>Okonomiyaki is een hartige Japanse pannenkoek. Okonomiyaki betekent ‘gebakken/gegrild zoals je wilt’ en dat is ook precies de bedoeling. Er zijn eindeloze mogelijkheden om okonomiyaki te maken met bijvoorbeeld verschillende toppings en sausjes, doe dus vooral ook wat je zelf lekker vindt. Okonomiyaki saus mag alleen niet ontbreken en natuurlijk witte kool ook niet.</p>
+<p>Bron: <a href="https://vegarecepten.com/okomiyaki-recept-okonomiyaki-maken/">Lekker plantaardig</a></p>
+</div>
+<div class="g-col-4">
+<p><img src="https://kapitan.net/recepten/images/tian-de-legumes.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="ingredienten" class="level2">
+<h2 class="anchored" data-anchor-id="ingredienten">Ingredienten</h2>
+<p>Voor 2 personen:</p>
+<ul>
+<li>100 gram bloem</li>
+<li>100 milliliter paddenstoelenbouillon</li>
+<li>2 eieren</li>
+<li>3 bosui</li>
+<li>100 gram witte kool (gesnipperd)</li>
+<li>1 kleine aardappel (geschild en geraspt)</li>
+<li>100 gram witte champignons (of kastanje of shiitake)</li>
+<li>zout</li>
+<li>olie</li>
+</ul>
+<section id="okonomiyaki-saus" class="level3">
+<h3 class="anchored" data-anchor-id="okonomiyaki-saus">Okonomiyaki saus</h3>
+<ul>
+<li>4 eetlepel ketchup</li>
+<li>1/2 eetlepel worcestershire saus*</li>
+<li>1/4 theelepel Dijon mosterd</li>
+<li>2 eetlepel mirin</li>
+<li>1 eetlepel suiker</li>
+<li>1 theelepel lichte sojasaus (bijvoorbeeld van Go-tan)</li>
+</ul>
+</section>
+</section>
+<section id="bereidingswijze" class="level2">
+<h2 class="anchored" data-anchor-id="bereidingswijze">Bereidingswijze</h2>
+<ul>
+<li>Bereid de 100 milliliter paddenstoelenbouillon.</li>
+<li>Snipper de witte kool klein, schil en rasp de aardappel, snij de bosuitjes klein, en de champignons in plakjes.</li>
+<li>Klop de eieren los en voeg de bloem en paddenstoelenbouillon toe.</li>
+<li>Roer vervolgens de gesnipperde kool, de geraspte aardappel en de gesneden bosui erdoorheen (houd een klein beetje bosui achter voor de garnering) en voeg een snuf zout toe.</li>
+<li>Heb je nu een mooi pannenkoekenbeslag? Is het beslag nog wat te dik, voeg dan wat meer bouillon toe. Je kunt ook altijd meer bloem toevoegen aan het beslag als de consistentie wat dikker mag.</li>
+<li>Verhit een koekenpan op middelhoog vuur en voeg olie toe. Giet het okonomiyaki beslag in een rondje in de pan. Zorg er dus voor dat het beslag goed is verdeeld. De pannenkoek blijft vrij dik (1,5 tot 2 centimeter).</li>
+<li>Leg plakjes champignons op het pannenkoekenbeslag in de pan en dek de pan af met een deksel. Laat ongeveer drie minuten bakken, tot de pannenkoek goudbruin begint te worden aan de onderkant.</li>
+<li>Keer de okonomiyaki vervolgens om in de pan. Laat nog ongeveer 3 minuten bakken aan de andere zijde, tot die kant ook goudbruin en knapperig is. Dan is de okonomiyaki pannenkoek klaar!</li>
+<li>Bereid ondertussen ook de okonomiyaki saus in een steelpannetje. Doe alle ingrediënten het pannetje, roer door elkaar en breng aan de kook. Draai het vuur terug en laat 3 minuten zachtjes pruttelen.</li>
+<li>Leg de pannenkoek op een bord en verdeel de okonomiyaki saus en de Japanse mayonaise er overheen. Maak af met wat bosui! En eetsmakelijk.</li>
+</ul>
+</section>
+<section id="notities" class="level2">
+<h2 class="anchored" data-anchor-id="notities">Notities</h2>
+<p>Wil je meer toppings op je Japanse okonomiyaki pannenkoek? Denk aan de volgende toppings: gedroogd zeewier, sushigember, shichimi togarashi, taugé, kaas, mais, gebakken ei, en verschillende soorten champignons!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>vegetarisch</category>
+  <guid>https://kapitan.net/recepten/okonomiyaki.html</guid>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
+  <media:content url="https://kapitan.net/recepten/images/tian-de-legumes.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>Roti kip</title>
@@ -112,8 +184,74 @@
 
  ]]></description>
   <guid>https://kapitan.net/recepten/roti-masala-kip.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/roti-kip.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Goulashsoep met gnocchi</title>
+  <link>https://kapitan.net/recepten/goulashsoep-met-gnocchi.html</link>
+  <description><![CDATA[ 
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+
+
+
+<div class="grid">
+<div class="g-col-8">
+<p>Goulash is van zichzelf al een stevige maaltijd, maar als je er gnocchi aan toevoegt, maak je het pas echt next level. Die zachte, luchtige aardappelbolletjes nemen alle smaken van de kruidige saus op en zorgen voor een perfecte balans tussen hartig en romig. Bovendien geven ze je gerecht net wat extra vulling, waardoor het niet alleen lekkerder, maar ook voedzamer wordt. Of je nu kant-en-klare gnocchi gebruikt of zelf aan de slag gaat, het resultaat is altijd een voltreffer.</p>
+<p>Bron: <a href="https://miljuschka.nl/goulashsoep-met-gnocchi/#recipe">Miljuschka</a>.</p>
+</div>
+<div class="g-col-4">
+<p><img src="https://kapitan.net/recepten/images/kip-cashew.jpg" class="img-fluid"></p>
+</div>
+</div>
+<section id="ingredienten" class="level2">
+<h2 class="anchored" data-anchor-id="ingredienten">Ingredienten</h2>
+<p>Voor 4 personen:</p>
+<ul>
+<li>500 gr runderlappen</li>
+<li>2 uien</li>
+<li>2 teentjes knoflook</li>
+<li>1 rode paprika</li>
+<li>2 groene paprika’s</li>
+<li>2 el olijfolie</li>
+<li>25 gr roomboter</li>
+<li>400 gr tomaat uit blik pomodorini bijvoorbeeld</li>
+<li>3 el tomatenpuree</li>
+<li>1,5 el paprikapoeder</li>
+<li>1,5 liter rundervleesbouillon</li>
+<li>¼ tl chilivlokken</li>
+<li>200 gr aardappelgnocchi</li>
+<li>120 gr chorizo</li>
+<li>100 gr kruidenroomkaas</li>
+<li>70 gr Griekse yoghurt</li>
+<li>2 el peterselie</li>
+<li>1 el bieslook</li>
+<li>Peper en zout</li>
+</ul>
+</section>
+<section id="bereidingswijze" class="level2">
+<h2 class="anchored" data-anchor-id="bereidingswijze">Bereidingswijze</h2>
+<ul>
+<li>Snijd de runderlappen in stukjes van ca 1,5 centimeter. Haal de schil van de uien en knoflook en hak fijn. Maak de paprika’s schoon, verwijder de zaadjes en snijd in stukjes.</li>
+<li>Verhit een scheut olijfolie en een klontje boter in een stoofpan op hoog vuur, laat de boter uitbruisen en bak daarna het vlees rondom bruin. Zet het vuur laag en voeg de paprika, ui en knoflook toe. Bak een paar minuten mee tot ze goudbruin zijn. Breng op smaak met peper en zout.</li>
+<li>Voeg de tomatenpuree, tomaat uit blik en paprikapoeder toe en roer alles goed door. Steek de laurierblaadjes er tussen. Schenk de bouillon erbij, breng aan de kook, zet het vuur laag en laat de soep ongeveer 2 – 2,5 uur zachtjes stoven, totdat je het vlees gemakkelijk met een vork uit elkaar kunt trekken.</li>
+<li>Haal de laatste 30 minuten de deksel van de pan, roer de chilivlokken er door en zet het vuur iets hoger zodat de vloeistof iets inkookt en de soep iets dikker wordt. Roer de gnocchi door de soep en laat deze in de soep garen volgens de aanwijzingen op de verpakking. Breng op smaak met peper en zout.</li>
+<li>Snijd ondertussen de chorizo in blokjes en voeg deze vlak voor serveren toe, zodat ze warm worden zonder mee te koken.</li>
+<li>Meng voor de kruidenroom de kruidenroomkaas met Griekse yoghurt en voeg de fijngesneden peterselie en bieslook toe en breng eventueel verder op smaak met peper en zout. Serveer de soep met een lepel kruidenroom bovenop.</li>
+</ul>
+</section>
+<section id="notities" class="level2">
+<h2 class="anchored" data-anchor-id="notities">Notities</h2>
+
+
+</section>
+
+ ]]></description>
+  <category>vlees</category>
+  <guid>https://kapitan.net/recepten/goulashsoep-met-gnocchi.html</guid>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
+  <media:content url="https://kapitan.net/recepten/images/goulash-soep-gnocchi.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Spicy linzensoep</title>
@@ -185,7 +323,7 @@
   <category>Indonesisch</category>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/spicy-linzensoep.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/spicy-linzensoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -258,7 +396,7 @@
   <category>vegetarisch</category>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/vegetarische-erwtensoep.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/vegetarische-erwtensoep.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -330,7 +468,7 @@
   <category>Indonesisch</category>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/tahu-telor.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/tahu-telor.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -388,7 +526,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/thaise-salade.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/thaise-salade.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -456,8 +594,8 @@
  ]]></description>
   <category>Indonesisch</category>
   <guid>https://kapitan.net/recepten/ayam-bakar.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
-  <media:content url="https://kapitan.net/recepten/images/smoor-ayam.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
+  <media:content url="https://kapitan.net/recepten/images/ayam-bakar.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Mac-n-cheese met pompoen en spinazie</title>
@@ -507,7 +645,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/mac-cheese-pompoen-spinazie.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/mac-cheese-pompoen-spinazie.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
@@ -588,7 +726,7 @@
   <category>Asian streetfood</category>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/miso-ramen.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/miso-ramen.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -646,7 +784,7 @@
   <category>Indonesisch</category>
   <category>soep</category>
   <guid>https://kapitan.net/recepten/soto-ayam.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/soto-ayam.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -706,7 +844,7 @@
   <category>vegetarisch</category>
   <category>Indonesisch</category>
   <guid>https://kapitan.net/recepten/mung-bean-porridge.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/bubur-kacang-hijau.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -753,7 +891,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/steamed-broccoli-soy-ginger.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/broccoli-ginger-sesame.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -802,7 +940,7 @@
  ]]></description>
   <category>flexitarisch</category>
   <guid>https://kapitan.net/recepten/ottolenghi-roasted-eggplant.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/ottolenghi-roasted-eggplant.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -855,7 +993,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/zoete-aardappel-stamppot.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/bloemkool-ovenschotel-met-gehakt.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -908,7 +1046,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/black-pepper-tofu.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/black-pepper-tofu.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -963,7 +1101,7 @@
  ]]></description>
   <category>Asian streetfood</category>
   <guid>https://kapitan.net/recepten/gua-bao-buns.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/Gua-Bao-Buns-Pork-Belly-square.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -1019,7 +1157,7 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/dahl-met-zoete-aardappel.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/dahl-zoete-aardappel.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1067,148 +1205,8 @@
  ]]></description>
   <category>vegetarisch</category>
   <guid>https://kapitan.net/recepten/moeders-aardappelgratin.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
+  <pubDate>Sat, 06 Dec 2025 10:30:34 GMT</pubDate>
   <media:content url="https://kapitan.net/recepten/images/aardappelgratin.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Sticky aubergine met rijst</title>
-  <link>https://kapitan.net/recepten/sticky-aubergine-met-rijst.html</link>
-  <description><![CDATA[ 
-<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-
-
-
-
-<div class="grid">
-<div class="g-col-8">
-<p>Deze sticky aubergine met rijst is verslavend lekker! Door de aubergine eerst te marineren met de sojasaus, ketjap, rijstazijn, maïzena en alle kruiden trekken de smaken extra goed in. Vervolgens bak je de aubergine in hete olie en ontstaat er een heerlijke, sticky structuur door de marinade!</p>
-<section id="ingredienten" class="level2">
-<h2 class="anchored" data-anchor-id="ingredienten">Ingredienten</h2>
-<p>Voor 4 personen:</p>
-<ul>
-<li>3 aubergines, groot, in stukken</li>
-<li>3 el ketjap manis</li>
-<li>3 tl rijstazijn</li>
-<li>80 ml sojasaus of tamari</li>
-<li>3 teentjes knoflook, fijngesneden</li>
-<li>1.5 tl komijnpoeder, of gemberpoeder</li>
-<li>zwarte peper</li>
-<li>2 el maïzena</li>
-<li>2 el olie om in te bakken</li>
-<li>garneer met:
-<ul>
-<li>bosuitjes</li>
-<li>granaatappelpitjes</li>
-<li>sesamzaadjes</li>
-</ul></li>
-</ul>
-</section>
-</div>
-<div class="g-col-4">
-<p><img src="https://kapitan.net/recepten/images/sticky-aubergine.jpg" class="img-fluid"></p>
-</div>
-</div>
-<section id="bereidingswijze" class="level2">
-<h2 class="anchored" data-anchor-id="bereidingswijze">Bereidingswijze</h2>
-<ul>
-<li>Snijd de aubergine in stukken en doe ze in een kom.</li>
-<li>Voeg ketjap manis, rijstazijn, sojasaus, knoflook, komijn- of gemberpoeder, peper en maïzena toe en mix het goed door elkaar met je handen.</li>
-<li>Dek de kom goed af en laat het 30 minuten rusten in de koelkast.</li>
-<li>Verhit olie in de pan en voeg de aubergine met de rest van de marinade toe. Bak de aubergines in 8-10 minuten gaar op een middelhoog vuur. Roer het regelmatig door.</li>
-<li>Serveer de aubergine met rijst en garneer met bosuitjes, granaatappelpitjes en sesamzaad.</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>vegetarisch</category>
-  <guid>https://kapitan.net/recepten/sticky-aubergine-met-rijst.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
-  <media:content url="https://kapitan.net/recepten/images/sticky-aubergine.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Sautéed spinach with mushrooms and caramelized onions</title>
-  <link>https://kapitan.net/recepten/sauteed-spinach-onions-mushroom.html</link>
-  <description><![CDATA[ 
-<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-
-
-
-
-<div class="grid">
-<div class="g-col-8">
-<p>Delicious sautéed spinach with mushrooms and caramelized onions is a favorite side dish for grilled meats. This vegetarian dish is quite versatile: you can eat it as-is, or you can serve it alongside some pasta, ravioli or ready made tortellini. It is also great with grilled steak, pork, or chicken.</p>
-</div>
-<div class="g-col-4">
-<p><img src="https://kapitan.net/recepten/images/sauteed-spinach.jpg" class="img-fluid"></p>
-</div>
-</div>
-<section id="ingredienten" class="level2">
-<h2 class="anchored" data-anchor-id="ingredienten">Ingredienten</h2>
-<section id="caramelized-onions" class="level3">
-<h3 class="anchored" data-anchor-id="caramelized-onions">Caramelized onions</h3>
-<ul>
-<li>1 tablespoon olive oil</li>
-<li>3 onions (medium or large, sliced)</li>
-<li>pinch of salt</li>
-<li>1 tablespoon balsamic vinegar</li>
-</ul>
-</section>
-<section id="cooked-mushrooms-and-spinach" class="level3">
-<h3 class="anchored" data-anchor-id="cooked-mushrooms-and-spinach">Cooked mushrooms and spinach</h3>
-<ul>
-<li>1 tablespoon olive oil</li>
-<li>8 oz mushrooms (sliced (such as button mushrooms, shiitake, etc.))</li>
-<li>3 garlic cloves (minced)</li>
-<li>pinch of salt</li>
-<li>6 oz spinach (fresh)</li>
-</ul>
-</section>
-<section id="optional-cream-sauce" class="level3">
-<h3 class="anchored" data-anchor-id="optional-cream-sauce">Optional cream sauce</h3>
-<ul>
-<li>1/3 cup heavy cream</li>
-<li>1/4 cup milk</li>
-<li>1/2 cup Parmesan cheese shredded</li>
-<li>1/4 teaspoon salt</li>
-</ul>
-</section>
-</section>
-<section id="bereidingswijze" class="level2">
-<h2 class="anchored" data-anchor-id="bereidingswijze">Bereidingswijze</h2>
-<section id="caramelized-onions-1" class="level3">
-<h3 class="anchored" data-anchor-id="caramelized-onions-1">Caramelized onions</h3>
-<ul>
-<li>Heat 1 tablespoon olive oil on high heat in a large skillet, when oil is heated, add sliced onions and cook on high heat for about 10 minutes, constantly stirring with spatula. The onions should start to brown, but without burning (a couple of onions may be burnt here and there, but overall they should not be charred).</li>
-<li>Reduce heat to medium and continue cooking onions for 10 more minutes, continuing to stir, as onions brown even more without burning. At this point add just a pinch of salt over onions.</li>
-<li>Continue cooking for 10 more minutes on medium or low heat, stirring occasionally to make sure onions don’t stick to the bottom of the pan or burn. Total you should have cooked onions for 30 minutes.</li>
-<li>Remove from heat and sprinkle onions with a small amount of balsamic vinegar to deglaze the pan. Using spatula, mix the onions, scraping the bottom of the pan and coating onions with a pinch of balsamic vinegar you just added.</li>
-</ul>
-</section>
-<section id="cooking-mushrooms-and-spinach" class="level3">
-<h3 class="anchored" data-anchor-id="cooking-mushrooms-and-spinach">Cooking mushrooms and spinach</h3>
-<ul>
-<li>After you have started cooking onions, heat 1 tablespoon olive oil in another pan, and add sliced mushrooms (I used shiitake with stems removed, you can use any small sized mushrooms) and minced garlic. Add just a pinch of salt. Reduce heat to medium-low and cook mushrooms and garilc covered for about 20 minutes, occasionally stirring.</li>
-<li>Add cooked mushrooms to the pan with caramelized onions, add 3 cups of spinach and stir on low heat just until spinach wilts. Serve as is as a side dish or proceed to make a creamy sauce as below.</li>
-</ul>
-</section>
-<section id="optional-cream-sauce-1" class="level3">
-<h3 class="anchored" data-anchor-id="optional-cream-sauce-1">Optional cream sauce</h3>
-<ul>
-<li>Add heavy cream, milk, Parmesan cheese and 1/4 teaspoon salt to the mushroom-onions-spinach mixture on medium-low heat and mix. Stir to coat on low heat for about 5-10 minutes until Parmesan cheese melts and starts to coat the vegetables.</li>
-<li>Serve as a side dish along grilled meats.</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>vegetarisch</category>
-  <guid>https://kapitan.net/recepten/sauteed-spinach-onions-mushroom.html</guid>
-  <pubDate>Mon, 01 Dec 2025 17:48:40 GMT</pubDate>
-  <media:content url="https://kapitan.net/recepten/images/sauteed-spinach.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

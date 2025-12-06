@@ -1,21 +1,11 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/roetz-life.html",
-      "/projects/has.html",
-      "/projects/blue-radix.html",
-      "/projects/mytomorrows.html",
-      "/projects/amphia.html",
-      "/projects/pharmaccess.html",
-      "/projects/sensire.html"
-    ]
-  },
-  {
     "listing": "/recepten/index.html",
     "items": [
       "/recepten/thaise-rode-curry.html",
+      "/recepten/okonomiyaki.html",
       "/recepten/roti-masala-kip.html",
+      "/recepten/goulashsoep-met-gnocchi.html",
       "/recepten/spicy-linzensoep.html",
       "/recepten/vegetarische-erwtensoep.html",
       "/recepten/tahu-telor.html",
@@ -44,6 +34,7 @@
       "/recepten/deya's-porridge.html",
       "/recepten/oostenrijkse-goulashsoep.html",
       "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/kip-cashew.html",
       "/recepten/gegrilde-groenten-soep.html",
       "/recepten/couscous-salade.html",
       "/recepten/pad-thai.html",
@@ -56,6 +47,18 @@
       "/recepten/smoor-ayam.html",
       "/recepten/gebakken-griet.html",
       "/recepten/courgette-soep.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/roetz-life.html",
+      "/projects/has.html",
+      "/projects/blue-radix.html",
+      "/projects/mytomorrows.html",
+      "/projects/amphia.html",
+      "/projects/pharmaccess.html",
+      "/projects/sensire.html"
     ]
   },
   {
