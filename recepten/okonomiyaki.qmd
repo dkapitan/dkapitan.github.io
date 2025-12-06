@@ -1,0 +1,56 @@
+---
+title: Okonomiyaki
+description: |
+    Japanse pannenkoek
+image: ./images/tian-de-legumes.png
+categories: [vegetarisch]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Okonomiyaki is een hartige Japanse pannenkoek. Okonomiyaki betekent ‘gebakken/gegrild zoals je wilt’ en dat is ook precies de bedoeling. Er zijn eindeloze mogelijkheden om okonomiyaki te maken met bijvoorbeeld verschillende toppings en sausjes, doe dus vooral ook wat je zelf lekker vindt. Okonomiyaki saus mag alleen niet ontbreken en natuurlijk witte kool ook niet.
+
+Bron: [Lekker plantaardig](https://vegarecepten.com/okomiyaki-recept-okonomiyaki-maken/)
+
+:::
+:::{.g-col-4}
+![](./images/tian-de-legumes.png)
+:::
+:::
+
+## Ingredienten
+Voor 2 personen:
+
+- 100 gram bloem
+- 100 milliliter paddenstoelenbouillon
+- 2 eieren
+- 3 bosui
+- 100 gram witte kool (gesnipperd)
+- 1 kleine aardappel (geschild en geraspt)
+- 100 gram witte champignons (of kastanje of shiitake)
+- zout
+- olie
+
+### Okonomiyaki saus
+
+- 4 eetlepel ketchup
+- 1/2 eetlepel worcestershire saus*
+- 1/4 theelepel Dijon mosterd
+- 2 eetlepel mirin
+- 1 eetlepel suiker
+- 1 theelepel lichte sojasaus (bijvoorbeeld van Go-tan)
+
+## Bereidingswijze
+- Bereid de 100 milliliter paddenstoelenbouillon.
+- Snipper de witte kool klein, schil en rasp de aardappel, snij de bosuitjes klein, en de champignons in plakjes.
+- Klop de eieren los en voeg de bloem en paddenstoelenbouillon toe.
+- Roer vervolgens de gesnipperde kool, de geraspte aardappel en de gesneden bosui erdoorheen (houd een klein beetje bosui achter voor de garnering) en voeg een snuf zout toe.
+- Heb je nu een mooi pannenkoekenbeslag? Is het beslag nog wat te dik, voeg dan wat meer bouillon toe. Je kunt ook altijd meer bloem toevoegen aan het beslag als de consistentie wat dikker mag.
+- Verhit een koekenpan op middelhoog vuur en voeg olie toe. Giet het okonomiyaki beslag in een rondje in de pan. Zorg er dus voor dat het beslag goed is verdeeld. De pannenkoek blijft vrij dik (1,5 tot 2 centimeter).
+- Leg plakjes champignons op het pannenkoekenbeslag in de pan en dek de pan af met een deksel. Laat ongeveer drie minuten bakken, tot de pannenkoek goudbruin begint te worden aan de onderkant.
+- Keer de okonomiyaki vervolgens om in de pan. Laat nog ongeveer 3 minuten bakken aan de andere zijde, tot die kant ook goudbruin en knapperig is. Dan is de okonomiyaki pannenkoek klaar!
+- Bereid ondertussen ook de okonomiyaki saus in een steelpannetje. Doe alle ingrediënten het pannetje, roer door elkaar en breng aan de kook. Draai het vuur terug en laat 3 minuten zachtjes pruttelen.
+- Leg de pannenkoek op een bord en verdeel de okonomiyaki saus en de Japanse mayonaise er overheen. Maak af met wat bosui! En eetsmakelijk.
+
+## Notities
+Wil je meer toppings op je Japanse okonomiyaki pannenkoek? Denk aan de volgende toppings: gedroogd zeewier, sushigember, shichimi togarashi, taugé, kaas, mais, gebakken ei, en verschillende soorten champignons!

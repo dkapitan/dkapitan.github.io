@@ -2,7 +2,7 @@
 title: Ayam bakar (geroosterde kip)
 description: |
     Een Indonesische klassieker
-image: ./images/smoor-ayam.jpg
+image: ./images/ayam-bakar.jpg
 categories: [Indonesisch]
 ---
 

@@ -1,0 +1,56 @@
+---
+title: Goulashsoep met gnocchi
+description: |
+    Variant op Oostenrijkse goulash.
+image: ./images/goulash-soep-gnocchi.jpg
+categories: [vlees]
+---
+
+:::{.grid}
+:::{.g-col-8}
+Goulash is van zichzelf al een stevige maaltijd, maar als je er gnocchi aan toevoegt, maak je het pas echt next level. Die zachte, luchtige aardappelbolletjes nemen alle smaken van de kruidige saus op en zorgen voor een perfecte balans tussen hartig en romig. Bovendien geven ze je gerecht net wat extra vulling, waardoor het niet alleen lekkerder, maar ook voedzamer wordt. Of je nu kant-en-klare gnocchi gebruikt of zelf aan de slag gaat, het resultaat is altijd een voltreffer. 
+
+Bron: [Miljuschka](https://miljuschka.nl/goulashsoep-met-gnocchi/#recipe).
+
+:::
+:::{.g-col-4}
+![](./images/kip-cashew.jpg)
+:::
+:::
+
+## Ingredienten
+Voor 4 personen:
+
+- 500 gr runderlappen
+- 2 uien
+- 2 teentjes knoflook
+- 1 rode paprika
+- 2 groene paprika’s
+- 2 el olijfolie
+- 25 gr roomboter
+- 400 gr tomaat uit blik pomodorini bijvoorbeeld
+- 3 el tomatenpuree
+- 1,5 el paprikapoeder
+- 1,5 liter rundervleesbouillon
+- ¼ tl chilivlokken
+- 200 gr aardappelgnocchi
+- 120 gr chorizo
+- 100 gr kruidenroomkaas
+- 70 gr Griekse yoghurt
+- 2 el peterselie
+- 1 el bieslook
+- Peper en zout
+
+
+## Bereidingswijze
+
+- Snijd de runderlappen in stukjes van ca 1,5 centimeter. Haal de schil van de uien en knoflook en hak fijn. Maak de paprika's schoon, verwijder de zaadjes en snijd in stukjes.
+- Verhit een scheut olijfolie en een klontje boter in een stoofpan op hoog vuur, laat de boter uitbruisen en bak daarna het vlees rondom bruin. Zet het vuur laag en voeg de paprika, ui en knoflook toe. Bak een paar minuten mee tot ze goudbruin zijn. Breng op smaak met peper en zout.
+- Voeg de tomatenpuree, tomaat uit blik en paprikapoeder toe en roer alles goed door. Steek de laurierblaadjes er tussen. Schenk de bouillon erbij, breng aan de kook, zet het vuur laag en laat de soep ongeveer 2 – 2,5 uur zachtjes stoven, totdat je het vlees gemakkelijk met een vork uit elkaar kunt trekken.
+- Haal de laatste 30 minuten de deksel van de pan, roer de chilivlokken er door en zet het vuur iets hoger zodat de vloeistof iets inkookt en de soep iets dikker wordt. Roer de gnocchi door de soep en laat deze in de soep garen volgens de aanwijzingen op de verpakking. Breng op smaak met peper en zout.
+- Snijd ondertussen de chorizo in blokjes en voeg deze vlak voor serveren toe, zodat ze warm worden zonder mee te koken.
+- Meng voor de kruidenroom de kruidenroomkaas met Griekse yoghurt en voeg de fijngesneden peterselie en bieslook toe en breng eventueel verder op smaak met peper en zout. Serveer de soep met een lepel kruidenroom bovenop.
+
+
+## Notities
+
