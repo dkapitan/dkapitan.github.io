@@ -2,7 +2,7 @@
 title: Okonomiyaki
 description: |
     Japanse pannenkoek
-image: ./images/tian-de-legumes.png
+image: ./images/okonomiyaki.jpg
 categories: [vegetarisch]
 ---
 
