@@ -103,18 +103,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3N2FL85753"></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
-</script>
 <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script data-goatcounter="https://dkapitan.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -247,7 +239,6 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -287,7 +278,7 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
 <p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
 <p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div id="56edb71d" class="cell" data-execution_count="1">
+<div id="a532fc1a" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> vega_datasets</span>
@@ -362,31 +353,31 @@ gtag('config', 'G-3N2FL85753', { 'anonymize_ip': true});
 <span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>comet_chart(df) <span class="op">+</span> comet_chart(total, stroke<span class="op">=</span><span class="st">"black"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/tmp/ipykernel_2983/2480947234.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+<pre><code>/tmp/ipykernel_3068/2480947234.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
   .fillna(method="bfill")
-/tmp/ipykernel_2983/2480947234.py:37: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+/tmp/ipykernel_3068/2480947234.py:37: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
   .fillna(method="bfill")</code></pre>
 </div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-aa3ac4fb9f274fa994d2779083e5f0f3.vega-embed {
+  #altair-viz-11db44b6c17b4741b43a762abb749ce5.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-aa3ac4fb9f274fa994d2779083e5f0f3.vega-embed details,
-  #altair-viz-aa3ac4fb9f274fa994d2779083e5f0f3.vega-embed details summary {
+  #altair-viz-11db44b6c17b4741b43a762abb749ce5.vega-embed details,
+  #altair-viz-11db44b6c17b4741b43a762abb749ce5.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-aa3ac4fb9f274fa994d2779083e5f0f3"></div>
+<div id="altair-viz-11db44b6c17b4741b43a762abb749ce5"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-aa3ac4fb9f274fa994d2779083e5f0f3") {
-      outputDiv = document.getElementById("altair-viz-aa3ac4fb9f274fa994d2779083e5f0f3");
+    if (outputDiv.id !== "altair-viz-11db44b6c17b4741b43a762abb749ce5") {
+      outputDiv = document.getElementById("altair-viz-11db44b6c17b4741b43a762abb749ce5");
     }
 
     const paths = {
