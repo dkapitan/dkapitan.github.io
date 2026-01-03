@@ -82,6 +82,6 @@ format:
     toc: false
     include-in-header:
       - text: |
-        <script data-goatcounter="https://dkapitan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+          <script data-goatcounter="https://dkapitan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 execute: 
   freeze: auto
