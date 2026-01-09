@@ -53,6 +53,8 @@ website:
         href: blog/index.qmd
       - text: "Anthology of Data Science"
         href: https://anthology-of-data.science
+      - text: "Buddhayana"
+        href: https://kapitan.net/buddhayana
       - text: "Book an appointment"
         href: appointment/index.qmd
   page-footer:
