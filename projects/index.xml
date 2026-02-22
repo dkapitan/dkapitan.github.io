@@ -9,8 +9,8 @@
 <link>https://kapitan.net/projects/</link>
 <atom:link href="https://kapitan.net/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 09 Jan 2026 18:41:36 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Sun, 22 Feb 2026 15:51:15 GMT</lastBuildDate>
 <item>
   <title>Roetz Life</title>
   <link>https://kapitan.net/projects/roetz-life.html</link>
@@ -35,7 +35,7 @@
   <category>data-centric ai</category>
   <category>coaching</category>
   <guid>https://kapitan.net/projects/roetz-life.html</guid>
-  <pubDate>Fri, 09 Jan 2026 18:41:36 GMT</pubDate>
+  <pubDate>Sun, 22 Feb 2026 15:51:15 GMT</pubDate>
   <media:content url="https://kapitan.net/images/roetz-life.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -58,7 +58,7 @@
   <category>applied AI</category>
   <category>lecturing</category>
   <guid>https://kapitan.net/projects/has.html</guid>
-  <pubDate>Fri, 09 Jan 2026 18:41:36 GMT</pubDate>
+  <pubDate>Sun, 22 Feb 2026 15:51:15 GMT</pubDate>
   <media:content url="https://kapitan.net/images/has.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -80,7 +80,7 @@
   <category>data-centric ai</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/blue-radix.html</guid>
-  <pubDate>Fri, 09 Jan 2026 18:41:36 GMT</pubDate>
+  <pubDate>Sun, 22 Feb 2026 15:51:15 GMT</pubDate>
   <media:content url="https://kapitan.net/images/blue-radix-closeup.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -102,7 +102,7 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/mytomorrows.html</guid>
-  <pubDate>Fri, 09 Jan 2026 18:41:36 GMT</pubDate>
+  <pubDate>Sun, 22 Feb 2026 15:51:15 GMT</pubDate>
   <media:content url="https://kapitan.net/images/mytomorrows.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
@@ -125,7 +125,7 @@
   <category>applied AI</category>
   <category>mentoring</category>
   <guid>https://kapitan.net/projects/amphia.html</guid>
-  <pubDate>Fri, 09 Jan 2026 18:41:36 GMT</pubDate>
+  <pubDate>Sun, 22 Feb 2026 15:51:15 GMT</pubDate>
   <media:content url="https://kapitan.net/images/amphia-sensium.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -145,7 +145,7 @@
   <category>data architecture</category>
   <category>healthcare</category>
   <guid>https://kapitan.net/projects/pharmaccess.html</guid>
-  <pubDate>Fri, 09 Jan 2026 18:41:36 GMT</pubDate>
+  <pubDate>Sun, 22 Feb 2026 15:51:15 GMT</pubDate>
   <media:content url="https://kapitan.net/images/pharmaccess-momcare-graphic.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -167,7 +167,7 @@
   <category>english</category>
   <category>data-centric ai</category>
   <guid>https://kapitan.net/projects/sensire.html</guid>
-  <pubDate>Fri, 09 Jan 2026 18:41:36 GMT</pubDate>
+  <pubDate>Sun, 22 Feb 2026 15:51:15 GMT</pubDate>
   <media:content url="https://kapitan.net/images/sensire.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
