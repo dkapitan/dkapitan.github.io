@@ -13,6 +13,6 @@ categories: [english, data commons, privacy-enhancing technologies]
 
 #
 
-{{< pdf /resources/dsc2023whitepaper-pets.pdf width=100% height=800 >}}
+{{< pdf file="/resources/dsc2023whitepaper-pets.pdf" height="800px" >}}
 
 

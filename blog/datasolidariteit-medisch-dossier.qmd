@@ -1,0 +1,14 @@
+---
+title: Het dilemma van datasolidariteit
+subtitle: Column gepubliceerd in Medisch Dossier
+description: |
+    De Franse filosoof Rousseau schreef in 1755 dat maatschappelijke ongelijkheid ontstond toen iemand een stuk land afrasterde en zei ‘dit is van mij’. Bijna drie eeuwen later worstelen we met hetzelfde probleem, alleen worden de hekken nu om data gezet.
+author: Daniel Kapitan
+date: 2026-01-01
+date-format: "MMM YYYY"
+image: ./images/henri-rouseau.jpg
+categories: [nederlands, data commons, data solidarity]
+lang: nl
+---
+
+{{< pdf file="/resources/2026-01-column-medisch-dossier-dilemma-datasolidariteit.pdf" height="800px" >}}
