@@ -6,7 +6,7 @@ description: |
 author: Daniel Kapitan
 date: 2026-01-01
 date-format: "MMM YYYY"
-image: ./images/henri-rouseau.jpg
+image: ./images/henri-rousseau.jpg
 categories: [nederlands, data commons, data solidarity]
 lang: nl
 ---
