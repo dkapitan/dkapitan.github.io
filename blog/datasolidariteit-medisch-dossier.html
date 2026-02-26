@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Development of algorithms for early warning signals using smart plasters.">
+<meta name="author" content="Daniel Kapitan">
+<meta name="description" content="De Franse filosoof Rousseau schreef in 1755 dat maatschappelijke ongelijkheid ontstond toen iemand een stuk land afrasterde en zei ‘dit is van mij’. Bijna drie eeuwen later worstelen we met hetzelfde probleem, alleen worden de hekken nu om data gezet.">
 
-<title>Amphia Sensium – Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
+<title>Het dilemma van datasolidariteit – Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,26 +56,26 @@ ul.task-list li input[type="checkbox"] {
     "s"
   ],
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Geen resultaten",
+    "search-matching-documents-text": "Gevonden documenten",
+    "search-copy-link-title": "Kopieer link om te zoeken",
+    "search-hide-matches-text": "Extra overeenkomsten verbergen",
+    "search-more-match-text": "meer overeenkomst in dit document",
+    "search-more-matches-text": "meer overeenkomsten in dit document",
+    "search-clear-button-title": "Wissen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Annuleren",
+    "search-submit-button-title": "Verzenden",
+    "search-label": "Zoeken"
   }
 }</script>
 <script data-goatcounter="https://dkapitan.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Amphia Sensium – Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking">
-<meta property="og:description" content="Development of algorithms for early warning signals using smart plasters.">
-<meta property="og:image" content="https://kapitan.net/images/amphia-sensium.jpg">
+<meta property="og:title" content="Het dilemma van datasolidariteit – Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking">
+<meta property="og:description" content="De Franse filosoof Rousseau schreef in 1755 dat maatschappelijke ongelijkheid ontstond toen iemand een stuk land afrasterde en zei ‘dit is van mij’. Bijna drie eeuwen later worstelen we met hetzelfde probleem, alleen worden de hekken nu om data gezet.">
+<meta property="og:image" content="https://kapitan.net/blog/images/henri-rouseau.jpg">
 <meta property="og:site_name" content="Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching &amp; Mentoring | Masterclasses &amp; Public Speaking">
 </head>
 
@@ -96,13 +97,13 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/amphia.html">Amphia Sensium</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Het dilemma van datasolidariteit</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Zoeken" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -116,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <a href="https://www.linkedin.com/in/dkapitan/" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/dkapitan" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
     <a href="https://kapitan.net/blog/index.xml" title="RSS feed" class="quarto-navigation-tool px-1" aria-label="RSS feed"><i class="bi bi-rss"></i></a>
-    <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
+    <div id="quarto-search" class="quarto-navigation-tool px-1" title="Zoeken"></div>
 </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -124,11 +125,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Schakel sectie">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../projects/pharmaccess.html" class="sidebar-item-text sidebar-link">
@@ -155,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/amphia.html" class="sidebar-item-text sidebar-link active">
+  <a href="../projects/amphia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Amphia Sensium</span></a>
   </div>
 </li>
@@ -206,25 +207,39 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/amphia.html">Amphia Sensium</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Amphia Sensium</h1>
+<h1 class="title">Het dilemma van datasolidariteit</h1>
+<p class="subtitle lead">Column gepubliceerd in Medisch Dossier</p>
   <div class="quarto-categories">
-    <div class="quarto-category">applied AI</div>
-    <div class="quarto-category">mentoring</div>
+    <div class="quarto-category">nederlands</div>
+    <div class="quarto-category">data commons</div>
+    <div class="quarto-category">data solidarity</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Development of algorithms for early warning signals using smart plasters.</p>
+    <p>De Franse filosoof Rousseau schreef in 1755 dat maatschappelijke ongelijkheid ontstond toen iemand een stuk land afrasterde en zei ‘dit is van mij’. Bijna drie eeuwen later worstelen we met hetzelfde probleem, alleen worden de hekken nu om data gezet.</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Auteur</div>
+    <div class="quarto-title-meta-contents">
+             <p>Daniel Kapitan </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Publicatiedatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">jan 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -234,13 +249,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="section" class="level1">
-<h1></h1>
-<p>Stay tuned, more to follow soon.</p>
-<p>Meanwhile, read an interview with Frank Niemantsverdriet and myself on how Amphia uses AI to combat scarcity in healthcare (<a href="https://www.jads.nl/news/combating-healthcare-scarcity-with-data-what-role-will-your-hospital-play/">English</a>, <a href="https://www.deondernemer.nl/innovatie/advertorial-jads-zorgschaarste-data~4152485">Dutch</a>).</p>
+  <p><a href="../resources/2026-01-column-medisch-dossier-dilemma-datasolidariteit.pdf" target="_blank">Download PDF File</a></p>
+   <object data="/resources/2026-01-column-medisch-dossier-dilemma-datasolidariteit.pdf" type="application/pdf" width="100%" height="800px">
+    <p>Unable to display PDF file. <a href="../resources/2026-01-column-medisch-dossier-dilemma-datasolidariteit.pdf">Download</a> instead.</p>
+  </object>
+  
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -268,12 +283,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Gekopieerd!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Gekopieerd!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

@@ -10,7 +10,32 @@
 <atom:link href="https://kapitan.net/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 04 Sep 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Het dilemma van datasolidariteit</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://kapitan.net/blog/datasolidariteit-medisch-dossier.html</link>
+  <description><![CDATA[ 
+
+
+
+
+  <p><a href="../resources/2026-01-column-medisch-dossier-dilemma-datasolidariteit.pdf" target="_blank">Download PDF File</a></p>
+   <object data="/resources/2026-01-column-medisch-dossier-dilemma-datasolidariteit.pdf" type="application/pdf" width="100%" height="800px">
+    <p>Unable to display PDF file. <a href="../resources/2026-01-column-medisch-dossier-dilemma-datasolidariteit.pdf">Download</a> instead.</p>
+  </object>
+  
+
+
+
+ ]]></description>
+  <category>nederlands</category>
+  <category>data commons</category>
+  <category>data solidarity</category>
+  <guid>https://kapitan.net/blog/datasolidariteit-medisch-dossier.html</guid>
+  <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://kapitan.net/blog/images/henri-rouseau.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Datasolidariteit</title>
   <dc:creator>Daniel Kapitan</dc:creator>
@@ -1257,7 +1282,11 @@ Main text goes here.
 
 <section id="section" class="level1">
 <h1></h1>
-<p><object data="/resources/dsc2023whitepaper-pets.pdf" type="application/pdf" width="100%" height="800"><p>Unable to display PDF file. <a href="../resources/dsc2023whitepaper-pets.pdf">Download</a> instead.</p></object></p>
+  <p><a href="../resources/dsc2023whitepaper-pets.pdf" target="_blank">Download PDF File</a></p>
+   <object data="/resources/dsc2023whitepaper-pets.pdf" type="application/pdf" width="100%" height="800px">
+    <p>Unable to display PDF file. <a href="../resources/dsc2023whitepaper-pets.pdf">Download</a> instead.</p>
+  </object>
+  
 
 
 </section>
@@ -1470,7 +1499,11 @@ Main text goes here.
 
 <section id="section" class="level1">
 <h1></h1>
-<p><object data="/resources/demast2023analytical.pdf" type="application/pdf" width="100%" height="800"><p>Unable to display PDF file. <a href="../resources/demast2023analytical.pdf">Download</a> instead.</p></object></p>
+  <p><a href="../resources/demast2023analytical.pdf" target="_blank">Download PDF File</a></p>
+   <object data="/resources/demast2023analytical.pdf" type="application/pdf" width="100%" height="800px">
+    <p>Unable to display PDF file. <a href="../resources/demast2023analytical.pdf">Download</a> instead.</p>
+  </object>
+  
 
 
 </section>
@@ -2416,7 +2449,7 @@ font-style: inherit;">enumerate</span>(productions)]))</span></code></pre></div>
 <p><a href="https://www.zanarmstrong.com/#/infovisresearch/">Zan Armstrong’s comet chart</a> has been on my list of hobby projects for a while now. I think it is an elegant solution to visualize statistical mix effects and address Simpson’s paradox, and particularly useful when working with longitudinal data involving different sub-populations. Recently I found a good excuse to spend some time to actually use it as part of a exploratory data analysis on a project.</p>
 <p>Since I mostly work in Python and have recently fallen in love with <a href="https://altair-viz.github.io/index.html">Altair</a> — for the same reasons as <a href="http://fernandoi.cl/blog/posts/altair/">Fernando explains here</a> — I wondered how the comet chart could be implemented using the <a href="https://idl.cs.washington.edu/papers/vega-lite/">grammar of interactive graphics</a>. It took me a while to figure out how to actually plot the comets. In a previous version, I had <a href="https://github.com/dkapitan/comet-chart/blob/master/comet-chart.ipynb">drawn glyphs using Bokeh</a>. While Altair allows you to plot any SVG path in a graph, this felt a bit hacky and not quite in line with the philosophy of using a grammar of graphics.</p>
 <p>Thankfully <a href="https://github.com/altair-viz/altair/issues/2395#issuecomment-766454328">Mattijn was quick to suggest using trail-marks</a>, after which it was almost as easy as pie. So here’s an example using a dataset of 20,000 flights for 59 destination airports.</p>
-<div id="22ca0277" class="cell" data-execution_count="1">
+<div id="40150223" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> altair <span class="im" style="color: #00769E;
@@ -2695,31 +2728,31 @@ font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"black"</span>)</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/tmp/ipykernel_3081/2480947234.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+<pre><code>/tmp/ipykernel_2916/2480947234.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
   .fillna(method="bfill")
-/tmp/ipykernel_3081/2480947234.py:37: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+/tmp/ipykernel_2916/2480947234.py:37: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
   .fillna(method="bfill")</code></pre>
 </div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-17462dc9db234920b23a672da2b18d24.vega-embed {
+  #altair-viz-72390a5eab4248b790b9eb6b7b8f35cb.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-17462dc9db234920b23a672da2b18d24.vega-embed details,
-  #altair-viz-17462dc9db234920b23a672da2b18d24.vega-embed details summary {
+  #altair-viz-72390a5eab4248b790b9eb6b7b8f35cb.vega-embed details,
+  #altair-viz-72390a5eab4248b790b9eb6b7b8f35cb.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-17462dc9db234920b23a672da2b18d24"></div>
+<div id="altair-viz-72390a5eab4248b790b9eb6b7b8f35cb"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-17462dc9db234920b23a672da2b18d24") {
-      outputDiv = document.getElementById("altair-viz-17462dc9db234920b23a672da2b18d24");
+    if (outputDiv.id !== "altair-viz-72390a5eab4248b790b9eb6b7b8f35cb") {
+      outputDiv = document.getElementById("altair-viz-72390a5eab4248b790b9eb6b7b8f35cb");
     }
 
     const paths = {
@@ -2826,28 +2859,6 @@ font-style: inherit;">"black"</span>)</span></code></pre></div></div>
   <guid>https://kapitan.net/blog/dutch-design-week.html</guid>
   <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
   <media:content url="https://kapitan.net/images/ddw19-health-embassy.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Happi - patiënten met een chronische aandoening helpen gezond te blijven.</title>
-  <dc:creator>Daniel Kapitan</dc:creator>
-  <link>https://kapitan.net/blog/happi.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Happi ondersteunt HIV-patiënten proactief bij het ‘managen’ van hun ziekte. Gebruikers kunnen in de gratis app onder andere signalen instellen wanneer het tijd is om hun medicatie te nemen, of hun polikliniekbezoek voorbereiden. In mijn tijd bij Mediquest heb ik het ‘datalab’, zijnde de achterkant van de Happi app ontworpen en geïmplenteerd. Lees meer over dit project in onderstaand artikel dat in <em>the Lancet</em> verscheen en de presentatie die ik samen met Joop Arends gaf bij het ministerie van VWS.</p>
-<p><object data="/resources/happi-the-lancet.pdf" type="application/pdf"><p>Unable to display PDF file. <a href="../resources/happi-the-lancet.pdf">Download</a> instead.</p></object></p>
-<p><object data="/resources/happi-workshop-vws-gezonde-data.pdf" type="application/pdf" width="100%" height="800"><p>Unable to display PDF file. <a href="../resources/happi-workshop-vws-gezonde-data.pdf">Download</a> instead.</p></object></p>
-
-
-
- ]]></description>
-  <category>nederlands</category>
-  <category>healthcare</category>
-  <guid>https://kapitan.net/blog/happi.html</guid>
-  <pubDate>Mon, 23 Sep 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://kapitan.net/images/happi-app-datalab-scaled-1-2048x652.png" medium="image" type="image/png" height="46" width="144"/>
 </item>
 </channel>
 </rss>
