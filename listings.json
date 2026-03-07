@@ -1,12 +1,14 @@
 [
   {
-    "listing": "/nugget/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/nugget/winterklaar-maken.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/thetford-toilet.html",
-      "/nugget/onderhoud-accus.html",
-      "/nugget/dakkoffer.html"
+      "/projects/blue-radix.html",
+      "/projects/has.html",
+      "/projects/amphia.html",
+      "/projects/sensire.html",
+      "/projects/pharmaccess.html",
+      "/projects/mytomorrows.html",
+      "/projects/roetz-life.html"
     ]
   },
   {
@@ -39,15 +41,13 @@
     ]
   },
   {
-    "listing": "/projects/index.html",
+    "listing": "/nugget/index.html",
     "items": [
-      "/projects/blue-radix.html",
-      "/projects/has.html",
-      "/projects/amphia.html",
-      "/projects/sensire.html",
-      "/projects/pharmaccess.html",
-      "/projects/mytomorrows.html",
-      "/projects/roetz-life.html"
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/thetford-toilet.html",
+      "/nugget/onderhoud-accus.html",
+      "/nugget/dakkoffer.html"
     ]
   },
   {
