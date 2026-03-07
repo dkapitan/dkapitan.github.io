@@ -13,8 +13,8 @@ website:
     location: sidebar
     type: overlay
   navbar:
-    logo: /images/logo-dr-daniel-kapitan.png
     title: false
+    logo: /images/@kapitan-logo-redbrick-zilla.png
     pinned: false
     collapse-below: md
   sidebar:
@@ -28,9 +28,6 @@ website:
       - icon: github
         href: https://github.com/dkapitan
         text: "GitHub profile"
-      - icon: rss
-        href: https://kapitan.net/blog/index.xml
-        text: "RSS feed"
     contents:
       - section: "Projects"
         href: projects/index.qmd
