@@ -29,23 +29,8 @@ website:
         href: https://github.com/dkapitan
         text: "GitHub profile"
     contents:
-      - section: "Projects"
+      - text: "Projects"
         href: projects/index.qmd
-        contents:
-          - text: "PharmAccess"
-            href: projects/pharmaccess.qmd
-          - text: "MyTomorrows"
-            href: projects/mytomorrows.qmd
-          - text: "Roetz Life"
-            href: projects/roetz-life.qmd
-          - text: "Blue Radix"
-            href: projects/blue-radix.qmd
-          - text: "Amphia Sensium"
-            href: projects/amphia.qmd
-          - text: "HAS Green Academy"
-            href: projects/has.qmd
-          - text: "Sensire"
-            href: projects/sensire.qmd
       - text: "Blog"
         href: blog/index.qmd
       - text: "Anthology of Data Science"

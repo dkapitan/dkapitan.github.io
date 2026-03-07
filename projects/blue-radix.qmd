@@ -8,4 +8,3 @@ categories: [data-centric ai, mentoring]
 
 #
 
-Stay tuned, more to follow soon.

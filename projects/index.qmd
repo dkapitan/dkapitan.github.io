@@ -7,5 +7,5 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: false
-    feed: true
+    # feed: true
 ---
