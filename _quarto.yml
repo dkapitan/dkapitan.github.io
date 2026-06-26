@@ -14,13 +14,13 @@ website:
     type: overlay
   navbar:
     title: false
-    logo: /images/@kapitan-logo-redbrick-zilla.png
+    logo: /images/logo-dk.png
     pinned: false
     collapse-below: md
   sidebar:
-    style: docked  
+    style: docked
     collapse-level: 1
-    background: light
+    # background: "#FBFAF6"
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/dkapitan/
@@ -51,7 +51,7 @@ website:
     right: |
       <br>
       Copyright &copy; 2023 Daniel Kapitan<br>
-      This website was created with 
+      This website was created with
       [![](/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
 
 format:
@@ -67,5 +67,5 @@ format:
     include-in-header:
       - text: |
           <script data-goatcounter="https://dkapitan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-execute: 
+execute:
   freeze: auto

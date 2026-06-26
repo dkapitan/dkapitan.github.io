@@ -4,7 +4,7 @@ toc: false
 format:
   html:
     page-layout: article
-  
+
 ---
 ```{=html}
 <!-- Bug in hero - only displays properly with empty div at the top -->
@@ -20,17 +20,18 @@ format:
   Background-size: cover;
 }
 .lead {
-    font-family: "Zilla Slab";
+    font-family: "Mozilla Headline";
     text-align: center;
 }
 .hero-quote {
-  font-family: "Zilla Slab";
+  font-family: "Mozilla Headline";
+  font-style: bold !important;
   font-color: white;
   color: white;
 }
 
 .fw-bold {
-  /* font-family: "Zilla Slab Highlight"; */
+  /* font-family: "Mozilla Headline"; */
   font-style: bold !important;
   color: white !important;
 }
@@ -61,7 +62,7 @@ Many people continue to have high expectations of what data and AI can bring. Ye
 
 #### Gaining strategic autonomy
 
-The key towards creating sustainable change with digital technologies lies in increasing your own data literacy and understanding of AI, and that of your organisation. AI is not sci-fi, we need to demystify digital technologies. That way, professionals and domain experts can obtain strategic autonomy to reason, think, imagine and create applications with AI themselves. Technology can only be of value when it is put within the appropriate business, societal or human context. 
+The key towards creating sustainable change with digital technologies lies in increasing your own data literacy and understanding of AI, and that of your organisation. AI is not sci-fi, we need to demystify digital technologies. That way, professionals and domain experts can obtain strategic autonomy to reason, think, imagine and create applications with AI themselves. Technology can only be of value when it is put within the appropriate business, societal or human context.
 
 We offer the following services to help you master data and AI yourself.
 :::
@@ -72,7 +73,7 @@ We offer the following services to help you master data and AI yourself.
 
 <br><br>
 
-:::: {#light-grey-background}
+:::: {#green-background}
 ::: {.grid}
 ::: {.g-col-8}
 
@@ -101,14 +102,14 @@ Data sit at the core of digital business transformation. As machine learning alg
 ### Applied AI
 The possibilities of AI are virtually endless and can fundamentally change the way you run your business or lead your organisation. It changes business strategies, policies as well as the behaviour of your teams. If your company embarks on integrating AI, it needs to do what is relevant and what you want it for. We developed impactful AI applications that are accurate, taking into account the factors that drive the predictions and relating it to domain expertise. We help you integrate AI innovations in your services or products.
 
-<small class="text-muted-darker">Explainable AI | Generative AI & Large Language Models | Physics-Informed Machine Learning</small> 
+<small class="text-muted-darker">Explainable AI | Generative AI & Large Language Models | Physics-Informed Machine Learning</small>
 :::
 :::
 ::::
 
 <br>
 
-:::: {#light-grey-background}
+:::: {#red-background}
 ::: {.grid}
 ::: {.g-col-8}
 
@@ -116,7 +117,7 @@ The possibilities of AI are virtually endless and can fundamentally change the w
 
 Data and AI will change your business and your way of working. Not everyone is immediately ready for this. We teach, coach and mentor professionals who require a better understanding of data and artificial intelligence, making them comfortable and topic-specialists. We offer in-company on-the-job coaching, working side-by-side with your team to explore how AI can impact your line of business.
 
-<small class="text-muted">One-the-job coaching for individuals and teams | Challenge-based learning | Technical deep-dives for experts</small> 
+<small class="text-muted">One-the-job coaching for individuals and teams | Challenge-based learning | Technical deep-dives for experts</small>
 :::
 
 ::: {.g-col-4}
@@ -152,18 +153,26 @@ We provide masterclasses on topics related to data & AI, ranging from introducto
 
 ```{=html}
 <style>
-#light-grey-background {
+#green-background {
   padding-top: 35px;
   padding-bottom: 20px;
   padding-left: 35px;
-  background-color: #000000;
+  background-color: #20c376;
+  color: #ffffff;
+  border-radius: .3rem !important;
+}
+#red-background {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  background-color: #D13109;
   color: #ffffff;
   border-radius: .3rem !important;
 }
 #logo-board {
   padding-top: 20px;
   border-radius: .3rem !important;
-  background-color: #ffffff;
+  background-color: #FBFAF6;
 }
 </style>
 ```

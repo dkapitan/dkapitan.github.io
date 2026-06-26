@@ -1,0 +1,38 @@
+color:
+  palette:
+    mofo-black: "#161616"
+    mofo-red: "#D13109"
+    mofo-orange: "#F06C12"
+    mofo-yellow: "#EED800"
+    mofo-green: "#20C376"
+    mofo-blue: "#23A5E9"
+    mofo-cyan: "#7DEDF6"
+    srdp-paper: "#FBFAF6"
+    srdp-beige: "#F1ECE1"
+  foreground: mofo-black
+  background: srdp-paper
+  primary: mofo-blue # links, controls, progress bar, list markers
+typography:
+  fonts:
+    - family: Mozilla Headline
+      source: google
+    - family: Fira Sans
+      weight: [100, 200, 300, 400, 500, 600, 700, 800, 900]
+      style: [normal, italic]
+      source: google
+    - family: "Fira Code"
+      source: google
+  base:
+    family: Fira Sans
+  headings:
+    family: Mozilla Headline
+    weight: 600
+    color: mofo-black
+  monospace:
+    family: "Fira Code"
+    color: mofo-blue
+  link:
+    color: mofo-red
+    decoration: none
+logo:
+  medium: logo-dk.png
