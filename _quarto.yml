@@ -35,6 +35,8 @@ website:
         href: blog/index.qmd
       - text: "Anthology of Data Science"
         href: https://anthology-of-data.science
+      - text: "SRDP Hub"
+        href: https://srdphub.com
       - text: "Buddhayana"
         href: https://buddhayana.org
       - text: "Book an appointment"
