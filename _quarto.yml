@@ -7,6 +7,7 @@ lang: en
 website:
   title: "Dr Daniel Kapitan | Data-centric AI | Applied AI | Coaching & Mentoring | Masterclasses & Public Speaking"
   site-url: https://kapitan.net
+  favicon: images/logo-dk-favicon.png
   open-graph: true
   # google-analytics: "G-3N2FL85753"
   search:
