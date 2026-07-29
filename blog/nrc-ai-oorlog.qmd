@@ -1,0 +1,12 @@
+---
+title: "De AI oorlog is begonnen: staat Europa met lege handen?"
+subtitle: Bijdrage aan een artikel in het NRC over ontwikkelingen van AI.
+author: Daniel Kapitan
+date: 2026-06-19
+date-format: "MMM YYYY"
+image: ./images/ai-oorlog.png
+categories: [nederlands, open source, AI]
+lang: nl
+---
+
+{{< pdf file="/resources/nrc-krant-20260619-5768523-de-ai-oorlog-is-begonnen-staat-europa-met-lege-handen.pdf" height="800px" >}}
