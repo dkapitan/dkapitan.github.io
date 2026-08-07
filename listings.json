@@ -52,6 +52,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/nrc-ai-oorlog-2.html",
       "/blog/nrc-ai-oorlog.html",
       "/blog/datasolidariteit-medisch-dossier.html",
       "/blog/podcast-optimist-datasolidarieit.html",
@@ -80,6 +81,16 @@
     ]
   },
   {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/onderhoud-accus.html",
+      "/nugget/dakkoffer.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/sfeerimpressie.html",
+      "/nugget/thetford-toilet.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/blue-radix.html",
@@ -89,16 +100,6 @@
       "/projects/mytomorrows.html",
       "/projects/has.html",
       "/projects/amphia.html"
-    ]
-  },
-  {
-    "listing": "/nugget/index.html",
-    "items": [
-      "/nugget/onderhoud-accus.html",
-      "/nugget/dakkoffer.html",
-      "/nugget/winterklaar-maken.html",
-      "/nugget/sfeerimpressie.html",
-      "/nugget/thetford-toilet.html"
     ]
   }
 ]
