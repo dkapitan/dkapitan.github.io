@@ -1,0 +1,22 @@
+---
+title: Data interoperability in context
+subtitle: The importance of open-source implementations when choosing open standards
+description: |
+  A critical reflection on the proposed alignment of openEHR, Fast Health Interoperability Resources (FHIR), and Observational Medical Outcomes Partnership (OMOP) as default data standards for clinical care and administration, data exchange, and longitudinal analysis, respectively.
+author:
+  - Daniel Kapitan
+  - Femke Heddema
+  - André Dekker
+  - Melle Sieswerda
+  - Bart-Jan Verhoeff
+  - Matt Berg
+date: 2025-04-15
+date-format: "MMM YYYY"
+image: images/open-standards-ipad.png
+toc: false
+categories: [english, healthcare]
+---
+
+#
+
+{{< pdf file="/resources/kapitan2025data.pdf" height="800px" >}}

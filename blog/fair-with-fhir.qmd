@@ -1,0 +1,21 @@
+---
+title: FAIR with FHIR
+subtitle: A proposed workflow for retrospective FAIRification of FHIR-compliant health data
+description: |
+  FAIRwithFHIR is an agile, stakeholder-driven workflow for the retrospective FAIRification of FHIR-compliant resources, including the dynamic, transaction-oriented data typical of operational health systems. We demonstrate and evaluate this workflow by applying it to the MomCare dataset, a large maternal and child health dataset from Kenya.
+author:
+  - Femke Heddema
+  - César Bernabé
+  - Chris Ihure
+  - Daniel Kapitan
+  - Marco Roos
+date: 2026-09-01
+date-format: "MMM YYYY"
+image: images/pharmaccess.jpg
+toc: false
+categories: [english, healthcare]
+---
+
+#
+
+{{< pdf file="/resources/heddema2026fair.pdf" height="800px" >}}
